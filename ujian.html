@@ -223,22 +223,26 @@ body {
     padding: 10px !important;
 }
 
-/* Pembungkus utama untuk responsif penuh di HP */
+/* Pembungkus utama diset sebagai Flex Column agar align-self berfungsi */
 .page-wrapper {
     max-width: 800px;
     margin: 0 auto;
     width: 100%;
-    display: block;
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
 }
 
-/* Timer terkunci presisi di pojok kanan atas */
+/* Timer Sticky: Melayang saat di-scroll, tetapi tetap di dalam lebar 800px */
 #floating-timer {
-    position: fixed !important;
+    position: sticky !important;
     top: 12px !important;
-    right: 12px !important;
+    align-self: flex-end; /* Memaksa timer merapat ke sisi kanan dalam page-wrapper */
+    margin-bottom: -35px; /* Menumpuk tajuk ujian secara elegan tanpa merusak alur halaman */
     z-index: 99999 !important;
     background: rgba(30, 41, 59, 0.85);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     color: #38bdf8;
     padding: 6px 12px;
     border-radius: 20px;
@@ -247,7 +251,7 @@ body {
     display: flex !important;
     align-items: center;
     gap: 6px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
     </style>
 </head>
