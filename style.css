@@ -206,3 +206,26 @@ select:focus, input[type="password"]:focus, input[type="email"]:focus, input[typ
     margin-top: 6px;
     font-weight: 500;
 }
+
+/* --- CSS UNTUK TIMER DI HALAMAN LOGIN --- */
+#floating-timer {
+    position: sticky;         /* Agar tetap terlihat saat di-scroll */
+    top: 15px;                /* Jarak dari atas layar */
+    display: inline-flex;
+    margin-left: auto;        /* Kunci: Dorong ke pojok kanan */
+    margin-bottom: -30px;     /* Agar melayang di atas logo */
+    
+    background: rgba(30, 41, 59, 0.4); /* Transparan */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #38bdf8;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 9999;
+    align-items: center;
+    gap: 6px;
+}
