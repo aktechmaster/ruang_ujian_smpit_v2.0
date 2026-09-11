@@ -218,59 +218,40 @@
 </head>
     
 <body>
-    <!-- TIMER FIX: TERKUNCI DI POJOK KANAN ATAS LAYAR -->
-    <div id="floating-timer">
-        <span>⏳</span> <span id="timer-display">--:--:--</span>
-    </div>
-    
-    <div class="header-ujian">
-        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-            <img src="smpit.png" alt="Logo Sekolah" style="height: 50px; width: auto;" onerror="this.src='https://via.placeholder.com/50?text=LOGO'">
-            <div style="width: 2px; height: 40px; background-color: #cbd5e1;"></div>
-            <h2 id="judulMapel" style="margin: 0; font-size: 1.15rem;">Memuat Mata Pelajaran...</h2>
+    <!-- WADAH UTAMA: Membungkus seluruh elemen agar berurut tegak lurus ke bawah -->
+    <div class="page-wrapper">
+        
+        <!-- TIMER: Terkunci mengambang di pojok kanan atas layar -->
+        <div id="floating-timer">
+            <span>⏳</span> <span id="timer-display">--:--:--</span>
         </div>
         
-        <div class="info-siswa" style="border-top: 1px dashed #e2e8f0; padding-top: 10px;">
-            <p><strong>Nama    :</strong> <span id="infoNama">-</span></p>
-            <p><strong>Kelas   :</strong> <span id="infoKelas">-</span></p>
-            <p><strong>Email   :</strong> <span id="infoEmail">-</span></p>
-            <p><strong>Pelanggaran:</strong> <span id="infoPelanggaran" style="color: #dc2626; font-weight: bold;">0 kali</span></p>
-        </div>
-    </div>
-    
-    <div id="lembar-soal"></div>
-    <button onclick="sebelumSubmit()">Kumpulkan Jawaban</button>
-
-    <!-- Modal Notifikasi Selesai -->
-    <div id="popupModal" class="modal">
-        <div class="modal-content">
-            <h3>Selamat, Jawaban Anda Telah Direkam!</h3>
-            <p>Terima kasih telah menyelesaikan ujian.</p>
-            <button onclick="keluarKeLogin()" style="margin-top: 20px; margin-bottom: 0;">Kembali ke Halaman Utama</button>
-        </div>
-    </div>
-
-    <!-- Modal Alert Proctor & Konfirmasi -->
-    <div id="exambroAlertModal" class="modal">
-        <div class="modal-content">
-            <h3 id="exambroAlertTitle" style="color: #0284c7;">Peringatan Proctor</h3>
-            <p id="exambroAlertMessage">-</p>
-            <button onclick="tutupExambroAlert()" style="margin-top: 20px; margin-bottom: 0;">Mengerti</button>
-        </div>
-    </div>
-
-    <div id="customAlertModal" class="modal">
-        <div class="modal-content">
-            <h3 id="customAlertTitle" style="color: #3b82f6;">Informasi</h3>
-            <p id="customAlertMessage">-</p>
-            <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
-                <button id="customAlertBtnCancel" style="background: #ef4444; width: 48%; margin: 0; display: none;">Batal</button>
-                <button id="customAlertBtnOk" style="background: #007bff; width: 48%; margin: 0;">OK</button>
+        <div class="header-ujian">
+            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                <img src="smpit.png" alt="Logo Sekolah" style="height: 50px; width: auto;" onerror="this.src='https://via.placeholder.com/50?text=LOGO'">
+                <div style="width: 2px; height: 40px; background-color: #cbd5e1;"></div>
+                <h2 id="judulMapel" style="margin: 0; font-size: 1.15rem;">Memuat Mata Pelajaran...</h2>
+            </div>
+            
+            <div class="info-siswa" style="border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+                <p><strong>Nama    :</strong> <span id="infoNama">-</span></p>
+                <p><strong>Kelas   :</strong> <span id="infoKelas">-</span></p>
+                <p><strong>Email   :</strong> <span id="infoEmail">-</span></p>
+                <p><strong>Pelanggaran:</strong> <span id="infoPelanggaran" style="color: #dc2626; font-weight: bold;">0 kali</span></p>
             </div>
         </div>
+        
+        <div id="lembar-soal"></div>
+        <button onclick="sebelumSubmit()">Kumpulkan Jawaban</button>
+
     </div>
 
-    <!-- Pemuatan Skrip JavaScript -->
+    <!-- Modal Notifikasi & Alert -->
+    <div id="popupModal" class="modal">...</div>
+    <div id="exambroAlertModal" class="modal">...</div>
+    <div id="customAlertModal" class="modal">...</div>
+
+    <!-- Pemuatan Skrip -->
     <script src="js/config.js"></script>
     <script src="js/api.js"></script>
     <script src="js/ui.js"></script>
