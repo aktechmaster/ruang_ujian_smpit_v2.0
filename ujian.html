@@ -105,7 +105,7 @@
             border-left: 5px solid #38bdf8;
         }
         .header-ujian h2 {
-            margin-bottom: 0;
+            margin-bottom: 10px;
             color: #1e293b;
         }
         .info-siswa p {
@@ -114,21 +114,25 @@
             color: #475569;
         }
 
-        /* --- CSS TIMER DIPERBAIKI --- */
+        /* --- CSS TIMER FLOATING (MELAYANG, TRANSPARAN, KECIL DI KANAN LAYAR) --- */
         #floating-timer {
-            position: static; 
-            background: #1e293b; 
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: rgba(30, 41, 59, 0.75); /* Transparan gelap */
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
             color: #38bdf8;
-            padding: 8px 16px;
+            padding: 5px 12px; /* Ukuran lebih ringkas/kecil */
             border-radius: 20px;
-            font-size: 0.95rem;
+            font-size: 0.85rem; /* Teks agak kecil */
             font-weight: bold;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            display: inline-flex;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            z-index: 9999;
+            display: flex;
             align-items: center;
             gap: 6px;
-            white-space: nowrap;
-            flex-shrink: 0;
         }
 
         .modal {
@@ -191,22 +195,16 @@
     
 <body>
 
-    <div class="header-ujian">
-        <!-- --- STRUKTUR HEADER + TIMER DALAM SATU WADAH FLEXBOX --- -->
-        <div style="display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 15px; flex-wrap: wrap;">
-            
-            <!-- Logo + Judul Ujian -->
-            <div style="display: flex; align-items: center; gap: 15px;">
-                <img src="smpit.png" alt="Logo Sekolah" style="height: 50px; width: auto;" onerror="this.src='https://via.placeholder.com/50?text=LOGO'">
-                <div style="width: 2px; height: 40px; background-color: #cbd5e1;"></div>
-                <h2 id="judulMapel" style="margin: 0; font-size: 1.1rem;">Memuat Mata Pelajaran...</h2>
-            </div>
+    <!-- TIMER MENGAMBANG DI KANAN ATAS LAYAR -->
+    <div id="floating-timer">
+        ⏳ <span id="timer-display">--:--:--</span>
+    </div>
 
-            <!-- Timer Ujian (Terkunci rapat di kanan header) -->
-            <div id="floating-timer">
-                ⏳ <span id="timer-display">--:--:--</span>
-            </div>
-            
+    <div class="header-ujian">
+        <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 15px;">
+            <img src="smpit.png" alt="Logo Sekolah" style="height: 60px; width: auto;" onerror="this.src='https://via.placeholder.com/60?text=LOGO'">
+            <div style="width: 2px; height: 50px; background-color: #cbd5e1;"></div>
+            <h2 id="judulMapel" style="margin: 0; font-size: 1.3rem;">Memuat Mata Pelajaran...</h2>
         </div>
         
         <div class="info-siswa" style="border-top: 1px dashed #e2e8f0; padding-top: 10px;">
