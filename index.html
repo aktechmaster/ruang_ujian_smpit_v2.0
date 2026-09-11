@@ -14,6 +14,8 @@
         <img src="smpit.png" alt="Logo SMP IT Al-Kautsar" class="logo" onerror="this.src='https://via.placeholder.com/100?text=LOGO'">
         
         <h1>Selamat Datang di Ruang Ujian<br>SMP IT Al-Kautsar Mukomuko</h1>
+        <!-- Subtitle judul ujian dinamis dari CONFIG -->
+        <p class="exam-title" style="text-align: center; font-weight: 600; color: #0284c7; margin-top: -10px; margin-bottom: 20px;"></p>
 
         <form id="loginForm">
             <div class="input-group">
@@ -23,11 +25,12 @@
             </div>
 
             <div class="input-group">
-    <label for="pilihSiswa">Nama Siswa</label>
-    <input type="text" id="pilihSiswa" list="listSiswa" placeholder="Ketik nama lengkap siswa..." autocomplete="off" oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')" required>
-    <datalist id="listSiswa"></datalist>
-    <div id="loadingSiswa" class="loader">Memuat data siswa dari server...</div>
-</div>
+                <label for="pilihSiswa">Nama Siswa</label>
+                <!-- Regex diperbarui agar mendukung nama dengan petik (') atau titik (.) -->
+                <input type="text" id="pilihSiswa" list="listSiswa" placeholder="Ketik nama lengkap siswa..." autocomplete="off" oninput="this.value = this.value.replace(/[^a-zA-Z\s'.,]/g, '')" required>
+                <datalist id="listSiswa"></datalist>
+                <div id="loadingSiswa" class="loader">Memuat data siswa dari server...</div>
+            </div>
 
             <div class="input-group">
                 <label for="pilihMapel">Pilih Mata Pelajaran</label>
