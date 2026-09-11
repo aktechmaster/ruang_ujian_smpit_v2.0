@@ -5,19 +5,24 @@ const Proctor = {
         if (typeof CONFIG === 'undefined' || !CONFIG.PROCTOR) return;
 
         // Load hitungan lama dari sessionStorage
-        this.tabSwitchCount = parseInt(sessionStorage.getItem('cbt_tab_switches')) || 0;
-        this.updateDisplay(); // Tampilkan hitungan awal di layar
+        this.tabSwitchCount = parseInt(sessionStorage.getItem('cbt_tab_switches'), 10) || 0;
+        this.updateDisplay();
 
         if (CONFIG.PROCTOR.ENABLE_DISABLE_RIGHT_CLICK) this.disableRightClick();
         if (CONFIG.PROCTOR.ENABLE_DISABLE_DEVTOOLS_KEYS) this.disableDevToolsKeys();
         if (CONFIG.PROCTOR.ENABLE_ANTI_TAB_SWITCH) this.initTabSwitchMonitoring();
+        if (CONFIG.PROCTOR.ENABLE_DISABLE_COPY_PASTE) this.disableCopyPaste();
     },
 
-    // Fungsi memperbarui teks pelanggaran di layar
+    // Memperbarui teks dan warna status pelanggaran di layar
     updateDisplay() {
         const elem = document.getElementById('infoPelanggaran');
         if (elem) {
             elem.innerText = `Pelanggaran: ${this.tabSwitchCount} kali`;
+            if (this.tabSwitchCount > 0) {
+                elem.style.color = '#dc2626';
+                elem.style.fontWeight = 'bold';
+            }
         }
     },
 
@@ -41,22 +46,37 @@ const Proctor = {
         });
     },
 
+    disableCopyPaste() {
+        ['copy', 'cut', 'paste', 'selectstart'].forEach(eventType => {
+            document.addEventListener(eventType, (e) => {
+                const tag = e.target.tagName;
+                // Tetap izinkan salin-tempel jika siswa mengetik di kolom input/textarea biasa
+                if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+                    e.preventDefault();
+                }
+            });
+        });
+    },
+
     initTabSwitchMonitoring() {
         document.addEventListener('visibilitychange', () => {
-            if (!document.hidden) {
-                this.tabSwitchCount++;
-                sessionStorage.setItem('cbt_tab_switches', this.tabSwitchCount);
-                
-                // Update tampilan angka di layar
-                this.updateDisplay();
+            if (document.hidden) return;
 
-                const max = (CONFIG.PROCTOR && CONFIG.PROCTOR.MAX_TAB_SWITCH_WARNINGS) || 3;
+            this.tabSwitchCount++;
+            sessionStorage.setItem('cbt_tab_switches', this.tabSwitchCount);
+            this.updateDisplay();
+
+            const max = CONFIG.PROCTOR?.MAX_TAB_SWITCH_WARNINGS || 3;
+
+            if (this.tabSwitchCount >= max) {
+                this.tampilkanAlert(`PERINGATAN KERAS PROCTOR!\nAnda telah meninggalkan halaman ujian sebanyak ${this.tabSwitchCount} kali.\nTindakan ini dicatat sebagai pelanggaran berat!`);
                 
-                if (this.tabSwitchCount >= max) {
-                    this.tampilkanAlert(`PERINGATAN KERAS PROCTOR!\nAnda telah meninggalkan halaman ujian sebanyak ${this.tabSwitchCount} kali.\nTindakan ini dicatat sebagai pelanggaran!`);
-                } else {
-                    this.tampilkanAlert(`PERINGATAN PROCTOR (${this.tabSwitchCount}/${max}):\nDilarang berpindah tab atau membuka aplikasi lain!`);
+                // Otomatis kumpulkan jawaban jika opsi aktif di CONFIG
+                if (CONFIG.PROCTOR.AUTO_SUBMIT_ON_MAX_VIOLATION && typeof selesaiUjian === 'function') {
+                    selesaiUjian();
                 }
+            } else {
+                this.tampilkanAlert(`PERINGATAN PROCTOR (${this.tabSwitchCount}/${max}):\nDilarang berpindah tab atau membuka aplikasi lain!`);
             }
         });
     },
