@@ -12,11 +12,13 @@ const UI = {
         get mapelContainer() { return document.getElementById('mapelContainer'); },
         get alertModal() { return document.getElementById('exambroAlertModal'); },
         get alertMessage() { return document.getElementById('exambroAlertMessage'); },
-        get emailInput() { return document.getElementById('emailSiswa'); }
+        get emailInput() { return document.getElementById('emailSiswa'); },
+        // Elemen tambahan untuk menampilkan judul ujian aktif
+        get examTitle() { return document.getElementById('examTitle') || document.querySelector('.exam-title'); }
     },
 
     initUI() {
-        // Toggle password/token visibility
+        // 1. Toggle password/token visibility
         if (this.elements.toggleToken && this.elements.tokenInput) {
             this.elements.toggleToken.addEventListener('click', () => {
                 const isPassword = this.elements.tokenInput.getAttribute('type') === 'password';
@@ -25,8 +27,21 @@ const UI = {
             });
         }
 
-        // Override window.alert bawaan browser ke modal custom
+        // 2. Override window.alert bawaan browser ke modal custom
         window.alert = (message) => this.showAlert(message);
+
+        // 3. Tampilkan Nama Ujian Aktif di Header jika elemen tersedia
+        this.updateExamTitle();
+    },
+
+    // Menampilkan nama ujian aktif dari CONFIG
+    updateExamTitle() {
+        if (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function') {
+            const ujianAktif = CONFIG.getUjianAktif();
+            if (this.elements.examTitle) {
+                this.elements.examTitle.textContent = ujianAktif.nama;
+            }
+        }
     },
 
     // Fungsi penghubung kompatibilitas app.js
