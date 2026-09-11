@@ -1,34 +1,28 @@
 let bankSoalData = null;
 let timerInterval = null;
 
-// Backup alert dan confirm asli browser
+// Backup alert dan confirm asli untuk menghindari Infinite Loop
 const nativeAlert = window.alert;
 const nativeConfirm = window.confirm;
 
 document.addEventListener("DOMContentLoaded", async function() {
-    // 1. Inisialisasi Fitur Pengawasan (Proctoring)
+    // 1. Inisialisasi Fitur Pengawasan
     if (typeof Proctor !== 'undefined' && typeof Proctor.init === 'function') {
         Proctor.init();
     }
 
-    // 2. Proteksi Halaman: Peringatan saat mencoba me-refresh atau menutup halaman
-    window.addEventListener('beforeunload', function (e) {
-        if (bankSoalData) {
-            e.preventDefault();
-            e.returnValue = '';
-        }
-    });
-
-    // 3. Ambil Data Session Pengerjaan (Konsistensi Key SessionStorage)
-    let kelasSiswa = sessionStorage.getItem('cbt_kelas') || "9 Al-Quran";
-    let mapelUjian = sessionStorage.getItem('cbt_mapel') || "MTK";
-    let namaSiswa = sessionStorage.getItem('cbt_siswa') || sessionStorage.getItem('cbt_siswa_aktif') || "Siswa Ujian";
+    // 2. Ambil Data Session
+    let kelasSiswa = sessionStorage.getItem('cbt_kelas');
+    let mapelUjian = sessionStorage.getItem('cbt_mapel');
+    let namaSiswa = sessionStorage.getItem('cbt_siswa') || "Siswa Ujian";
     let emailSiswa = sessionStorage.getItem('cbt_email') || "Tidak ada email";
 
-    // Simpan kembali secara konsisten
-    sessionStorage.setItem('cbt_siswa', namaSiswa);
+    if (!kelasSiswa || !mapelUjian) {
+        kelasSiswa = "9 Al-Quran";
+        mapelUjian = "MTK";
+    }
 
-    // Deteksi Pergantian Siswa / Mapel (Reset State Ujian Lama)
+    // Deteksi Pergantian Siswa / Mapel
     let siswaTerakhir = sessionStorage.getItem('cbt_siswa_aktif');
     let mapelTerakhir = sessionStorage.getItem('cbt_mapel_aktif');
 
@@ -43,30 +37,24 @@ document.addEventListener("DOMContentLoaded", async function() {
         sessionStorage.setItem('exam_start_time', Date.now());
     }
 
-    // Tampilkan Informasi Siswa pada Header
     const elemEmail = document.getElementById('infoEmail');
     if (elemEmail) elemEmail.innerText = emailSiswa;
 
-    const elemNama = document.getElementById('infoNama');
-    if (elemNama) elemNama.innerText = namaSiswa;
-
-    const elemKelas = document.getElementById('infoKelas');
-    if (elemKelas) elemKelas.innerText = kelasSiswa;
-
     const tingkatKelas = kelasSiswa.charAt(0);
 
-    // 4. Load Soal Ujian dari API / File JSON
+    // 3. Load Soal dari Server/JSON
     try {
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
         bankSoalData = data;
 
+        // Ekstraksi bank_soal secara fleksibel
         const daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
         if (!daftarSoal || daftarSoal.length === 0) {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
-        // Tampilkan Nama Ujian Aktif di Header
+        // Tampilkan nama ujian aktif secara dinamis dari CONFIG
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
             const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
@@ -76,17 +64,23 @@ document.addEventListener("DOMContentLoaded", async function() {
             elemJudul.innerText = `${namaUjian} | ${namaMapel}`;
         }
 
-        // Inisialisasi Timer & Render Soal Ujian
+        const elemNama = document.getElementById('infoNama');
+        if (elemNama) elemNama.innerText = namaSiswa;
+
+        const elemKelas = document.getElementById('infoKelas');
+        if (elemKelas) elemKelas.innerText = kelasSiswa;
+
+        // Inisialisasi Timer & Render Soal
         initTimer(data, mapelUjian);
         renderSoal(daftarSoal);
 
-        // Auto-load jawaban tersimpan & pasang handler autosave
-        initAutosave();
-
-        // Render Persamaan Matematika MathJax jika ada
+        // Render Formula MathJax jika tersedia
         if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
             MathJax.typesetPromise();
         }
+
+        // Pasang Autosave Jawaban
+        initAutosave();
 
     } catch (error) {
         const lembarSoal = document.getElementById('lembar-soal');
@@ -95,18 +89,18 @@ document.addEventListener("DOMContentLoaded", async function() {
                 <div style='background:#fee2e2; border:1px solid #f87171; color:#991b1b; padding:20px; border-radius:8px; margin:20px 0;'>
                     <h3 style="margin-top:0;">⚠️ Gagal Memuat Soal Ujian</h3>
                     <p><b>Detail Error:</b> ${error.message}</p>
-                    <p>Silakan pastikan berkas JSON soal sudah ada untuk tingkat kelas <b>${tingkatKelas}</b> dan mapel <b>${mapelUjian}</b>.</p>
+                    <p>Silakan pastikan berkas JSON soal sudah ada di repositori untuk tingkat kelas <b>${tingkatKelas}</b> dan mapel <b>${mapelUjian}</b>.</p>
                 </div>`;
         }
         console.error("Error memuat soal:", error);
     }
 });
 
-// LOGIKA TIMER (Countdown Berbasis Timestamp Akurat)
+// LOGIKA TIMER (Berbasis Timestamp Akurat)
 function initTimer(data, mapelUjian) {
     let durasiMenit = (data.metadata && data.metadata.durasi_menit) 
-                    ? data.metadata.durasi_menit 
-                    : (typeof CONFIG !== 'undefined' && CONFIG.DURASI_MAPEL && CONFIG.DURASI_MAPEL[mapelUjian] ? CONFIG.DURASI_MAPEL[mapelUjian] : 120);
+                      ? data.metadata.durasi_menit 
+                      : (typeof CONFIG !== 'undefined' && CONFIG.DURASI_MAPEL && CONFIG.DURASI_MAPEL[mapelUjian] ? CONFIG.DURASI_MAPEL[mapelUjian] : 120);
 
     let targetEndTime = sessionStorage.getItem('exam_end_time');
     if (!targetEndTime) {
@@ -124,9 +118,9 @@ function initTimer(data, mapelUjian) {
 
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
-            let jedaAcak = Math.floor(Math.random() * 2000); 
+            let jedaAcak = Math.floor(Math.random() * 3000); 
             setTimeout(() => {
-                alert("Waktu ujian telah habis! Jawaban Anda akan dikumpulkan otomatis.");
+                alert("Waktu habis! Ujian akan dikumpulkan otomatis.");
                 selesaiUjian();
             }, jedaAcak);
         } else {
@@ -148,10 +142,11 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL & OPSI JAWABAN
+// RENDER SOAL (Sudah Dilengkapi Penanganan Gambar Otomatis)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     
+    // Ambil data jenis ujian, mapel, dan kelas untuk menentukan jalur folder gambar
     const jenisUjian = (typeof CONFIG !== 'undefined' && CONFIG.UJIAN_AKTIF) ? CONFIG.UJIAN_AKTIF : 'STS_1';
     const mapelAktif = (sessionStorage.getItem('cbt_mapel') || 'MTK').toUpperCase();
     const kelasSiswa = sessionStorage.getItem('cbt_kelas') || '9';
@@ -162,7 +157,8 @@ function renderSoal(daftarSoal) {
         
         let teksPertanyaan = soal.teks_pertanyaan || soal.pertanyaan || "";
         
-        // Penyesuaian Otomatis URL Gambar Inline
+        // JIKA GAMBAR DITULIS LANGSUNG DALAM TEKS PERTANYAAN (Tag <img src="...">)
+        // Otomatis ubah path lama (misal: src="images_MTK_9/10.png") menjadi path baru (src="./Images/STS_1/images_MTK_9/10.png")
         if (teksPertanyaan.includes('<img')) {
             teksPertanyaan = teksPertanyaan.replace(
                 /src=["'](.*?)(images_[^"']+)["']/gi, 
@@ -196,17 +192,22 @@ function renderSoal(daftarSoal) {
 
         htmlSoal += `
             <div class="pertanyaan">
-                <span style="font-weight:bold; margin-right:4px;">${index + 1}.</span>
+                <span style="font-weight:bold;">${index + 1}.</span>
                 <span class="${kelasPertanyaan}">${teksPertanyaanBersih}</span>
             </div>`;
         
-        // Render Gambar dari Property JSON
+        // --- FITUR GAMBAR DARI PROPERTI JSON (misal: "gambar": "10.png" atau "images_MTK_9/10.png") ---
         if (soal.gambar && soal.gambar.trim() !== "") {
             let srcGambarLengkap = "";
 
-            if (soal.gambar.startsWith("images_") || soal.gambar.startsWith("Images_") || soal.gambar.includes("/")) {
+            if (soal.gambar.startsWith("images_") || soal.gambar.startsWith("Images_")) {
+                // Jika di JSON diisi: "images_MTK_9/10.png"
+                srcGambarLengkap = `./Images/${jenisUjian}/${soal.gambar}`;
+            } else if (soal.gambar.includes("/")) {
+                // Jika di JSON sudah ada subfolder lain
                 srcGambarLengkap = `./Images/${jenisUjian}/${soal.gambar}`;
             } else {
+                // Jika di JSON HANYA nama file: "10.png" -> Otomatis susun folder
                 srcGambarLengkap = `./Images/${jenisUjian}/images_${mapelAktif}_${tingkatKelas}/${soal.gambar}`;
             }
 
@@ -229,9 +230,9 @@ function renderSoal(daftarSoal) {
 
             htmlSoal += `
                 <div class="opsi">
-                    <label style="display: flex; align-items: flex-start; gap: 8px; cursor: pointer; width: 100%;">
-                        <input type="radio" name="soal_${idSoal}" value="${nilaiOpsi}" style="margin-top: 3px;"> 
-                        <span class="${kelasOpsi}"><strong>${nilaiOpsi}.</strong> ${opsi}</span>
+                    <label>
+                        <input type="radio" name="soal_${idSoal}" value="${nilaiOpsi}"> 
+                        <span class="${kelasOpsi}">${opsi}</span>
                     </label>
                 </div>`;
         });
@@ -244,39 +245,21 @@ function renderSoal(daftarSoal) {
     }
 }
 
-// AUTOSAVE & HIGHLIGHT PILIHAN JAWABAN
+// AUTOSAVE JAWABAN
 function initAutosave() {
-    const radioInputs = document.querySelectorAll('input[type="radio"]');
-
-    radioInputs.forEach(input => {
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
         let savedValue = sessionStorage.getItem(input.name);
-        
-        // Restore jawaban dari session jika ada
         if (savedValue && input.value === savedValue) {
             input.checked = true;
-            let parentOpsi = input.closest('.opsi');
-            if (parentOpsi) parentOpsi.classList.add('selected');
         }
 
-        // Listener saat pilihan berubah
         input.addEventListener('change', function() {
             sessionStorage.setItem(this.name, this.value);
-
-            // Bersihkan highlight lama di grup opsi yang sama
-            const sameGroup = document.querySelectorAll(`input[name="${this.name}"]`);
-            sameGroup.forEach(radio => {
-                let p = radio.closest('.opsi');
-                if (p) p.classList.remove('selected');
-            });
-
-            // Highlight opsi yang baru dipilih
-            let parentOpsi = this.closest('.opsi');
-            if (parentOpsi) parentOpsi.classList.add('selected');
         });
     });
 }
 
-// VALIDASI DAN KONFIRMASI SUBMIT
+// VALIDASI DAN SUBMIT JAWABAN
 function sebelumSubmit() {
     if (!bankSoalData) return;
 
@@ -292,16 +275,15 @@ function sebelumSubmit() {
     });
 
     if (belumTerjawab.length > 0) {
-        alert("Ada soal yang belum dijawab!\n\nSilakan periksa nomor: " + belumTerjawab.join(', '));
+        alert("Ada soal yang belum terjawab! Silakan periksa nomor: " + belumTerjawab.join(', '));
         return;
     }
 
-    showCustomConfirm("Apakah Anda yakin ingin mengumpulkan seluruh jawaban ujian?", function() {
+    showCustomConfirm("Apakah Anda yakin ingin mengumpulkan jawaban?", function() {
         selesaiUjian();
     });
 }
 
-// KALKULASI SKOR & SUBMIT JAWABAN
 function selesaiUjian() {
     if (!bankSoalData) return;
 
@@ -313,16 +295,9 @@ function selesaiUjian() {
     daftarSoal.forEach((soal, index) => {
         const idSoal = soal.id_soal || (index + 1);
         let opsiDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-        
-        // Ambil kunci jawaban fleksibel (Object key, 1-indexed, atau 0-indexed)
-        let kunciJawaban = undefined;
-        if (bankSoalData.kunci_jawaban_rahasia) {
-            kunciJawaban = bankSoalData.kunci_jawaban_rahasia[idSoal] 
-                        || bankSoalData.kunci_jawaban_rahasia[String(idSoal)]
-                        || bankSoalData.kunci_jawaban_rahasia[index];
-        }
+        let kunciJawaban = bankSoalData.kunci_jawaban_rahasia ? bankSoalData.kunci_jawaban_rahasia[idSoal] : undefined;
 
-        if (opsiDipilih && kunciJawaban && String(opsiDipilih.value).trim().toUpperCase() === String(kunciJawaban).trim().toUpperCase()) {
+        if (opsiDipilih && kunciJawaban && String(opsiDipilih.value).toUpperCase() === String(kunciJawaban).toUpperCase()) {
             jumlahBenar++;
         } else {
             jumlahSalah++;
@@ -332,14 +307,10 @@ function selesaiUjian() {
     let skorAkhir = totalSoal > 0 ? ((jumlahBenar / totalSoal) * 100).toFixed(2) : "0.00";
     let rekapJawaban = kumpulkanJawaban(daftarSoal);
 
-    let namaSiswa = sessionStorage.getItem('cbt_siswa') || sessionStorage.getItem('cbt_siswa_aktif') || "Siswa Ujian";
-    let kelasSiswa = sessionStorage.getItem('cbt_kelas') || "-";
-    let mapelSiswa = sessionStorage.getItem('cbt_mapel') || "-";
-
     simpanKeSpreadsheet(
-        namaSiswa,
-        kelasSiswa,
-        mapelSiswa,
+        sessionStorage.getItem('cbt_siswa'),
+        sessionStorage.getItem('cbt_kelas'),
+        sessionStorage.getItem('cbt_mapel'),
         skorAkhir,
         jumlahBenar,
         jumlahSalah,
@@ -357,12 +328,11 @@ function kumpulkanJawaban(daftarSoal) {
     return jawaban;
 }
 
-// KIRIM DATA KE DATABASE SPREADSHEET (Penanganan Akurat Error Kirim)
 async function simpanKeSpreadsheet(nama, kelas, mapel, skor, benar, salah, arrayJawaban) {
     const btnSubmit = document.querySelector('button[onclick="sebelumSubmit()"]');
     if (btnSubmit) {
         btnSubmit.disabled = true;
-        btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban...";
+        btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
         btnSubmit.style.background = "#94a3b8";
     }
 
@@ -385,39 +355,23 @@ async function simpanKeSpreadsheet(nama, kelas, mapel, skor, benar, salah, array
 
     try {
         const res = await API.submitJawaban(dataSiswa);
-        
-        if (res && res.status === "error") {
-            throw new Error(res.message || "Database menolak menyimpan data.");
-        }
-
-        // Matikan proteksi refresh/close
-        window.onbeforeunload = null;
-
-        // Hentikan timer
-        if (timerInterval) clearInterval(timerInterval);
-
-        // Tampilkan modal selesai
-        const popupModal = document.getElementById('popupModal');
-        if (popupModal) {
-            popupModal.style.display = 'flex';
+        if (res && res.status === "success") {
+            const popupModal = document.getElementById('popupModal');
+            if (popupModal) popupModal.style.display = 'flex';
         } else {
-            alert("✅ Jawaban Anda telah berhasil dikumpulkan!");
-            keluarKeLogin();
+            throw new Error((res && res.message) || "Database menolak menyimpan data.");
         }
-
     } catch (err) {
-        console.error("Gagal mengirim jawaban:", err);
-        alert("❌ GAGAL MENGIRIM JAWABAN!\n\nDetail Error: " + (err.message || "Masalah Koneksi Server"));
-        
+        alert("❌ GAGAL MENGIRIM JAWABAN!\n\nPenyebab: " + err.message + "\n\nJawaban Anda belum terkirim. Silakan periksa koneksi internet lalu klik tombol 'Kumpulkan Jawaban' sekali lagi.");
         if (btnSubmit) {
             btnSubmit.disabled = false;
-            btnSubmit.innerText = "Coba Kumpulkan Lagi";
+            btnSubmit.innerText = "Kumpulkan Jawaban";
             btnSubmit.style.background = "#007bff";
         }
     }
 }
 
-// HANDLER MODAL ALERT KUSTOM
+// Handler Alert Kustom
 window.alert = function(message) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
@@ -426,7 +380,7 @@ window.alert = function(message) {
     const modal = document.getElementById('customAlertModal');
 
     if (title && msg && modal) {
-        title.innerText = 'Informasi Ujian';
+        title.innerText = 'Informasi';
         msg.innerText = message;
         if (btnCancel) btnCancel.style.display = 'none';
         if (btnOk) {
@@ -439,7 +393,7 @@ window.alert = function(message) {
     }
 };
 
-// HANDLER MODAL CONFIRM KUSTOM
+// Custom Confirm Helper (Khusus untuk panggilan async modal)
 function showCustomConfirm(message, onConfirmCallback) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
@@ -448,11 +402,11 @@ function showCustomConfirm(message, onConfirmCallback) {
     const modal = document.getElementById('customAlertModal');
 
     if (title && msg && modal) {
-        title.innerText = 'Konfirmasi Pengumpulan';
+        title.innerText = 'Konfirmasi';
         msg.innerText = message;
         if (btnCancel) btnCancel.style.display = 'inline-block';
         if (btnOk) {
-            btnOk.innerText = 'Ya, Kumpulkan';
+            btnOk.innerText = 'Ya';
             btnOk.onclick = function() {
                 tutupCustomAlert();
                 if (typeof onConfirmCallback === 'function') onConfirmCallback();
@@ -475,7 +429,6 @@ function tutupCustomAlert() {
 }
 
 function keluarKeLogin() {
-    window.onbeforeunload = null;
     sessionStorage.clear();
     window.location.href = 'index.html';
 }
