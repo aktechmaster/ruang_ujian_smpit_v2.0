@@ -108,24 +108,26 @@
             color: #475569;
         }
 
-        /* --- SOLUSI BARU TIMER DENGAN POSITION STICKY --- */
+        /* --- TIMER: STICKY (MENGAMBANG SAAT DI-SCROLL) & LEBIH TRANSPARAN --- */
         #floating-timer {
-            position: sticky;         /* Kunci: sticky membuatnya mengikuti alur dokumen tapi menempel saat di-scroll */
-            top: 15px;                /* Jarak dari atas layar saat menempel */
-            display: inline-flex;     /* Agar bisa menggunakan margin-left: auto */
-            margin-left: auto;        /* Dorong otomatis ke pojok kanan area konten */
-            margin-bottom: -40px;     /* Trik agar timer melayang di atas header, tidak mendorongnya ke bawah */
+            position: sticky;         /* Tetap mengambang saat di-scroll */
+            top: 15px;                /* Jarak dari atas layar */
+            display: inline-flex;
+            margin-left: auto;        /* Selalu di pojok kanan kotak ujian */
+            margin-bottom: -40px;     /* Melayang di atas header */
             
-            background: rgba(30, 41, 59, 0.6); /* Tetap transparan */
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
+            /* TINGKAT TRANSPARANSI DITINGKATKAN (nilai alpha 0.4 -> lebih tembus) */
+            background: rgba(30, 41, 59, 0.4); 
+            backdrop-filter: blur(4px); /* Blur dikurangi agar lebih jelas transparannya */
+            -webkit-backdrop-filter: blur(4px);
+            
             color: #38bdf8;
-            padding: 4px 10px;        /* Ukuran kecil */
+            padding: 4px 10px;
             border-radius: 20px;
-            font-size: 0.8rem;        /* Teks kecil */
+            font-size: 0.8rem;
             font-weight: bold;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Bayangan juga diringankan */
+            border: 1px solid rgba(255, 255, 255, 0.1);
             z-index: 9999;
             align-items: center;
             gap: 6px;
@@ -134,13 +136,13 @@
         /* --- PENGATURAN AGAR KOTAK LEBIH LUAS DI HP --- */
         @media (max-width: 600px) {
             body {
-                padding: 10px 8px; /* Mengurangi jarak tepi di HP agar kotak ujian lebih lebar */
+                padding: 10px 8px;
             }
             .header-ujian {
-                padding: 15px; /* Header juga disesuaikan agar tidak terlalu sempit isinya */
+                padding: 15px;
             }
             .soal-box {
-                padding: 15px; /* Kotak soal juga disesuaikan */
+                padding: 15px;
             }
         }
 
@@ -198,7 +200,7 @@
 </head>
     
 <body>
-    <!-- TIMER SEKARANG MENGGUNAKAN STICKY, POSISI SELALU BENAR DI SEMUA PERANGKAT -->
+    <!-- TIMER -->
     <div id="floating-timer">
         <span>⏳</span> <span id="timer-display">--:--:--</span>
     </div>
