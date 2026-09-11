@@ -4,8 +4,16 @@ document.addEventListener("DOMContentLoaded", async function() {
         Proctor.init();
     }
 
-    // 2. Inisialisasi Event UI (seperti toggle mata pada token)
+    // 2. Inisialisasi Event UI & Tampilkan Nama Ujian Aktif
     UI.initUI();
+    if (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function') {
+        const ujianAktif = CONFIG.getUjianAktif();
+        // Update judul/header jika elemen UI tersedia
+        const headerTitle = document.getElementById("examTitle") || document.querySelector(".exam-title");
+        if (headerTitle) {
+            headerTitle.textContent = ujianAktif.nama;
+        }
+    }
 
     const btnSubmit = UI.elements.submitBtn || document.getElementById("btnSubmit");
 
@@ -128,6 +136,10 @@ async function handleFormSubmit(e) {
             sessionStorage.setItem('cbt_siswa', siswa.trim());
             sessionStorage.setItem('cbt_mapel', mapel);
             sessionStorage.setItem('cbt_email', email.trim());
+            
+            // SIMPAN JENIS UJIAN AKTIF SAAT LOG IN
+            const jenisUjian = (typeof CONFIG !== 'undefined' && CONFIG.UJIAN_AKTIF) ? CONFIG.UJIAN_AKTIF : 'STS_1';
+            sessionStorage.setItem('cbt_jenis_ujian', jenisUjian);
 
             // Pindah ke Halaman Ujian
             window.location.href = 'ujian.html';
