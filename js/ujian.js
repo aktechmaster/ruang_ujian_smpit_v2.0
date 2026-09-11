@@ -142,13 +142,30 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL
+// RENDER SOAL (Sudah Dilengkapi Penanganan Gambar Otomatis)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
+    
+    // Ambil data jenis ujian, mapel, dan kelas untuk menentukan jalur folder gambar
+    const jenisUjian = (typeof CONFIG !== 'undefined' && CONFIG.UJIAN_AKTIF) ? CONFIG.UJIAN_AKTIF : 'STS_1';
+    const mapelAktif = (sessionStorage.getItem('cbt_mapel') || 'MTK').toUpperCase();
+    const kelasSiswa = sessionStorage.getItem('cbt_kelas') || '9';
+    const tingkatKelas = kelasSiswa.charAt(0);
+
     daftarSoal.forEach((soal, index) => {
         htmlSoal += `<div class="soal-box">`;
         
         let teksPertanyaan = soal.teks_pertanyaan || soal.pertanyaan || "";
+        
+        // JIKA GAMBAR DITULIS LANGSUNG DALAM TEKS PERTANYAAN (Tag <img src="...">)
+        // Otomatis ubah path lama (misal: src="images_MTK_9/10.png") menjadi path baru (src="./Images/STS_1/images_MTK_9/10.png")
+        if (teksPertanyaan.includes('<img')) {
+            teksPertanyaan = teksPertanyaan.replace(
+                /src=["'](.*?)(images_[^"']+)["']/gi, 
+                `src="./Images/${jenisUjian}/$2"`
+            );
+        }
+
         let bagianTeks = teksPertanyaan.split('\n\n');
         let teksPertanyaanBersih = "";
 
@@ -179,6 +196,27 @@ function renderSoal(daftarSoal) {
                 <span class="${kelasPertanyaan}">${teksPertanyaanBersih}</span>
             </div>`;
         
+        // --- FITUR GAMBAR DARI PROPERTI JSON (misal: "gambar": "10.png" atau "images_MTK_9/10.png") ---
+        if (soal.gambar && soal.gambar.trim() !== "") {
+            let srcGambarLengkap = "";
+
+            if (soal.gambar.startsWith("images_") || soal.gambar.startsWith("Images_")) {
+                // Jika di JSON diisi: "images_MTK_9/10.png"
+                srcGambarLengkap = `./Images/${jenisUjian}/${soal.gambar}`;
+            } else if (soal.gambar.includes("/")) {
+                // Jika di JSON sudah ada subfolder lain
+                srcGambarLengkap = `./Images/${jenisUjian}/${soal.gambar}`;
+            } else {
+                // Jika di JSON HANYA nama file: "10.png" -> Otomatis susun folder
+                srcGambarLengkap = `./Images/${jenisUjian}/images_${mapelAktif}_${tingkatKelas}/${soal.gambar}`;
+            }
+
+            htmlSoal += `
+                <div class="gambar-container" style="margin: 12px 0; text-align: left;">
+                    <img src="${srcGambarLengkap}" alt="Gambar Soal ${index + 1}" style="max-width: 100%; max-height: 350px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                </div>`;
+        }
+
         htmlSoal += `<div class="opsi-container">`;
         
         const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
