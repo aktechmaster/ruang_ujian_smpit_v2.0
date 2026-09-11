@@ -54,9 +54,14 @@ document.addEventListener("DOMContentLoaded", async function() {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
+        // Tampilkan nama ujian aktif secara dinamis dari CONFIG
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
-            elemJudul.innerText = "Sumatif Tengah Semester Ganjil | " + (data.metadata ? data.metadata.mata_pelajaran : mapelUjian);
+            const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
+                ? CONFIG.getUjianAktif().nama
+                : "Sumatif Tengah Semester";
+            const namaMapel = data.metadata?.mata_pelajaran || mapelUjian;
+            elemJudul.innerText = `${namaUjian} | ${namaMapel}`;
         }
 
         const elemNama = document.getElementById('infoNama');
@@ -65,16 +70,14 @@ document.addEventListener("DOMContentLoaded", async function() {
         const elemKelas = document.getElementById('infoKelas');
         if (elemKelas) elemKelas.innerText = kelasSiswa;
 
-        // Inisialisasi Timer & Render
+        // Inisialisasi Timer & Render Soal
         initTimer(data, mapelUjian);
         renderSoal(daftarSoal);
 
-        // Render Formula MathJax jika ada
-        setTimeout(() => {
-            if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
-                MathJax.typesetPromise();
-            }
-        }, 500);
+        // Render Formula MathJax jika tersedia
+        if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
+            MathJax.typesetPromise();
+        }
 
         // Pasang Autosave Jawaban
         initAutosave();
@@ -117,7 +120,7 @@ function initTimer(data, mapelUjian) {
             clearInterval(timerInterval);
             let jedaAcak = Math.floor(Math.random() * 3000); 
             setTimeout(() => {
-                alert("Waktu habis! Ujian akan dikumpulkan.");
+                alert("Waktu habis! Ujian akan dikumpulkan otomatis.");
                 selesaiUjian();
             }, jedaAcak);
         } else {
@@ -264,7 +267,7 @@ function selesaiUjian() {
     });
 
     let skorAkhir = totalSoal > 0 ? ((jumlahBenar / totalSoal) * 100).toFixed(2) : "0.00";
-    let rekapJawaban = kumpulkanJawaban();
+    let rekapJawaban = kumpulkanJawaban(daftarSoal);
 
     simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
@@ -277,15 +280,13 @@ function selesaiUjian() {
     );
 }
 
-function kumpulkanJawaban() {
+function kumpulkanJawaban(daftarSoal) {
     let jawaban = [];
-    const daftarSoal = document.querySelectorAll('.soal-box'); 
-    
-    daftarSoal.forEach((soal) => {
-        const inputDipilih = soal.querySelector('input[type="radio"]:checked');
+    daftarSoal.forEach((soal, index) => {
+        const idSoal = soal.id_soal || (index + 1);
+        const inputDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
         jawaban.push(inputDipilih ? inputDipilih.value : "-");
     });
-    
     return jawaban;
 }
 
