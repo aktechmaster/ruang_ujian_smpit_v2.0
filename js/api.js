@@ -1,14 +1,16 @@
 const API = {
-    // Ambil URL dasar untuk data/spreadsheet
+    // 1. Ambil URL dasar untuk Database Siswa, Kelas, dan Token
     get spreadsheetUrl() {
         if (typeof CONFIG === 'undefined') return '';
-        return CONFIG.SPREADSHEET_API_URL || CONFIG.GAS_URL || '';
+        return CONFIG.DATABASE_API_URL || '';
     },
 
-    // Ambil URL khusus pengiriman jawaban
+    // 2. Ambil URL khusus pengiriman jawaban (Dinamis sesuai sakelar UJIAN_AKTIF)
     get submitUrl() {
         if (typeof CONFIG === 'undefined') return '';
-        return CONFIG.SUBMIT_API_URL || CONFIG.GAS_URL || '';
+        return typeof CONFIG.getSubmitUrl === 'function' 
+            ? CONFIG.getSubmitUrl() 
+            : '';
     },
 
     // 1. AMBIL DATA AWAL (KELAS & MAPEL) DARI GOOGLE APPS SCRIPT
@@ -50,10 +52,15 @@ const API = {
         }
     },
 
-    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB
+    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB (Dinamis per Jenis Ujian & Kelas)
     async fetchSoal(tingkat, mapel) {
         try {
-            const pathSoal = `./Soal_Kelas_${tingkat}/soal_${tingkat}_${mapel.toUpperCase()}.json`;
+            // Mengambil folder path dinamis dari config, contoh: "Soal/STS_1/Kelas_7"
+            const folderPath = (typeof CONFIG !== 'undefined' && CONFIG.getFolderPath)
+                ? CONFIG.getFolderPath(tingkat)
+                : `Soal_Kelas_${tingkat}`;
+
+            const pathSoal = `./${folderPath}/soal_${tingkat}_${mapel.toUpperCase()}.json`;
             const response = await fetch(pathSoal);
 
             if (!response.ok) {
@@ -75,13 +82,19 @@ const API = {
                 throw new Error("URL Pengiriman Jawaban tidak ditemukan di CONFIG.");
             }
 
+            // Menyisipkan label jenis_ujian ke dalam payload untuk validasi di Google Sheets
+            const payload = {
+                ...dataSiswa,
+                jenis_ujian: (typeof CONFIG !== 'undefined') ? CONFIG.UJIAN_AKTIF : ''
+            };
+
             const response = await fetch(targetUrl, {
                 method: 'POST',
                 redirect: 'follow',
                 headers: {
                     'Content-Type': 'text/plain;charset=utf-8',
                 },
-                body: JSON.stringify(dataSiswa)
+                body: JSON.stringify(payload)
             });
 
             if (!response.ok) throw new Error("Gagal mengirim jawaban ke server (Status " + response.status + ")");
