@@ -215,7 +215,7 @@
             font-family: 'MohammadNaskh', 'Amiri', serif;
         }
 
-        /* Netralkan body agar tidak terpengaruh flexbox style.css */
+        /* Netralkan body agar tetap di tengah layar */
 body {
     display: block !important;
     width: 100% !important;
@@ -223,28 +223,29 @@ body {
     padding: 10px !important;
 }
 
-/* Pembungkus utama diset sebagai Flex Column agar align-self berfungsi */
+/* Pembungkus utama: Paksa semua anak elemen melebar penuh (stretch) */
 .page-wrapper {
     max-width: 800px;
-    margin: 0 auto;
-    width: 100%;
+    margin: 0 auto !important;
+    width: 100% !important;
     display: flex !important;
     flex-direction: column;
+    align-items: stretch !important; /* KUNCI: Memaksa konten mengisi lebar 800px */
     position: relative;
 }
 
-/* Timer Sticky: Melayang saat di-scroll, tetapi tetap di dalam lebar 800px */
+/* Timer Sticky: Transparan (0.45) & Glassmorphic */
 #floating-timer {
     position: sticky !important;
     top: 12px !important;
-    align-self: flex-end; /* Memaksa timer merapat ke sisi kanan dalam page-wrapper */
-    margin-bottom: -35px; /* Menumpuk tajuk ujian secara elegan tanpa merusak alur halaman */
+    align-self: flex-end !important; /* Hanya timer yang merapat ke kanan */
+    margin-bottom: -35px;
     z-index: 99999 !important;
-    background: rgba(30, 41, 59, 0.85);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background: rgba(30, 41, 59, 0.45) !important; /* Diturunkan ke 45% agar transparan */
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
     color: #38bdf8;
-    padding: 6px 12px;
+    padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: bold;
@@ -252,6 +253,16 @@ body {
     align-items: center;
     gap: 6px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* KUNCI: Paksa wadah soal dan header memenuhi 100% area page-wrapper */
+#lembar-soal, 
+.header-ujian, 
+.soal-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
 }
     </style>
 </head>
