@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Ujian CBT</title>
+    
+    <link rel="icon" type="image/png" href="smpit.png">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            padding: 15px; 
+            max-width: 800px; 
+            margin: auto; 
+            background-color: #FFFFFF;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('floating-cogs.svg');
+            background-size: 200px 200px;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        h1 { font-size: 20px; text-align: center; margin-bottom: 20px; }
+        hr { border: 0; border-top: 2px solid #ddd; margin-bottom: 20px; }
+
+        .soal-box { 
+            background: #fff; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+        }
+
+        .bacaan {
+            background: #fdfae3;
+            padding: 15px;
+            border-left: 4px solid #f1c40f;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 15px;
+            white-space: pre-wrap;
+        }
+
+        .pertanyaan {
+            font-weight: normal;
+            font-size: 16px;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .opsi-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .opsi label {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            cursor: pointer;
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            transition: background 0.2s;
+        }
+        .opsi label:hover { background: #f8f9fa; }
+        .opsi input[type="radio"] {
+            margin-top: 4px;
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+        }
+
+        button { 
+            width: 100%;
+            padding: 15px; 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            border-radius: 8px; 
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer; 
+            margin-bottom: 30px;
+        }
+        button:hover { background: #0056b3; }
+
+        .header-ujian {
+            background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            border-left: 5px solid #38bdf8;
+        }
+        .header-ujian h2 {
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+        .info-siswa p {
+            margin: 5px 0;
+            font-size: 0.95rem;
+            color: #475569;
+        }
+
+        #floating-timer {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(30, 41, 59, 0.7); 
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px); 
+            color: #38bdf8;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 10000; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.5); 
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 450px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .modal-content h3 {
+            color: #10b981;
+            margin-bottom: 15px;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+        body, .soal-box, .bacaan, .pertanyaan, .opsi, .info-siswa, h1, h2, p, span {
+            direction: ltr !important;
+            text-align: left !important;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .teks-arab {
+            font-family: 'Amiri', 'MohammadNaskh', serif;
+            direction: rtl !important;
+            text-align: right !important;
+            font-size: 1.6rem;
+            line-height: 1.8;
+            display: block;
+        }
+
+        @font-face {
+            font-family: 'MohammadNaskh';
+            src: url('MohammadNaskh.ttf') format('truetype');
+        }
+
+        .font-khusus-arab {
+            font-family: 'MohammadNaskh', 'Amiri', serif;
+        }
+    </style>
+</head>
+    
+<body>
+
+    <div id="floating-timer">
+        ⏳ <span id="timer-display">--:--:--</span>
+    </div>
+
+    <div class="header-ujian">
+        <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 15px;">
+            <img src="smpit.png" alt="Logo Sekolah" style="height: 60px; width: auto;">
+            <div style="width: 2px; height: 50px; background-color: #cbd5e1;"></div>
+            <h2 id="judulMapel" style="margin: 0; font-size: 1.3rem;">Memuat Mata Pelajaran...</h2>
+        </div>
+        
+        <div class="info-siswa" style="border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+            <p><strong>Nama    :</strong> <span id="infoNama">-</span></p>
+            <p><strong>Kelas   :</strong> <span id="infoKelas">-</span></p>
+            <p><strong>Email   :</strong> <span id="infoEmail">-</span></p>
+            <!-- Elemen Catatan Pelanggaran Tambahan -->
+            <p><strong>Pelanggaran:</strong> <span id="infoPelanggaran" style="color: #dc2626; font-weight: bold;">0 kali</span></p>
+        </div>
+    </div>
+    
+    <div id="lembar-soal"></div>
+    <button onclick="sebelumSubmit()">Kumpulkan Jawaban</button>
+
+    <div id="popupModal" class="modal">
+        <div class="modal-content">
+            <h3>Selamat, Jawaban Anda Telah Direkam!</h3>
+            <p>Terima kasih telah menyelesaikan ujian.</p>
+            <button onclick="keluarKeLogin()" style="margin-top: 20px; margin-bottom: 0;">Kembali ke Halaman Utama / Scan Barcode</button>
+        </div>
+    </div>
+
+    <div id="customAlertModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h3 id="customAlertTitle" style="color: #3b82f6;">Informasi</h3>
+            <p id="customAlertMessage">-</p>
+            <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+                <button id="customAlertBtnCancel" style="background: #ef4444; width: 48%; margin: 0; display: none;">Batal</button>
+                <button id="customAlertBtnOk" style="background: #007bff; width: 48%; margin: 0;">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pemuatan Skrip JavaScript Berurutan -->
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/proctor.js"></script>
+    <script src="js/ujian.js"></script>
+</body>
+</html>
