@@ -107,27 +107,43 @@
             font-size: 0.95rem;
             color: #475569;
         }
-        /* --- PERBAIKAN CSS TIMER --- */
+
+        /* --- SOLUSI BARU TIMER DENGAN POSITION STICKY --- */
         #floating-timer {
-            position: fixed;
-            top: 15px;
-            /* Perhitungan agar timer selalu berada di dalam kotak ujian (max-width 800px) */
-            right: calc(max(0px, (100vw - 800px) / 2) + 15px);
-            background: rgba(30, 41, 59, 0.6); /* Lebih transparan */
+            position: sticky;         /* Kunci: sticky membuatnya mengikuti alur dokumen tapi menempel saat di-scroll */
+            top: 15px;                /* Jarak dari atas layar saat menempel */
+            display: inline-flex;     /* Agar bisa menggunakan margin-left: auto */
+            margin-left: auto;        /* Dorong otomatis ke pojok kanan area konten */
+            margin-bottom: -40px;     /* Trik agar timer melayang di atas header, tidak mendorongnya ke bawah */
+            
+            background: rgba(30, 41, 59, 0.6); /* Tetap transparan */
             backdrop-filter: blur(6px);
             -webkit-backdrop-filter: blur(6px);
             color: #38bdf8;
-            padding: 4px 10px; /* Ukuran padding lebih kecil */
+            padding: 4px 10px;        /* Ukuran kecil */
             border-radius: 20px;
-            font-size: 0.8rem; /* Ukuran font lebih kecil */
+            font-size: 0.8rem;        /* Teks kecil */
             font-weight: bold;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.15);
             z-index: 9999;
-            display: flex;
             align-items: center;
             gap: 6px;
         }
+
+        /* --- PENGATURAN AGAR KOTAK LEBIH LUAS DI HP --- */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px 8px; /* Mengurangi jarak tepi di HP agar kotak ujian lebih lebar */
+            }
+            .header-ujian {
+                padding: 15px; /* Header juga disesuaikan agar tidak terlalu sempit isinya */
+            }
+            .soal-box {
+                padding: 15px; /* Kotak soal juga disesuaikan */
+            }
+        }
+
         .modal {
             display: none; 
             position: fixed; 
@@ -182,10 +198,11 @@
 </head>
     
 <body>
-    <!-- TIMER MENGAMBANG DI KANAN ATAS KOTAK UJIAN -->
+    <!-- TIMER SEKARANG MENGGUNAKAN STICKY, POSISI SELALU BENAR DI SEMUA PERANGKAT -->
     <div id="floating-timer">
         <span>⏳</span> <span id="timer-display">--:--:--</span>
     </div>
+    
     <div class="header-ujian">
         <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 15px;">
             <img src="smpit.png" alt="Logo Sekolah" style="height: 60px; width: auto;" onerror="this.src='https://via.placeholder.com/60?text=LOGO'">
