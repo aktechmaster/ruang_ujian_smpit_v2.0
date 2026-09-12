@@ -222,7 +222,6 @@ const elemLembarSoal = document.getElementById('lembar-soal');
 if (elemLembarSoal) {
     elemLembarSoal.innerHTML = htmlSoal;
 }
-}
 
 // AUTOSAVE JAWABAN
 function initAutosave() {
