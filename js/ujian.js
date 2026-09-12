@@ -142,7 +142,7 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL
+// RENDER SOAL (Support PG, PGK, dan BS)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     daftarSoal.forEach((soal, index) => {
@@ -181,23 +181,70 @@ function renderSoal(daftarSoal) {
         
         htmlSoal += `<div class="opsi-container">`;
         
-        const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
         const idSoal = soal.id_soal || (index + 1);
+        const tipe = soal.tipe_soal || "PG"; // Default ke PG jika tidak ada properti tipe_soal
 
-        pilihanJawaban.forEach((opsi, i) => {
-            let nilaiOpsi = String.fromCharCode(65 + i);
+        // 1. TIPE PG (Radio Button)
+        if (tipe === "PG") {
+            const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
+            pilihanJawaban.forEach((opsi, i) => {
+                let nilaiOpsi = String.fromCharCode(65 + i);
+                const adaArabOpsi = /[\u0600-\u06FF]/.test(opsi);
+                const kelasOpsi = adaArabOpsi ? "teks-arab font-khusus-arab" : "";
+
+                htmlSoal += `
+                    <div class="opsi">
+                        <label>
+                            <input type="radio" name="soal_${idSoal}" value="${nilaiOpsi}"> 
+                            <span class="${kelasOpsi}">${opsi}</span>
+                        </label>
+                    </div>`;
+            });
+        } 
+        // 2. TIPE PGK (Checkbox)
+        else if (tipe === "PGK") {
+            const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
+            pilihanJawaban.forEach((opsi, i) => {
+                let nilaiOpsi = String.fromCharCode(65 + i);
+                const adaArabOpsi = /[\u0600-\u06FF]/.test(opsi);
+                const kelasOpsi = adaArabOpsi ? "teks-arab font-khusus-arab" : "";
+
+                htmlSoal += `
+                    <div class="opsi">
+                        <label>
+                            <input type="checkbox" name="soal_${idSoal}" value="${nilaiOpsi}"> 
+                            <span class="${kelasOpsi}">${opsi}</span>
+                        </label>
+                    </div>`;
+            });
+        } 
+        // 3. TIPE BS (Baris Pernyataan Benar / Salah)
+        else if (tipe === "BS") {
+            const daftarPernyataan = soal.pernyataan || [];
+            htmlSoal += `<div class="container-bs" style="display: flex; flex-direction: column; gap: 10px; width: 100%;">`;
             
-            const adaArabOpsi = /[\u0600-\u06FF]/.test(opsi);
-            const kelasOpsi = adaArabOpsi ? "teks-arab font-khusus-arab" : "";
+            daftarPernyataan.forEach((itemPernyataan, subIndex) => {
+                const adaArabPernyataan = /[\u0600-\u06FF]/.test(itemPernyataan);
+                const kelasPernyataanBs = adaArabPernyataan ? "teks-arab font-khusus-arab" : "";
 
-            htmlSoal += `
-                <div class="opsi">
-                    <label>
-                        <input type="radio" name="soal_${idSoal}" value="${nilaiOpsi}"> 
-                        <span class="${kelasOpsi}">${opsi}</span>
-                    </label>
-                </div>`;
-        });
+                htmlSoal += `
+                    <div class="item-bs" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed #ccc; padding-bottom: 8px;">
+                        <div class="teks-pernyataan ${kelasPernyataanBs}" style="flex: 1; padding-right: 15px;">
+                            ${itemPernyataan}
+                        </div>
+                        <div class="pilihan-bs" style="display: flex; gap: 15px; flex-shrink: 0;">
+                            <label style="cursor: pointer;">
+                                <input type="radio" name="soal_${idSoal}_bs_${subIndex}" value="B"> Benar (B)
+                            </label>
+                            <label style="cursor: pointer;">
+                                <input type="radio" name="soal_${idSoal}_bs_${subIndex}" value="S"> Salah (S)
+                            </label>
+                        </div>
+                    </div>`;
+            });
+            htmlSoal += `</div>`;
+        }
+
         htmlSoal += `</div></div>`;
     });
 
