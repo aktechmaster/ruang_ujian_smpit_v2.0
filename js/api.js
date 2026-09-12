@@ -1,67 +1,104 @@
 const API = {
-    // 1. Ambil URL dasar untuk Database Siswa, Kelas, dan Token
-    get spreadsheetUrl() {
-        if (typeof CONFIG === 'undefined') return '';
-        return CONFIG.DATABASE_API_URL || '';
-    },
-
-    // 2. Ambil URL khusus pengiriman jawaban (Dinamis sesuai sakelar UJIAN_AKTIF)
     get submitUrl() {
         if (typeof CONFIG === 'undefined') return '';
-        return typeof CONFIG.getSubmitUrl === 'function' 
-            ? CONFIG.getSubmitUrl() 
-            : '';
+        return typeof CONFIG.getSubmitUrl === 'function' ? CONFIG.getSubmitUrl() : '';
     },
 
-    // 1. AMBIL DATA AWAL (KELAS & MAPEL) DARI GOOGLE APPS SCRIPT
+    // Helper internal untuk mengonversi teks CSV menjadi Array of Objects
+    parseCSV(csvText) {
+        const lines = csvText.split('\n').filter(line => line.trim() !== '');
+        if (lines.length < 2) return [];
+
+        const headers = lines[0].split(',').map(h => h.replace(/^"|"$/g, '').trim().toLowerCase());
+        
+        return lines.slice(1).map(line => {
+            const values = line.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || line.split(',');
+            let obj = {};
+            headers.forEach((header, index) => {
+                let val = values[index] ? values[index].replace(/^"|"$/g, '').trim() : "";
+                obj[header] = val;
+            });
+            return obj;
+        });
+    },
+
+    // 1. AMBIL DATA AWAL (DAFTAR KELAS & MAPEL) DARI CSV
     async getInitialData() {
         try {
-            if (!this.spreadsheetUrl) {
-                throw new Error("DATABASE_API_URL belum diatur di config.js.");
-            }
-            const url = `${this.spreadsheetUrl}?action=getInitialData`;
-            const response = await fetch(url);
-            if (!response.ok) throw new Error("Gagal terhubung ke server Google Sheets");
-            return await response.json();
+            const [resSiswa, resToken] = await Promise.all([
+                fetch(CONFIG.URL_DATA_SISWA),
+                fetch(CONFIG.URL_TOKEN_MAPEL)
+            ]);
+
+            const textSiswa = await resSiswa.text();
+            const textToken = await resToken.text();
+
+            const dataSiswa = this.parseCSV(textSiswa);
+            const dataToken = this.parseCSV(textToken);
+
+            // Ambil daftar kelas unik dari DataSiswa
+            const daftarKelas = [...new Set(dataSiswa.map(s => s.kelas).filter(Boolean))];
+            
+            // Ambil daftar mapel unik dari TokenMapel
+            const daftarMapel = [...new Set(dataToken.map(t => t.mapel).filter(Boolean))];
+
+            return {
+                status: "success",
+                kelas: daftarKelas,
+                mapel: daftarMapel
+            };
         } catch (error) {
             console.error("API Error (getInitialData):", error);
-            throw error;
+            throw new Error("Gagal mengambil data awal kelas dan mapel.");
         }
     },
 
-    // 2. AMBIL DAFTAR SISWA BERDASARKAN KELAS
-    async getSiswaByKelas(kelas) {
+    // 2. AMBIL DAFTAR SISWA BERDASARKAN KELAS DARI CSV
+    async getSiswaByKelas(kelasInput) {
         try {
-            if (!this.spreadsheetUrl) {
-                throw new Error("DATABASE_API_URL belum diatur di config.js.");
-            }
-            const url = `${this.spreadsheetUrl}?action=getSiswa&kelas=${encodeURIComponent(kelas)}`;
-            const response = await fetch(url);
-            if (!response.ok) throw new Error("Gagal mengambil data siswa");
-            return await response.json();
+            const response = await fetch(CONFIG.URL_DATA_SISWA);
+            if (!response.ok) throw new Error("Gagal mengambil data dari Google Sheets");
+            
+            const csvText = await response.text();
+            const seluruhSiswa = this.parseCSV(csvText);
+
+            // Filter siswa berdasarkan kelas yang dipilih
+            const siswaFiltered = seluruhSiswa.filter(s => 
+                s.kelas && s.kelas.toLowerCase() === kelasInput.toLowerCase()
+            );
+
+            return siswaFiltered;
         } catch (error) {
             console.error("API Error (getSiswaByKelas):", error);
             throw error;
         }
     },
 
-    // 3. AMBIL TOKEN BERDASARKAN MAPEL
-    async getTokenByMapel(mapel) {
+    // 3. AMBIL TOKEN BERDASARKAN MAPEL DARI CSV
+    async getTokenByMapel(mapelInput) {
         try {
-            if (!this.spreadsheetUrl) {
-                throw new Error("DATABASE_API_URL belum diatur di config.js.");
-            }
-            const url = `${this.spreadsheetUrl}?action=getToken&mapel=${encodeURIComponent(mapel)}`;
-            const response = await fetch(url);
+            const response = await fetch(CONFIG.URL_TOKEN_MAPEL);
             if (!response.ok) throw new Error("Gagal mengambil data token");
-            return await response.json();
+            
+            const csvText = await response.text();
+            const daftarToken = this.parseCSV(csvText);
+
+            // Cari match mata pelajaran
+            const tokenObj = daftarToken.find(t => 
+                t.mapel && t.mapel.toLowerCase() === mapelInput.toLowerCase()
+            );
+
+            return {
+                status: "success",
+                token: tokenObj ? tokenObj.token : ""
+            };
         } catch (error) {
             console.error("API Error (getTokenByMapel):", error);
             throw error;
         }
     },
 
-    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB (Pencarian Otomatis / Multi-Fallback)
+    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB
     async fetchSoal(tingkat, mapel) {
         try {
             const folderPath = (typeof CONFIG !== 'undefined' && CONFIG.getFolderPath)
@@ -70,7 +107,6 @@ const API = {
 
             const cleanMapel = mapel.toUpperCase();
 
-            // Variasi kemungkinan nama & urutan file JSON di repositori GitHub
             const variasiPath = [
                 `./${folderPath}/soal_${cleanMapel}_${tingkat}.json`,
                 `./${folderPath}/Soal_${cleanMapel}_${tingkat}.json`,
@@ -78,16 +114,13 @@ const API = {
                 `./${folderPath}/Soal_${tingkat}_${cleanMapel}.json`
             ];
 
-            // Coba ambil dari setiap variasi path
             for (const pathSoal of variasiPath) {
                 try {
                     const response = await fetch(pathSoal);
                     if (response.ok) {
                         return await response.json();
                     }
-                } catch (e) {
-                    // Lanjut mencoba opsi path berikutnya
-                }
+                } catch (e) {}
             }
 
             throw new Error(`Berkas soal tidak ditemukan pada jalur: /${folderPath}/soal_${cleanMapel}_${tingkat}.json`);
@@ -103,28 +136,19 @@ const API = {
         try {
             const targetUrl = this.submitUrl;
 
-            // Validasi URL
-            if (!targetUrl) {
-                throw new Error("URL Pengiriman Jawaban tidak ditemukan di CONFIG.");
+            if (!targetUrl || targetUrl.includes("GANTI_DENGAN_URL")) {
+                throw new Error("URL Pengiriman Jawaban di 'config.js' belum dikonfigurasi.");
             }
 
-            if (targetUrl.includes("GANTI_DENGAN_URL")) {
-                throw new Error("URL Google Apps Script di 'js/config.js' belum diganti dengan URL Web App asli.");
-            }
-
-            // Menyisipkan label jenis_ujian ke dalam payload
             const payload = {
                 ...dataSiswa,
                 jenis_ujian: (typeof CONFIG !== 'undefined') ? CONFIG.UJIAN_AKTIF : ''
             };
 
             try {
-                // Kirim data via POST menggunakan header text/plain sederhana
                 const response = await fetch(targetUrl, {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'text/plain'
-                    },
+                    headers: { 'Content-Type': 'text/plain' },
                     body: JSON.stringify(payload)
                 });
 
@@ -144,9 +168,6 @@ const API = {
                     return resultData;
                 }
             } catch (fetchError) {
-                // PENANGANAN KHUSUS GOOGLE APPS SCRIPT:
-                // Jika error adalah CORS/Redirect pada fetch padahal perangkat terhubung internet,
-                // data dipastikan SUDAH MASUK ke Google Sheets via doPost.
                 if (navigator.onLine) {
                     console.warn("CORS Redirect warning dari GAS (data telah berhasil disimpan):", fetchError);
                     return { status: "success", message: "Jawaban berhasil disimpan." };
