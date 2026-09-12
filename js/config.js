@@ -2,12 +2,10 @@ const CONFIG = {
     // ===================================================
     // 🗄️ DATABASE UTAMA (Data Kelas, Nama Siswa, Token)
     // ===================================================
-    const CONFIG = {
-    // Hasil Link Sheet 1 (DataSiswa)
     URL_DATA_SISWA: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1Mkf4X5IzQEZJNj4Z3MlJmuGb5jZKZ7Q8Xskv5K-m-Ni4MFOk4CFbpkgTAE7J_Zw56rCP40ch3BY1/pub?gid=0&single=true&output=csv",
 
-    // Hasil Link Sheet 2 (TokenMapel)
     URL_TOKEN_MAPEL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1Mkf4X5IzQEZJNj4Z3MlJmuGb5jZKZ7Q8Xskv5K-m-Ni4MFOk4CFbpkgTAE7J_Zw56rCP40ch3BY1/pub?gid=1977703741&single=true&output=csv",
+
     // ===================================================
     // 🔘 SAKELAR UTAMA (Ubah nilai ini sesuai pekan ujian)
     // Pilihan: "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
