@@ -294,8 +294,16 @@ async function simpanKeSpreadsheet(nama, kelas, mapel, skor, benar, salah, array
     const btnSubmit = document.querySelector('button[onclick="sebelumSubmit()"]');
     if (btnSubmit) {
         btnSubmit.disabled = true;
-        btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
+        btnSubmit.innerText = "⏳ Mempersiapkan Antrean Pengiriman...";
         btnSubmit.style.background = "#94a3b8";
+    }
+
+    // 💡 JEDA ACAK (0.5 - 3 Detik) agar lalu lintas 300 siswa terurai alami & tidak bentrok di server
+    const jedaAcak = Math.floor(Math.random() * 2500) + 500;
+    await new Promise(resolve => setTimeout(resolve, jedaAcak));
+
+    if (btnSubmit) {
+        btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
     }
 
     let email = sessionStorage.getItem('cbt_email') || "-"; 
