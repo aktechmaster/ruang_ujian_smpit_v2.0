@@ -2,7 +2,7 @@ const CONFIG = {
     // ===================================================
     // 🗄️ DATABASE UTAMA (Data Kelas, Nama Siswa, Token)
     // ===================================================
-    DATABASE_API_URL: "https://script.google.com/macros/s/AKfycbxF3g7LSwr61mNuVqOApDXnmjZsY5putWlumzL_GnJJN8hOPqhTk0MR9aPRnmbFJX1x/exec",
+    DATABASE_API_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1Mkf4X5IzQEZJNj4Z3MlJmuGb5jZKZ7Q8Xskv5K-m-Ni4MFOk4CFbpkgTAE7J_Zw56rCP40ch3BY1/pub?output=csv",
 
     // ===================================================
     // 🔘 SAKELAR UTAMA (Ubah nilai ini sesuai pekan ujian)
