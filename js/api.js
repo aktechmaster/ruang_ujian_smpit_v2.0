@@ -4,19 +4,37 @@ const API = {
         return typeof CONFIG.getSubmitUrl === 'function' ? CONFIG.getSubmitUrl() : '';
     },
 
-    // Helper internal untuk mengonversi teks CSV menjadi Array of Objects
+    // Helper internal untuk mengonversi teks CSV menjadi Array of Objects (Aman dari Spasi & Tanda Kutip)
     parseCSV(csvText) {
-        const lines = csvText.split('\n').filter(line => line.trim() !== '');
+        const lines = csvText.split(/\r?\n/).filter(line => line.trim() !== '');
         if (lines.length < 2) return [];
 
-        const headers = lines[0].split(',').map(h => h.replace(/^"|"$/g, '').trim().toLowerCase());
+        const parseLine = (row) => {
+            const values = [];
+            let current = '';
+            let insideQuotes = false;
+            for (let i = 0; i < row.length; i++) {
+                const char = row[i];
+                if (char === '"') {
+                    insideQuotes = !insideQuotes;
+                } else if (char === ',' && !insideQuotes) {
+                    values.push(current.trim().replace(/^"|"$/g, ''));
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            values.push(current.trim().replace(/^"|"$/g, ''));
+            return values;
+        };
+
+        const headers = parseLine(lines[0]).map(h => h.toLowerCase());
         
         return lines.slice(1).map(line => {
-            const values = line.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || line.split(',');
+            const values = parseLine(line);
             let obj = {};
             headers.forEach((header, index) => {
-                let val = values[index] ? values[index].replace(/^"|"$/g, '').trim() : "";
-                obj[header] = val;
+                obj[header] = values[index] !== undefined ? values[index] : "";
             });
             return obj;
         });
