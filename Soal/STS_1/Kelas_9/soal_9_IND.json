@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Indonesia",
+    "jenis_ujian": "Uji Coba CBT",
+    "jumlah_soal": 5,
+    "durasi_menit": 30
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Manakah di bawah ini yang merupakan sinonim dari kata 'tangguh'?",
+      "pilihan_jawaban": [
+        "A. Lemah",
+        "B. Kuat",
+        "C. Penakut",
+        "D. Ragu-ragu"
+      ]
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Kalimat berikut yang merupakan bentuk kalimat efektif adalah...",
+      "pilihan_jawaban": [
+        "A. Bagi para siswa-siswa diharapkan berkumpul di lapangan.",
+        "B. Ibu memasak sayur di dapur.",
+        "C. Menurut Pak Guru mengatakan bahwa besok libur.",
+        "D. Ia masuk ke dalam ruangan ujian."
+      ]
+    },
+    {
+      "id_soal": 3,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Manakah dari pilihan berikut yang termasuk unsur intrinsik dalam sebuah cerita pendek? (Pilih semua yang benar)",
+      "pilihan_jawaban": [
+        "A. Tema",
+        "B. Latar belakang penulis",
+        "C. Alur (Plot)",
+        "D. Kondisi ekonomi masyarakat",
+        "E. Amanat"
+      ]
+    },
+    {
+      "id_soal": 4,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Pilihlah ciri-ciri yang tepat untuk teks prosedur! (Pilih semua yang benar)",
+      "pilihan_jawaban": [
+        "A. Menggunakan kata kerja perintah (imperatif)",
+        "B. Berisi panduan langkah-langkah secara berurutan",
+        "C. Menggunakan latar cerita fantasi",
+        "D. Menggunakan kata penghubung urutan waktu"
+      ]
+    },
+    {
+      "id_soal": 5,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Tentukan apakah setiap pernyataan mengenai teks eksplanasi berikut Benar (B) atau Salah (S)!",
+      "pernyataan": [
+        "1. Bagian pernyataan umum berisi gambaran awal tentang fenomena yang dibahas.",
+        "2. Deretan penjelas berisi panduan resep dan cara membuat sesuatu.",
+        "3. Bagian interpretasi berisi kesimpulan atau intisari penulis atas fenomena tersebut."
+      ]
+    }
+  ]
+}
