@@ -329,11 +329,42 @@ function selesaiUjian() {
 
 function kumpulkanJawaban(daftarSoal) {
     let jawaban = [];
+    
     daftarSoal.forEach((soal, index) => {
         const idSoal = soal.id_soal || (index + 1);
-        const inputDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-        jawaban.push(inputDipilih ? inputDipilih.value : "-");
+        const tipe = soal.tipe_soal || "PG";
+
+        // 1. TIPE PG (Radio Button)
+        if (tipe === "PG") {
+            const inputDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
+            jawaban.push(inputDipilih ? inputDipilih.value : "-");
+        } 
+        // 2. TIPE PGK (Checkbox - Banyak Pilihan)
+        else if (tipe === "PGK") {
+            const inputsDipilih = document.querySelectorAll(`input[name="soal_${idSoal}"]:checked`);
+            if (inputsDipilih.length > 0) {
+                const listJawaban = Array.from(inputsDipilih).map(el => el.value);
+                jawaban.push(listJawaban.join(",")); // Hasil: "A,C"
+            } else {
+                jawaban.push("-");
+            }
+        } 
+        // 3. TIPE BS (Benar / Salah per Baris)
+        else if (tipe === "BS") {
+            const totalSub = (soal.pernyataan || []).length;
+            let subJawaban = [];
+
+            for (let i = 0; i < totalSub; i++) {
+                const inputSub = document.querySelector(`input[name="soal_${idSoal}_bs_${i}"]:checked`);
+                subJawaban.push(inputSub ? inputSub.value : "-");
+            }
+
+            // Gabungkan jawaban per baris, contoh: "B,S,B" atau "B,-,B" jika ada yang terlewat
+            const hasilBs = subJawaban.join(",");
+            jawaban.push(subJawaban.every(val => val === "-") ? "-" : hasilBs);
+        }
     });
+
     return jawaban;
 }
 
