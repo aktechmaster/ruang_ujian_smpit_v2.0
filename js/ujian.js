@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             MathJax.typesetPromise();
         }
 
-        // Pasang Autosave Jawaban
+        // Pasang Autosave Jawaban (Radio & Checkbox)
         initAutosave();
 
     } catch (error) {
@@ -182,7 +182,7 @@ function renderSoal(daftarSoal) {
         htmlSoal += `<div class="opsi-container">`;
         
         const idSoal = soal.id_soal || (index + 1);
-        const tipe = soal.tipe_soal || "PG"; // Default ke PG jika tidak ada properti tipe_soal
+        const tipe = soal.tipe_soal || "PG"; 
 
         // 1. TIPE PG (Radio Button)
         if (tipe === "PG") {
@@ -254,8 +254,9 @@ function renderSoal(daftarSoal) {
     }
 }
 
-// AUTOSAVE JAWABAN
+// AUTOSAVE JAWABAN (Support Radio & Checkbox)
 function initAutosave() {
+    // 1. Radio Buttons (PG & BS)
     document.querySelectorAll('input[type="radio"]').forEach(input => {
         let savedValue = sessionStorage.getItem(input.name);
         if (savedValue && input.value === savedValue) {
@@ -266,19 +267,41 @@ function initAutosave() {
             sessionStorage.setItem(this.name, this.value);
         });
     });
+
+    // 2. Checkboxes (PGK)
+    document.querySelectorAll('input[type="checkbox"]').forEach(input => {
+        let savedValue = sessionStorage.getItem(input.name);
+        if (savedValue) {
+            let checkedArr = savedValue.split(',');
+            if (checkedArr.includes(input.value)) {
+                input.checked = true;
+            }
+        }
+
+        input.addEventListener('change', function() {
+            let name = this.name;
+            let checkedInputs = document.querySelectorAll(`input[name="${name}"]:checked`);
+            if (checkedInputs.length > 0) {
+                let listJawaban = Array.from(checkedInputs).map(el => el.value);
+                sessionStorage.setItem(name, listJawaban.join(','));
+            } else {
+                sessionStorage.removeItem(name);
+            }
+        });
+    });
 }
 
-// VALIDASI DAN SUBMIT JAWABAN
+// VALIDASI SEBELUM SUBMIT
 function sebelumSubmit() {
     if (!bankSoalData) return;
 
     const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
     let belumTerjawab = [];
     
-    daftarSoal.forEach((soal, index) => {
-        const idSoal = soal.id_soal || (index + 1);
-        let opsiDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-        if (!opsiDipilih) {
+    // Gunakan fungsi kumpulkanJawaban untuk memeriksa status setiap soal
+    let rekapJawaban = kumpulkanJawaban(daftarSoal);
+    rekapJawaban.forEach((jawaban, index) => {
+        if (jawaban === "-" || jawaban.includes("-")) {
             belumTerjawab.push(index + 1);
         }
     });
@@ -297,36 +320,21 @@ function selesaiUjian() {
     if (!bankSoalData) return;
 
     const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
-    let totalSoal = daftarSoal.length;
-    let jumlahBenar = 0;
-    let jumlahSalah = 0;
-
-    daftarSoal.forEach((soal, index) => {
-        const idSoal = soal.id_soal || (index + 1);
-        let opsiDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-        let kunciJawaban = bankSoalData.kunci_jawaban_rahasia ? bankSoalData.kunci_jawaban_rahasia[idSoal] : undefined;
-
-        if (opsiDipilih && kunciJawaban && String(opsiDipilih.value).toUpperCase() === String(kunciJawaban).toUpperCase()) {
-            jumlahBenar++;
-        } else {
-            jumlahSalah++;
-        }
-    });
-
-    let skorAkhir = totalSoal > 0 ? ((jumlahBenar / totalSoal) * 100).toFixed(2) : "0.00";
     let rekapJawaban = kumpulkanJawaban(daftarSoal);
 
+    // Kirim rekap jawaban lengkap ke Spreadsheet (Penilaian dilakukan penuh oleh Backend Apps Script)
     simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
         sessionStorage.getItem('cbt_mapel'),
-        skorAkhir,
-        jumlahBenar,
-        jumlahSalah,
+        "0.00", // Skor awal placeholder; akan dihitung otomatis di backend
+        0,
+        0,
         rekapJawaban
     );
 }
 
+// EKSTRAKSI JAWABAN (PG, PGK, BS)
 function kumpulkanJawaban(daftarSoal) {
     let jawaban = [];
     
@@ -359,7 +367,7 @@ function kumpulkanJawaban(daftarSoal) {
                 subJawaban.push(inputSub ? inputSub.value : "-");
             }
 
-            // Gabungkan jawaban per baris, contoh: "B,S,B" atau "B,-,B" jika ada yang terlewat
+            // Hasil: "B,S,B" atau "B,-,B" jika ada baris yang terlewat
             const hasilBs = subJawaban.join(",");
             jawaban.push(subJawaban.every(val => val === "-") ? "-" : hasilBs);
         }
@@ -376,7 +384,7 @@ async function simpanKeSpreadsheet(nama, kelas, mapel, skor, benar, salah, array
         btnSubmit.style.background = "#94a3b8";
     }
 
-    // 💡 JEDA ACAK (0.5 - 3 Detik) agar lalu lintas 300 siswa terurai alami & tidak bentrok di server
+    // 💡 JEDA ACAK (0.5 - 3 Detik) agar lalu lintas 300 siswa terurai alami
     const jedaAcak = Math.floor(Math.random() * 2500) + 500;
     await new Promise(resolve => setTimeout(resolve, jedaAcak));
 
@@ -441,7 +449,7 @@ window.alert = function(message) {
     }
 };
 
-// Custom Confirm Helper (Khusus untuk panggilan async modal)
+// Custom Confirm Helper
 function showCustomConfirm(message, onConfirmCallback) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
