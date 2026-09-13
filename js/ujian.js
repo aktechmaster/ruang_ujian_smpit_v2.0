@@ -5,10 +5,12 @@ const nativeAlert = window.alert;
 const nativeConfirm = window.confirm;
 
 document.addEventListener("DOMContentLoaded", async function() {
+    // 1. Inisialisasi pengawas keamanan jika tersedia
     if (typeof Proctor !== 'undefined' && typeof Proctor.init === 'function') {
         Proctor.init();
     }
 
+    // 2. Ambil data sesi siswa
     let kelasSiswa = sessionStorage.getItem('cbt_kelas');
     let mapelUjian = sessionStorage.getItem('cbt_mapel');
     let namaSiswa = sessionStorage.getItem('cbt_siswa') || "Siswa Ujian";
@@ -19,12 +21,13 @@ document.addEventListener("DOMContentLoaded", async function() {
         mapelUjian = "MTK";
     }
 
+    // Reset data jika pergantian siswa / mapel terdeteksi
     let siswaTerakhir = sessionStorage.getItem('cbt_siswa_aktif');
     let mapelTerakhir = sessionStorage.getItem('cbt_mapel_aktif');
 
     if (siswaTerakhir !== namaSiswa || mapelTerakhir !== mapelUjian) {
         Object.keys(sessionStorage).forEach(key => {
-            if (key.startsWith('soal_') || key === 'exam_end_time' || key === 'exam_start_time') {
+            if (key.startsWith('soal_') || key.startsWith('cbt_soal_order') || key === 'exam_end_time' || key === 'exam_start_time') {
                 sessionStorage.removeItem(key);
             }
         });
@@ -33,21 +36,60 @@ document.addEventListener("DOMContentLoaded", async function() {
         sessionStorage.setItem('exam_start_time', Date.now());
     }
 
+    // 3. Render Informasi Siswa di Header
     const elemEmail = document.getElementById('infoEmail');
     if (elemEmail) elemEmail.innerText = emailSiswa;
+
+    const elemNama = document.getElementById('infoNama');
+    if (elemNama) elemNama.innerText = namaSiswa;
+
+    const elemKelas = document.getElementById('infoKelas');
+    if (elemKelas) elemKelas.innerText = kelasSiswa;
 
     const tingkatKelas = kelasSiswa.charAt(0);
 
     try {
+        // 4. Unduh Soal dari Server
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
-        bankSoalData = data;
-
-        const daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
+        let daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
         if (!daftarSoal || daftarSoal.length === 0) {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
+        // 5. Integrasi Modul Shuffle (Persistensi Urutan Acak)
+        if (typeof Shuffle !== 'undefined' && typeof Shuffle.soal === 'function') {
+            let orderKey = `cbt_soal_order_${mapelUjian}`;
+            let savedOrder = sessionStorage.getItem(orderKey);
+
+            if (!savedOrder) {
+                // Acak soal pertama kali jika belum tersimpan
+                daftarSoal = Shuffle.soal(daftarSoal);
+                let orderIds = daftarSoal.map((s, idx) => s.id_soal || (idx + 1));
+                sessionStorage.setItem(orderKey, JSON.stringify(orderIds));
+            } else {
+                // Susun ulang daftar soal mengikuti urutan yang tersimpan
+                try {
+                    let orderIds = JSON.parse(savedOrder);
+                    let soalMap = new Map(daftarSoal.map((s, idx) => [s.id_soal || (idx + 1), s]));
+                    let orderedSoal = orderIds.map(id => soalMap.get(id)).filter(Boolean);
+
+                    if (orderedSoal.length === daftarSoal.length) {
+                        daftarSoal = orderedSoal;
+                    } else {
+                        daftarSoal = Shuffle.soal(daftarSoal);
+                    }
+                } catch (e) {
+                    console.warn("Gagal membaca cache urutan soal, melakukan acak ulang:", e);
+                    daftarSoal = Shuffle.soal(daftarSoal);
+                }
+            }
+        }
+
+        // Simpan data soal acak ke variabel global
+        bankSoalData = daftarSoal;
+
+        // 6. Update Judul Mata Pelajaran
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
             const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
@@ -57,20 +99,14 @@ document.addEventListener("DOMContentLoaded", async function() {
             elemJudul.innerText = `${namaUjian} | ${namaMapel}`;
         }
 
-        const elemNama = document.getElementById('infoNama');
-        if (elemNama) elemNama.innerText = namaSiswa;
-
-        const elemKelas = document.getElementById('infoKelas');
-        if (elemKelas) elemKelas.innerText = kelasSiswa;
-
+        // 7. Inisialisasi Timer, Tampilan Soal, & Autosave
         initTimer(data, mapelUjian);
-        renderSoal(daftarSoal);
+        renderSoal(bankSoalData);
 
         if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
             MathJax.typesetPromise();
         }
 
-        // Panggil modul Storage
         StorageManager.initAutosave();
 
     } catch (error) {
@@ -244,12 +280,11 @@ function renderSoal(daftarSoal) {
 
 // VALIDASI SEBELUM SUBMIT
 function sebelumSubmit() {
-    if (!bankSoalData) return;
+    if (!bankSoalData || bankSoalData.length === 0) return;
 
-    const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
     let belumTerjawab = [];
-    
-    let rekapJawaban = StorageManager.kumpulkanJawaban(daftarSoal);
+    let rekapJawaban = StorageManager.kumpulkanJawaban(bankSoalData);
+
     rekapJawaban.forEach((jawaban, index) => {
         if (jawaban === "-" || jawaban.includes("-")) {
             belumTerjawab.push(index + 1);
@@ -268,13 +303,12 @@ function sebelumSubmit() {
 
 // ALUR EKSEKUSI SELESAI UJIAN
 function selesaiUjian() {
-    if (!bankSoalData) return;
+    if (!bankSoalData || bankSoalData.length === 0) return;
 
-    const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
-    let rekapJawaban = StorageManager.kumpulkanJawaban(daftarSoal);
+    let rekapJawaban = StorageManager.kumpulkanJawaban(bankSoalData);
 
     // Hitung Skor menggunakan Modul Scoring
-    const hasilSkor = Scoring.hitung(daftarSoal, rekapJawaban);
+    const hasilSkor = Scoring.hitung(bankSoalData, rekapJawaban);
 
     // Simpan data menggunakan Modul Storage
     StorageManager.simpanKeSpreadsheet(
