@@ -210,11 +210,8 @@ select:focus, input[type="password"]:focus, input[type="email"]:focus, input[typ
     font-weight: 500;
 }
 
-/* Mengatur wadah tempat JS memasukkan tombol kelas agar jadi 2 kolom */
-.input-group > div, 
-#containerKelas, 
-#listKelas, 
-#kelasContainer {
+/* GRID KELAS (2 KOLOM - Teks Panjang) */
+#containerKelas, #gridKelas, .grid-kelas {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
@@ -222,14 +219,26 @@ select:focus, input[type="password"]:focus, input[type="email"]:focus, input[typ
     margin-top: 8px;
 }
 
-/* Memastikan ukuran tombol pas & tidak berantakan */
-.btn-opsi {
-    width: 100% !important;
-    padding: 12px 8px !important;
-    font-size: 0.88rem !important;
-    text-align: center !important;
-    box-sizing: border-box !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* GRID MATA PELAJARAN (3 KOLOM - Teks Singkat) */
+#containerMapel, #gridMapel, .grid-mapel {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 👈 3 Kolom untuk Mapel */
+    gap: 10px !important;
+    width: 100%;
+    margin-top: 8px;
+}
+
+/* CARA CADANGAN (Jika ID container tidak diketahui) */
+/* Kelas: input-group pertama */
+.input-group:nth-of-type(1) > div:not(.loader) {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+}
+
+/* Mata Pelajaran: input-group ketiga */
+.input-group:nth-of-type(3) > div:not(.loader) {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 10px !important;
 }
