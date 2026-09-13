@@ -1,24 +1,21 @@
 /**
- * SHUFFLE MODULE - Pengacak Soal CBT
+ * MODUL SHUFFLE - Pengacak Soal CBT
  */
 const Shuffle = {
-    /**
-     * Mengacak array bank soal tanpa mengubah data aslinya
-     * @param {Array} daftarSoal - Array bank_soal dari JSON
-     * @returns {Array} Array baru dengan urutan teracak
-     */
-    soal: function(daftarSoal) {
-        if (!Array.isArray(daftarSoal)) return daftarSoal;
-
-        // Salin array agar tidak mengubah data master di memory
-        const shuffled = [...daftarSoal];
-
-        // Algoritma Fisher-Yates Shuffle
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    acak: function(daftarSoal) {
+        if (!Array.isArray(daftarSoal) || daftarSoal.length <= 1) {
+            return daftarSoal;
         }
 
-        return shuffled;
+        // Duplikasi array agar tidak mengubah array master di memori
+        const arrayTeracak = [...daftarSoal];
+
+        // Algoritma Fisher-Yates Shuffle
+        for (let i = arrayTeracak.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arrayTeracak[i], arrayTeracak[j]] = [arrayTeracak[j], arrayTeracak[i]];
+        }
+
+        return arrayTeracak;
     }
 };
