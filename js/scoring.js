@@ -18,11 +18,21 @@ const Scoring = {
                     benar++;
                 }
             } 
-            // 2. Pilihan Ganda Kompleks (PGK) / Benar Salah (BS)
+            // 2. Pilihan Ganda Kompleks (PGK)
             else if (Array.isArray(kunci)) {
                 const userArr = String(jwb).split(',').map(s => s.trim().toUpperCase()).sort().join(',');
                 const kunciArr = kunci.map(s => String(s).trim().toUpperCase()).sort().join(',');
                 if (userArr === kunciArr) benar++;
+            }
+            // 3. Benar / Salah (BS) - Kunci berupa Object {"1": "B", "2": "S", ...}
+            else if (typeof kunci === 'object' && kunci !== null) {
+                const userValues = String(jwb).split(',').map(s => s.trim().toUpperCase()).join(',');
+                const kunciValues = Object.keys(kunci)
+                    .sort((a, b) => Number(a) - Number(b))
+                    .map(k => String(kunci[k]).trim().toUpperCase())
+                    .join(',');
+
+                if (userValues === kunciValues) benar++;
             }
         });
 
