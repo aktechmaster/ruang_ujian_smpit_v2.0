@@ -1,21 +1,37 @@
-/**
- * MODUL SHUFFLE - Pengacak Soal CBT
- */
-const Shuffle = {
-    acak: function(daftarSoal) {
-        if (!Array.isArray(daftarSoal) || daftarSoal.length <= 1) {
-            return daftarSoal;
-        }
+// Di dalam document.addEventListener("DOMContentLoaded", async function() { ...
 
-        // Duplikasi array agar tidak mengubah array master di memori
-        const arrayTeracak = [...daftarSoal];
+try {
+    const data = await API.fetchSoal(tingkatKelas, mapelUjian);
+    let daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
-        // Algoritma Fisher-Yates Shuffle
-        for (let i = arrayTeracak.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [arrayTeracak[i], arrayTeracak[j]] = [arrayTeracak[j], arrayTeracak[i]];
-        }
-
-        return arrayTeracak;
+    if (!daftarSoal || daftarSoal.length === 0) {
+        throw new Error(`Berkas soal kosong.`);
     }
-};
+
+    // --- INTEGRASI MODUL SHUFFLE ---
+    let orderKey = `cbt_soal_order_${mapelUjian}`;
+    let savedOrder = sessionStorage.getItem(orderKey);
+
+    if (!savedOrder) {
+        // Acak soal pertama kali jika belum ada urutan tersimpan
+        daftarSoal = Shuffle.soal(daftarSoal);
+        // Simpan urutan id_soal ke sessionStorage
+        let orderIds = daftarSoal.map(s => s.id_soal);
+        sessionStorage.setItem(orderKey, JSON.stringify(orderIds));
+    } else {
+        // Susun ulang daftarSoal sesuai urutan yang sudah tersimpan sebelumnya
+        let orderIds = JSON.parse(savedOrder);
+        let soalMap = new Map(daftarSoal.map(s => [s.id_soal, s]));
+        daftarSoal = orderIds.map(id => soalMap.get(id)).filter(Boolean);
+    }
+
+    // Simpan ke variabel global untuk reference scoring & autosave
+    bankSoalData = daftarSoal;
+
+    initTimer(data, mapelUjian);
+    renderSoal(daftarSoal);
+    StorageManager.initAutosave();
+
+} catch (error) {
+    // ...
+}
