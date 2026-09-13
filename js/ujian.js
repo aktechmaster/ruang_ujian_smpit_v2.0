@@ -1,4 +1,5 @@
-let bankSoalData = null;
+let masterBankSoal = []; // Simpan urutan ASLI dari server (Master 1..N)
+let bankSoalData = [];   // Simpan urutan TERACAK untuk tampilan layar
 let timerInterval = null;
 
 const nativeAlert = window.alert;
@@ -51,45 +52,50 @@ document.addEventListener("DOMContentLoaded", async function() {
     try {
         // 4. Unduh Soal dari Server
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
-        let daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
+        let rawSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
-        if (!daftarSoal || daftarSoal.length === 0) {
+        if (!rawSoal || rawSoal.length === 0) {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
-        // 5. Integrasi Modul Shuffle (Persistensi Urutan Acak)
+        // --- SIMPAN MASTER BANK SOAL (URUTAN ASLI & PATEN) ---
+        masterBankSoal = rawSoal.map((s, idx) => ({
+            ...s,
+            id_soal: s.id_soal !== undefined ? s.id_soal : (idx + 1)
+        }));
+
+        // --- BUAT SALINAN UNTUK TAMPILAN TERACAK ---
+        let daftarSoalAcak = [...masterBankSoal];
+
         if (typeof Shuffle !== 'undefined' && typeof Shuffle.soal === 'function') {
             let orderKey = `cbt_soal_order_${mapelUjian}`;
             let savedOrder = sessionStorage.getItem(orderKey);
 
             if (!savedOrder) {
-                // Acak soal pertama kali jika belum tersimpan
-                daftarSoal = Shuffle.soal(daftarSoal);
-                let orderIds = daftarSoal.map((s, idx) => s.id_soal || (idx + 1));
+                daftarSoalAcak = Shuffle.soal(daftarSoalAcak);
+                let orderIds = daftarSoalAcak.map(s => s.id_soal);
                 sessionStorage.setItem(orderKey, JSON.stringify(orderIds));
             } else {
-                // Susun ulang daftar soal mengikuti urutan yang tersimpan
                 try {
                     let orderIds = JSON.parse(savedOrder);
-                    let soalMap = new Map(daftarSoal.map((s, idx) => [s.id_soal || (idx + 1), s]));
+                    let soalMap = new Map(masterBankSoal.map(s => [s.id_soal, s]));
                     let orderedSoal = orderIds.map(id => soalMap.get(id)).filter(Boolean);
 
-                    if (orderedSoal.length === daftarSoal.length) {
-                        daftarSoal = orderedSoal;
+                    if (orderedSoal.length === masterBankSoal.length) {
+                        daftarSoalAcak = orderedSoal;
                     } else {
-                        daftarSoal = Shuffle.soal(daftarSoal);
+                        daftarSoalAcak = Shuffle.soal(daftarSoalAcak);
                     }
                 } catch (e) {
                     console.warn("Gagal membaca cache urutan soal, melakukan acak ulang:", e);
-                    daftarSoal = Shuffle.soal(daftarSoal);
+                    daftarSoalAcak = Shuffle.soal(daftarSoalAcak);
                 }
             }
         }
 
-        // Simpan data soal acak ke variabel global
-        bankSoalData = daftarSoal;
+        bankSoalData = daftarSoalAcak; // Disimpan untuk render UI layar
 
-        // 6. Update Judul Mata Pelajaran
+        // 5. Update Judul Mata Pelajaran
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
             const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
@@ -99,9 +105,9 @@ document.addEventListener("DOMContentLoaded", async function() {
             elemJudul.innerText = `${namaUjian} | ${namaMapel}`;
         }
 
-        // 7. Inisialisasi Timer, Tampilan Soal, & Autosave
+        // 6. Inisialisasi Timer, Tampilan Soal, & Autosave
         initTimer(data, mapelUjian);
-        renderSoal(bankSoalData);
+        renderSoal(bankSoalData); // Render tampilan teracak ke siswa
 
         if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
             MathJax.typesetPromise();
@@ -169,7 +175,7 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL
+// RENDER SOAL (Tampilan Teracak)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     daftarSoal.forEach((soal, index) => {
@@ -208,7 +214,7 @@ function renderSoal(daftarSoal) {
         
         htmlSoal += `<div class="opsi-container">`;
         
-        const idSoal = soal.id_soal || (index + 1);
+        const idSoal = soal.id_soal;
         const tipe = soal.tipe_soal || "PG"; 
 
         if (tipe === "PG") {
@@ -282,12 +288,30 @@ function renderSoal(daftarSoal) {
 function sebelumSubmit() {
     if (!bankSoalData || bankSoalData.length === 0) return;
 
+    // Periksa nomor belum terjawab berdasarkan urutan layar siswa
     let belumTerjawab = [];
-    let rekapJawaban = StorageManager.kumpulkanJawaban(bankSoalData);
+    bankSoalData.forEach((soal, index) => {
+        const idSoal = soal.id_soal;
+        const tipe = soal.tipe_soal || "PG";
+        let terisi = false;
 
-    rekapJawaban.forEach((jawaban, index) => {
-        if (jawaban === "-" || jawaban.includes("-")) {
-            belumTerjawab.push(index + 1);
+        if (tipe === "PG") {
+            terisi = document.querySelector(`input[name="soal_${idSoal}"]:checked`) !== null || sessionStorage.getItem(`soal_${idSoal}`) !== null;
+        } else if (tipe === "PGK") {
+            terisi = document.querySelectorAll(`input[name="soal_${idSoal}"]:checked`).length > 0 || sessionStorage.getItem(`soal_${idSoal}`) !== null;
+        } else if (tipe === "BS") {
+            const totalBs = soal.pernyataan ? soal.pernyataan.length : 0;
+            let countBs = 0;
+            for (let i = 0; i < totalBs; i++) {
+                if (document.querySelector(`input[name="soal_${idSoal}_bs_${i}"]:checked`) || sessionStorage.getItem(`soal_${idSoal}_bs_${i}`)) {
+                    countBs++;
+                }
+            }
+            terisi = (countBs === totalBs);
+        }
+
+        if (!terisi) {
+            belumTerjawab.push(index + 1); // Nomor urut visual siswa
         }
     });
 
@@ -303,14 +327,15 @@ function sebelumSubmit() {
 
 // ALUR EKSEKUSI SELESAI UJIAN
 function selesaiUjian() {
-    if (!bankSoalData || bankSoalData.length === 0) return;
+    if (!masterBankSoal || masterBankSoal.length === 0) return;
 
-    let rekapJawaban = StorageManager.kumpulkanJawaban(bankSoalData);
+    // PENTING: Kumpulkan jawaban berdasarkan masterBankSoal (Urutan Asli Master 1..N)
+    let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
 
-    // Hitung Skor menggunakan Modul Scoring
-    const hasilSkor = Scoring.hitung(bankSoalData, rekapJawaban);
+    // Hitung Skor berdasarkan Master
+    const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // Simpan data menggunakan Modul Storage
+    // Simpan ke Spreadsheet (Rekap jawaban konsisten untuk semua siswa)
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -318,7 +343,7 @@ function selesaiUjian() {
         hasilSkor.skor,
         hasilSkor.benar,
         hasilSkor.salah,
-        rekapJawaban
+        rekapJawabanMaster
     );
 }
 
