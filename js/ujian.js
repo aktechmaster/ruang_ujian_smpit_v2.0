@@ -322,14 +322,41 @@ function selesaiUjian() {
     const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
     let rekapJawaban = kumpulkanJawaban(daftarSoal);
 
-    // Kirim rekap jawaban lengkap ke Spreadsheet (Penilaian dilakukan penuh oleh Backend Apps Script)
+    // Hitung Benar, Salah, dan Skor secara otomatis
+    let benar = 0;
+    const totalSoal = daftarSoal.length;
+
+    daftarSoal.forEach((soal, index) => {
+        const kunci = soal.kunci_jawaban;
+        const jwb = rekapJawaban[index];
+
+        if (!jwb || jwb === "-" || kunci === undefined || kunci === null) return;
+
+        // Pilihan Ganda (PG)
+        if (typeof kunci === 'string') {
+            if (String(jwb).trim().toUpperCase() === kunci.trim().toUpperCase()) {
+                benar++;
+            }
+        } 
+        // Pilihan Ganda Kompleks / Benar Salah (Array)
+        else if (Array.isArray(kunci)) {
+            const userArr = String(jwb).split(',').map(s => s.trim().toUpperCase()).sort().join(',');
+            const kunciArr = kunci.map(s => String(s).trim().toUpperCase()).sort().join(',');
+            if (userArr === kunciArr) benar++;
+        }
+    });
+
+    const salah = totalSoal - benar;
+    const skorAktual = totalSoal > 0 ? ((benar / totalSoal) * 100).toFixed(2) : "0.00";
+
+    // Kirim skor asli ke Google Apps Script
     simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
         sessionStorage.getItem('cbt_mapel'),
-        "0.00", // Skor awal placeholder; akan dihitung otomatis di backend
-        0,
-        0,
+        skorAktual,
+        benar,
+        salah,
         rekapJawaban
     );
 }
