@@ -37,17 +37,31 @@ const StorageManager = {
         });
     },
 
-    // Ekstraksi Pilihan Siswa dari Halaman HTML
+    // Ekstraksi Pilihan Siswa Berdasarkan URUTAN MASTER SOAL (1, 2, 3...)
     kumpulkanJawaban: function(daftarSoal) {
         let jawaban = [];
         
-        daftarSoal.forEach((soal, index) => {
+        // URUTKAN KEMBALI daftarSoal berdasarkan id_soal (Urutan Master 1, 2, 3...)
+        // Ini kunci utama agar susunan jawaban di Spreadsheet TIDAK ACAK
+        const daftarMaster = [...daftarSoal].sort((a, b) => {
+            let idA = Number(a.id_soal) || 0;
+            let idB = Number(b.id_soal) || 0;
+            return idA - idB;
+        });
+
+        // Ekstraksi jawaban berdasarkan urutan master yang sudah rapi
+        daftarMaster.forEach((soal, index) => {
             const idSoal = soal.id_soal || (index + 1);
             const tipe = soal.tipe_soal || "PG";
 
             if (tipe === "PG") {
                 const inputDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-                jawaban.push(inputDipilih ? inputDipilih.value : "-");
+                if (inputDipilih) {
+                    jawaban.push(inputDipilih.value);
+                } else {
+                    let saved = sessionStorage.getItem(`soal_${idSoal}`);
+                    jawaban.push(saved ? saved : "-");
+                }
             } 
             else if (tipe === "PGK") {
                 const inputsDipilih = document.querySelectorAll(`input[name="soal_${idSoal}"]:checked`);
@@ -55,7 +69,8 @@ const StorageManager = {
                     const listJawaban = Array.from(inputsDipilih).map(el => el.value);
                     jawaban.push(listJawaban.join(","));
                 } else {
-                    jawaban.push("-");
+                    let saved = sessionStorage.getItem(`soal_${idSoal}`);
+                    jawaban.push(saved ? saved : "-");
                 }
             } 
             else if (tipe === "BS") {
@@ -64,7 +79,12 @@ const StorageManager = {
 
                 for (let i = 0; i < totalSub; i++) {
                     const inputSub = document.querySelector(`input[name="soal_${idSoal}_bs_${i}"]:checked`);
-                    subJawaban.push(inputSub ? inputSub.value : "-");
+                    if (inputSub) {
+                        subJawaban.push(inputSub.value);
+                    } else {
+                        let saved = sessionStorage.getItem(`soal_${idSoal}_bs_${i}`);
+                        subJawaban.push(saved ? saved : "-");
+                    }
                 }
 
                 const hasilBs = subJawaban.join(",");
