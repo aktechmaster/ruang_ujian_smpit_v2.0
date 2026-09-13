@@ -1,17 +1,14 @@
 let bankSoalData = null;
 let timerInterval = null;
 
-// Backup alert dan confirm asli untuk menghindari Infinite Loop
 const nativeAlert = window.alert;
 const nativeConfirm = window.confirm;
 
 document.addEventListener("DOMContentLoaded", async function() {
-    // 1. Inisialisasi Fitur Pengawasan
     if (typeof Proctor !== 'undefined' && typeof Proctor.init === 'function') {
         Proctor.init();
     }
 
-    // 2. Ambil Data Session
     let kelasSiswa = sessionStorage.getItem('cbt_kelas');
     let mapelUjian = sessionStorage.getItem('cbt_mapel');
     let namaSiswa = sessionStorage.getItem('cbt_siswa') || "Siswa Ujian";
@@ -22,7 +19,6 @@ document.addEventListener("DOMContentLoaded", async function() {
         mapelUjian = "MTK";
     }
 
-    // Deteksi Pergantian Siswa / Mapel
     let siswaTerakhir = sessionStorage.getItem('cbt_siswa_aktif');
     let mapelTerakhir = sessionStorage.getItem('cbt_mapel_aktif');
 
@@ -42,19 +38,16 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     const tingkatKelas = kelasSiswa.charAt(0);
 
-    // 3. Load Soal dari Server/JSON
     try {
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
         bankSoalData = data;
 
-        // Ekstraksi bank_soal secara fleksibel
         const daftarSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
         if (!daftarSoal || daftarSoal.length === 0) {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
-        // Tampilkan nama ujian aktif secara dinamis dari CONFIG
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
             const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
@@ -70,17 +63,15 @@ document.addEventListener("DOMContentLoaded", async function() {
         const elemKelas = document.getElementById('infoKelas');
         if (elemKelas) elemKelas.innerText = kelasSiswa;
 
-        // Inisialisasi Timer & Render Soal
         initTimer(data, mapelUjian);
         renderSoal(daftarSoal);
 
-        // Render Formula MathJax jika tersedia
         if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
             MathJax.typesetPromise();
         }
 
-        // Pasang Autosave Jawaban (Radio & Checkbox)
-        initAutosave();
+        // Panggil modul Storage
+        StorageManager.initAutosave();
 
     } catch (error) {
         const lembarSoal = document.getElementById('lembar-soal');
@@ -96,7 +87,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 });
 
-// LOGIKA TIMER (Berbasis Timestamp Akurat)
+// LOGIKA TIMER
 function initTimer(data, mapelUjian) {
     let durasiMenit = (data.metadata && data.metadata.durasi_menit) 
                       ? data.metadata.durasi_menit 
@@ -142,7 +133,7 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL (Support PG, PGK, dan BS)
+// RENDER SOAL
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     daftarSoal.forEach((soal, index) => {
@@ -184,7 +175,6 @@ function renderSoal(daftarSoal) {
         const idSoal = soal.id_soal || (index + 1);
         const tipe = soal.tipe_soal || "PG"; 
 
-        // 1. TIPE PG (Radio Button)
         if (tipe === "PG") {
             const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
             pilihanJawaban.forEach((opsi, i) => {
@@ -201,7 +191,6 @@ function renderSoal(daftarSoal) {
                     </div>`;
             });
         } 
-        // 2. TIPE PGK (Checkbox)
         else if (tipe === "PGK") {
             const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
             pilihanJawaban.forEach((opsi, i) => {
@@ -218,7 +207,6 @@ function renderSoal(daftarSoal) {
                     </div>`;
             });
         } 
-        // 3. TIPE BS (Baris Pernyataan Benar / Salah)
         else if (tipe === "BS") {
             const daftarPernyataan = soal.pernyataan || [];
             htmlSoal += `<div class="container-bs" style="display: flex; flex-direction: column; gap: 10px; width: 100%;">`;
@@ -254,43 +242,6 @@ function renderSoal(daftarSoal) {
     }
 }
 
-// AUTOSAVE JAWABAN (Support Radio & Checkbox)
-function initAutosave() {
-    // 1. Radio Buttons (PG & BS)
-    document.querySelectorAll('input[type="radio"]').forEach(input => {
-        let savedValue = sessionStorage.getItem(input.name);
-        if (savedValue && input.value === savedValue) {
-            input.checked = true;
-        }
-
-        input.addEventListener('change', function() {
-            sessionStorage.setItem(this.name, this.value);
-        });
-    });
-
-    // 2. Checkboxes (PGK)
-    document.querySelectorAll('input[type="checkbox"]').forEach(input => {
-        let savedValue = sessionStorage.getItem(input.name);
-        if (savedValue) {
-            let checkedArr = savedValue.split(',');
-            if (checkedArr.includes(input.value)) {
-                input.checked = true;
-            }
-        }
-
-        input.addEventListener('change', function() {
-            let name = this.name;
-            let checkedInputs = document.querySelectorAll(`input[name="${name}"]:checked`);
-            if (checkedInputs.length > 0) {
-                let listJawaban = Array.from(checkedInputs).map(el => el.value);
-                sessionStorage.setItem(name, listJawaban.join(','));
-            } else {
-                sessionStorage.removeItem(name);
-            }
-        });
-    });
-}
-
 // VALIDASI SEBELUM SUBMIT
 function sebelumSubmit() {
     if (!bankSoalData) return;
@@ -298,8 +249,7 @@ function sebelumSubmit() {
     const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
     let belumTerjawab = [];
     
-    // Gunakan fungsi kumpulkanJawaban untuk memeriksa status setiap soal
-    let rekapJawaban = kumpulkanJawaban(daftarSoal);
+    let rekapJawaban = StorageManager.kumpulkanJawaban(daftarSoal);
     rekapJawaban.forEach((jawaban, index) => {
         if (jawaban === "-" || jawaban.includes("-")) {
             belumTerjawab.push(index + 1);
@@ -316,145 +266,29 @@ function sebelumSubmit() {
     });
 }
 
+// ALUR EKSEKUSI SELESAI UJIAN
 function selesaiUjian() {
     if (!bankSoalData) return;
 
     const daftarSoal = bankSoalData?.bank_soal || bankSoalData?.soal || bankSoalData?.data || (Array.isArray(bankSoalData) ? bankSoalData : []);
-    let rekapJawaban = kumpulkanJawaban(daftarSoal);
+    let rekapJawaban = StorageManager.kumpulkanJawaban(daftarSoal);
 
-    // Hitung Benar, Salah, dan Skor secara otomatis
-    let benar = 0;
-    const totalSoal = daftarSoal.length;
+    // Hitung Skor menggunakan Modul Scoring
+    const hasilSkor = Scoring.hitung(daftarSoal, rekapJawaban);
 
-    daftarSoal.forEach((soal, index) => {
-        const kunci = soal.kunci_jawaban;
-        const jwb = rekapJawaban[index];
-
-        if (!jwb || jwb === "-" || kunci === undefined || kunci === null) return;
-
-        // Pilihan Ganda (PG)
-        if (typeof kunci === 'string') {
-            if (String(jwb).trim().toUpperCase() === kunci.trim().toUpperCase()) {
-                benar++;
-            }
-        } 
-        // Pilihan Ganda Kompleks / Benar Salah (Array)
-        else if (Array.isArray(kunci)) {
-            const userArr = String(jwb).split(',').map(s => s.trim().toUpperCase()).sort().join(',');
-            const kunciArr = kunci.map(s => String(s).trim().toUpperCase()).sort().join(',');
-            if (userArr === kunciArr) benar++;
-        }
-    });
-
-    const salah = totalSoal - benar;
-    const skorAktual = totalSoal > 0 ? ((benar / totalSoal) * 100).toFixed(2) : "0.00";
-
-    // Kirim skor asli ke Google Apps Script
-    simpanKeSpreadsheet(
+    // Simpan data menggunakan Modul Storage
+    StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
         sessionStorage.getItem('cbt_mapel'),
-        skorAktual,
-        benar,
-        salah,
+        hasilSkor.skor,
+        hasilSkor.benar,
+        hasilSkor.salah,
         rekapJawaban
     );
 }
 
-// EKSTRAKSI JAWABAN (PG, PGK, BS)
-function kumpulkanJawaban(daftarSoal) {
-    let jawaban = [];
-    
-    daftarSoal.forEach((soal, index) => {
-        const idSoal = soal.id_soal || (index + 1);
-        const tipe = soal.tipe_soal || "PG";
-
-        // 1. TIPE PG (Radio Button)
-        if (tipe === "PG") {
-            const inputDipilih = document.querySelector(`input[name="soal_${idSoal}"]:checked`);
-            jawaban.push(inputDipilih ? inputDipilih.value : "-");
-        } 
-        // 2. TIPE PGK (Checkbox - Banyak Pilihan)
-        else if (tipe === "PGK") {
-            const inputsDipilih = document.querySelectorAll(`input[name="soal_${idSoal}"]:checked`);
-            if (inputsDipilih.length > 0) {
-                const listJawaban = Array.from(inputsDipilih).map(el => el.value);
-                jawaban.push(listJawaban.join(",")); // Hasil: "A,C"
-            } else {
-                jawaban.push("-");
-            }
-        } 
-        // 3. TIPE BS (Benar / Salah per Baris)
-        else if (tipe === "BS") {
-            const totalSub = (soal.pernyataan || []).length;
-            let subJawaban = [];
-
-            for (let i = 0; i < totalSub; i++) {
-                const inputSub = document.querySelector(`input[name="soal_${idSoal}_bs_${i}"]:checked`);
-                subJawaban.push(inputSub ? inputSub.value : "-");
-            }
-
-            // Hasil: "B,S,B" atau "B,-,B" jika ada baris yang terlewat
-            const hasilBs = subJawaban.join(",");
-            jawaban.push(subJawaban.every(val => val === "-") ? "-" : hasilBs);
-        }
-    });
-
-    return jawaban;
-}
-
-async function simpanKeSpreadsheet(nama, kelas, mapel, skor, benar, salah, arrayJawaban) {
-    const btnSubmit = document.querySelector('button[onclick="sebelumSubmit()"]');
-    if (btnSubmit) {
-        btnSubmit.disabled = true;
-        btnSubmit.innerText = "⏳ Mempersiapkan Antrean Pengiriman...";
-        btnSubmit.style.background = "#94a3b8";
-    }
-
-    // 💡 JEDA ACAK (0.5 - 3 Detik) agar lalu lintas 300 siswa terurai alami
-    const jedaAcak = Math.floor(Math.random() * 2500) + 500;
-    await new Promise(resolve => setTimeout(resolve, jedaAcak));
-
-    if (btnSubmit) {
-        btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
-    }
-
-    let email = sessionStorage.getItem('cbt_email') || "-"; 
-    let startTime = parseInt(sessionStorage.getItem('exam_start_time')) || Date.now();
-    let durasiMenit = Math.round((Date.now() - startTime) / 60000);
-    let durasiFinal = durasiMenit <= 0 ? 1 : durasiMenit;
-
-    let dataSiswa = {
-        nama: nama,
-        kelas: kelas,
-        mapel: mapel,
-        skor: skor,
-        benar: benar,
-        salah: salah,
-        waktu: durasiFinal + " Menit",
-        email: email,
-        jawaban: arrayJawaban
-    };
-
-    try {
-        const res = await API.submitJawaban(dataSiswa);
-        if (res && res.status === "success") {
-            const popupModal = document.getElementById('popupModal');
-            if (popupModal) popupModal.style.display = 'flex';
-        } else {
-            throw new Error((res && res.message) || "Database menolak menyimpan data.");
-        }
-    } catch (err) {
-        alert("❌ GAGAL MENGIRIM JAWABAN!\n\nPenyebab: " + err.message + "\n\nJawaban Anda belum terkirim. Silakan periksa koneksi internet lalu klik tombol 'Kumpulkan Jawaban' sekali lagi.");
-        if (btnSubmit) {
-            btnSubmit.disabled = false;
-            btnSubmit.innerText = "Kumpulkan Jawaban";
-            btnSubmit.style.background = "#007bff";
-        }
-    }
-}
-
-// Handler Alert Kustom
+// HANDLER ALERT & MODAL
 window.alert = function(message) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
@@ -476,7 +310,6 @@ window.alert = function(message) {
     }
 };
 
-// Custom Confirm Helper
 function showCustomConfirm(message, onConfirmCallback) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
