@@ -4,7 +4,7 @@ const API = {
         return typeof CONFIG.getSubmitUrl === 'function' ? CONFIG.getSubmitUrl() : '';
     },
 
-    // Helper internal untuk mengonversi teks CSV menjadi Array of Objects (Aman dari Spasi & Tanda Kutip)
+    // Helper internal untuk mengonversi teks CSV menjadi Array of Objects
     parseCSV(csvText) {
         const lines = csvText.split(/\r?\n/).filter(line => line.trim() !== '');
         if (lines.length < 2) return [];
@@ -54,10 +54,7 @@ const API = {
             const dataSiswa = this.parseCSV(textSiswa);
             const dataToken = this.parseCSV(textToken);
 
-            // Ambil daftar kelas unik dari DataSiswa
             const daftarKelas = [...new Set(dataSiswa.map(s => s.kelas).filter(Boolean))];
-            
-            // Ambil daftar mapel unik dari TokenMapel
             const daftarMapel = [...new Set(dataToken.map(t => t.mapel).filter(Boolean))];
 
             return {
@@ -80,7 +77,6 @@ const API = {
             const csvText = await response.text();
             const seluruhSiswa = this.parseCSV(csvText);
 
-            // Filter siswa berdasarkan kelas yang dipilih
             const siswaFiltered = seluruhSiswa.filter(s => 
                 s.kelas && s.kelas.toLowerCase() === kelasInput.toLowerCase()
             );
@@ -101,7 +97,6 @@ const API = {
             const csvText = await response.text();
             const daftarToken = this.parseCSV(csvText);
 
-            // Cari match mata pelajaran
             const tokenObj = daftarToken.find(t => 
                 t.mapel && t.mapel.toLowerCase() === mapelInput.toLowerCase()
             );
@@ -121,15 +116,16 @@ const API = {
         try {
             const folderPath = (typeof CONFIG !== 'undefined' && CONFIG.getFolderPath)
                 ? CONFIG.getFolderPath(tingkat)
-                : `soal/STS_1/Kelas_${tingkat}`;
+                : `Soal/STS_1/Kelas_${tingkat}`;
 
             const cleanMapel = mapel.toUpperCase();
 
+            // Urutan disesuaikan dengan struktur nama file repositori GitHub Anda (soal_9_IND.json)
             const variasiPath = [
-                `./${folderPath}/soal_${cleanMapel}_${tingkat}.json`,
-                `./${folderPath}/Soal_${cleanMapel}_${tingkat}.json`,
                 `./${folderPath}/soal_${tingkat}_${cleanMapel}.json`,
-                `./${folderPath}/Soal_${tingkat}_${cleanMapel}.json`
+                `./${folderPath}/Soal_${tingkat}_${cleanMapel}.json`,
+                `./${folderPath}/soal_${cleanMapel}_${tingkat}.json`,
+                `./${folderPath}/Soal_${cleanMapel}_${tingkat}.json`
             ];
 
             for (const pathSoal of variasiPath) {
@@ -141,12 +137,57 @@ const API = {
                 } catch (e) {}
             }
 
-            throw new Error(`Berkas soal tidak ditemukan pada jalur: /${folderPath}/soal_${cleanMapel}_${tingkat}.json`);
+            throw new Error(`Berkas soal tidak ditemukan pada jalur: /${folderPath}/soal_${tingkat}_${cleanMapel}.json`);
 
         } catch (error) {
             console.error("API Error (fetchSoal):", error);
             throw error;
         }
+    },
+
+    // Helper Fungsi Perhitungan Skor (PG, PGK, BS)
+    hitungNilai(bankSoal, jawabanSiswa) {
+        if (!bankSoal || !jawabanSiswa) return { skor: 0, benar: 0, salah: 0 };
+        
+        let benar = 0;
+        const totalSoal = bankSoal.length;
+
+        bankSoal.forEach((soal) => {
+            const id = soal.id_soal;
+            const kunci = soal.kunci_jawaban;
+            const jwb = jawabanSiswa[id];
+
+            if (jwb === undefined || jwb === null || kunci === undefined) return;
+
+            // Pilihan Ganda Biasa
+            if (typeof kunci === 'string') {
+                if (String(jwb).trim().toUpperCase() === kunci.trim().toUpperCase()) {
+                    benar++;
+                }
+            } 
+            // Pilihan Ganda Kompleks (Array)
+            else if (Array.isArray(kunci)) {
+                const userArr = Array.isArray(jwb) ? jwb : String(jwb).split(',').map(s => s.trim());
+                const kStr = [...kunci].sort().join(',');
+                const uStr = [...userArr].sort().join(',');
+                if (kStr === uStr) benar++;
+            } 
+            // Benar / Salah (Object)
+            else if (typeof kunci === 'object') {
+                let matchAll = true;
+                Object.keys(kunci).forEach(k => {
+                    if (String(jwb[k]).toUpperCase() !== String(kunci[k]).toUpperCase()) {
+                        matchAll = false;
+                    }
+                });
+                if (matchAll) benar++;
+            }
+        });
+
+        const salah = totalSoal - benar;
+        const skorFinal = totalSoal > 0 ? parseFloat(((benar / totalSoal) * 100).toFixed(2)) : 0;
+
+        return { skor: skorFinal, benar, salah };
     },
 
     // 5. KIRIM JAWABAN SISWA KE GOOGLE SHEETS
@@ -158,8 +199,23 @@ const API = {
                 throw new Error("URL Pengiriman Jawaban di 'config.js' belum dikonfigurasi.");
             }
 
+            // Hitung skor otomatis di frontend dari bank_soal yang tersimpan
+            let skor = dataSiswa.skor || 0;
+            let total_benar = dataSiswa.total_benar || 0;
+            let total_salah = dataSiswa.total_salah || 0;
+
+            if (dataSiswa.bank_soal && dataSiswa.jawaban) {
+                const hasil = this.hitungNilai(dataSiswa.bank_soal, dataSiswa.jawaban);
+                skor = hasil.skor;
+                total_benar = hasil.benar;
+                total_salah = hasil.salah;
+            }
+
             const payload = {
                 ...dataSiswa,
+                skor: skor,
+                total_benar: total_benar,
+                total_salah: total_salah,
                 jenis_ujian: (typeof CONFIG !== 'undefined') ? CONFIG.UJIAN_AKTIF : ''
             };
 
