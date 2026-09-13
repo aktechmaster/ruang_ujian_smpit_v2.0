@@ -1,14 +1,11 @@
 document.addEventListener("DOMContentLoaded", async function() {
-    // 1. Jalankan pengawas keamanan jika ada
-    if (typeof Proctor !== 'undefined') {
-        Proctor.init();
-    }
+    // 1. NONAKTIFKAN Proctor di Login (Proctor hanya untuk ujian.html)
+    // Proctor.init() dihapus dari sini agar tidak menghadang navigasi halaman.
 
     // 2. Inisialisasi Event UI & Tampilkan Nama Ujian Aktif
     UI.initUI();
     if (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function') {
         const ujianAktif = CONFIG.getUjianAktif();
-        // Update judul/header jika elemen UI tersedia
         const headerTitle = document.getElementById("examTitle") || document.querySelector(".exam-title");
         if (headerTitle) {
             headerTitle.textContent = ujianAktif.nama;
@@ -75,9 +72,10 @@ async function handleSelectKelas(selectedKelas) {
 async function handleFormSubmit(e) {
     if (e) e.preventDefault();
 
-    const kelas = sessionStorage.getItem('cbt_kelas') || UI.elements.kelasSelect?.value;
+    // PERBAIKAN: Utamakan input UI terkini, baru fallback ke sessionStorage
+    const kelas = UI.elements.kelasSelect?.value || sessionStorage.getItem('cbt_kelas');
     const siswa = UI.elements.siswaSelect?.value;
-    const mapel = sessionStorage.getItem('cbt_mapel') || UI.elements.mapelSelect?.value;
+    const mapel = UI.elements.mapelSelect?.value || sessionStorage.getItem('cbt_mapel');
     const email = UI.elements.emailInput?.value;
     const tokenInput = UI.elements.tokenInput?.value;
 
@@ -110,7 +108,6 @@ async function handleFormSubmit(e) {
         const tokenData = await API.getTokenByMapel(mapel);
         console.log("Data Token dari Server:", tokenData);
 
-        // Ekstraksi token secara fleksibel dari berbagai kemungkinan format respons GAS
         let tokenResmi = "";
 
         if (typeof tokenData === 'string') {
@@ -131,18 +128,19 @@ async function handleFormSubmit(e) {
 
         // Pencocokan token (case-insensitive)
         if (tokenResmi !== "" && userToken.toLowerCase() === tokenResmi.toLowerCase()) {
+            UI.setSubmitButtonState(true, "Membuka Halaman Ujian...");
+
             // Simpan ke Session Storage
             sessionStorage.setItem('cbt_kelas', kelas);
             sessionStorage.setItem('cbt_siswa', siswa.trim());
             sessionStorage.setItem('cbt_mapel', mapel);
             sessionStorage.setItem('cbt_email', email.trim());
             
-            // SIMPAN JENIS UJIAN AKTIF SAAT LOG IN
             const jenisUjian = (typeof CONFIG !== 'undefined' && CONFIG.UJIAN_AKTIF) ? CONFIG.UJIAN_AKTIF : 'STS_1';
             sessionStorage.setItem('cbt_jenis_ujian', jenisUjian);
 
-            // Pindah ke Halaman Ujian
-            window.location.href = 'ujian.html';
+            // Pindah ke Halaman Ujian secara langsung
+            window.location.replace('ujian.html');
         } else {
             UI.setSubmitButtonState(false, "Masuk Ujian");
             console.warn(`Token tidak cocok. Input User: "${userToken}", Token Server: "${tokenResmi}"`);
