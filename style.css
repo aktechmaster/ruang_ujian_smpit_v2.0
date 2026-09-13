@@ -209,3 +209,27 @@ select:focus, input[type="password"]:focus, input[type="email"]:focus, input[typ
     margin-top: 6px;
     font-weight: 500;
 }
+
+/* Mengatur wadah tempat JS memasukkan tombol kelas agar jadi 2 kolom */
+.input-group > div, 
+#containerKelas, 
+#listKelas, 
+#kelasContainer {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    width: 100%;
+    margin-top: 8px;
+}
+
+/* Memastikan ukuran tombol pas & tidak berantakan */
+.btn-opsi {
+    width: 100% !important;
+    padding: 12px 8px !important;
+    font-size: 0.88rem !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
