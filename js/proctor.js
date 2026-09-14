@@ -10,13 +10,14 @@ const Proctor = {
     // Konfigurasi Default (Bisa ditimpa oleh objek CONFIG global jika ada)
     getConfig() {
         return {
-            maxViolations: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.MAX_TAB_SWITCH_WARNINGS) || 5,
+            maxViolations: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.MAX_TAB_SWITCH_WARNINGS) || 3,
             passwordReset: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.PASSWORD_RESET) || "12345",
             autoSubmit: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.AUTO_SUBMIT_ON_MAX_VIOLATION) ?? true,
             enableRightClick: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.ENABLE_DISABLE_RIGHT_CLICK) ?? true,
             enableDevTools: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.ENABLE_DISABLE_DEVTOOLS_KEYS) ?? true,
             enableAntiTab: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.ENABLE_ANTI_TAB_SWITCH) ?? true,
-            enableCopyPaste: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.ENABLE_DISABLE_COPY_PASTE) ?? true
+            enableCopyPaste: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.ENABLE_DISABLE_COPY_PASTE) ?? true,
+            loginUrl: (typeof CONFIG !== 'undefined' && CONFIG.PROCTOR?.LOGIN_URL) || "index.html"
         };
     },
 
@@ -42,22 +43,20 @@ const Proctor = {
         this.initAdminReset();
     },
 
-    // Memperbarui teks dan warna status pelanggaran di layar
+    // Memperbarui teks dan warna status pelanggaran di layar tanpa merusak DOM
     updateDisplay() {
-        // Update elemen info sederhana
-        const elemInfo = document.getElementById('infoPelanggaran');
-        if (elemInfo) {
-            elemInfo.innerText = `Pelanggaran: ${this.tabSwitchCount} kali`;
-            if (this.tabSwitchCount > 0) {
-                elemInfo.style.color = '#dc2626';
-                elemInfo.style.fontWeight = 'bold';
-            }
-        }
-
-        // Update elemen penghitung spesifik
         const elemCount = document.getElementById('violationCount');
         if (elemCount) {
             elemCount.textContent = this.tabSwitchCount;
+        }
+
+        const elemInfo = document.getElementById('infoPelanggaran');
+        if (elemInfo) {
+            if (!elemCount) {
+                elemInfo.innerText = `Pelanggaran: ${this.tabSwitchCount} kali`;
+            }
+            elemInfo.style.color = this.tabSwitchCount > 0 ? '#dc2626' : '#475569';
+            elemInfo.style.fontWeight = 'bold';
         }
     },
 
@@ -167,7 +166,6 @@ const Proctor = {
         if (window.timerInterval) clearInterval(window.timerInterval);
     },
 
-    // Timpa fungsi ini di dalam const Proctor = { ... }
     tampilkanAlert(pesan) {
         const modalPeringatan = document.getElementById('customPeringatan');
         const textEl = document.getElementById('peringatanText');
@@ -183,11 +181,10 @@ const Proctor = {
                 box.style.animation = '';
             }
         } else {
-            // Hanya cetak ke console jika modal lupa dipasang (Aman dari crash Exambro)
             console.warn("Peringatan Proctor:", pesan);
         }
     },
-    
+
     tutupPeringatan() {
         const modalPeringatan = document.getElementById('customPeringatan');
         if (modalPeringatan) {
@@ -218,10 +215,9 @@ const Proctor = {
             elem.addEventListener('touchmove', cancel);
         };
 
-        document.addEventListener('DOMContentLoaded', () => {
-            setupLongPress(document.getElementById('blockScreen'));
-            document.querySelectorAll('img').forEach(setupLongPress);
-        });
+        // Langsung eksekusi tanpa dibungkus event DOMContentLoaded bersarang
+        setupLongPress(document.getElementById('blockScreen'));
+        document.querySelectorAll('img').forEach(setupLongPress);
     },
 
     verifikasiReset() {
@@ -230,8 +226,10 @@ const Proctor = {
         if (pass === config.passwordReset) {
             sessionStorage.clear();
             localStorage.clear();
-            alert("Sistem berhasil di-reset!");
-            location.reload();
+            alert("Sistem berhasil di-reset! Mengalihkan ke halaman login...");
+            
+            // Pengalihan otomatis ke halaman Login (Cegah ke soal dengan nama 'Siswa Ujian')
+            window.location.href = config.loginUrl;
         } else if (pass) {
             alert("Password Salah!");
         }
