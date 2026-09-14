@@ -1,17 +1,48 @@
-let masterBankSoal = []; // Simpan urutan ASLI dari server (Master 1..N)
-let bankSoalData = [];   // Simpan urutan TERACAK untuk tampilan layar
+let masterBankSoal = [];
+let bankSoalData = [];   
 let timerInterval = null;
 
 const nativeAlert = window.alert;
 const nativeConfirm = window.confirm;
 
+// FUNGSI KONVERSI OTOMATIS TEKS MATEMATIKA KE MATHJAX LATEX
+function formatMathTeX(text) {
+    if (!text || typeof text !== 'string') return text || '';
+
+    // Map superscript unicode
+    const supMap = { '⁰':'0', '¹':'1', '²':'2', '³':'3', '⁴':'4', '⁵':'5', '⁶':'6', '⁷':'7', '⁸':'8', '⁹':'9' };
+
+    // 1. Ubah format ¹²√12¹¹ menjadi \(\sqrt[12]{12^{11}}\)
+    text = text.replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)√(\d+)([⁰¹²³⁴⁵⁶⁷⁸⁹]*)/g, (match, degSup, base, expSup) => {
+        let degree = degSup.split('').map(c => supMap[c] || c).join('');
+        let exp = expSup ? expSup.split('').map(c => supMap[c] || c).join('') : '';
+        return exp ? `\\(\\sqrt[${degree}]{${base}^{${exp}}}\\)` : `\\(\\sqrt[${degree}]{${base}}\\);
+    });
+
+    // 2. Ubah format pecahan eksponen 12^(2/3) menjadi \(12^{\frac{2}{3}}\)
+    text = text.replace(/(\d+|\w+)\^\((\d+)\/(\d+)\)/g, (match, base, num, den) => {
+        return `\\(${base}^{\\frac{${num}}{${den}}}\\)`;
+    });
+
+    return text;
+}
+
+// FUNGSI PEMICU MATHJAX TYPESET
+function triggerMathJax() {
+    if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
+        window.MathJax.typesetPromise().catch(err => console.warn("MathJax error:", err));
+    } else if (window.MathJax && window.MathJax.startup) {
+        window.MathJax.startup.promise.then(() => {
+            window.MathJax.typesetPromise().catch(err => console.warn("MathJax error:", err));
+        });
+    }
+}
+
 document.addEventListener("DOMContentLoaded", async function() {
-    // 1. Inisialisasi pengawas keamanan jika tersedia
     if (typeof Proctor !== 'undefined' && typeof Proctor.init === 'function') {
         Proctor.init();
     }
 
-    // 2. Ambil data sesi siswa
     let kelasSiswa = sessionStorage.getItem('cbt_kelas');
     let mapelUjian = sessionStorage.getItem('cbt_mapel');
     let namaSiswa = sessionStorage.getItem('cbt_siswa') || "Siswa Ujian";
@@ -22,7 +53,6 @@ document.addEventListener("DOMContentLoaded", async function() {
         mapelUjian = "MTK";
     }
 
-    // Reset data jika pergantian siswa / mapel terdeteksi
     let siswaTerakhir = sessionStorage.getItem('cbt_siswa_aktif');
     let mapelTerakhir = sessionStorage.getItem('cbt_mapel_aktif');
 
@@ -37,7 +67,6 @@ document.addEventListener("DOMContentLoaded", async function() {
         sessionStorage.setItem('exam_start_time', Date.now());
     }
 
-    // 3. Render Informasi Siswa di Header
     const elemEmail = document.getElementById('infoEmail');
     if (elemEmail) elemEmail.innerText = emailSiswa;
 
@@ -50,7 +79,6 @@ document.addEventListener("DOMContentLoaded", async function() {
     const tingkatKelas = kelasSiswa.charAt(0);
 
     try {
-        // 4. Unduh Soal dari Server
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
         let rawSoal = data?.bank_soal || data?.soal || data?.data || (Array.isArray(data) ? data : []);
 
@@ -58,13 +86,11 @@ document.addEventListener("DOMContentLoaded", async function() {
             throw new Error(`Berkas soal untuk kelas '${tingkatKelas}' mapel '${mapelUjian}' tidak ditemukan atau kosong.`);
         }
 
-        // --- SIMPAN MASTER BANK SOAL (URUTAN ASLI & PATEN) ---
         masterBankSoal = rawSoal.map((s, idx) => ({
             ...s,
             id_soal: s.id_soal !== undefined ? s.id_soal : (idx + 1)
         }));
 
-        // --- BUAT SALINAN UNTUK TAMPILAN TERACAK ---
         let daftarSoalAcak = [...masterBankSoal];
 
         if (typeof Shuffle !== 'undefined' && typeof Shuffle.soal === 'function') {
@@ -87,15 +113,13 @@ document.addEventListener("DOMContentLoaded", async function() {
                         daftarSoalAcak = Shuffle.soal(daftarSoalAcak);
                     }
                 } catch (e) {
-                    console.warn("Gagal membaca cache urutan soal, melakukan acak ulang:", e);
                     daftarSoalAcak = Shuffle.soal(daftarSoalAcak);
                 }
             }
         }
 
-        bankSoalData = daftarSoalAcak; // Disimpan untuk render UI layar
+        bankSoalData = daftarSoalAcak;
 
-        // 5. Update Judul Mata Pelajaran
         const elemJudul = document.getElementById('judulMapel');
         if (elemJudul) {
             const namaUjian = (typeof CONFIG !== 'undefined' && typeof CONFIG.getUjianAktif === 'function')
@@ -105,15 +129,12 @@ document.addEventListener("DOMContentLoaded", async function() {
             elemJudul.innerText = `${namaUjian} | ${namaMapel}`;
         }
 
-        // 6. Inisialisasi Timer, Tampilan Soal, & Autosave
         initTimer(data, mapelUjian);
-        renderSoal(bankSoalData); // Render tampilan teracak ke siswa
+        renderSoal(bankSoalData);
 
-        if (typeof MathJax !== 'undefined' && typeof MathJax.typesetPromise === 'function') {
-            MathJax.typesetPromise();
+        if (typeof StorageManager !== 'undefined' && typeof StorageManager.initAutosave === 'function') {
+            StorageManager.initAutosave();
         }
-
-        StorageManager.initAutosave();
 
     } catch (error) {
         const lembarSoal = document.getElementById('lembar-soal');
@@ -122,14 +143,12 @@ document.addEventListener("DOMContentLoaded", async function() {
                 <div style='background:#fee2e2; border:1px solid #f87171; color:#991b1b; padding:20px; border-radius:8px; margin:20px 0;'>
                     <h3 style="margin-top:0;">⚠️ Gagal Memuat Soal Ujian</h3>
                     <p><b>Detail Error:</b> ${error.message}</p>
-                    <p>Silakan pastikan berkas JSON soal sudah ada di repositori untuk tingkat kelas <b>${tingkatKelas}</b> dan mapel <b>${mapelUjian}</b>.</p>
                 </div>`;
         }
         console.error("Error memuat soal:", error);
     }
 });
 
-// LOGIKA TIMER
 function initTimer(data, mapelUjian) {
     let durasiMenit = (data.metadata && data.metadata.durasi_menit) 
                       ? data.metadata.durasi_menit 
@@ -175,7 +194,7 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL (Tampilan Teracak)
+// RENDER SOAL (Tampilan Teracak dengan MathJax)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     daftarSoal.forEach((soal, index) => {
@@ -189,13 +208,11 @@ function renderSoal(daftarSoal) {
             let bacaan = bagianTeks[0];
             bacaan = bacaan.replace(/ • /g, "\n• "); 
             bacaan = bacaan.replace(/ (\d+\.) /g, "\n$1 "); 
-            bacaan = bacaan.replace(/Materials:/g, "\nMaterials:\n");
-            bacaan = bacaan.replace(/Steps:/g, "\nSteps:\n");
 
             const adaArabBacaan = /[\u0600-\u06FF]/.test(bacaan);
             const kelasBacaan = adaArabBacaan ? "teks-arab font-khusus-arab" : "";
 
-            htmlSoal += `<div class="bacaan ${kelasBacaan}">${bacaan.trim()}</div>`;
+            htmlSoal += `<div class="bacaan ${kelasBacaan}">${formatMathTeX(bacaan.trim())}</div>`;
             teksPertanyaanBersih = bagianTeks[1];
         } else {
             teksPertanyaanBersih = teksPertanyaan;
@@ -209,7 +226,7 @@ function renderSoal(daftarSoal) {
         htmlSoal += `
             <div class="pertanyaan">
                 <span style="font-weight:bold;">${index + 1}.</span>
-                <span class="${kelasPertanyaan}">${teksPertanyaanBersih}</span>
+                <span class="${kelasPertanyaan}">${formatMathTeX(teksPertanyaanBersih)}</span>
             </div>`;
         
         htmlSoal += `<div class="opsi-container">`;
@@ -217,8 +234,9 @@ function renderSoal(daftarSoal) {
         const idSoal = soal.id_soal;
         const tipe = soal.tipe_soal || "PG"; 
 
-        if (tipe === "PG") {
+        if (tipe === "PG" || tipe === "PGK") {
             const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
+            const inputType = tipe === "PG" ? "radio" : "checkbox";
             pilihanJawaban.forEach((opsi, i) => {
                 let nilaiOpsi = String.fromCharCode(65 + i);
                 const adaArabOpsi = /[\u0600-\u06FF]/.test(opsi);
@@ -227,24 +245,8 @@ function renderSoal(daftarSoal) {
                 htmlSoal += `
                     <div class="opsi">
                         <label>
-                            <input type="radio" name="soal_${idSoal}" value="${nilaiOpsi}"> 
-                            <span class="${kelasOpsi}">${opsi}</span>
-                        </label>
-                    </div>`;
-            });
-        } 
-        else if (tipe === "PGK") {
-            const pilihanJawaban = soal.pilihan_jawaban || soal.opsi || [];
-            pilihanJawaban.forEach((opsi, i) => {
-                let nilaiOpsi = String.fromCharCode(65 + i);
-                const adaArabOpsi = /[\u0600-\u06FF]/.test(opsi);
-                const kelasOpsi = adaArabOpsi ? "teks-arab font-khusus-arab" : "";
-
-                htmlSoal += `
-                    <div class="opsi">
-                        <label>
-                            <input type="checkbox" name="soal_${idSoal}" value="${nilaiOpsi}"> 
-                            <span class="${kelasOpsi}">${opsi}</span>
+                            <input type="${inputType}" name="soal_${idSoal}" value="${nilaiOpsi}"> 
+                            <span class="${kelasOpsi}">${formatMathTeX(opsi)}</span>
                         </label>
                     </div>`;
             });
@@ -260,7 +262,7 @@ function renderSoal(daftarSoal) {
                 htmlSoal += `
                     <div class="item-bs" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed #ccc; padding-bottom: 8px;">
                         <div class="teks-pernyataan ${kelasPernyataanBs}" style="flex: 1; padding-right: 15px;">
-                            ${itemPernyataan}
+                            ${formatMathTeX(itemPernyataan)}
                         </div>
                         <div class="pilihan-bs" style="display: flex; gap: 15px; flex-shrink: 0;">
                             <label style="cursor: pointer;">
@@ -282,13 +284,14 @@ function renderSoal(daftarSoal) {
     if (elemLembarSoal) {
         elemLembarSoal.innerHTML = htmlSoal;
     }
+
+    // Panggil render ulang MathJax setelah DOM diisi
+    triggerMathJax();
 }
 
-// VALIDASI SEBELUM SUBMIT
 function sebelumSubmit() {
     if (!bankSoalData || bankSoalData.length === 0) return;
 
-    // Periksa nomor belum terjawab berdasarkan urutan layar siswa
     let belumTerjawab = [];
     bankSoalData.forEach((soal, index) => {
         const idSoal = soal.id_soal;
@@ -311,7 +314,7 @@ function sebelumSubmit() {
         }
 
         if (!terisi) {
-            belumTerjawab.push(index + 1); // Nomor urut visual siswa
+            belumTerjawab.push(index + 1);
         }
     });
 
@@ -325,17 +328,12 @@ function sebelumSubmit() {
     });
 }
 
-// ALUR EKSEKUSI SELESAI UJIAN
 function selesaiUjian() {
     if (!masterBankSoal || masterBankSoal.length === 0) return;
 
-    // PENTING: Kumpulkan jawaban berdasarkan masterBankSoal (Urutan Asli Master 1..N)
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
-
-    // Hitung Skor berdasarkan Master
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // Simpan ke Spreadsheet (Rekap jawaban konsisten untuk semua siswa)
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -347,7 +345,6 @@ function selesaiUjian() {
     );
 }
 
-// HANDLER ALERT & MODAL
 window.alert = function(message) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
