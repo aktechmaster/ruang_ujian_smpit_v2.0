@@ -118,18 +118,18 @@
     },
     {
     "id_soal": 11,
-    "teks_pertanyaan": "Hasil pemangkatan dari bilangan \(12^{\\frac{2}{3}} \\times 12^{\\frac{1}{4}}\) dalam bentuk akar adalah...",
+    "teks_pertanyaan": "Hasil pemangkatan dari bilangan 12²⁄³ × 12¹⁄⁴ dalam bentuk akar adalah...",
     "pilihan_jawaban": [
-      "A. \(a. \\sqrt[12]{12^{11}}\)",
-      "B. \(b. \\sqrt[11]{12^{12}}\)",
-      "C. \(c. \\sqrt[11]{144^{12}}\)",
-      "D. \(d. \\sqrt[12]{144^{11}}\)"
+      "A. ¹²√12¹¹",
+      "B. ¹¹√12¹²",
+      "C. ¹¹√144¹²",
+      "D. ¹²√144¹¹"
     ],
     "kunci_jawaban": "A"
   },
   {
     "id_soal": 12,
-    "teks_pertanyaan": "Hasil pemangkatan dari bilangan \(8^{\\frac{4}{3}} : 8^{\\frac{2}{3}}\) adalah...",
+    "teks_pertanyaan": "Hasil pemangkatan dari bilangan 8⁴⁄³ : 8²⁄³ adalah...",
     "pilihan_jawaban": [
       "A. 9",
       "B. 6",
