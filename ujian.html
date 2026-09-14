@@ -1,3 +1,4 @@
+HTML
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -6,15 +7,24 @@
     <title>Halaman Ujian CBT - SMP IT Al-Kautsar</title>
     
     <link rel="icon" type="image/png" href="smpit.png">
+    
+    <!-- Konfigurasi MathJax -->
     <script>
       window.MathJax = {
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        },
+        startup: {
+          typeset: false
         }
       };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
     <style>
         * { box-sizing: border-box; }
         body {
@@ -57,6 +67,7 @@
             margin-bottom: 15px;
             display: flex;
             gap: 8px;
+            align-items: baseline;
         }
 
         .opsi-container {
@@ -66,17 +77,17 @@
         }
         .opsi label {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             gap: 10px;
             cursor: pointer;
-            padding: 8px 10px;
+            padding: 10px 12px;
             border-radius: 8px;
             border: 1px solid #eee;
             transition: background 0.2s;
         }
         .opsi label:hover { background: #f8f9fa; }
-        .opsi input[type="radio"] {
-            margin-top: 4px;
+        .opsi input[type="radio"], .opsi input[type="checkbox"] {
+            margin-top: 0;
             flex-shrink: 0;
             width: 18px;
             height: 18px;
@@ -188,11 +199,6 @@
         .font-khusus-arab {
             font-family: 'MohammadNaskh', 'Amiri', serif;
         }
-
-        .peringatan-angka {
-            color: #e11d48;
-            font-weight: bold;
-        }
     </style>
 </head>
     
@@ -202,7 +208,7 @@
         ⏳ <span id="timer-display">--:--:--</span>
     </div>
 
-    <!-- WRAPPER AREA UJIAN (Penting agar Proctor mengenali status aktif) -->
+    <!-- WRAPPER AREA UJIAN -->
     <div id="quizArea" style="display: block;">
         <div class="header-ujian">
             <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 15px;">
@@ -223,11 +229,7 @@
         <button onclick="sebelumSubmit()">Kumpulkan Jawaban</button>
     </div>
 
-    <!-- ================================================== -->
-    <!-- 🚨 MODAL PROCTORING & SISTEM KEAMANAN (NEW)       -->
-    <!-- ================================================== -->
-
-    <!-- 1. Modal Peringatan Pelanggaran Custom (Aman untuk Exambro) -->
+    <!-- MODAL PERINGATAN & CONFIRM -->
     <div id="customPeringatan" class="modal">
         <div class="modal-content" style="border-top: 5px solid #e11d48;">
             <h3 style="color: #e11d48; margin-bottom: 10px;">⚠️ PERINGATAN PELANGGARAN!</h3>
@@ -238,7 +240,6 @@
         </div>
     </div>
 
-    <!-- 2. Layar Merah Pemblokiran Permanen -->
     <div id="blockScreen" style="display: none; position: fixed; inset: 0; background: #991b1b; z-index: 100000; justify-content: center; align-items: center; flex-direction: column; color: white; text-align: center; padding: 20px;">
         <div style="font-size: 4rem; margin-bottom: 15px;">🚫</div>
         <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 10px; color: white;">AKSES UJIAN DIBLOKIR</h1>
@@ -247,11 +248,6 @@
         </p>
     </div>
 
-    <!-- ================================================== -->
-    <!-- 📦 MODAL LAINNYA                                   -->
-    <!-- ================================================== -->
-
-    <!-- Modal Notifikasi Selesai -->
     <div id="popupModal" class="modal">
         <div class="modal-content">
             <h3>Selamat, Jawaban Anda Telah Direkam!</h3>
@@ -260,7 +256,6 @@
         </div>
     </div>
 
-    <!-- Modal Alert Proctor & Konfirmasi Tambahan -->
     <div id="exambroAlertModal" class="modal">
         <div class="modal-content">
             <h3 id="exambroAlertTitle" style="color: #0284c7;">Peringatan Proctor</h3>
