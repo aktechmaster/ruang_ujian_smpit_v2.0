@@ -8,12 +8,12 @@
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Hasil dari (-1/3)⁴ adalah...",
+      "teks_pertanyaan": "Hasil dari \\(\\left(-\\frac{1}{3}\\right)^4\\) adalah...",
       "pilihan_jawaban": [
-        "A. 1/12",
-        "B. -4/12",
-        "C. 1/81",
-        "D. 4/81"
+        "A. \\(\\frac{1}{12}\\)",
+        "B. -\\(\\frac{4}{12}\\)",
+        "C. \\(\\frac{1}{81}\\)",
+        "D. \\(\\frac{4}{81}\\)"
       ],
       "kunci_jawaban": "C"
     },
@@ -21,263 +21,263 @@
       "id_soal": 2,
       "teks_pertanyaan": "Bentuk basis 10 dari bilangan 10.000.000 sebagai bilangan berpangkat adalah...",
       "pilihan_jawaban": [
-        "A. 10⁷",
-        "B. 10⁶",
-        "C. 10⁵",
-        "D. 10⁴"
+        "A. \\(10^7\\)",
+        "B. \\(10^6\\)",
+        "C. \\(10^5\\)",
+        "D. \\(10^4\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 3,
-      "teks_pertanyaan": "Hasil perkalian dari 6⁻⁷ × 6⁵ adalah...",
+      "teks_pertanyaan": "Hasil perkalian dari \\(6^{-7} \\times 6^5\\) adalah...",
       "pilihan_jawaban": [
-        "A. -1/36",
-        "B. 1/36",
-        "C. -1/12",
-        "D. 1/12"
+        "A. -\\(\\frac{1}{36}\\)",
+        "B. \\(\\frac{1}{36}\\)",
+        "C. -\\(\\frac{1}{12}\\)",
+        "D. \\(\\frac{1}{12}\\)"
       ],
       "kunci_jawaban": "B"
     },
     {
       "id_soal": 4,
-      "teks_pertanyaan": "Hasil pembagian dari 4⁷ : 4⁹ adalah...",
+      "teks_pertanyaan": "Hasil pembagian dari \\(4^7 : 4^9\\) adalah...",
       "pilihan_jawaban": [
         "A. 8",
         "B. 16",
-        "C. 1/8",
-        "D. 1/16"
+        "C. \\(\\frac{1}{8}\\)",
+        "D. \\(\\frac{1}{16}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 5,
-      "teks_pertanyaan": "Hasil pemangkatan dari bilangan (-2r)⁶ adalah...",
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan \\((-2r)^6\\) adalah...",
       "pilihan_jawaban": [
-        "A. -2r⁶",
-        "B. -64r⁶",
-        "C. 64r⁶",
+        "A. \\(-2r^6\\)",
+        "B. \\(-64r^6\\)",
+        "C. \\(64r^6\\)",
         "D. 64r"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 6,
-      "teks_pertanyaan": "Bentuk sederhana dari 3a²bc³ × 7ab³c² adalah...",
+      "teks_pertanyaan": "Bentuk sederhana dari \\(3a^2bc^3 \\times 7ab^3c^2\\) adalah...",
       "pilihan_jawaban": [
-        "A. 10a²b³c⁴",
-        "B. 21a³b⁴c⁵",
-        "C. 10a³b⁴c⁵",
-        "D. 21a²b³c⁴"
+        "A. \\(10a^2b^3c^4\\)",
+        "B. \\(21a^3b^4c^5\\)",
+        "C. \\(10a^3b^4c^5\\)",
+        "D. \\(21a^2b^3c^4\\)"
       ],
       "kunci_jawaban": "B"
     },
     {
       "id_soal": 7,
-      "teks_pertanyaan": "Bentuk sederhana dari -35a³b⁴ : 7a²b adalah...",
+      "teks_pertanyaan": "Bentuk sederhana dari \\(-35a^3b^4 : 7a^2b\\) adalah...",
       "pilihan_jawaban": [
-        "A. -5ab³",
-        "B. -5a⁵b⁵",
-        "C. 5ab⁴",
-        "D. 5a⁵b"
+        "A. \\(-5ab^3\\)",
+        "B. \\(-5a^5b^5\\)",
+        "C. \\(5ab^4\\)",
+        "D. \\(5a^5b\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 8,
-      "teks_pertanyaan": "Bentuk sederhana dari (3⁵)⁻³ adalah...",
+      "teks_pertanyaan": "Bentuk sederhana dari \\((3^5)^{-3}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 1/3⁸",
-        "B. 3/3⁸",
-        "C. 1/3¹⁵",
-        "D. 3/3¹⁵"
+        "A. \\(\\frac{1}{3^8}\\)",
+        "B. \\(\\frac{3}{3^8}\\)",
+        "C. \\(\\frac{1}{3^{15}}\\)",
+        "D. \\(\\frac{3}{3^{15}}\\)"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 9,
-      "teks_pertanyaan": "7pq⁻⁴ dinyatakan dalam bilangan berpangkat positif menjadi...",
+      "teks_pertanyaan": "\\(7pq^{-4}\\) dinyatakan dalam bilangan berpangkat positif menjadi...",
       "pilihan_jawaban": [
-        "A. 7p/q⁴",
-        "B. 1/7pq⁴",
-        "C. 7/pq⁴",
-        "D. -7p/q"
+        "A. \\(\\frac{7p}{q^4}\\)",
+        "B. \\(\\frac{1}{7pq^4}\\)",
+        "C. \\(\\frac{7}{pq^4}\\)",
+        "D. -\\(\\frac{7p}{q}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 10,
-      "teks_pertanyaan": "Hasil dari (3/4p)⁻³ adalah...",
+      "teks_pertanyaan": "Hasil dari \\(\\left(\\frac{3}{4p}\\right)^{-3}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 64p³/27",
-        "B. 27/64p³",
-        "C. 64p³/9",
-        "D. 9/12p³"
+        "A. \\(\\frac{64p^3}{27}\\)",
+        "B. \\(\\frac{27}{64p^3}\\)",
+        "C. \\(\\frac{64p^3}{9}\\)",
+        "D. \\(\\frac{9}{12p^3}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
-    "id_soal": 11,
-    "teks_pertanyaan": "Hasil pemangkatan dari bilangan 12²⁄³ × 12¹⁄⁴ dalam bentuk akar adalah...",
-    "pilihan_jawaban": [
-      "A. ¹²√12¹¹",
-      "B. ¹¹√12¹²",
-      "C. ¹¹√144¹²",
-      "D. ¹²√144¹¹"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 12,
-    "teks_pertanyaan": "Hasil pemangkatan dari bilangan 8⁴⁄³ : 8²⁄³ adalah...",
-    "pilihan_jawaban": [
-      "A. 9",
-      "B. 6",
-      "C. 4",
-      "D. 2"
-    ],
-    "kunci_jawaban": "C"
-  },
+      "id_soal": 11,
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan \\(12^{\\frac{2}{3}} \\times 12^{\\frac{1}{4}}\\) dalam bentuk akar adalah...",
+      "pilihan_jawaban": [
+        "A. \\(\\sqrt[12]{12^{11}}\\)",
+        "B. \\(\\sqrt[11]{12^{12}}\\)",
+        "C. \\(\\sqrt[11]{144^{12}}\\)",
+        "D. \\(\\sqrt[12]{144^{11}}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan \\(8^{\\frac{4}{3}} : 8^{\\frac{2}{3}}\\) adalah...",
+      "pilihan_jawaban": [
+        "A. 9",
+        "B. 6",
+        "C. 4",
+        "D. 2"
+      ],
+      "kunci_jawaban": "C"
+    },
     {
       "id_soal": 13,
-      "teks_pertanyaan": "Hasil bentuk pemangkatan pecahan dari (27/64)⁻²⁄³ adalah...",
+      "teks_pertanyaan": "Hasil bentuk pemangkatan pecahan dari \\(\\left(\\frac{27}{64}\\right)^{-\\frac{2}{3}}\\) adalah...",
       "pilihan_jawaban": [
-        "A. -9/16",
-        "B. -16/9",
-        "C. 9/16",
-        "D. 16/9"
+        "A. -\\(\\frac{9}{16}\\)",
+        "B. -\\(\\frac{16}{9}\\)",
+        "C. \\(\\frac{9}{16}\\)",
+        "D. \\(\\frac{16}{9}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 14,
-      "teks_pertanyaan": "Bentuk ⁷√m⁴ dinyatakan dalam bentuk eksponen pecahan adalah...",
+      "teks_pertanyaan": "Bentuk \\(\\sqrt[7]{m^4}\\) dinyatakan dalam bentuk eksponen pecahan adalah...",
       "pilihan_jawaban": [
-        "A. m⁴⁄⁷",
-        "B. m⁷⁄⁴",
-        "C. 7 m⁴",
-        "D. 4 ⁷⁄m"
+        "A. \\(m^{\\frac{4}{7}}\\)",
+        "B. \\(m^{\\frac{7}{4}}\\)",
+        "C. \\(7m^4\\)",
+        "D. \\(4^{\\frac{7}{m}}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 15,
-      "teks_pertanyaan": "Susunan bilangan ³√125, √49, ⁴√81 dari besar ke kecil adalah...",
+      "teks_pertanyaan": "Susunan bilangan \\(\\sqrt[3]{125}\\), \\(\\sqrt{49}\\), \\(\\sqrt[4]{81}\\) dari besar ke kecil adalah...",
       "pilihan_jawaban": [
-        "A. ³√125, ⁴√81, √49",
-        "B. √49, ⁴√81, ³√125",
-        "C. ³√125, √49, ⁴√81",
-        "D. √49, ³√125, ⁴√81"
+        "A. \\(\\sqrt[3]{125}\\), \\(\\sqrt[4]{81}\\), \\(\\sqrt{49}\\)",
+        "B. \\(\\sqrt{49}\\), \\(\\sqrt[4]{81}\\), \\(\\sqrt[3]{125}\\)",
+        "C. \\(\\sqrt[3]{125}\\), \\(\\sqrt{49}\\), \\(\\sqrt[4]{81}\\)",
+        "D. \\(\\sqrt{49}\\), \\(\\sqrt[3]{125}\\), \\(\\sqrt[4]{81}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 16,
-      "teks_pertanyaan": "Bentuk paling sederhana dari akar bilangan √80 adalah...",
+      "teks_pertanyaan": "Bentuk paling sederhana dari akar bilangan \\(\\sqrt{80}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 5√5",
-        "B. 4√5",
-        "C. 4√6",
-        "D. 3√6"
+        "A. \\(5\\sqrt{5}\\)",
+        "B. \\(4\\sqrt{5}\\)",
+        "C. \\(4\\sqrt{6}\\)",
+        "D. \\(3\\sqrt{6}\\)"
       ],
       "kunci_jawaban": "B"
     },
     {
       "id_soal": 17,
-      "teks_pertanyaan": "Hasil dari √72 - √18 + √128 adalah...",
+      "teks_pertanyaan": "Hasil dari \\(\\sqrt{72} - \\sqrt{18} + \\sqrt{128}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 10√3",
-        "B. 11√3",
-        "C. 10√2",
-        "D. 11√2"
+        "A. \\(10\\sqrt{3}\\)",
+        "B. \\(11\\sqrt{3}\\)",
+        "C. \\(10\\sqrt{2}\\)",
+        "D. \\(11\\sqrt{2}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 18,
-      "teks_pertanyaan": "Hasil operasi akar bilangan dari 3√6 × 2√12 adalah...",
+      "teks_pertanyaan": "Hasil operasi akar bilangan dari \\(3\\sqrt{6} \\times 2\\sqrt{12}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 36√2",
-        "B. 36√3",
-        "C. 12√2",
-        "D. 12√3"
+        "A. \\(36\\sqrt{2}\\)",
+        "B. \\(36\\sqrt{3}\\)",
+        "C. \\(12\\sqrt{2}\\)",
+        "D. \\(12\\sqrt{3}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 19,
-      "teks_pertanyaan": "Hasil pembagian dari akar bilangan √144 : √3 adalah...",
+      "teks_pertanyaan": "Hasil pembagian dari akar bilangan \\(\\sqrt{144} : \\sqrt{3}\\) adalah...",
       "pilihan_jawaban": [
         "A. 4",
         "B. 6",
-        "C. 4√3",
-        "D. 6√3"
+        "C. \\(4\\sqrt{3}\\)",
+        "D. \\(6\\sqrt{3}\\)"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 20,
-      "teks_pertanyaan": "Hasil pembagian dari akar bilangan 20√72 : 5√6 adalah...",
+      "teks_pertanyaan": "Hasil pembagian dari akar bilangan \\(20\\sqrt{72} : 5\\sqrt{6}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 7√2",
-        "B. 8√2",
-        "C. 7√3",
-        "D. 8√3"
+        "A. \\(7\\sqrt{2}\\)",
+        "B. \\(8\\sqrt{2}\\)",
+        "C. \\(7\\sqrt{3}\\)",
+        "D. \\(8\\sqrt{3}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 21,
-      "teks_pertanyaan": "Bentuk rasional dari √(3/6) adalah...",
+      "teks_pertanyaan": "Bentuk rasional dari \\(\\sqrt{\\frac{3}{6}}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 1/2 √2",
-        "B. 1/3 √2",
-        "C. 1/2 √3",
-        "D. 1/3 √3"
+        "A. \\(\\frac{1}{2}\\sqrt{2}\\)",
+        "B. \\(\\frac{1}{3}\\sqrt{2}\\)",
+        "C. \\(\\frac{1}{2}\\sqrt{3}\\)",
+        "D. \\(\\frac{1}{3}\\sqrt{3}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 22,
-      "teks_pertanyaan": "Bentuk rasional dari √5 / 3√10 adalah...",
+      "teks_pertanyaan": "Bentuk rasional dari \\(\\frac{\\sqrt{5}}{3\\sqrt{10}}\\) adalah...",
       "pilihan_jawaban": [
-        "A. 1/4 √2",
-        "B. 1/6 √2",
-        "C. 1/5 √2",
-        "D. 1/7 √2"
+        "A. \\(\\frac{1}{4}\\sqrt{2}\\)",
+        "B. \\(\\frac{1}{6}\\sqrt{2}\\)",
+        "C. \\(\\frac{1}{5}\\sqrt{2}\\)",
+        "D. \\(\\frac{1}{7}\\sqrt{2}\\)"
       ],
       "kunci_jawaban": "B"
     },
     {
       "id_soal": 23,
-      "teks_pertanyaan": "Bentuk rasional √3 / (√6 + √5) adalah...",
+      "teks_pertanyaan": "Bentuk rasional \\(\\frac{\\sqrt{3}}{\\sqrt{6} + \\sqrt{5}}\\) adalah...",
       "pilihan_jawaban": [
-        "A. √2 + 3√15",
-        "B. √2 - 3√15",
-        "C. 3√2 + √15",
-        "D. 3√2 - √15"
+        "A. \\(\\sqrt{2} + 3\\sqrt{15}\\)",
+        "B. \\(\\sqrt{2} - 3\\sqrt{15}\\)",
+        "C. \\(3\\sqrt{2} + \\sqrt{15}\\)",
+        "D. \\(3\\sqrt{2} - \\sqrt{15}\\)"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 24,
-      "teks_pertanyaan": "√(16 + 8√3) dapat disederhanakan menjadi...",
+      "teks_pertanyaan": "\\(\\sqrt{16 + 8\\sqrt{3}}\\) dapat disederhanakan menjadi...",
       "pilihan_jawaban": [
-        "A. √12 + 2",
-        "B. √12 + 3",
-        "C. √6 + √8",
-        "D. √6 + √5"
+        "A. \\(\\sqrt{12} + 2\\)",
+        "B. \\(\\sqrt{12} + 3\\)",
+        "C. \\(\\sqrt{6} + \\sqrt{8}\\)",
+        "D. \\(\\sqrt{6} + \\sqrt{5}\\)"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 25,
-      "teks_pertanyaan": "√(13 - 2√42) dapat disederhanakan menjadi...",
+      "teks_pertanyaan": "\\(\\sqrt{13 - 2\\sqrt{42}}\\) dapat disederhanakan menjadi...",
       "pilihan_jawaban": [
-        "A. √13 - √6",
-        "B. √11 - √2",
-        "C. √7 - √6",
-        "D. √7 - √5"
+        "A. \\(\\sqrt{13} - \\sqrt{6}\\)",
+        "B. \\(\\sqrt{11} - \\sqrt{2}\\)",
+        "C. \\(\\sqrt{7} - \\sqrt{6}\\)",
+        "D. \\(\\sqrt{7} - \\sqrt{5}\\)"
       ],
       "kunci_jawaban": "C"
     }
