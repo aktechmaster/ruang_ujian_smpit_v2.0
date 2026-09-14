@@ -1,451 +1,287 @@
 {
   "metadata": {
     "mata_pelajaran": "Matematika",
-    "jenis_ujian": "Try Out USBN",
-    "jumlah_soal": 40
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 90
   },
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Suhu udara didalam kulkas $-8^{\\circ}C$, sedangkan suhu udara di luar kulkas $33^{\\circ}C.$ Selisih suhu udara didalam dan diluar kulkas adalah.....",
+      "teks_pertanyaan": "Hasil dari (-1/3)⁴ adalah...",
       "pilihan_jawaban": [
-        "A. -41 derajat",
-        "B. -33 derajat",
-        "C. 41 derajat",
-        "D. 33 derajat"
-      ]
+        "A. 1/12",
+        "B. -4/12",
+        "C. 1/81",
+        "D. 4/81"
+      ],
+      "kunci_jawaban": "C"
     },
     {
       "id_soal": 2,
-      "teks_pertanyaan": "Hasil dari $(-168)+120\\times5-108$: (-12) adalah....",
+      "teks_pertanyaan": "Bentuk basis 10 dari bilangan 10.000.000 sebagai bilangan berpangkat adalah...",
       "pilihan_jawaban": [
-        "A. 114",
-        "B. 144",
-        "C. 414",
-        "D. 441"
-      ]
+        "A. 10⁷",
+        "B. 10⁶",
+        "C. 10⁵",
+        "D. 10⁴"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 3,
-      "teks_pertanyaan": "Sebuah toko menjual dua kodi buku dengan harga Rp. 190.000. Uang yang harus dibayarkan Abdul jika membeli 23 buah buku tersebut adalah ...",
+      "teks_pertanyaan": "Hasil perkalian dari 6⁻⁷ × 6⁵ adalah...",
       "pilihan_jawaban": [
-        "A. Rp. 100.750",
-        "B. Rp. 105.500",
-        "C. Rp. 109.250",
-        "D. Rp. 112.000"
-      ]
+        "A. -1/36",
+        "B. 1/36",
+        "C. -1/12",
+        "D. 1/12"
+      ],
+      "kunci_jawaban": "B"
     },
     {
       "id_soal": 4,
-      "teks_pertanyaan": "Untuk a=20, $b=5$ dan $c=-5$ maka nilai $\\frac{a \\times b}{b \\times c}$ adalah ...",
+      "teks_pertanyaan": "Hasil pembagian dari 4⁷ : 4⁹ adalah...",
       "pilihan_jawaban": [
-        "A. 4",
-        "B. -4",
-        "C. 3",
-        "D. -3"
-      ]
+        "A. 8",
+        "B. 16",
+        "C. 1/8",
+        "D. 1/16"
+      ],
+      "kunci_jawaban": "D"
     },
     {
       "id_soal": 5,
-      "teks_pertanyaan": "Suatu Paus muncul ke permukaan laut setiap 12 menit. Lumba-lumba muncul ke permukaan laut setiap 15 menit. Keduanya muncul bersama pada pukul 10.30. Pukul berapakah keduanya akan muncul bersama lagi?",
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan (-2r)⁶ adalah...",
       "pilihan_jawaban": [
-        "A. 11.00 Wib",
-        "B. 11.15 Wib",
-        "C. 11.30 Wib",
-        "D. 11.45 Wib"
-      ]
+        "A. -2r⁶",
+        "B. -64r⁶",
+        "C. 64r⁶",
+        "D. 64r"
+      ],
+      "kunci_jawaban": "C"
     },
     {
       "id_soal": 6,
-      "teks_pertanyaan": "Hasil dari $2\\frac{1}{4}\\times\\frac{2}{5}:1\\frac{5}{10}$ adalah.....",
+      "teks_pertanyaan": "Bentuk sederhana dari 3a²bc³ × 7ab³c² adalah...",
       "pilihan_jawaban": [
-        "A. $\\frac{1}{10}$",
-        "B. $\\frac{1}{5}$",
-        "C. $\\frac{3}{10}$",
-        "D. $\\frac{3}{5}$"
-      ]
+        "A. 10a²b³c⁴",
+        "B. 21a³b⁴c⁵",
+        "C. 10a³b⁴c⁵",
+        "D. 21a²b³c⁴"
+      ],
+      "kunci_jawaban": "B"
     },
     {
       "id_soal": 7,
-      "teks_pertanyaan": "Bentuk sederhana dari $3x^{2}+4xy+3y^{2}-5y^{2}+3xy-2x^{2}$ adalah....",
+      "teks_pertanyaan": "Bentuk sederhana dari -35a³b⁴ : 7a²b adalah...",
       "pilihan_jawaban": [
-        "A. $x^{2}+xy+2y^{2}$",
-        "B. $x^{2}+7xy-2y^{2}$",
-        "C. $x^{2}+7xy+2y^{2}$",
-        "D. $x^{2}+xy-2y^{2}$"
-      ]
+        "A. -5ab³",
+        "B. -5a⁵b⁵",
+        "C. 5ab⁴",
+        "D. 5a⁵b"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 8,
-      "teks_pertanyaan": "Faktor dari $p^{2}+3p-28=....$",
+      "teks_pertanyaan": "Bentuk sederhana dari (3⁵)⁻³ adalah...",
       "pilihan_jawaban": [
-        "A. $(p-7)(p+4)$",
-        "B. $(p+14)(p-2)$",
-        "C. $(p+7)(p+4)$",
-        "D. $(p+7)(p-4)$"
-      ]
+        "A. 1/3⁸",
+        "B. 3/3⁸",
+        "C. 1/3¹⁵",
+        "D. 3/3¹⁵"
+      ],
+      "kunci_jawaban": "C"
     },
     {
       "id_soal": 9,
-      "teks_pertanyaan": "Diketahui : A = {Bilangan asli lebih dari 5 Kurang dari15}, B = {2, 3, 5, 7, 11, 13}. Maka anggota dari $B^{C}$ adalah....",
+      "teks_pertanyaan": "7pq⁻⁴ dinyatakan dalam bilangan berpangkat positif menjadi...",
       "pilihan_jawaban": [
-        "A. {6, 8, 10, 12, 14}",
-        "B. {5, 7, 9, 11, 13, 15}",
-        "C. {6, 8, 9, 10, 12, 14, 15}",
-        "D. {2, 3, 5, 7, 9, 11, 13, 15}"
-      ]
+        "A. 7p/q⁴",
+        "B. 1/7pq⁴",
+        "C. 7/pq⁴",
+        "D. -7p/q"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 10,
-      "teks_pertanyaan": "Perhatikan Gambar susunan Korek Api yang membentuk pola berikut ini.<br><br><img src='Images/STS_1/images_MTK_9/10.png' alt='Pola Korek Api' style='max-width: 80%; height: auto;'><br><br> Banyak Batang Korek Api pada Pola ke-32 adalah..",
+      "teks_pertanyaan": "Hasil dari (3/4p)⁻³ adalah...",
       "pilihan_jawaban": [
-        "A. 130",
-        "B. 131",
-        "C. 132",
-        "D. 133"
-      ]
+        "A. 64p³/27",
+        "B. 27/64p³",
+        "C. 64p³/9",
+        "D. 9/12p³"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 11,
-      "teks_pertanyaan": "Suku pertama dari barisan aritmatika adalah 16 dan bedanya 6. Suku ke-12 pada barisan tersebut adalah....",
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan 12^(2/3) × 12^(1/4) dalam bentuk akar adalah...",
       "pilihan_jawaban": [
-        "A. 82",
-        "B. 92",
-        "C. 94",
-        "D. 96"
-      ]
+        "A. ¹²√12¹¹",
+        "B. ¹¹√12¹²",
+        "C. ¹¹√144¹²",
+        "D. ¹²√144¹¹"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 12,
-      "teks_pertanyaan": "Gambar dibawah menunjukan pemetaan f: A $\\rightarrow$ B Daerah yang menunjukan range (Daerah Hasil) adalah....<br><img src='Images/STS_1/images_MTK_9/12.png' alt='Gambar 12.png'>",
+      "teks_pertanyaan": "Hasil pemangkatan dari bilangan 8^(4/3) : 8^(2/3) adalah...",
       "pilihan_jawaban": [
-        "A. {a, b, c, d }",
-        "B. {1, 2, 3}",
-        "C. {b, c}",
-        "D. {1, 2}"
-      ]
+        "A. 9",
+        "B. 6",
+        "C. 4",
+        "D. 2"
+      ],
+      "kunci_jawaban": "C"
     },
     {
       "id_soal": 13,
-      "teks_pertanyaan": "Diketahui $f(x)=-3x+8$ dan $f(m)=29$ nilai m adalah..",
+      "teks_pertanyaan": "Hasil bentuk pemangkatan pecahan dari (27/64)⁻²⁄³ adalah...",
       "pilihan_jawaban": [
-        "A. 7",
-        "B. -7",
-        "C. 11",
-        "D. -11"
-      ]
+        "A. -9/16",
+        "B. -16/9",
+        "C. 9/16",
+        "D. 16/9"
+      ],
+      "kunci_jawaban": "D"
     },
     {
       "id_soal": 14,
-      "teks_pertanyaan": "Gradien garis yang menghubungkan pasangan titik $P(-3,3)$ dan $Q(4,1)$ adalah...",
+      "teks_pertanyaan": "Bentuk ⁷√m⁴ dinyatakan dalam bentuk eksponen pecahan adalah...",
       "pilihan_jawaban": [
-        "A. $-\\frac{2}{7}$",
-        "B. $-\\frac{3}{7}$",
-        "C. $\\frac{2}{7}$",
-        "D. $\\frac{3}{7}$"
-      ]
+        "A. m⁴⁄⁷",
+        "B. m⁷⁄⁴",
+        "C. 7 m⁴",
+        "D. 4 ⁷⁄m"
+      ],
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 15,
-      "teks_pertanyaan": "Penyelesaian dari persamaan $3x+2y=9$ dan $2x+y=5$ adalah...",
+      "teks_pertanyaan": "Susunan bilangan ³√125, √49, ⁴√81 dari besar ke kecil adalah...",
       "pilihan_jawaban": [
-        "A. $x=3$ dan $y=1$",
-        "B. $x=-1$ dan $y=3$",
-        "C. $x=1$ dan $y=3$",
-        "D. $x=-3$ dan $y=1$"
-      ]
+        "A. ³√125, ⁴√81, √49",
+        "B. √49, ⁴√81, ³√125",
+        "C. ³√125, √49, ⁴√81",
+        "D. √49, ³√125, ⁴√81"
+      ],
+      "kunci_jawaban": "D"
     },
     {
       "id_soal": 16,
-      "teks_pertanyaan": "Yasmin membeli 4 penghapus dan 3 penggaris seharga Rp6.000 Ahmad membeli 3 penghapus dan 2 penggaris dengan harga Rp4.200 Jika Akbar membeli 1 penghapus dan 2 penggaris, jumlah uang yang harus dibayar adalah",
+      "teks_pertanyaan": "Bentuk paling sederhana dari akar bilangan √80 adalah...",
       "pilihan_jawaban": [
-        "A. Rp 3.000",
-        "B. Rp 2.400",
-        "C. Rp 2.000",
-        "D. Rp 1.800"
-      ]
+        "A. 5√5",
+        "B. 4√5",
+        "C. 4√6",
+        "D. 3√6"
+      ],
+      "kunci_jawaban": "B"
     },
     {
-  "id_soal": 17,
-  "teks_pertanyaan": "Panjang PQ pada gambar bangun di bawah adalah<br><img src='Images/STS_1/images_MTK_9/17.png' alt='Gambar 17.png'>",
+      "id_soal": 17,
+      "teks_pertanyaan": "Hasil dari √72 - √18 + √128 adalah...",
       "pilihan_jawaban": [
-        "A. 9 cm",
-        "B. 11 cm",
-        "C. 12 cm",
-        "D. 13 cm"
-      ]
+        "A. 10√3",
+        "B. 11√3",
+        "C. 10√2",
+        "D. 11√2"
+      ],
+      "kunci_jawaban": "D"
     },
     {
-      "id_soal": 18,
-      "teks_pertanyaan": "Diketahui kelompok tiga bilangan berikut : (i) 5, 12, 13 (ii) 7, 23, 24 (iii) 8, 15, 17 (iv) 12, 35, 37. Kelompok bilangan di atas yang merupakan tripel Pythagoras adalah",
-      "pilihan_jawaban": [
-        "A. (i), (ii), dan (iii)",
-        "B. (i) (iii), dan (iv)",
-        "C. (ii) dan (iv)",
-        "D. (i), (ii), (iii), dan (iv)"
-      ]
-    },
-    {
-      "id_soal": 19,
-      "teks_pertanyaan": "Diketahui ukuran sebuah segitiga 25 cm, 19 cm, dan 28 cm, maka segitiga tersebut adalah segitiga...",
-      "pilihan_jawaban": [
-        "A. Segitiga Lancip",
-        "B. Segitiga Tumpul",
-        "C. Segitiga Siku-Siku",
-        "D. Segitiga Sama Kaki"
-      ]
-    },
-    {
-      "id_soal": 20,
-      "teks_pertanyaan": "Pada kubus ABCDEFGH di bawah, panjang rusuk $AB=14$ cm. <br><br><img src='Images/STS_1/images_MTK_9/20.png' alt='gambar 20' style='max-width: 80%; height: auto;'><br><br>Luas segitiga AHB adalah ... cm²",
-      "pilihan_jawaban": [
-        "A. $50\\sqrt{2}$",
-        "B. $50\\sqrt{3}$",
-        "C. $100\\sqrt{2}$",
-        "D. $100\\sqrt{3}$"
-      ]
-    },
-    {
-      "id_soal": 21,
-      "teks_pertanyaan": "Perhatikan gambar berikut. <br><br><img src='Images/STS_1/images_MTK_9/21.png' alt='gambar 21' style='max-width: 80%; height: auto;'><br><br>Nilai x pada gambar disamping adalah...",
-      "pilihan_jawaban": [
-        "A. 29",
-        "B. 33",
-        "C. 58",
-        "D. 64"
-      ]
-    },
-    {
-      "id_soal": 22,
-      "teks_pertanyaan": "Sebuah ban mobil berbentuk lingkaran dengan diameter 35 cm. Keliling dari ban mobil tersebut adalah....",
-      "pilihan_jawaban": [
-        "A. 107",
-        "B. 108",
-        "C. 109",
-        "D. 110"
-      ]
-    },
-    {
-      "id_soal": 23,
-      "teks_pertanyaan": "Sebuah keliling lingkaran memiliki keliling 176 dengan $\\pi=22/7$ maka luas lingkaran adalah....cm²",
-      "pilihan_jawaban": [
-        "A. 2.446",
-        "B. 2.466",
-        "C. 2.464",
-        "D. 2.644"
-      ]
-    },
-    {
-      "id_soal": 24,
-      "teks_pertanyaan": "Diagram lingkaran berikut menunjukkan kegemaran 200 siswa dalam mengikuti kegiatan ekstrakurikuler di suatu sekolah. <br><br><img src='Images/STS_1/images_MTK_9/24.png' alt='gambar 24' style='max-width: 80%; height: auto;'><br><br>Banyak siswa yang gemar robotik adalah....",
-      "pilihan_jawaban": [
-        "A. 10 orang",
-        "B. 15 orang",
-        "C. 25 orang",
-        "D. 30 orang"
-      ]
-    },
-    {
-  "id_soal": 25,
-  "teks_pertanyaan": "Dari tabel tersebut diatas, hasil panen terbesar terjadi pada tahun....<br><img src='Images/STS_1/images_MTK_9/25.png' alt='Gambar 25.png'>",
-      "pilihan_jawaban": [
-        "A. 2018",
-        "B. 2017",
-        "C. 2016",
-        "D. 2015"
-      ]
-    },
-    {
-      "id_soal": 26,
-      "teks_pertanyaan": "Mean untuk data berikut: 8, 4, 5, 10, 7, 8, 9, 6, 7, 8 adalah....",
-      "pilihan_jawaban": [
-        "A. 5,8",
-        "B. 6,1",
-        "C. 7,2",
-        "D. 8,4"
-      ]
-    },
-    {
-      "id_soal": 27,
-      "teks_pertanyaan": "Hasil dari $216^{\\frac{1}{3}}$ adalah",
-      "pilihan_jawaban": [
-        "A. 6",
-        "B. 36",
-        "C. 72",
-        "D. 132"
-      ]
-    },
-    {
-      "id_soal": 28,
-      "teks_pertanyaan": "Hasil dari $\\sqrt{75}-\\sqrt{12}+\\sqrt{48}$ adalah....",
-      "pilihan_jawaban": [
-        "A. $7\\sqrt{3}$",
-        "B. $\\sqrt{15}$",
-        "C. $-7\\sqrt{3}$",
-        "D. $\\sqrt{39}$"
-      ]
-    },
-    {
-      "id_soal": 29,
-      "teks_pertanyaan": "Bentuk $\\sqrt{14+2\\sqrt{24}}$ dapat disederhanakan menjadi....",
-      "pilihan_jawaban": [
-        "A. $\\sqrt{2}+\\sqrt{7}$",
-        "B. $\\sqrt{2}+\\sqrt{12}$",
-        "C. $\\sqrt{3}+\\sqrt{8}$",
-        "D. $\\sqrt{4}+\\sqrt{6}$"
-      ]
-    },
-    {
-      "id_soal": 30,
-      "teks_pertanyaan": "Hasil pembagian $5^{-6}:5^{-4}$ adalah....",
-      "pilihan_jawaban": [
-        "A. $-\\frac{1}{25}$",
-        "B. $-\\frac{1}{10}$",
-        "C. $\\frac{1}{25}$",
-        "D. $\\frac{1}{10}$"
-      ]
-    },
-    {
-      "id_soal": 31,
-      "teks_pertanyaan": "Hasil pemangkatan dari $(-2a^{2})^{-5}$ adalah",
-      "pilihan_jawaban": [
-        "A. $-\\frac{1}{32a^{3}}$",
-        "B. $-\\frac{1}{32a^{10}}$",
-        "C. $\\frac{1}{32a^{3}}$",
-        "D. $\\frac{1}{32a^{10}}$"
-      ]
-    },
-    {
-      "id_soal": 32,
-      "teks_pertanyaan": "Jika $X_{1}$ dan $X_{2}$ merupakan akar-akar persamaan $x^{2}+2x-15=0$, maka nilai dari $x_{1}+x_{2}=....$",
-      "pilihan_jawaban": [
-        "A. 8",
-        "B. 2",
-        "C. -2",
-        "D. -8"
-      ]
-    },
-    {
-      "id_soal": 33,
-      "teks_pertanyaan": "Diketahui persamaan kuadrat $-5x^{2}+9x-1=0$ Nilai diskriminan persamaan tersebut adalah ...",
-      "pilihan_jawaban": [
-        "A. 101",
-        "B. 89",
-        "C. 73",
-        "D. 61"
-      ]
-    },
-    {
-      "id_soal": 34,
-      "teks_pertanyaan": "Pernyataan yang benar untuk grafik fungsi $y=x^{2}-6x-16$ adalah ...",
-      "pilihan_jawaban": [
-        "A. Memiliki sumbu simetri $x=6$",
-        "B. Koordinat titik potong terhadap sumbu y adalah (0,16)",
-        "C. Memiliki nilai minimum $y=-25$",
-        "D. Memotong sumbu x di satu titik"
-      ]
-    },
-    {
-      "id_soal": 35,
-      "teks_pertanyaan": "Titik balik minimum pada grafik fungsi $f(x)=2x^{2}-12x+7$ adalah",
-      "pilihan_jawaban": [
-        "A. (3,-11)",
-        "B. (-3, 11)",
-        "C. (3, -25)",
-        "D. (-3, -25)"
-      ]
-    },
-    {
-      "id_soal": 36,
-      "teks_pertanyaan": "Diketahui fungsi $y=x^{2}+3x+5$ memiliki nilai diskriminan $D=-11$. Pernyataan yang benar untuk grafik fungsi y adalah",
-      "pilihan_jawaban": [
-        "A. Memotong sumbu x di dua titik yang berbeda",
-        "B. Memotong sumbu x di satu titik",
-        "C. Tidak memotong sumbu x",
-        "D. Grafik parabola membuka ke bawah"
-      ]
-    },
-    {
-      "id_soal": 37,
-      "teks_pertanyaan": "Titik bayangan dari titik K (4,1) yang dicerminkan terhadap garis y = x adalah",
-      "pilihan_jawaban": [
-        "A. K'(1,4)",
-        "B. $K^{\\prime}(1,-4)$",
-        "C. $K^{\\prime}(-1,4)$",
-        "D. K'(-1,4)"
-      ]
-    },
-    {
-      "id_soal": 38,
-      "teks_pertanyaan": "Titik (6, 10) dirotasikan terhadap titik pusat (0,0) sebesar $90^{\\circ}$. Bayangan titik tersebut adalah ...",
-      "pilihan_jawaban": [
-        "A. P'(6, -10)",
-        "B. P'(-10, 6)",
-        "C. P'(-6,-10)",
-        "D. P'(10, -6)"
-      ]
-    },
-    {
-      "id_soal": 39,
-      "teks_pertanyaan": "Sebuah titik P(3, 2) direfleksikan terhadap sumbu Y. bayangan titik P setelah refleksi!",
-      "pilihan_jawaban": [
-        "A. (-3,-2)",
-        "B. (-3, 2)",
-        "C. (3, -2)",
-        "D. (2, 3)"
-      ]
-    },
-    {
-      "id_soal": 40,
-      "teks_pertanyaan": "Bayangan titik P oleh dilatasi [0, 2] adalah",
-      "pilihan_jawaban": [
-        "A. (8, -12)",
-        "B. (-8, 12)",
-        "C. (2, -3)",
-        "D. (-2, 3)"
-      ]
-    }
-  ],
-  "kunci_jawaban_rahasia": {
-    "1": "C",
-    "2": "D",
-    "3": "C",
-    "4": "B",
-    "5": "C",
-    "6": "D",
-    "7": "B",
-    "8": "D",
-    "9": "C",
-    "10": "C",
-    "11": "A",
-    "12": "D",
-    "13": "B",
-    "14": "A",
-    "15": "C",
-    "16": "A",
-    "17": "D",
-    "18": "B",
-    "19": "A",
-    "20": "C",
-    "21": "B",
-    "22": "D",
-    "23": "C",
-    "24": "D",
-    "25": "A",
-    "26": "C",
-    "27": "A",
-    "28": "A",
-    "29": "B",
-    "30": "C",
-    "31": "B",
-    "32": "C",
-    "33": "D",
-    "34": "C",
-    "35": "A",
-    "36": "C",
-    "37": "A",
-    "38": "B",
-    "39": "B",
-    "40": "D"
+    "id_soal": 18,
+    "teks_pertanyaan": "Hasil operasi akar bilangan dari 3√6 × 2√12 adalah...",
+    "pilihan_jawaban": [
+      "A. 36√2",
+      "B. 36√3",
+      "C. 12√2",
+      "D. 12√3"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 19,
+    "teks_pertanyaan": "Hasil pembagian dari akar bilangan √144 : √3 adalah...",
+    "pilihan_jawaban": [
+      "A. 4",
+      "B. 6",
+      "C. 4√3",
+      "D. 6√3"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 20,
+    "teks_pertanyaan": "Hasil pembagian dari akar bilangan 20√72 : 5√6 adalah...",
+    "pilihan_jawaban": [
+      "A. 7√2",
+      "B. 8√2",
+      "C. 7√3",
+      "D. 8√3"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 21,
+    "teks_pertanyaan": "Bentuk rasional dari √(3/6) adalah...",
+    "pilihan_jawaban": [
+      "A. 1/2 √2",
+      "B. 1/3 √2",
+      "C. 1/2 √3",
+      "D. 1/3 √3"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 22,
+    "teks_pertanyaan": "Bentuk rasional dari √5 / 3√10 adalah...",
+    "pilihan_jawaban": [
+      "A. 1/4 √2",
+      "B. 1/6 √2",
+      "C. 1/5 √2",
+      "D. 1/7 √2"
+    ],
+    "kunci_jawaban": "B"
+  },
+    JSON
+[
+  {
+    "id_soal": 23,
+    "teks_pertanyaan": "Bentuk rasional √3 / (√6 + √5) adalah...",
+    "pilihan_jawaban": [
+      "A. √2 + 3√15",
+      "B. √2 - 3√15",
+      "C. 3√2 + √15",
+      "D. 3√2 - √15"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 24,
+    "teks_pertanyaan": "√(16 + 8√3) dapat disederhanakan menjadi...",
+    "pilihan_jawaban": [
+      "A. √12 + 2",
+      "B. √12 + 3",
+      "C. √6 + √8",
+      "D. √6 + √5"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 25,
+    "teks_pertanyaan": "√(13 - 2√42) dapat disederhanakan menjadi...",
+    "pilihan_jawaban": [
+      "A. √13 - √6",
+      "B. √11 - √2",
+      "C. √7 - √6",
+      "D. √7 - √5"
+    ],
+    "kunci_jawaban": "C"
   }
+  ]
 }
