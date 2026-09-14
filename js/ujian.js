@@ -9,19 +9,22 @@ const nativeConfirm = window.confirm;
 function formatMathTeX(text) {
     if (!text || typeof text !== 'string') return text || '';
 
-    // Map superscript unicode
     const supMap = { '⁰':'0', '¹':'1', '²':'2', '³':'3', '⁴':'4', '⁵':'5', '⁶':'6', '⁷':'7', '⁸':'8', '⁹':'9' };
 
     // 1. Ubah format ¹²√12¹¹ menjadi \(\sqrt[12]{12^{11}}\)
-    text = text.replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)√(\d+)([⁰¹²³⁴⁵⁶⁷⁸⁹]*)/g, (match, degSup, base, expSup) => {
-        let degree = degSup.split('').map(c => supMap[c] || c).join('');
-        let exp = expSup ? expSup.split('').map(c => supMap[c] || c).join('') : '';
-        return exp ? `\\(\\sqrt[${degree}]{${base}^{${exp}}}\\)` : `\\(\\sqrt[${degree}]{${base}}\\);
+    text = text.replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)√(\d+)([⁰¹²³⁴⁵⁶⁷⁸⁹]*)/g, function(match, degSup, base, expSup) {
+        let degree = degSup.split('').map(function(c) { return supMap[c] || c; }).join('');
+        let exp = expSup ? expSup.split('').map(function(c) { return supMap[c] || c; }).join('') : '';
+        if (exp) {
+            return '\\(\\sqrt[' + degree + ']{' + base + '^{' + exp + '}}\\)';
+        } else {
+            return '\\(\\sqrt[' + degree + ']{' + base + '}\\)';
+        }
     });
 
     // 2. Ubah format pecahan eksponen 12^(2/3) menjadi \(12^{\frac{2}{3}}\)
-    text = text.replace(/(\d+|\w+)\^\((\d+)\/(\d+)\)/g, (match, base, num, den) => {
-        return `\\(${base}^{\\frac{${num}}{${den}}}\\)`;
+    text = text.replace(/(\d+|\w+)\^\((\d+)\/(\d+)\)/g, function(match, base, num, den) {
+        return '\\(' + base + '^{\\frac{' + num + '}{' + den + '}}\\)';
     });
 
     return text;
@@ -30,10 +33,10 @@ function formatMathTeX(text) {
 // FUNGSI PEMICU MATHJAX TYPESET
 function triggerMathJax() {
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
-        window.MathJax.typesetPromise().catch(err => console.warn("MathJax error:", err));
+        window.MathJax.typesetPromise().catch(function(err) { console.warn("MathJax error:", err); });
     } else if (window.MathJax && window.MathJax.startup) {
-        window.MathJax.startup.promise.then(() => {
-            window.MathJax.typesetPromise().catch(err => console.warn("MathJax error:", err));
+        window.MathJax.startup.promise.then(function() {
+            window.MathJax.typesetPromise().catch(function(err) { console.warn("MathJax error:", err); });
         });
     }
 }
@@ -194,7 +197,6 @@ function initTimer(data, mapelUjian) {
     timerInterval = setInterval(updateTimerDisplay, 1000);
 }
 
-// RENDER SOAL (Tampilan Teracak dengan MathJax)
 function renderSoal(daftarSoal) {
     let htmlSoal = "";
     daftarSoal.forEach((soal, index) => {
@@ -285,7 +287,6 @@ function renderSoal(daftarSoal) {
         elemLembarSoal.innerHTML = htmlSoal;
     }
 
-    // Panggil render ulang MathJax setelah DOM diisi
     triggerMathJax();
 }
 
