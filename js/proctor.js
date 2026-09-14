@@ -167,6 +167,7 @@ const Proctor = {
         if (window.timerInterval) clearInterval(window.timerInterval);
     },
 
+    // Timpa fungsi ini di dalam const Proctor = { ... }
     tampilkanAlert(pesan) {
         const modalPeringatan = document.getElementById('customPeringatan');
         const textEl = document.getElementById('peringatanText');
@@ -181,13 +182,12 @@ const Proctor = {
                 void box.offsetWidth;
                 box.style.animation = '';
             }
-        } else if (typeof UI !== 'undefined' && typeof UI.showAlert === 'function') {
-            UI.showAlert(pesan);
         } else {
-            alert(pesan.replace(/<[^>]*>?/gm, ''));
+            // Hanya cetak ke console jika modal lupa dipasang (Aman dari crash Exambro)
+            console.warn("Peringatan Proctor:", pesan);
         }
     },
-
+    
     tutupPeringatan() {
         const modalPeringatan = document.getElementById('customPeringatan');
         if (modalPeringatan) {
