@@ -8,14 +8,19 @@ const CONFIG = {
 
     // ===================================================
     // 🔘 SAKELAR UTAMA (Ubah nilai ini sesuai pekan ujian)
-    // Pilihan: "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
+    // Pilihan: "UJI_COBA" | "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
     // ===================================================
-    UJIAN_AKTIF: "STS_1",
+    UJIAN_AKTIF: "UJI_COBA",
 
     // ===================================================
     // 📁 DAFTAR KONFIGURASI JENIS UJIAN & SPREADSHEET
     // ===================================================
     LIST_UJIAN: {
+        "UJI_COBA": {
+            nama: "Uji Coba Sistem",
+            folder: "UJI_COBA",
+            submit_url: "https://script.google.com/macros/s/GANTI_DENGAN_URL_GAS_UJI_COBA/exec"
+        },
         "STS_1": {
             nama: "Sumatif Tengah Semester 1",
             folder: "STS_1",
@@ -78,6 +83,6 @@ const CONFIG = {
     },
 
     getFolderPath(kelas) {
-        return `Soal/${this.getUjianAktif().folder}/Kelas_${kelas}`;
+        return `Soal/\({this.getUjianAktif().folder}/Kelas_\){kelas}`;
     }
 };
