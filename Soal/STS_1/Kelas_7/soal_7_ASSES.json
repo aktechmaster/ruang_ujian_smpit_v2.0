@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Matematika",
+    "jenis_ujian": "Asesmen Awal",
+    "jumlah_soal": 70,
+    "durasi_menit": 90
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Hasil dari \\(5 + 7 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 11",
+        "B. 12",
+        "C. 13",
+        "D. 2"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Hasil dari \\(25 + 68 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 83",
+        "B. 92",
+        "C. 93",
+        "D. 103"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Hasil dari \\(7 - 15 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -8",
+        "B. 8",
+        "C. -22",
+        "D. 22"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Hasil dari \\(197 - 126 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 61",
+        "B. 71",
+        "C. 72",
+        "D. 81"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Hasil dari \\(-3 + 7 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -10",
+        "B. -4",
+        "C. 4",
+        "D. 10"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Hasil dari \\(-25 + 58 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -33",
+        "B. 23",
+        "C. 33",
+        "D. 83"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Hasil dari \\(-4 - 6 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -2",
+        "B. 2",
+        "C. 10",
+        "D. -10"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Hasil dari \\(-19 - 36 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -55",
+        "B. -17",
+        "C. 17",
+        "D. 55"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{7}{11} + \\frac{9}{11} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{16}{22}\\)",
+        "B. \\(\\frac{16}{11}\\)",
+        "C. \\(\\frac{63}{121}\\)",
+        "D. \\(\\frac{2}{11}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{5}{7} + \\frac{3}{8} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{8}{15}\\)",
+        "B. \\(\\frac{61}{56}\\)",
+        "C. \\(\\frac{15}{56}\\)",
+        "D. \\(\\frac{40}{56}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{-3}{7} + \\frac{4}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{1}{35}\\)",
+        "B. \\(\\frac{13}{35}\\)",
+        "C. \\(\\frac{-13}{35}\\)",
+        "D. \\(\\frac{43}{35}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{-2}{9} - 3 =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{-29}{9}\\)",
+        "B. \\(\\frac{25}{9}\\)",
+        "C. \\(\\frac{-5}{9}\\)",
+        "D. \\(\\frac{1}{9}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Hasil dari \\(5 + \\frac{2}{3} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{7}{3}\\)",
+        "B. \\(\\frac{10}{3}\\)",
+        "C. \\(\\frac{17}{3}\\)",
+        "D. \\(5\\frac{2}{3}\\) atau \\(\\frac{17}{3}\\)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Hasil dari \\(5 \\times \\frac{3}{4} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{15}{20}\\)",
+        "B. \\(\\frac{8}{4}\\)",
+        "C. \\(\\frac{15}{4}\\)",
+        "D. \\(\\frac{3}{20}\\)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{9} \\times \\frac{5}{3} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{10}{27}\\)",
+        "B. \\(\\frac{7}{12}\\)",
+        "C. \\(\\frac{6}{45}\\)",
+        "D. \\(\\frac{10}{9}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{3}{8} : \\frac{4}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{12}{40}\\)",
+        "B. \\(\\frac{15}{32}\\)",
+        "C. \\(\\frac{32}{15}\\)",
+        "D. \\(\\frac{7}{13}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Hasil dari \\(4 : \\frac{3}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{12}{5}\\)",
+        "B. \\(\\frac{20}{3}\\)",
+        "C. \\(\\frac{3}{20}\\)",
+        "D. \\(\\frac{7}{5}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{3} : 5 =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{10}{3}\\)",
+        "B. \\(\\frac{7}{3}\\)",
+        "C. \\(\\frac{2}{15}\\)",
+        "D. \\(\\frac{15}{2}\\)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{5}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,75",
+        "B. 1,25",
+        "C. 1,4",
+        "D. 7,5"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{4}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,34",
+        "B. 0,75",
+        "C. 0,6",
+        "D. 1,33"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Bentuk desimal dari \\(2\\frac{3}{5}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 2,3",
+        "B. 2,35",
+        "C. 2,6",
+        "D. 3,2"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{8}\\) (tulis sampai 3 desimal) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,375",
+        "B. 0,380",
+        "C. 0,333",
+        "D. 0,300"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{6}\\) (tulis sampai 3 desimal) adalah ...",
+      "pilihan_jawaban": [
+        "A. 1,160",
+        "B. 1,167",
+        "C. 1,170",
+        "D. 0,857"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Bentuk desimal dari \\(13,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 1,35",
+        "B. 0,135",
+        "C. 13,5",
+        "D. 0,0135"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Bentuk desimal dari \\(213\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 213",
+        "B. 21,3",
+        "C. 2,13",
+        "D. 0,213"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 26,
+      "teks_pertanyaan": "Bentuk desimal dari \\(22,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,225",
+        "B. 2,25",
+        "C. 22,5",
+        "D. 0,0225"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 27,
+      "teks_pertanyaan": "Hasil dari \\(215 \\times 10^{-4} =\\) ...",
+      "pilihan_jawaban": [
+        "A. 0,00215",
+        "B. 0,0215",
+        "C. 0,215",
+        "D. 2,15"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 28,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,55\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{55}{100}\\)",
+        "B. \\(\\frac{11}{20}\\)",
+        "C. \\(\\frac{5}{10}\\)",
+        "D. \\(\\frac{1}{2}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 29,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,725\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{725}{1000}\\)",
+        "B. \\(\\frac{29}{40}\\)",
+        "C. \\(\\frac{7}{10}\\)",
+        "D. \\(\\frac{145}{200}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 30,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(37,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{375}{1000}\\)",
+        "B. \\(\\frac{3}{8}\\)",
+        "C. \\(\\frac{37}{100}\\)",
+        "D. \\(\\frac{75}{200}\\)"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
