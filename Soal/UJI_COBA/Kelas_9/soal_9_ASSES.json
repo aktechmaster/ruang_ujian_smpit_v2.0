@@ -1,0 +1,780 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Matematika",
+    "jenis_ujian": "Asesmen Awal",
+    "jumlah_soal": 70,
+    "durasi_menit": 90
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Hasil dari \\(5 + 7 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 11",
+        "B. 12",
+        "C. 13",
+        "D. 2"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Hasil dari \\(25 + 68 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 83",
+        "B. 92",
+        "C. 93",
+        "D. 103"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Hasil dari \\(7 - 15 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -8",
+        "B. 8",
+        "C. -22",
+        "D. 22"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Hasil dari \\(197 - 126 =\\) ...",
+      "pilihan_jawaban": [
+        "A. 61",
+        "B. 71",
+        "C. 72",
+        "D. 81"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Hasil dari \\(-3 + 7 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -10",
+        "B. -4",
+        "C. 4",
+        "D. 10"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Hasil dari \\(-25 + 58 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -33",
+        "B. 23",
+        "C. 33",
+        "D. 83"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Hasil dari \\(-4 - 6 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -2",
+        "B. 2",
+        "C. 10",
+        "D. -10"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Hasil dari \\(-19 - 36 =\\) ...",
+      "pilihan_jawaban": [
+        "A. -55",
+        "B. -17",
+        "C. 17",
+        "D. 55"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{7}{11} + \\frac{9}{11} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{16}{22}\\)",
+        "B. \\(\\frac{16}{11}\\)",
+        "C. \\(\\frac{63}{121}\\)",
+        "D. \\(\\frac{2}{11}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{5}{7} + \\frac{3}{8} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{8}{15}\\)",
+        "B. \\(\\frac{61}{56}\\)",
+        "C. \\(\\frac{15}{56}\\)",
+        "D. \\(\\frac{40}{56}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{-3}{7} + \\frac{4}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{1}{35}\\)",
+        "B. \\(\\frac{13}{35}\\)",
+        "C. \\(\\frac{-13}{35}\\)",
+        "D. \\(\\frac{43}{35}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{-2}{9} - 3 =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{-29}{9}\\)",
+        "B. \\(\\frac{25}{9}\\)",
+        "C. \\(\\frac{-5}{9}\\)",
+        "D. \\(\\frac{1}{9}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Hasil dari \\(5 + \\frac{2}{3} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{7}{3}\\)",
+        "B. \\(\\frac{10}{3}\\)",
+        "C. \\(\\frac{17}{3}\\)",
+        "D. \\(5\\frac{2}{3}\\) atau \\(\\frac{17}{3}\\)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Hasil dari \\(5 \\times \\frac{3}{4} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{15}{20}\\)",
+        "B. \\(\\frac{8}{4}\\)",
+        "C. \\(\\frac{15}{4}\\)",
+        "D. \\(\\frac{3}{20}\\)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{9} \\times \\frac{5}{3} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{10}{27}\\)",
+        "B. \\(\\frac{7}{12}\\)",
+        "C. \\(\\frac{6}{45}\\)",
+        "D. \\(\\frac{10}{9}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{3}{8} : \\frac{4}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{12}{40}\\)",
+        "B. \\(\\frac{15}{32}\\)",
+        "C. \\(\\frac{32}{15}\\)",
+        "D. \\(\\frac{7}{13}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Hasil dari \\(4 : \\frac{3}{5} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{12}{5}\\)",
+        "B. \\(\\frac{20}{3}\\)",
+        "C. \\(\\frac{3}{20}\\)",
+        "D. \\(\\frac{7}{5}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{3} : 5 =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{10}{3}\\)",
+        "B. \\(\\frac{7}{3}\\)",
+        "C. \\(\\frac{2}{15}\\)",
+        "D. \\(\\frac{15}{2}\\)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{5}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,75",
+        "B. 1,25",
+        "C. 1,4",
+        "D. 7,5"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{4}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,34",
+        "B. 0,75",
+        "C. 0,6",
+        "D. 1,33"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Bentuk desimal dari \\(2\\frac{3}{5}\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 2,3",
+        "B. 2,35",
+        "C. 2,6",
+        "D. 3,2"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{8}\\) (tulis sampai 3 desimal) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,375",
+        "B. 0,380",
+        "C. 0,333",
+        "D. 0,300"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{6}\\) (tulis sampai 3 desimal) adalah ...",
+      "pilihan_jawaban": [
+        "A. 1,160",
+        "B. 1,167",
+        "C. 1,170",
+        "D. 0,857"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Bentuk desimal dari \\(13,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 1,35",
+        "B. 0,135",
+        "C. 13,5",
+        "D. 0,0135"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Bentuk desimal dari \\(213\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 213",
+        "B. 21,3",
+        "C. 2,13",
+        "D. 0,213"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 26,
+      "teks_pertanyaan": "Bentuk desimal dari \\(22,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 0,225",
+        "B. 2,25",
+        "C. 22,5",
+        "D. 0,0225"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 27,
+      "teks_pertanyaan": "Hasil dari \\(215 \\times 10^{-4} =\\) ...",
+      "pilihan_jawaban": [
+        "A. 0,00215",
+        "B. 0,0215",
+        "C. 0,215",
+        "D. 2,15"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 28,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,55\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{55}{100}\\)",
+        "B. \\(\\frac{11}{20}\\)",
+        "C. \\(\\frac{5}{10}\\)",
+        "D. \\(\\frac{1}{2}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 29,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,725\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{725}{1000}\\)",
+        "B. \\(\\frac{29}{40}\\)",
+        "C. \\(\\frac{7}{10}\\)",
+        "D. \\(\\frac{145}{200}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 30,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(37,5\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{375}{1000}\\)",
+        "B. \\(\\frac{3}{8}\\)",
+        "C. \\(\\frac{37}{100}\\)",
+        "D. \\(\\frac{75}{200}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 31,
+      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(350\\%\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{35}{10}\\)",
+        "B. \\(\\frac{7}{2}\\)",
+        "C. \\(\\frac{350}{100}\\)",
+        "D. \\(\\frac{3}{5}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 32,
+      "teks_pertanyaan": "Bentuk pecahan dari \\(0,5555...\\) (desimal berulang) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{5}{9}\\)",
+        "B. \\(\\frac{55}{100}\\)",
+        "C. \\(\\frac{1}{2}\\)",
+        "D. \\(\\frac{555}{1000}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 33,
+      "teks_pertanyaan": "Bentuk pecahan dari \\(0,707070...\\) (desimal berulang) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{70}{100}\\)",
+        "B. \\(\\frac{70}{99}\\)",
+        "C. \\(\\frac{7}{10}\\)",
+        "D. \\(\\frac{707}{1000}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 34,
+      "teks_pertanyaan": "Jika \\(\\frac{a}{b} = \\frac{5}{7}\\), maka \\(a : b =\\) ...",
+      "pilihan_jawaban": [
+        "A. 7 : 5",
+        "B. 5 : 7",
+        "C. 3 : 5",
+        "D. 5 : 3"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 35,
+      "teks_pertanyaan": "Jika \\(3a = 4b\\), maka \\(a : b =\\) ...",
+      "pilihan_jawaban": [
+        "A. 3 : 4",
+        "B. 4 : 3",
+        "C. 7 : 3",
+        "D. 3 : 7"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 36,
+      "teks_pertanyaan": "Jika \\(7b = 5a\\), maka \\(\\frac{a}{b} =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{5}{7}\\)",
+        "B. \\(\\frac{7}{5}\\)",
+        "C. \\(\\frac{2}{5}\\)",
+        "D. \\(\\frac{5}{2}\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 37,
+      "teks_pertanyaan": "Jika \\(b = \\frac{3}{5}a\\), maka \\(a : b =\\) ...",
+      "pilihan_jawaban": [
+        "A. 3 : 5",
+        "B. 5 : 3",
+        "C. 2 : 5",
+        "D. 5 : 2"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 38,
+      "teks_pertanyaan": "Jika \\(a : b = 7 : 3\\) dan \\(b = 6\\), maka nilai \\(a =\\) ...",
+      "pilihan_jawaban": [
+        "A. 12",
+        "B. 14",
+        "C. 18",
+        "D. 21"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 39,
+      "teks_pertanyaan": "Jika \\(a\\) lima kurangnya dari \\(b\\), dan \\(b = 12\\), maka nilai \\(a =\\) ...",
+      "pilihan_jawaban": [
+        "A. 5",
+        "B. 7",
+        "C. 17",
+        "D. 60"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 40,
+      "teks_pertanyaan": "Jika \\(a\\) tujuh lebih besar daripada \\(b\\) dan \\(a + b = 35\\), maka nilai \\(a = ..., b = ...\\)",
+      "pilihan_jawaban": [
+        "A. \\(a = 21, b = 14\\)",
+        "B. \\(a = 14, b = 21\\)",
+        "C. \\(a = 28, b = 7\\)",
+        "D. \\(a = 20, b = 15\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 41,
+      "teks_pertanyaan": "Jika \\(a + b = 40\\) dan \\(a : b = 2 : 3\\), maka nilai \\(a = ..., b = ...\\)",
+      "pilihan_jawaban": [
+        "A. \\(a = 16, b = 24\\)",
+        "B. \\(a = 24, b = 16\\)",
+        "C. \\(a = 20, b = 20\\)",
+        "D. \\(a = 10, b = 30\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 42,
+      "teks_pertanyaan": "Nilai \\(p\\) yang memenuhi \\(4p = 24\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 4",
+        "B. 6",
+        "C. 8",
+        "D. 20"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 43,
+      "teks_pertanyaan": "Nilai \\(a\\) yang memenuhi \\(3a + 5 = 14\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 2",
+        "B. 3",
+        "C. 4",
+        "D. 9"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 44,
+      "teks_pertanyaan": "Nilai \\(p\\) yang memenuhi \\(3p - 2 = 5p + 6\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. -4",
+        "B. 4",
+        "C. -2",
+        "D. 2"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 45,
+      "teks_pertanyaan": "Nilai \\(p\\) yang memenuhi \\(4 + 3p = 2p - 3\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. 1",
+        "B. -1",
+        "C. 7",
+        "D. -7"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 46,
+      "teks_pertanyaan": "Nilai \\(p\\) yang memenuhi \\(5 - \\frac{1}{2}(3p - 2) = 4 + \\frac{5}{2}(p - 1)\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(\\frac{9}{8}\\)",
+        "B. \\(\\frac{8}{9}\\)",
+        "C. \\(\\frac{1}{2}\\)",
+        "D. \\(\\frac{3}{4}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 47,
+      "teks_pertanyaan": "Nilai \\(x\\) dan \\(y\\) yang memenuhi sistem persamaan: \\(x + 3y = 20\\) dan \\(x - y = 4\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(x = 6, y = 2\\)",
+        "B. \\(x = 8, y = 4\\)",
+        "C. \\(x = 10, y = 6\\)",
+        "D. \\(x = 5, y = 5\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 48,
+      "teks_pertanyaan": "Nilai \\(x\\) dan \\(y\\) yang memenuhi sistem persamaan: \\(5x - 3y = 7\\) dan \\(3x - 5y = 1\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(x = 1, y = 2\\)",
+        "B. \\(x = 2, y = 1\\)",
+        "C. \\(x = 3, y = 2\\)",
+        "D. \\(x = 2, y = 3\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 49,
+      "teks_pertanyaan": "Umur adik tiga perempat kali umur kakak, jumlah umur mereka 28 tahun. Umur adik dan kakak berturut-turut adalah ...",
+      "pilihan_jawaban": [
+        "A. 12 tahun dan 16 tahun",
+        "B. 16 tahun dan 12 tahun",
+        "C. 10 tahun dan 18 tahun",
+        "D. 14 tahun dan 14 tahun"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 50,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(6x - 10x =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(4x\\)",
+        "B. \\(-4x\\)",
+        "C. \\(16x\\)",
+        "D. \\(-16x\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 51,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(7y + (-3y) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(4y\\)",
+        "B. \\(-4y\\)",
+        "C. \\(10y\\)",
+        "D. \\(-10y\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 52,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(8x + 3y - 4x + 5y =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(12x + 8y\\)",
+        "B. \\(4x + 8y\\)",
+        "C. \\(4x - 2y\\)",
+        "D. \\(12x - 2y\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 53,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(5xy(-y) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(5xy^2\\)",
+        "B. \\(-5xy^2\\)",
+        "C. \\(-5x^2y\\)",
+        "D. \\(5x^2y\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 54,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(2xy^2 - 5x^2y + 6xy^2 =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(8xy^2 - 5x^2y\\)",
+        "B. \\(3xy^2\\)",
+        "C. \\(-3x^2y\\)",
+        "D. \\(8x^2y^2 - 5x^2y\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 55,
+      "teks_pertanyaan": "Hasil jabaran dari \\((4a) \\times (6b) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(10ab\\)",
+        "B. \\(24ab\\)",
+        "C. \\(24a + b\\)",
+        "D. \\(10a + b\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 56,
+      "teks_pertanyaan": "Hasil jabaran dari \\(2 \\times (a + 3) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(2a + 3\\)",
+        "B. \\(2a + 6\\)",
+        "C. \\(a + 6\\)",
+        "D. \\(2 + 3a\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 57,
+      "teks_pertanyaan": "Hasil jabaran dari \\((a - 4)(b + 2) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(ab + 2a - 4b - 8\\)",
+        "B. \\(ab - 2a + 4b - 8\\)",
+        "C. \\(ab + 2a + 4b + 8\\)",
+        "D. \\(a + b - 2\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 58,
+      "teks_pertanyaan": "Hasil jabaran dari \\((4x + 3)(2y - 7) =\\) ...",
+      "pilihan_jawaban": [
+        "A. \\(8xy - 28x + 6y - 21\\)",
+        "B. \\(8xy + 28x - 6y - 21\\)",
+        "C. \\(6xy - 21\\)",
+        "D. \\(8xy - 21\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 59,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 + 3x = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(x(x + 3) = 0\\), maka \\(x = 0\\) atau \\(x = -3\\)",
+        "B. \\(x(x - 3) = 0\\), maka \\(x = 0\\) atau \\(x = 3\\)",
+        "C. \\((x + 3)^2 = 0\\), maka \\(x = -3\\)",
+        "D. \\(3x(x + 1) = 0\\), maka \\(x = 0\\) atau \\(x = -1\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 60,
+      "teks_pertanyaan": "Pemfaktoran dari \\(2x^2 - 14x = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(2x(x - 7) = 0\\), maka \\(x = 0\\) atau \\(x = 7\\)",
+        "B. \\(2x(x + 7) = 0\\), maka \\(x = 0\\) atau \\(x = -7\\)",
+        "C. \\(x(2x - 14) = 0\\), maka \\(x = 0\\) atau \\(x = 14\\)",
+        "D. \\(2(x^2 - 7x) = 0\\), maka \\(x = 2\\) atau \\(x = 7\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 61,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 - 49 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x - 7)(x + 7) = 0\\), maka \\(x = 7\\) atau \\(x = -7\\)",
+        "B. \\((x - 7)^2 = 0\\), maka \\(x = 7\\)",
+        "C. \\((x + 7)^2 = 0\\), maka \\(x = -7\\)",
+        "D. \\(x(x - 49) = 0\\), maka \\(x = 0\\) atau \\(x = 49\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 62,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 = 196\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x - 14)(x + 14) = 0\\), maka \\(x = 14\\) atau \\(x = -14\\)",
+        "B. \\((x - 14)^2 = 0\\), maka \\(x = 14\\)",
+        "C. \\((x + 14)^2 = 0\\), maka \\(x = -14\\)",
+        "D. \\(x^2 - 14 = 0\\), maka \\(x = \\sqrt{14}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 63,
+      "teks_pertanyaan": "Pemfaktoran dari \\(25x^2 - 9 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((5x - 3)(5x + 3) = 0\\), maka \\(x = \\frac{3}{5}\\) atau \\(x = -\\frac{3}{5}\\)",
+        "B. \\((5x - 9)(5x + 1) = 0\\), maka \\(x = \\frac{9}{5}\\) atau \\(x = -\\frac{1}{5}\\)",
+        "C. \\((25x - 9)(x + 1) = 0\\), maka \\(x = \\frac{9}{25}\\) atau \\(x = -1\\)",
+        "D. \\((5x - 3)^2 = 0\\), maka \\(x = \\frac{3}{5}\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 64,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 + 4x + 3 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x + 1)(x + 3) = 0\\), maka \\(x = -1\\) atau \\(x = -3\\)",
+        "B. \\((x - 1)(x - 3) = 0\\), maka \\(x = 1\\) atau \\(x = 3\\)",
+        "C. \\((x + 2)(x + 1) = 0\\), maka \\(x = -2\\) atau \\(x = -1\\)",
+        "D. \\((x + 4)(x - 1) = 0\\), maka \\(x = -4\\) atau \\(x = 1\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 65,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 - 3x - 10 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x - 5)(x + 2) = 0\\), maka \\(x = 5\\) atau \\(x = -2\\)",
+        "B. \\((x + 5)(x - 2) = 0\\), maka \\(x = -5\\) atau \\(x = 2\\)",
+        "C. \\((x - 10)(x + 1) = 0\\), maka \\(x = 10\\) atau \\(x = -1\\)",
+        "D. \\((x - 3)(x - 10) = 0\\), maka \\(x = 3\\) atau \\(x = 10\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 66,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 - 7x + 12 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x - 3)(x - 4) = 0\\), maka \\(x = 3\\) atau \\(x = 4\\)",
+        "B. \\((x + 3)(x + 4) = 0\\), maka \\(x = -3\\) atau \\(x = -4\\)",
+        "C. \\((x - 6)(x - 2) = 0\\), maka \\(x = 6\\) atau \\(x = 2\\)",
+        "D. \\((x - 12)(x - 1) = 0\\), maka \\(x = 12\\) atau \\(x = 1\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 67,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 + 8x + 16 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x + 4)^2 = 0\\), maka \\(x = -4\\)",
+        "B. \\((x - 4)^2 = 0\\), maka \\(x = 4\\)",
+        "C. \\((x + 8)(x + 2) = 0\\), maka \\(x = -8\\) atau \\(x = -2\\)",
+        "D. \\((x + 16)(x + 1) = 0\\), maka \\(x = -16\\) atau \\(x = -1\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 68,
+      "teks_pertanyaan": "Pemfaktoran dari \\(x^2 - 14x + 49 = 0\\) dan nilai \\(x\\) yang memenuhi adalah ...",
+      "pilihan_jawaban": [
+        "A. \\((x - 7)^2 = 0\\), maka \\(x = 7\\)",
+        "B. \\((x + 7)^2 = 0\\), maka \\(x = -7\\)",
+        "C. \\((x - 49)(x - 1) = 0\\), maka \\(x = 49\\) atau \\(x = 1\\)",
+        "D. \\((x - 14)(x + 1) = 0\\), maka \\(x = 14\\) atau \\(x = -1\\)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 69,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(3x + 2y\\) adalah ...",
+      "pilihan_jawaban": [
+        "A. \\(5xy\\)",
+        "B. \\(3x + 2y\\) (tidak dapat disederhanakan lagi)",
+        "C. \\(6xy\\)",
+        "D. \\(x + y\\)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 70,
+      "teks_pertanyaan": "Bentuk sederhana dari \\(4x + 8y\\) dapat difaktorkan menjadi ...",
+      "pilihan_jawaban": [
+        "A. \\(4(x + 2y)\\)",
+        "B. \\(2(2x + 4y)\\)",
+        "C. \\(x(4 + 8y)\\)",
+        "D. \\(8y(x + 1)\\)"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
