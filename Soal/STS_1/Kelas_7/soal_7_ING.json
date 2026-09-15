@@ -215,7 +215,8 @@
     },
     {
       "id_soal": 18,
-      "teks_pertanyaan": "Look at the picture and answer the question.<br>![image](Images/STS_1/images_ING_7/18.png)",
+      "gambar": "Images/STS_1/images_ING_7/18.png",
+      "teks_pertanyaan": "Look at the picture and answer the question.",
       "pilihan_jawaban": [
         "A. he has short curly black hair",
         "B. he has long straight black hair",
@@ -226,7 +227,8 @@
     },
     {
       "id_soal": 19,
-      "teks_pertanyaan": "Look at the picture and answer the question.<br>![image](Images/STS_1/images_ING_7/19.png)",
+      "gambar": "Images/STS_1/images_ING_7/19.png",
+      "teks_pertanyaan": "Look at the picture and answer the question.",
       "pilihan_jawaban": [
         "A. she has big round brown eyes",
         "B. she has long straight brown eyes",
