@@ -8,20 +8,14 @@ const CONFIG = {
 
     // ===================================================
     // 🔘 SAKELAR UTAMA (Ubah nilai ini sesuai pekan ujian)
-    // Pilihan: "UJI_COBA" | "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
+    // Pilihan: "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
     // ===================================================
-    UJIAN_AKTIF: "STS_1", // <-- UBAH DI SINI UNTUK MENGAKTIFKAN
+    UJIAN_AKTIF: "STS_1",
 
     // ===================================================
     // 📁 DAFTAR KONFIGURASI JENIS UJIAN & SPREADSHEET
     // ===================================================
     LIST_UJIAN: {
-        // <-- TAMBAHKAN BLOK UJI_COBA DI SINI
-        "UJI_COBA": {
-            nama: "Uji Coba Sistem",
-            folder: "UJI_COBA", // Mengarah ke folder UJI_COBA di GitHub
-            submit_url: "https://script.google.com/macros/s/GANTI_DENGAN_URL_GAS_UJI_COBA/exec" // URL Apps Script penampung data uji coba
-        },
         "STS_1": {
             nama: "Sumatif Tengah Semester 1",
             folder: "STS_1",
@@ -49,4 +43,41 @@ const CONFIG = {
         }
     },
 
-    // ... sisa kode di bawahnya tetap sama
+    // ===================================================
+    // ⏱️ DURASI UJIAN PER MATA PELAJARAN (dalam menit)
+    // ===================================================
+    DURASI_MAPEL: {
+        "PKN": 90,
+        "MTK": 120,
+        "IPA": 90,
+        "IPS": 90,
+        "B_INDO": 120,
+        "B_INGG": 120,
+        "PAI": 90
+    },
+
+    // ===================================================
+    // 🛡️ FITUR PROCTORING / KEAMANAN
+    // ===================================================
+    PROCTOR: {
+        ENABLE_ANTI_TAB_SWITCH: true,
+        MAX_TAB_SWITCH_WARNINGS: 3,
+        ENABLE_DISABLE_RIGHT_CLICK: true,
+        ENABLE_DISABLE_DEVTOOLS_KEYS: true
+    },
+
+    // ===================================================
+    // 🛠️ HELPER FUNCTIONS (Fungsi Pembantu Dinamis)
+    // ===================================================
+    getUjianAktif() {
+        return this.LIST_UJIAN[this.UJIAN_AKTIF] || this.LIST_UJIAN["STS_1"];
+    },
+
+    getSubmitUrl() {
+        return this.getUjianAktif().submit_url;
+    },
+
+    getFolderPath(kelas) {
+        return `Soal/${this.getUjianAktif().folder}/Kelas_${kelas}`;
+    }
+};
