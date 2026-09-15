@@ -51,16 +51,17 @@
       "kunci_jawaban": "B"
     },
     {
-      "id_soal": 5,
-      "teks_pertanyaan": "Which statements are CORRECT based on the text?\n\n1. Ms. Hayati is 37 years old.\n2. Her hobbies are baking cake, pastry, and cycling.\n3. She lives in Jakarta.\n4. She goes to school by car every day.",
-      "pilihan_jawaban": [
-        "A. If (1), (2), and (3) are correct",
-        "B. If (1) and (2) are correct",
-        "C. If (2) and (4) are correct",
-        "D. If (1) and (4) are correct"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 5,
+    "tipe_soal": "PGK",
+    "teks_pertanyaan": "Which statements are CORRECT based on the text?",
+    "pilihan_jawaban": [
+      "A. Ms. Hayati is 37 years old.",
+      "B. Her hobbies are baking cake, pastry, and cycling.",
+      "C. She lives in Jakarta.",
+      "D. She goes to school by car every day."
+    ],
+    "kunci_jawaban": ["A", "B"]
+  },
     {
       "id_soal": 6,
       "tipe_soal": "BS",
@@ -77,17 +78,18 @@
       }
     },
     {
-      "id_soal": 7,
-      "gambar": "Images/STS_1/images_ING_7/7.png",
-      "teks_pertanyaan": "Look at the picture carefully. Which statements are CORRECT?\n\n1. Two boys are playing chess on the floor.\n2. There is a girl wearing a hijab in the classroom.\n3. All students are sitting at their desks.\n4. A boy is standing while reading a book.",
-      "pilihan_jawaban": [
-        "A. If (1), (2), and (3) are correct",
-        "B. If (1) and (3) are correct",
-        "C. If (1), (2), and (4) are correct",
-        "D. If (2) and (4) are correct"
-      ],
-      "kunci_jawaban": "C"
-    },
+    "id_soal": 7,
+    "tipe_soal": "PGK",
+    "gambar": "Images/STS_1/images_ING_7/7.png",
+    "teks_pertanyaan": "Look at the picture carefully. Which statements are CORRECT?",
+    "pilihan_jawaban": [
+      "A. Two boys are playing chess on the floor.",
+      "B. There is a girl wearing a hijab in the classroom.",
+      "C. All students are sitting at their desks.",
+      "D. A boy is standing while reading a book."
+    ],
+    "kunci_jawaban": ["A", "B", "D"]
+  },
     {
       "id_soal": 8,
       "tipe_soal": "BS",
