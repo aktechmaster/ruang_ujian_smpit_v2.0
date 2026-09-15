@@ -8,7 +8,7 @@
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Jamal: Where do you live?\nAkmal: I live in Bandar Ratu Village.\n\nWhat does Jamal ask about?",
+      "teks_pertanyaan": "Jamal: Where do you live?<br>Akmal: I live in Bandar Ratu Village.<br><br>What does Jamal ask about?",
       "pilihan_jawaban": [
         "A. Asking age",
         "B. Asking school",
@@ -19,7 +19,7 @@
     },
     {
       "id_soal": 2,
-      "teks_pertanyaan": "Jamal: Where are you from?\nAkmal: I am from Bengkulu.\n\nWhat does Jamal ask about?",
+      "teks_pertanyaan": "Jamal: Where are you from?<br>Akmal: I am from Bengkulu.<br><br>What does Jamal ask about?",
       "pilihan_jawaban": [
         "A. Asking address",
         "B. Asking origin",
@@ -30,7 +30,7 @@
     },
     {
       "id_soal": 3,
-      "teks_pertanyaan": "Hinata: Hi, I am Hinata. What’s your name?\nSakura: Hello, I am Sakura. Nice to meet you, Hinata!\nHinata: ...",
+      "teks_pertanyaan": "Hinata: Hi, I am Hinata. What’s your name?<br>Sakura: Hello, I am Sakura. Nice to meet you, Hinata!<br>Hinata: ...",
       "pilihan_jawaban": [
         "A. Good bye",
         "B. Nice to see you too",
@@ -41,7 +41,7 @@
     },
     {
       "id_soal": 4,
-      "teks_pertanyaan": "Teks untuk soal nomor 4 dan 5!\n\n\"Hello class!\nHow are you doing today? I hope all of you feel great today.\nAllow me to introduce myself. My name is Nurul Hayati. You can call me Ms. Hayati. I'm 37 years old, and English is my subject.\nI live in Bukit Cendana no. 15, Semarang with my husband and daughter. I grew up here.\nMy hobby is baking cake and pastry. I also love cycling. I go to school by bicycle every day.\nThat's all about me. Nice to meet you, class!\"\n\nWhat does Ms. Hayati teach?",
+      "teks_pertanyaan": "Teks untuk soal nomor 4 dan 5!<br><br>\"Hello class!<br>How are you doing today? I hope all of you feel great today.<br>Allow me to introduce myself. My name is Nurul Hayati. You can call me Ms. Hayati. I'm 37 years old, and English is my subject.<br>I live in Bukit Cendana no. 15, Semarang with my husband and daughter. I grew up here.<br>My hobby is baking cake and pastry. I also love cycling. I go to school by bicycle every day.<br>That's all about me. Nice to meet you, class!\"<br><br><b>What does Ms. Hayati teach?</b>",
       "pilihan_jawaban": [
         "A. Mathematics",
         "B. English",
@@ -51,17 +51,17 @@
       "kunci_jawaban": "B"
     },
     {
-    "id_soal": 5,
-    "tipe_soal": "PGK",
-    "teks_pertanyaan": "Which statements are CORRECT based on the text?",
-    "pilihan_jawaban": [
-      "A. Ms. Hayati is 37 years old.",
-      "B. Her hobbies are baking cake, pastry, and cycling.",
-      "C. She lives in Jakarta.",
-      "D. She goes to school by car every day."
-    ],
-    "kunci_jawaban": ["A", "B"]
-  },
+      "id_soal": 5,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which statements are CORRECT based on the text?",
+      "pilihan_jawaban": [
+        "A. Ms. Hayati is 37 years old.",
+        "B. Her hobbies are baking cake, pastry, and cycling.",
+        "C. She lives in Jakarta.",
+        "D. She goes to school by car every day."
+      ],
+      "kunci_jawaban": ["A", "B"]
+    },
     {
       "id_soal": 6,
       "tipe_soal": "BS",
@@ -78,18 +78,18 @@
       }
     },
     {
-    "id_soal": 7,
-    "tipe_soal": "PGK",
-    "gambar": "Images/STS_1/images_ING_7/7.png",
-    "teks_pertanyaan": "Look at the picture carefully. Which statements are CORRECT?",
-    "pilihan_jawaban": [
-      "A. Two boys are playing chess on the floor.",
-      "B. There is a girl wearing a hijab in the classroom.",
-      "C. All students are sitting at their desks.",
-      "D. A boy is standing while reading a book."
-    ],
-    "kunci_jawaban": ["A", "B", "D"]
-  },
+      "id_soal": 7,
+      "tipe_soal": "PGK",
+      "gambar": "Images/STS_1/images_ING_7/7.png",
+      "teks_pertanyaan": "Look at the picture carefully. Which statements are CORRECT?",
+      "pilihan_jawaban": [
+        "A. Two boys are playing chess on the floor.",
+        "B. There is a girl wearing a hijab in the classroom.",
+        "C. All students are sitting at their desks.",
+        "D. A boy is standing while reading a book."
+      ],
+      "kunci_jawaban": ["A", "B", "D"]
+    },
     {
       "id_soal": 8,
       "tipe_soal": "BS",
@@ -107,16 +107,16 @@
       }
     },
     {
-  "id_soal": 9,
-  "teks_pertanyaan": "Read the story below!<br><br>Diva really loves singing. She can sing any genre of music; she can even do rap. Her hobby is just like Mr. Lukman, her father.<br><br>Diva has a favorite singer, Selena Gomez. She listens to her music songs every weekend. After a while, she memorized the songs. Her parents gave her many Selena Gomez albums on every birthday. They even bought her a good microphone to sing.<br><br>To channel her hobby, Diva joined a singing course with a famous vocal trainer in Bandung. She met her best friend, Dewi, there.<br><br>Diva has often participated in singing competitions since she was 5 years old. Her parents and coach are very supportive of her because of her beautiful voice.<br><br><b>What did Diva get from her parents for her hobby?</b>",
-  "pilihan_jawaban": [
-    "A. A piano.",
-    "B. Albums and microphone.",
-    "C. A bicycle.",
-    "D. A birthday party."
-  ],
-  "kunci_jawaban": "B"
-},
+      "id_soal": 9,
+      "teks_pertanyaan": "Read the story below!<br><br>Diva really loves singing. She can sing any genre of music; she can even do rap. Her hobby is just like Mr. Lukman, her father.<br><br>Diva has a favorite singer, Selena Gomez. She listens to her music songs every weekend. After a while, she memorized the songs. Her parents gave her many Selena Gomez albums on every birthday. They even bought her a good microphone to sing.<br><br>To channel her hobby, Diva joined a singing course with a famous vocal trainer in Bandung. She met her best friend, Dewi, there.<br><br>Diva has often participated in singing competitions since she was 5 years old. Her parents and coach are very supportive of her because of her beautiful voice.<br><br><b>What did Diva get from her parents for her hobby?</b>",
+      "pilihan_jawaban": [
+        "A. A piano.",
+        "B. Albums and microphone.",
+        "C. A bicycle.",
+        "D. A birthday party."
+      ],
+      "kunci_jawaban": "B"
+    },
     {
       "id_soal": 10,
       "teks_pertanyaan": "What does Diva like to do as her hobby?",
@@ -215,7 +215,7 @@
     },
     {
       "id_soal": 18,
-      "teks_pertanyaan": "Look at the picture and answer the question.\n![image](Images/STS_1/images_ING_7/18.png)",
+      "teks_pertanyaan": "Look at the picture and answer the question.<br>![image](Images/STS_1/images_ING_7/18.png)",
       "pilihan_jawaban": [
         "A. he has short curly black hair",
         "B. he has long straight black hair",
@@ -226,7 +226,7 @@
     },
     {
       "id_soal": 19,
-      "teks_pertanyaan": "Look at the picture and answer the question.\n![image](Images/STS_1/images_ING_7/19.png)",
+      "teks_pertanyaan": "Look at the picture and answer the question.<br>![image](Images/STS_1/images_ING_7/19.png)",
       "pilihan_jawaban": [
         "A. she has big round brown eyes",
         "B. she has long straight brown eyes",
