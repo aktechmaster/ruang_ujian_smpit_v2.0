@@ -30,14 +30,16 @@ function formatMathTeX(text) {
     return text;
 }
 
-// FUNGSI PEMICU MATHJAX TYPESET
 function triggerMathJax() {
-    if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
-        window.MathJax.typesetPromise().catch(function(err) { console.warn("MathJax error:", err); });
-    } else if (window.MathJax && window.MathJax.startup) {
-        window.MathJax.startup.promise.then(function() {
-            window.MathJax.typesetPromise().catch(function(err) { console.warn("MathJax error:", err); });
-        });
+    try {
+        if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
+            const promise = window.MathJax.typesetPromise();
+            if (promise && typeof promise.then === 'function') {
+                promise.catch(err => console.warn("MathJax error:", err));
+            }
+        }
+    } catch (error) {
+        console.warn("MathJax belum siap saat render soal:", error);
     }
 }
 
