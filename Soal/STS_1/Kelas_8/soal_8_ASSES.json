@@ -2,8 +2,8 @@
   "metadata": {
     "mata_pelajaran": "Matematika",
     "jenis_ujian": "Asesmen Awal",
-    "jumlah_soal": 70,
-    "durasi_menit": 90
+    "jumlah_soal": 30,
+    "durasi_menit": 60
   },
   "bank_soal": [
     {
