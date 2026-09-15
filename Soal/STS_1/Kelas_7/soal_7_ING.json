@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Inggris",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Jamal: Where do you live?\nAkmal: I live in Bandar Ratu Village.\n\nWhat does Jamal ask about?",
+      "pilihan_jawaban": [
+        "A. Asking age",
+        "B. Asking school",
+        "C. Asking origin",
+        "D. Asking address"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Jamal: Where are you from?\nAkmal: I am from Bengkulu.\n\nWhat does Jamal ask about?",
+      "pilihan_jawaban": [
+        "A. Asking address",
+        "B. Asking origin",
+        "C. Asking age",
+        "D. Asking hobby"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Hinata: Hi, I am Hinata. What’s your name?\nSakura: Hello, I am Sakura. Nice to meet you, Hinata!\nHinata: ...",
+      "pilihan_jawaban": [
+        "A. Good bye",
+        "B. Nice to see you too",
+        "C. Nice to meet you too",
+        "D. Have a nice day"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Teks untuk soal nomor 4 dan 5!\n\n\"Hello class!\nHow are you doing today? I hope all of you feel great today.\nAllow me to introduce myself. My name is Nurul Hayati. You can call me Ms. Hayati. I'm 37 years old, and English is my subject.\nI live in Bukit Cendana no. 15, Semarang with my husband and daughter. I grew up here.\nMy hobby is baking cake and pastry. I also love cycling. I go to school by bicycle every day.\nThat's all about me. Nice to meet you, class!\"\n\nWhat does Ms. Hayati teach?",
+      "pilihan_jawaban": [
+        "A. Mathematics",
+        "B. English",
+        "C. Indonesian",
+        "D. Science"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Which statements are CORRECT based on the text?\n\n1. Ms. Hayati is 37 years old.\n2. Her hobbies are baking cake, pastry, and cycling.\n3. She lives in Jakarta.\n4. She goes to school by car every day.",
+      "pilihan_jawaban": [
+        "A. If (1), (2), and (3) are correct",
+        "B. If (1) and (2) are correct",
+        "C. If (2) and (4) are correct",
+        "D. If (1) and (4) are correct"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Put a check mark in the correct column.",
+      "pernyataan": [
+        "1. Ms. Hayati is 37 years old and teaches English.",
+        "2. Ms. Hayati goes to school by motorcycle every day.",
+        "3. She lives in Bukit Cendana No. 15, Semarang."
+      ],
+      "kunci_jawaban": {
+        "1": "B",
+        "2": "S",
+        "3": "B"
+      }
+    },
+    {
+      "id_soal": 7,
+      "gambar": "Images/STS_1/images_ING_7/7.png",
+      "teks_pertanyaan": "Look at the picture carefully. Which statements are CORRECT?\n\n1. Two boys are playing chess on the floor.\n2. There is a girl wearing a hijab in the classroom.\n3. All students are sitting at their desks.\n4. A boy is standing while reading a book.",
+      "pilihan_jawaban": [
+        "A. If (1), (2), and (3) are correct",
+        "B. If (1) and (3) are correct",
+        "C. If (1), (2), and (4) are correct",
+        "D. If (2) and (4) are correct"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "tipe_soal": "BS",
+      "gambar": "Images/STS_1/images_ING_7/8.png",
+      "teks_pertanyaan": "Put a check mark in the correct column.",
+      "pernyataan": [
+        "1. There are two green chalkboards on the wall.",
+        "2. The boy with glasses is playing a musical instrument.",
+        "3. A blue water bottle is on one of the desks."
+      ],
+      "kunci_jawaban": {
+        "1": "B",
+        "2": "S",
+        "3": "B"
+      }
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Read the story below!\n\nDiva really loves singing. She can sing any genre of music; she can even do rap. Her hobby is just like Mr. Lukman, her father.\n\nDiva has a favorite singer, Selena Gomez. She listens to her music songs every weekend. After a while, she memorized the songs. Her parents gave her many Selena Gomez albums on every birthday. They even bought her a good microphone to sing.\n\nTo channel her hobby, Diva joined a singing course with a famous vocal trainer in Bandung. She met her best friend, Dewi, there.\n\nDiva has often participated in singing competitions since she was 5 years old. Her parents and coach are very supportive of her because of her beautiful voice.\n\nWhat did Diva get from her parents for her hobby?",
+      "pilihan_jawaban": [
+        "A. A piano.",
+        "B. Albums and microphone.",
+        "C. A bicycle.",
+        "D. A birthday party."
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "What does Diva like to do as her hobby?",
+      "pilihan_jawaban": [
+        "A. She writes her own songs.",
+        "B. She joins Selena's tours.",
+        "C. She takes courses and joins competitions.",
+        "D. She listens to Selena's songs every weekend."
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Where did Diva meet Dewi?",
+      "pilihan_jawaban": [
+        "A. In a vocal course.",
+        "B. In her school.",
+        "C. In her neighborhood.",
+        "D. In a singing competition."
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Determine whether each statement below is True (B) or False (S) based on the story!",
+      "pernyataan": [
+        "1. Diva can only sing pop songs.",
+        "2. Diva listens to Selena Gomez's songs every weekend.",
+        "3. Diva joined a singing course in Bandung."
+      ],
+      "kunci_jawaban": {
+        "1": "S",
+        "2": "B",
+        "3": "B"
+      }
+    },
+    {
+      "id_soal": 13,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Determine whether each statement below is True (B) or False (S) based on the story!",
+      "pernyataan": [
+        "1. Diva has participated in singing competitions since she was 10 years old.",
+        "2. Dewi is Diva's best friend.",
+        "3. Diva's parents and coach support her hobby."
+      ],
+      "kunci_jawaban": {
+        "1": "S",
+        "2": "B",
+        "3": "B"
+      }
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Dewi takes …… cats to the veterinarian.",
+      "pilihan_jawaban": [
+        "A. She",
+        "B. Her",
+        "C. Hers",
+        "D. Herself"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Diva and Dafa are teaching …… younger sister to sing.",
+      "pilihan_jawaban": [
+        "A. their",
+        "B. them",
+        "C. us",
+        "D. we"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Bintang writes his own song by ……",
+      "pilihan_jawaban": [
+        "A. himself",
+        "B. hiself",
+        "C. heself",
+        "D. themselves"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Dewa is my brother. …… likes playing football.",
+      "pilihan_jawaban": [
+        "A. his",
+        "B. him",
+        "C. she",
+        "D. he"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Look at the picture and answer the question.\n![image](Images/STS_1/images_ING_7/18.png)",
+      "pilihan_jawaban": [
+        "A. he has short curly black hair",
+        "B. he has long straight black hair",
+        "C. he has short straight black hair",
+        "D. he has long curly black hair"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Look at the picture and answer the question.\n![image](Images/STS_1/images_ING_7/19.png)",
+      "pilihan_jawaban": [
+        "A. she has big round brown eyes",
+        "B. she has long straight brown eyes",
+        "C. she has small round brown eyes",
+        "D. she has big round blue eyes"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "My sister ...... a student in Senior High School",
+      "pilihan_jawaban": [
+        "A. am",
+        "B. is",
+        "C. are",
+        "D. she"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Diana and I ...... in the classroom",
+      "pilihan_jawaban": [
+        "A. am",
+        "B. is",
+        "C. are",
+        "D. she"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Negative (-) form of this sentence is \"My rose flower grows bigger everyday\"",
+      "pilihan_jawaban": [
+        "A. my rose flower don't grow bigger everyday",
+        "B. my rose flower doesn't grows bigger everyday",
+        "C. my rose flower doesn't grow bigger everyday",
+        "D. my rose flower don't grows bigger everyday"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Anna and I ...... our assignment after school.",
+      "pilihan_jawaban": [
+        "A. do",
+        "B. does",
+        "C. doing",
+        "D. done"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Determine whether each sentence below is True (B) or False (S)!",
+      "pernyataan": [
+        "1. She plays badminton every Sunday.",
+        "2. He go to school by bicycle.",
+        "3. The sun rise in the east."
+      ],
+      "kunci_jawaban": {
+        "1": "B",
+        "2": "S",
+        "3": "S"
+      }
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Interrogative (?) form of this sentence is \"My rose flower grows bigger everyday\"",
+      "pilihan_jawaban": [
+        "A. do my flower grows bigger everyday?",
+        "B. does my flower grow bigger everyday?",
+        "C. does my flower grows bigger everyday?",
+        "D. do my flower grow bigger everyday?"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
