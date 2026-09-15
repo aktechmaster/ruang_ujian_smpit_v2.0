@@ -111,33 +111,53 @@ const API = {
         }
     },
 
-    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB
+    // 4. AMBIL BERKAS SOAL JSON DARI REPOSITORI GITHUB (OTOMATIS CEK BERBAGAI KOMBINASI JALUR)
     async fetchSoal(tingkat, mapel) {
         try {
-            const folderPath = (typeof CONFIG !== 'undefined' && CONFIG.getFolderPath)
-                ? CONFIG.getFolderPath(tingkat)
-                : `Soal/STS_1/Kelas_${tingkat}`;
+            const cleanMapel = mapel.trim().toUpperCase();
+            // Ekstrak angka tingkat (misal "9" dari "9 ICT 2")
+            const angkaTingkat = (tingkat.match(/\d+/) || [tingkat])[0];
 
-            const cleanMapel = mapel.toUpperCase();
+            // Folder utama dari konfigurasi
+            const activeFolder = (typeof CONFIG !== 'undefined' && CONFIG.getUjianAktif)
+                ? CONFIG.getUjianAktif().folder
+                : 'UJI_COBA';
 
-            // Urutan disesuaikan dengan struktur nama file repositori GitHub Anda (soal_9_IND.json)
-            const variasiPath = [
-                `./${folderPath}/soal_${tingkat}_${cleanMapel}.json`,
-                `./${folderPath}/Soal_${tingkat}_${cleanMapel}.json`,
-                `./${folderPath}/soal_${cleanMapel}_${tingkat}.json`,
-                `./${folderPath}/Soal_${cleanMapel}_${tingkat}.json`
+            // Kemungkinan nama folder di GitHub
+            const variasiFolder = [
+                (typeof CONFIG !== 'undefined' && CONFIG.getFolderPath) ? CONFIG.getFolderPath(tingkat) : `Soal/\({activeFolder}/Kelas_\){tingkat}`,
+                `Soal/\({activeFolder}/Kelas_\){angkaTingkat}`,
+                `Soal/\({activeFolder}/Kelas_\){tingkat}`
             ];
 
+            const folderPaths = [...new Set(variasiFolder)];
+            const variasiPath = [];
+
+            // Susun kombinasi nama file yang mungkin diakses
+            folderPaths.forEach(folder => {
+                variasiPath.push(
+                    `./\({folder}/soal_\){angkaTingkat}_${cleanMapel}.json`,
+                    `./\({folder}/soal_\){tingkat}_${cleanMapel}.json`,
+                    `./\({folder}/Soal_\){angkaTingkat}_${cleanMapel}.json`,
+                    `./\({folder}/Soal_\){tingkat}_${cleanMapel}.json`,
+                    `./\({folder}/soal_\){cleanMapel}_${angkaTingkat}.json`,
+                    `./\({folder}/soal_\){cleanMapel}_${tingkat}.json`
+                );
+            });
+
+            // Cari file hingga ditemukan
             for (const pathSoal of variasiPath) {
                 try {
                     const response = await fetch(pathSoal);
                     if (response.ok) {
                         return await response.json();
                     }
-                } catch (e) {}
+                } catch (e) {
+                    // Lanjut coba opsi path berikutnya
+                }
             }
 
-            throw new Error(`Berkas soal tidak ditemukan pada jalur: /${folderPath}/soal_${tingkat}_${cleanMapel}.json`);
+            throw new Error(`Berkas soal tidak ditemukan pada folder Soal/${activeFolder}/. Pastikan file JSON soal ada di GitHub.`);
 
         } catch (error) {
             console.error("API Error (fetchSoal):", error);
@@ -199,7 +219,6 @@ const API = {
                 throw new Error("URL Pengiriman Jawaban di 'config.js' belum dikonfigurasi.");
             }
 
-            // Hitung skor otomatis di frontend dari bank_soal yang tersimpan
             let skor = dataSiswa.skor || 0;
             let total_benar = dataSiswa.total_benar || 0;
             let total_salah = dataSiswa.total_salah || 0;
