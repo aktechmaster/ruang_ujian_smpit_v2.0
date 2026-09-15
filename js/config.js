@@ -10,7 +10,7 @@ const CONFIG = {
     // 🔘 SAKELAR UTAMA (Ubah nilai ini sesuai pekan ujian)
     // Pilihan: "UJI_COBA" | "STS_1" | "SAS_1" | "STS_2" | "SAT" | "USBN"
     // ===================================================
-    UJIAN_AKTIF: "UJI_COBA",
+    UJIAN_AKTIF: "STS_1",
 
     // ===================================================
     // 📁 DAFTAR KONFIGURASI JENIS UJIAN & SPREADSHEET
