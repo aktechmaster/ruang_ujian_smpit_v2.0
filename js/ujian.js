@@ -233,6 +233,14 @@ function renderSoal(daftarSoal) {
                 <span class="${kelasPertanyaan}">${formatMathTeX(teksPertanyaanBersih)}</span>
             </div>`;
         
+        // MENAMPILKAN GAMBAR JIKA ADA DI JSON
+        if (soal.gambar) {
+            htmlSoal += `
+                <div class="gambar-soal" style="margin: 10px 0; text-align: center;">
+                    <img src="${soal.gambar}" alt="Gambar Soal ${index + 1}" style="max-width: 100%; max-height: 350px; border-radius: 8px; border: 1px solid #ddd; padding: 4px;">
+                </div>`;
+        }
+
         htmlSoal += `<div class="opsi-container">`;
         
         const idSoal = soal.id_soal;
