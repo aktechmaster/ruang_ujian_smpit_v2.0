@@ -107,16 +107,16 @@
       }
     },
     {
-      "id_soal": 9,
-      "teks_pertanyaan": "Read the story below!\n\nDiva really loves singing. She can sing any genre of music; she can even do rap. Her hobby is just like Mr. Lukman, her father.\n\nDiva has a favorite singer, Selena Gomez. She listens to her music songs every weekend. After a while, she memorized the songs. Her parents gave her many Selena Gomez albums on every birthday. They even bought her a good microphone to sing.\n\nTo channel her hobby, Diva joined a singing course with a famous vocal trainer in Bandung. She met her best friend, Dewi, there.\n\nDiva has often participated in singing competitions since she was 5 years old. Her parents and coach are very supportive of her because of her beautiful voice.\n\nWhat did Diva get from her parents for her hobby?",
-      "pilihan_jawaban": [
-        "A. A piano.",
-        "B. Albums and microphone.",
-        "C. A bicycle.",
-        "D. A birthday party."
-      ],
-      "kunci_jawaban": "B"
-    },
+  "id_soal": 9,
+  "teks_pertanyaan": "Read the story below!<br><br>Diva really loves singing. She can sing any genre of music; she can even do rap. Her hobby is just like Mr. Lukman, her father.<br><br>Diva has a favorite singer, Selena Gomez. She listens to her music songs every weekend. After a while, she memorized the songs. Her parents gave her many Selena Gomez albums on every birthday. They even bought her a good microphone to sing.<br><br>To channel her hobby, Diva joined a singing course with a famous vocal trainer in Bandung. She met her best friend, Dewi, there.<br><br>Diva has often participated in singing competitions since she was 5 years old. Her parents and coach are very supportive of her because of her beautiful voice.<br><br><b>What did Diva get from her parents for her hobby?</b>",
+  "pilihan_jawaban": [
+    "A. A piano.",
+    "B. Albums and microphone.",
+    "C. A bicycle.",
+    "D. A birthday party."
+  ],
+  "kunci_jawaban": "B"
+},
     {
       "id_soal": 10,
       "teks_pertanyaan": "What does Diva like to do as her hobby?",
