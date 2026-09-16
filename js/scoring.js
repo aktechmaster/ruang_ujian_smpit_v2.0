@@ -63,12 +63,15 @@ const Scoring = {
             }
         });
 
-        const skorAktual = totalSoal > 0 ? ((totalPoin / totalSoal) * 100).toFixed(2) : "0.00";
+        // Format desimal diubah menggunakan koma (,) untuk regional Indonesia/Spreadsheet
+        const skorAktual = totalSoal > 0 
+            ? ((totalPoin / totalSoal) * 100).toFixed(2).replace('.', ',') 
+            : "0,00";
         const salah = totalSoal - totalPoin;
 
         return {
-            benar: Number(totalPoin.toFixed(2)),
-            salah: Number(salah.toFixed(2)),
+            benar: totalPoin.toFixed(2).replace('.', ','),
+            salah: salah.toFixed(2).replace('.', ','),
             skor: skorAktual
         };
     }
