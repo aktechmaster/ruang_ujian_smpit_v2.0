@@ -339,24 +339,30 @@ function sebelumSubmit() {
     });
 }
 
-function selesaiUjian() {
+async function selesaiUjian() {
     if (!masterBankSoal || masterBankSoal.length === 0) return;
 
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // 1. Simpan ke spreadsheet
-    StorageManager.simpanKeSpreadsheet(
-        sessionStorage.getItem('cbt_siswa'),
-        sessionStorage.getItem('cbt_kelas'),
-        sessionStorage.getItem('cbt_mapel'),
-        hasilSkor.skor,
-        hasilSkor.benar,
-        hasilSkor.salah,
-        rekapJawabanMaster
-    );
+    // 1. Simpan ke spreadsheet & TUNGGU (await) sampai selesai terkirim
+    try {
+        if (typeof StorageManager !== 'undefined' && typeof StorageManager.simpanKeSpreadsheet === 'function') {
+            await StorageManager.simpanKeSpreadsheet(
+                sessionStorage.getItem('cbt_siswa'),
+                sessionStorage.getItem('cbt_kelas'),
+                sessionStorage.getItem('cbt_mapel'),
+                hasilSkor.skor,
+                hasilSkor.benar,
+                hasilSkor.salah,
+                rekapJawabanMaster
+            );
+        }
+    } catch (error) {
+        console.error("Gagal mengirim ke spreadsheet:", error);
+    }
 
-    // 2. Pastikan Benar & Salah ANGKA BULAT, Skor boleh koma
+    // 2. Format Benar & Salah angka bulat, Skor format desimal koma jika ada pecahan
     const jumlahBenar = Math.round(Number(hasilSkor.benar) || 0);
     const jumlahSalah = Math.round(Number(hasilSkor.salah) || 0);
 
@@ -368,7 +374,7 @@ function selesaiUjian() {
     // 3. Cek sakelar config
     const showScore = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT === true);
 
-    // 4. Susun tampilan Pop-up Modern (Kartu Visual)
+    // 4. Susun tampilan Pop-up Kartu Modern
     let htmlPesan = "";
     if (showScore) {
         htmlPesan = `
