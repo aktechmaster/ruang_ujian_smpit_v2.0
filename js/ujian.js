@@ -345,7 +345,7 @@ function selesaiUjian() {
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // 1. Simpan data jawaban ke Spreadsheet (berjalan aman di background)
+    // 1. Simpan ke spreadsheet
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -356,24 +356,26 @@ function selesaiUjian() {
         rekapJawabanMaster
     );
 
-    // 2. Cek nilai sakelar dari config.js
+    // 2. Format skor agar desimal menggunakan koma (cth: 87,5)
+    const skorFormatted = String(hasilSkor.skor).replace('.', ',');
+
+    // 3. Cek sakelar config
     const showScore = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT === true);
 
-    // 3. Susun pesan tampilan skor / konfirmasi
+    // 4. Susun pesan popup
     const pesan = showScore 
-        ? `Ujian Selesai!\n\nHasil Ujian Anda:\n- Skor Akhir: ${hasilSkor.skor}\n- Poin Benar: ${hasilSkor.benar}\n- Poin Salah: ${hasilSkor.salah}`
+        ? `Ujian Selesai!\n\nHasil Ujian Anda:\n• Skor Akhir: ${skorFormatted}\n• Jumlah Benar: ${hasilSkor.benar}\n• Jumlah Salah: ${hasilSkor.salah}`
         : "Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.";
 
-    // 4. Atur tombol OK modal: BARU keluar ke halaman login SETELAH tombol OK diklik
+    // 5. Eksekusi alur modal
     const btnOk = document.getElementById('customAlertBtnOk');
     if (btnOk) {
         btnOk.onclick = function() {
             tutupCustomAlert();
-            keluarKeLogin(); // Memanggil fungsi keluarKeLogin() bawaan file kamu
+            keluarKeLogin();
         };
     }
 
-    // 5. Tampilkan modal alert
     alert(pesan);
 }
 
