@@ -345,7 +345,7 @@ function selesaiUjian() {
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // 1. Simpan jawaban ke Google Sheets / Database (Proses ini tetap berjalan di background)
+    // 1. Simpan data jawaban ke Spreadsheet (berjalan aman di background)
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -356,22 +356,25 @@ function selesaiUjian() {
         rekapJawabanMaster
     );
 
-    // 2. Logika Sakelar Tampilan Skor
-    const tunjukkanSkor = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT !== undefined) 
-        ? CONFIG.SHOW_SCORE_ON_SUBMIT 
-        : false;
+    // 2. Cek nilai sakelar dari config.js
+    const showScore = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT === true);
 
-    if (tunjukkanSkor) {
-        // JIKA SAKELAR 'true' (ON): Tampilkan detail skor ke siswa
-        alert(`Ujian telah selesai dan jawaban berhasil dikumpulkan!\n\nHasil Ujian Anda:\n- Skor Akhir: ${hasilSkor.skor}\n- Poin Benar: ${hasilSkor.benar}\n- Poin Salah: ${hasilSkor.salah}`);
-    } else {
-        // JIKA SAKELAR 'false' (OFF): Tampilkan pesan standar tanpa skor
-        alert("Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.");
+    // 3. Susun pesan tampilan skor / konfirmasi
+    const pesan = showScore 
+        ? `Ujian Selesai!\n\nHasil Ujian Anda:\n- Skor Akhir: ${hasilSkor.skor}\n- Poin Benar: ${hasilSkor.benar}\n- Poin Salah: ${hasilSkor.salah}`
+        : "Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.";
+
+    // 4. Atur tombol OK modal: BARU keluar ke halaman login SETELAH tombol OK diklik
+    const btnOk = document.getElementById('customAlertBtnOk');
+    if (btnOk) {
+        btnOk.onclick = function() {
+            tutupCustomAlert();
+            keluarKeLogin(); // Memanggil fungsi keluarKeLogin() bawaan file kamu
+        };
     }
 
-    // 3. Bersihkan sesi ujian & arahkan kembali ke halaman login/utama
-    sessionStorage.clear();
-    window.location.href = 'index.html';
+    // 5. Tampilkan modal alert
+    alert(pesan);
 }
 
 window.alert = function(message) {
