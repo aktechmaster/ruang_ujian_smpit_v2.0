@@ -281,145 +281,280 @@
     ],
     "kunci_jawaban": "D"
   },
-    26. If you ________ the plant regularly every day, it will grow healthy and produce beautiful flowers in a few months.
-•	A. water
-•	B. will water
-•	C. watered
-•	D. would water
-
-27. You ________ smoke in this area; there are many children and pregnant women around, and the sign clearly says "No Smoking".
-•	A. must
-•	B. should
-•	C. must not
-•	D. have to
-
-28. ________ I leave class five minutes early today? I need to catch my bus which departs at exactly 3 o'clock.
-•	A. Must
-•	B. Should
-•	C. Have to
-•	D. May
-
-29. If we leave at 7 AM tomorrow morning, we ________ the train and arrive in Bandung by noon without any problems.
-•	A. catch
-•	B. caught
-•	C. will catch
-•	D. would catch
-
-30. We ________ always be honest with our parents and teachers, even when we have made mistakes that might disappoint them.
-•	A. might
-•	B. may
-•	C. can
-•	D. should
-,
     {
-      "id_soal": 31,
-      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(350\\%\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{35}{10}\\)",
-        "B. \\(\\frac{7}{2}\\)",
-        "C. \\(\\frac{350}{100}\\)",
-        "D. \\(\\frac{3}{5}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 26,
+    "teks_pertanyaan": "If you ________ the plant regularly every day, it will grow healthy and produce beautiful flowers in a few months.",
+    "pilihan_jawaban": [
+      "A. water",
+      "B. will water",
+      "C. watered",
+      "D. would water"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 27,
+    "teks_pertanyaan": "You ________ smoke in this area; there are many children and pregnant women around, and the sign clearly says \"No Smoking\".",
+    "pilihan_jawaban": [
+      "A. must",
+      "B. should",
+      "C. must not",
+      "D. have to"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 28,
+    "teks_pertanyaan": "________ I leave class five minutes early today? I need to catch my bus which departs at exactly 3 o'clock.",
+    "pilihan_jawaban": [
+      "A. Must",
+      "B. Should",
+      "C. Have to",
+      "D. May"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 29,
+    "teks_pertanyaan": "If we leave at 7 AM tomorrow morning, we ________ the train and arrive in Bandung by noon without any problems.",
+    "pilihan_jawaban": [
+      "A. catch",
+      "B. caught",
+      "C. will catch",
+      "D. would catch"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 30,
+    "teks_pertanyaan": "We ________ always be honest with our parents and teachers, even when we have made mistakes that might disappoint them.",
+    "pilihan_jawaban": [
+      "A. might",
+      "B. may",
+      "C. can",
+      "D. should"
+    ],
+    "kunci_jawaban": "D"
+  },
     {
-      "id_soal": 32,
-      "teks_pertanyaan": "Bentuk pecahan dari \\(0,5555...\\) (desimal berulang) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{5}{9}\\)",
-        "B. \\(\\frac{55}{100}\\)",
-        "C. \\(\\frac{1}{2}\\)",
-        "D. \\(\\frac{555}{1000}\\)"
-      ],
-      "kunci_jawaban": "A"
-    },
+    "id_soal": 31,
+    "teks_pertanyaan": "My brother don't (A) like (B) eating (C) spinach because (D) it tastes bitter to him.",
+    "pilihan_jawaban": [
+      "A. don't",
+      "B. like",
+      "C. eating",
+      "D. because"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 32,
+    "teks_pertanyaan": "The news are (A) very (B) surprising (C) to everyone (D) in our class this morning.",
+    "pilihan_jawaban": [
+      "A. are",
+      "B. very",
+      "C. surprising",
+      "D. to everyone"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 33,
+    "teks_pertanyaan": "She can sings (A) traditional (B) songs very (C) beautifully (D) at every school event.",
+    "pilihan_jawaban": [
+      "A. sings",
+      "B. traditional",
+      "C. very",
+      "D. beautifully"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 34,
+    "teks_pertanyaan": "There are (A) many (B) furniture (C) in the new (D) house that we bought last month.",
+    "pilihan_jawaban": [
+      "A. are",
+      "B. many",
+      "C. furniture",
+      "D. in the new"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 35,
+    "teks_pertanyaan": "Last holiday, my family and I go (A) to (B) Bandung and visited (C) the famous (D) factory outlets there.",
+    "pilihan_jawaban": [
+      "A. go",
+      "B. to",
+      "C. visited",
+      "D. the famous"
+    ],
+    "kunci_jawaban": "A"
+  },
     {
-      "id_soal": 33,
-      "teks_pertanyaan": "Bentuk pecahan dari \\(0,707070...\\) (desimal berulang) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{70}{100}\\)",
-        "B. \\(\\frac{70}{99}\\)",
-        "C. \\(\\frac{7}{10}\\)",
-        "D. \\(\\frac{707}{1000}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 36,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What is the main idea of the first paragraph?",
+    "pilihan_jawaban": [
+      "A. Komodo dragons are the largest lizards found only on certain Indonesian islands",
+      "B. Komodo dragons are dangerous animals that eat humans",
+      "C. Komodo dragons can swim very well across the ocean",
+      "D. Komodo dragons are smaller than most other lizards"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 37,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>According to the text, what do Komodo dragons use their tails for?",
+    "pilihan_jawaban": [
+      "A. For climbing trees to find food",
+      "B. For swimming and fighting when necessary",
+      "C. For attracting mates during breeding season",
+      "D. For storing food for times when prey is scarce"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 38,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>Which of the following is NOT mentioned as a reason for the decreasing Komodo dragon population?",
+    "pilihan_jawaban": [
+      "A. Habitat loss due to human activities",
+      "B. Illegal hunting by poachers",
+      "C. Natural disasters affecting their environment",
+      "D. Lack of sunlight on the islands where they live"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 39,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What does the word \"carnivores\" mean in the second paragraph?",
+    "pilihan_jawaban": [
+      "A. Animals that eat only plants and fruits",
+      "B. Animals that eat both plants and meat",
+      "C. Animals that do not need to eat regularly",
+      "D. Animals that eat meat as their main food"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 40,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What has the Indonesian government done to protect Komodo dragons, according to the text?",
+    "pilihan_jawaban": [
+      "A. Established Komodo National Park as a protected area",
+      "B. Banned all tourism to the islands completely",
+      "C. Moved all Komodo dragons to zoos across Indonesia",
+      "D. Done nothing significant to help these animals"
+    ],
+    "kunci_jawaban": "A"
+  },
     {
-      "id_soal": 34,
-      "teks_pertanyaan": "Jika \\(\\frac{a}{b} = \\frac{5}{7}\\), maka \\(a : b =\\) ...",
-      "pilihan_jawaban": [
-        "A. 7 : 5",
-        "B. 5 : 7",
-        "C. 3 : 5",
-        "D. 5 : 3"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 41,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>What can we infer about Ahmad's parents from the text?",
+    "pilihan_jawaban": [
+      "A. They did not support Ahmad's dream of becoming a pilot",
+      "B. They wanted Ahmad to become a doctor instead of a pilot",
+      "C. They encouraged Ahmad and believed in his potential",
+      "D. They were also professional pilots who inspired their son"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 42,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>The word \"They\" in the first paragraph (sentence 4) refers to...",
+    "pilihan_jawaban": [
+      "A. Ahmad's parents who supported his dream",
+      "B. the airplanes that Ahmad saw in the sky",
+      "C. Ahmad's friends at school",
+      "D. the books about aviation that Ahmad received"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 43,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>What conclusion can be drawn from the text about achieving dreams?",
+    "pilihan_jawaban": [
+      "A. Becoming a pilot is easy and requires very little effort or study",
+      "B. Only rich people can afford to become pilots or achieve their dreams",
+      "C. Dreams can come true with passion, hard work, and support from loved ones",
+      "D. Aviation is not a good career choice for young people today"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 44,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>The word \"himself\" in the sentence \"dreaming of the day he could fly one himself\" refers to...",
+    "pilihan_jawaban": [
+      "A. Ahmad's father who bought him books",
+      "B. Ahmad's teacher at school",
+      "C. Ahmad who had the dream of flying",
+      "D. a commercial pilot Ahmad admired"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 45,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>Based on the text, we can conclude that Ahmad is...",
+    "pilihan_jawaban": [
+      "A. lazy and not serious about his studies or training",
+      "B. only interested in playing with model airplanes as a hobby",
+      "C. passionate, hardworking, and determined to become a pilot",
+      "D. likely to give up when facing difficulties in his training"
+    ],
+    "kunci_jawaban": "C"
+  },
     {
-      "id_soal": 35,
-      "teks_pertanyaan": "Jika \\(3a = 4b\\), maka \\(a : b =\\) ...",
-      "pilihan_jawaban": [
-        "A. 3 : 4",
-        "B. 4 : 3",
-        "C. 7 : 3",
-        "D. 3 : 7"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 36,
-      "teks_pertanyaan": "Jika \\(7b = 5a\\), maka \\(\\frac{a}{b} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{5}{7}\\)",
-        "B. \\(\\frac{7}{5}\\)",
-        "C. \\(\\frac{2}{5}\\)",
-        "D. \\(\\frac{5}{2}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 37,
-      "teks_pertanyaan": "Jika \\(b = \\frac{3}{5}a\\), maka \\(a : b =\\) ...",
-      "pilihan_jawaban": [
-        "A. 3 : 5",
-        "B. 5 : 3",
-        "C. 2 : 5",
-        "D. 5 : 2"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 38,
-      "teks_pertanyaan": "Jika \\(a : b = 7 : 3\\) dan \\(b = 6\\), maka nilai \\(a =\\) ...",
-      "pilihan_jawaban": [
-        "A. 12",
-        "B. 14",
-        "C. 18",
-        "D. 21"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 39,
-      "teks_pertanyaan": "Jika \\(a\\) lima kurangnya dari \\(b\\), dan \\(b = 12\\), maka nilai \\(a =\\) ...",
-      "pilihan_jawaban": [
-        "A. 5",
-        "B. 7",
-        "C. 17",
-        "D. 60"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 40,
-      "teks_pertanyaan": "Jika \\(a\\) tujuh lebih besar daripada \\(b\\) dan \\(a + b = 35\\), maka nilai \\(a = ..., b = ...\\)",
-      "pilihan_jawaban": [
-        "A. \\(a = 21, b = 14\\)",
-        "B. \\(a = 14, b = 21\\)",
-        "C. \\(a = 28, b = 7\\)",
-        "D. \\(a = 20, b = 15\\)"
-      ],
-      "kunci_jawaban": "A"
-    }
+    "id_soal": 46,
+    "teks_pertanyaan": "Doni: I think we should start a school garden where we can grow vegetables and herbs. It would be a great learning experience.<br><br>Wati: ________. It would teach us about agriculture and provide fresh produce for the school canteen too.",
+    "pilihan_jawaban": [
+      "A. I strongly disagree with your idea",
+      "B. That's a terrible idea, it will be too much work",
+      "C. That's an excellent idea, I completely agree",
+      "D. I don't think so, students won't be interested"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 47,
+    "teks_pertanyaan": "Rina: I've been feeling very tired and weak lately, and I don't know why. What should I do?<br><br>Sari: ________ go to the doctor for a check-up? It's better to be safe than sorry, especially if it has been happening for a while.",
+    "pilihan_jawaban": [
+      "A. You must not",
+      "B. You should never",
+      "C. Don't even think about",
+      "D. Why don't you"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 48,
+    "teks_pertanyaan": "Teacher: Our class needs to prepare a performance for the Independence Day celebration. Any suggestions, students?<br><br>Student: ________ we perform a drama about the heroes who fought for our independence? It would be educational and inspiring for everyone.",
+    "pilihan_jawaban": [
+      "A. I demand that",
+      "B. You must",
+      "C. I suggest that",
+      "D. I forbid you to"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 49,
+    "teks_pertanyaan": "Budi: I believe that smartphones should be allowed in school because they are useful for learning and finding information quickly.<br><br>Ani: ________. I understand your point, but I think smartphones cause more distractions than benefits in the classroom because students might play games instead of studying.",
+    "pilihan_jawaban": [
+      "A. I see your point, but I have a different opinion",
+      "B. That's exactly what I think, you are right",
+      "C. I totally agree with you completely",
+      "D. You are absolutely right about everything"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 50,
+    "teks_pertanyaan": "Sari: Our school should install more water fountains so students can easily access clean drinking water throughout the day.<br><br>Tono: ________! It's important for students to stay hydrated, especially during hot days and after physical education classes.",
+    "pilihan_jawaban": [
+      "A. I'm afraid I disagree with you",
+      "B. That's not true at all",
+      "C. I don't believe what you say",
+      "D. I couldn't agree more"
+    ],
+    "kunci_jawaban": "D"
+  }
   ]
 }
