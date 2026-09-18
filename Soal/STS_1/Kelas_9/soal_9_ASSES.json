@@ -1,65 +1,65 @@
 {
   "metadata": {
-    "mata_pelajaran": "Matematika",
+    "mata_pelajaran": "Bahasa Inggris",
     "jenis_ujian": "Asesmen Awal",
-    "jumlah_soal": 40,
+    "jumlah_soal": 5,
     "durasi_menit": 60
   },
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Hasil dari \\(5 + 7 =\\) ...",
+      "teks_pertanyaan": "The ________ of the new school library will be celebrated with a special ceremony next week. (CONSTRUCT)",
       "pilihan_jawaban": [
-        "A. 11",
-        "B. 12",
-        "C. 13",
-        "D. 2"
+        "A. construct",
+        "B. constructive",
+        "C. constructed",
+        "D. construction"
       ],
-      "kunci_jawaban": "B"
+      "kunci_jawaban": "D"
     },
     {
       "id_soal": 2,
-      "teks_pertanyaan": "Hasil dari \\(25 + 68 =\\) ...",
+      "teks_pertanyaan": "The children were ________ when they heard the news that their favorite uncle would visit them during the holidays. (EXCITE)",
       "pilihan_jawaban": [
-        "A. 83",
-        "B. 92",
-        "C. 93",
-        "D. 103"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 3,
-      "teks_pertanyaan": "Hasil dari \\(7 - 15 =\\) ...",
-      "pilihan_jawaban": [
-        "A. -8",
-        "B. 8",
-        "C. -22",
-        "D. 22"
+        "A. excited",
+        "B. exciting",
+        "C. excitement",
+        "D. excite"
       ],
       "kunci_jawaban": "A"
     },
     {
-      "id_soal": 4,
-      "teks_pertanyaan": "Hasil dari \\(197 - 126 =\\) ...",
+      "id_soal": 3,
+      "teks_pertanyaan": "The scientist's remarkable discovery changed the way we understand the universe. The synonym of \"remarkable\" is...",
       "pilihan_jawaban": [
-        "A. 61",
-        "B. 71",
-        "C. 72",
-        "D. 81"
+        "A. ordinary",
+        "B. outstanding",
+        "C. simple",
+        "D. common"
       ],
       "kunci_jawaban": "B"
     },
     {
-      "id_soal": 5,
-      "teks_pertanyaan": "Hasil dari \\(-3 + 7 =\\) ...",
+      "id_soal": 4,
+      "teks_pertanyaan": "The view from the top of the mountain was magnificent; we could see the entire city below. The antonym of \"magnificent\" is...",
       "pilihan_jawaban": [
-        "A. -10",
-        "B. -4",
-        "C. 4",
-        "D. 10"
+        "A. plain",
+        "B. beautiful",
+        "C. tiny",
+        "D. splendid"
       ],
-      "kunci_jawaban": "C"
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "The room was bright with sunlight streaming through the large windows. However, the basement was ________ because it had no windows at all.",
+      "pilihan_jawaban": [
+        "A. vivid",
+        "B. dim",
+        "C. clear",
+        "D. strong"
+      ],
+      "kunci_jawaban": "B"
     },
     {
       "id_soal": 6,
