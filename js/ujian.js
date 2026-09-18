@@ -345,7 +345,7 @@ function selesaiUjian() {
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
-    // 1. Simpan ke spreadsheet
+    // 1. Simpan data jawaban ke Spreadsheet (berjalan aman di background)
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -356,58 +356,27 @@ function selesaiUjian() {
         rekapJawabanMaster
     );
 
-    // 2. Pastikan Benar & Salah ANGKA BULAT, Skor boleh koma
-    const jumlahBenar = Math.round(Number(hasilSkor.benar) || 0);
-    const jumlahSalah = Math.round(Number(hasilSkor.salah) || 0);
-
-    const rawSkor = Number(hasilSkor.skor) || 0;
-    const skorFormatted = Number.isInteger(rawSkor) 
-        ? rawSkor.toString() 
-        : rawSkor.toFixed(2).replace('.', ',');
-
-    // 3. Cek sakelar config
+    // 2. Cek nilai sakelar dari config.js
     const showScore = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT === true);
 
-    // 4. Susun tampilan Pop-up Modern (Kartu Visual)
-    let htmlPesan = "";
-    if (showScore) {
-        htmlPesan = `
-            <div style="text-align:center; margin-bottom:12px;">
-                <span style="font-size:0.9rem; color:#64748b; font-weight:600;">Ujian Telah Selesai</span>
-            </div>
-            <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:12px; text-align:center; margin-bottom:10px;">
-                <div style="font-size:0.75rem; color:#64748b; font-weight:bold; letter-spacing:0.5px;">SKOR AKHIR</div>
-                <div style="font-size:2.2rem; font-weight:800; color:#2563eb; margin:2px 0;">${skorFormatted}</div>
-            </div>
-            <div style="display:flex; gap:10px;">
-                <div style="flex:1; background:#ecfdf5; border:1px solid #a7f3d0; border-radius:10px; padding:10px; text-align:center;">
-                    <div style="font-size:0.75rem; color:#047857; font-weight:bold;">BENAR</div>
-                    <div style="font-size:1.3rem; font-weight:bold; color:#059669;">${jumlahBenar}</div>
-                </div>
-                <div style="flex:1; background:#fef2f2; border:1px solid #fecaca; border-radius:10px; padding:10px; text-align:center;">
-                    <div style="font-size:0.75rem; color:#b91c1c; font-weight:bold;">SALAH</div>
-                    <div style="font-size:1.3rem; font-weight:bold; color:#dc2626;">${jumlahSalah}</div>
-                </div>
-            </div>
-        `;
-    } else {
-        htmlPesan = "<div style='text-align:center; padding:10px;'>Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.</div>";
-    }
+    // 3. Susun pesan tampilan skor / konfirmasi
+    const pesan = showScore 
+        ? `Ujian Selesai!\n\nHasil Ujian Anda:\n- Skor Akhir: ${hasilSkor.skor}\n- Poin Benar: ${hasilSkor.benar}\n- Poin Salah: ${hasilSkor.salah}`
+        : "Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.";
 
-    // 5. Atur tombol OK agar keluar ke login setelah diklik
+    // 4. Atur tombol OK modal: BARU keluar ke halaman login SETELAH tombol OK diklik
     const btnOk = document.getElementById('customAlertBtnOk');
     if (btnOk) {
         btnOk.onclick = function() {
             tutupCustomAlert();
-            keluarKeLogin();
+            keluarKeLogin(); // Memanggil fungsi keluarKeLogin() bawaan file kamu
         };
     }
 
-    // 6. Tampilkan popup
-    alert(htmlPesan);
+    // 5. Tampilkan modal alert
+    alert(pesan);
 }
 
-// PERBAIKAN WINDOW.ALERT (Agar mendukung tampilan HTML Kartu)
 window.alert = function(message) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
@@ -416,11 +385,12 @@ window.alert = function(message) {
     const modal = document.getElementById('customAlertModal');
 
     if (title && msg && modal) {
-        title.innerText = 'Informasi Ujian';
-        msg.innerHTML = message; // Diubah ke innerHTML agar kartu muncul
+        title.innerText = 'Informasi';
+        msg.innerText = message;
         if (btnCancel) btnCancel.style.display = 'none';
         if (btnOk) {
-            btnOk.innerText = 'Selesai & Keluar';
+            btnOk.innerText = 'OK';
+            btnOk.onclick = function() { tutupCustomAlert(); };
         }
         modal.style.display = 'flex';
     } else {
