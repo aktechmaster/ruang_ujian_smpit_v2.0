@@ -1,340 +1,560 @@
 {
   "metadata": {
-    "mata_pelajaran": "Matematika",
+    "mata_pelajaran": "Bahasa Inggris",
     "jenis_ujian": "Asesmen Awal",
-    "jumlah_soal": 30,
+    "jumlah_soal": 50,
     "durasi_menit": 60
   },
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Hasil dari \\(5 + 7 =\\) ...",
+      "teks_pertanyaan": "The ________ of the new school library will be celebrated with a special ceremony next week. (CONSTRUCT)",
       "pilihan_jawaban": [
-        "A. 11",
-        "B. 12",
-        "C. 13",
-        "D. 2"
+        "A. construct",
+        "B. constructive",
+        "C. constructed",
+        "D. construction"
       ],
-      "kunci_jawaban": "B"
+      "kunci_jawaban": "D"
     },
     {
       "id_soal": 2,
-      "teks_pertanyaan": "Hasil dari \\(25 + 68 =\\) ...",
+      "teks_pertanyaan": "The children were ________ when they heard the news that their favorite uncle would visit them during the holidays. (EXCITE)",
       "pilihan_jawaban": [
-        "A. 83",
-        "B. 92",
-        "C. 93",
-        "D. 103"
+        "A. excited",
+        "B. exciting",
+        "C. excitement",
+        "D. excite"
       ],
-      "kunci_jawaban": "C"
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 3,
-      "teks_pertanyaan": "Hasil dari \\(7 - 15 =\\) ...",
+      "teks_pertanyaan": "The scientist's remarkable discovery changed the way we understand the universe. The synonym of \"remarkable\" is...",
       "pilihan_jawaban": [
-        "A. -8",
-        "B. 8",
-        "C. -22",
-        "D. 22"
+        "A. ordinary",
+        "B. outstanding",
+        "C. simple",
+        "D. common"
       ],
-      "kunci_jawaban": "A"
+      "kunci_jawaban": "B"
     },
     {
       "id_soal": 4,
-      "teks_pertanyaan": "Hasil dari \\(197 - 126 =\\) ...",
+      "teks_pertanyaan": "The view from the top of the mountain was magnificent; we could see the entire city below. The antonym of \"magnificent\" is...",
       "pilihan_jawaban": [
-        "A. 61",
-        "B. 71",
-        "C. 72",
-        "D. 81"
+        "A. plain",
+        "B. beautiful",
+        "C. tiny",
+        "D. splendid"
       ],
-      "kunci_jawaban": "B"
+      "kunci_jawaban": "A"
     },
     {
       "id_soal": 5,
-      "teks_pertanyaan": "Hasil dari \\(-3 + 7 =\\) ...",
+      "teks_pertanyaan": "The room was bright with sunlight streaming through the large windows. However, the basement was ________ because it had no windows at all.",
       "pilihan_jawaban": [
-        "A. -10",
-        "B. -4",
-        "C. 4",
-        "D. 10"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 6,
-      "teks_pertanyaan": "Hasil dari \\(-25 + 58 =\\) ...",
-      "pilihan_jawaban": [
-        "A. -33",
-        "B. 23",
-        "C. 33",
-        "D. 83"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 7,
-      "teks_pertanyaan": "Hasil dari \\(-4 - 6 =\\) ...",
-      "pilihan_jawaban": [
-        "A. -2",
-        "B. 2",
-        "C. 10",
-        "D. -10"
-      ],
-      "kunci_jawaban": "D"
-    },
-    {
-      "id_soal": 8,
-      "teks_pertanyaan": "Hasil dari \\(-19 - 36 =\\) ...",
-      "pilihan_jawaban": [
-        "A. -55",
-        "B. -17",
-        "C. 17",
-        "D. 55"
-      ],
-      "kunci_jawaban": "A"
-    },
-    {
-      "id_soal": 9,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{7}{11} + \\frac{9}{11} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{16}{22}\\)",
-        "B. \\(\\frac{16}{11}\\)",
-        "C. \\(\\frac{63}{121}\\)",
-        "D. \\(\\frac{2}{11}\\)"
+        "A. vivid",
+        "B. dim",
+        "C. clear",
+        "D. strong"
       ],
       "kunci_jawaban": "B"
     },
     {
-      "id_soal": 10,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{5}{7} + \\frac{3}{8} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{8}{15}\\)",
-        "B. \\(\\frac{61}{56}\\)",
-        "C. \\(\\frac{15}{56}\\)",
-        "D. \\(\\frac{40}{56}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 6,
+    "teks_pertanyaan": "Please ________ your coat before sitting down; the room is quite warm and you might feel uncomfortable with it on.",
+    "pilihan_jawaban": [
+      "A. take off",
+      "B. take on",
+      "C. take over",
+      "D. take after"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 7,
+    "teks_pertanyaan": "Could you ________ my phone number in your notebook so you don't forget it when you need to call me later?",
+    "pilihan_jawaban": [
+      "A. write off",
+      "B. write down",
+      "C. write out",
+      "D. write back"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 8,
+    "teks_pertanyaan": "The amount of money we raised for the orphanage is just a drop in the ocean compared to what they actually need to build a new dormitory. \"A drop in the ocean\" means...",
+    "pilihan_jawaban": [
+      "A. a very large amount",
+      "B. a very small amount compared to the total needed",
+      "C. something caused by water",
+      "D. something that cannot be measured"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 9,
+    "teks_pertanyaan": "When Sarah met her friend's parents for the first time, she put her best foot forward by dressing neatly, speaking politely, and offering to help in the kitchen. \"Put her best foot forward\" means...",
+    "pilihan_jawaban": [
+      "A. She hurt her foot while walking",
+      "B. She wore her best shoes",
+      "C. She walked very fast",
+      "D. She tried to make a good impression"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 10,
+    "teks_pertanyaan": "\"Could you please lend me a hand with these heavy boxes?\" asked the old man to the young students who were passing by. \"Lend me a hand\" means...",
+    "pilihan_jawaban": [
+      "A. help me",
+      "B. give me your hand permanently",
+      "C. let me borrow your hand",
+      "D. shake my hand"
+    ],
+    "kunci_jawaban": "A"
+  },
     {
-      "id_soal": 11,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{-3}{7} + \\frac{4}{5} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{1}{35}\\)",
-        "B. \\(\\frac{13}{35}\\)",
-        "C. \\(\\frac{-13}{35}\\)",
-        "D. \\(\\frac{43}{35}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 11,
+    "teks_pertanyaan": "By the time we arrived at the cinema, the movie ________ already ________, so we missed the first fifteen minutes.",
+    "pilihan_jawaban": [
+      "A. has / started",
+      "B. had / started",
+      "C. was / starting",
+      "D. will / start"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 12,
+    "teks_pertanyaan": "I ________ my homework carefully when suddenly the electricity went out and the whole house became dark.",
+    "pilihan_jawaban": [
+      "A. did",
+      "B. was doing",
+      "C. have done",
+      "D. am doing"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 13,
+    "teks_pertanyaan": "My family ________ to Yogyakarta three times in the past five years, and we plan to go again next summer holiday.",
+    "pilihan_jawaban": [
+      "A. go",
+      "B. have been",
+      "C. went",
+      "D. will go"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 14,
+    "teks_pertanyaan": "This time next week, I ________ on a beautiful beach in Bali with my best friends, enjoying the sunshine and fresh sea breeze.",
+    "pilihan_jawaban": [
+      "A. relax",
+      "B. relaxed",
+      "C. have relaxed",
+      "D. will be relaxing"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 15,
+    "teks_pertanyaan": "She ________ the report yet, even though the deadline was yesterday, so she cannot submit it to her boss today.",
+    "pilihan_jawaban": [
+      "A. didn't finish",
+      "B. hasn't finished",
+      "C. wasn't finishing",
+      "D. won't finish"
+    ],
+    "kunci_jawaban": "B"
+  },
     {
-      "id_soal": 12,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{-2}{9} - 3 =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{-29}{9}\\)",
-        "B. \\(\\frac{25}{9}\\)",
-        "C. \\(\\frac{-5}{9}\\)",
-        "D. \\(\\frac{1}{9}\\)"
-      ],
-      "kunci_jawaban": "A"
-    },
+    "id_soal": 16,
+    "teks_pertanyaan": "The car ________ my father bought last month, which has a very modern design, is surprisingly fuel-efficient.",
+    "pilihan_jawaban": [
+      "A. who",
+      "B. where",
+      "C. which",
+      "D. whose"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 17,
+    "teks_pertanyaan": "________ he is only twelve years old, he can speak three foreign languages fluently and has won several international competitions.",
+    "pilihan_jawaban": [
+      "A. Although",
+      "B. Because",
+      "C. Since",
+      "D. When"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 18,
+    "teks_pertanyaan": "This is the hospital ________ my aunt works as a pediatric nurse, taking care of sick children every day.",
+    "pilihan_jawaban": [
+      "A. which",
+      "B. where",
+      "C. that",
+      "D. who"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 19,
+    "teks_pertanyaan": "We should bring an umbrella ________ it rains later this afternoon, according to the weather forecast we watched this morning.",
+    "pilihan_jawaban": [
+      "A. but",
+      "B. or",
+      "C. in case",
+      "D. although"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 20,
+    "teks_pertanyaan": "The man ________ dog bit my neighbor yesterday has been fined by the police and promised to keep his pet on a leash.",
+    "pilihan_jawaban": [
+      "A. who",
+      "B. whom",
+      "C. which",
+      "D. whose"
+    ],
+    "kunci_jawaban": "D"
+  },
     {
-      "id_soal": 13,
-      "teks_pertanyaan": "Hasil dari \\(5 + \\frac{2}{3} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{7}{3}\\)",
-        "B. \\(\\frac{10}{3}\\)",
-        "C. \\(\\frac{17}{3}\\)",
-        "D. \\(5\\frac{2}{3}\\) atau \\(\\frac{17}{3}\\)"
-      ],
-      "kunci_jawaban": "D"
-    },
+    "id_soal": 21,
+    "teks_pertanyaan": "These delicious chocolate cookies ________ by my grandmother every Sunday morning for our entire family.",
+    "pilihan_jawaban": [
+      "A. make",
+      "B. makes",
+      "C. are made",
+      "D. made"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 22,
+    "teks_pertanyaan": "A sports car runs ________ than an ordinary bicycle on the highway, but it also consumes much more fuel.",
+    "pilihan_jawaban": [
+      "A. fast",
+      "B. faster",
+      "C. fastest",
+      "D. more fast"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 23,
+    "teks_pertanyaan": "The new library building ________ completely by the end of next semester, according to the construction manager.",
+    "pilihan_jawaban": [
+      "A. will complete",
+      "B. will be completed",
+      "C. completes",
+      "D. is completing"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 24,
+    "teks_pertanyaan": "Mount Everest is ________ mountain in the world, standing at 8,848 meters above sea level.",
+    "pilihan_jawaban": [
+      "A. high",
+      "B. higher",
+      "C. highest",
+      "D. the highest"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 25,
+    "teks_pertanyaan": "The traditional batik cloth ________ carefully by skilled artisans in the city of Pekalongan using techniques passed down through generations.",
+    "pilihan_jawaban": [
+      "A. produce",
+      "B. produced",
+      "C. are produced",
+      "D. is produced"
+    ],
+    "kunci_jawaban": "D"
+  },
     {
-      "id_soal": 14,
-      "teks_pertanyaan": "Hasil dari \\(5 \\times \\frac{3}{4} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{15}{20}\\)",
-        "B. \\(\\frac{8}{4}\\)",
-        "C. \\(\\frac{15}{4}\\)",
-        "D. \\(\\frac{3}{20}\\)"
-      ],
-      "kunci_jawaban": "C"
-    },
+    "id_soal": 26,
+    "teks_pertanyaan": "If you ________ the plant regularly every day, it will grow healthy and produce beautiful flowers in a few months.",
+    "pilihan_jawaban": [
+      "A. water",
+      "B. will water",
+      "C. watered",
+      "D. would water"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 27,
+    "teks_pertanyaan": "You ________ smoke in this area; there are many children and pregnant women around, and the sign clearly says \"No Smoking\".",
+    "pilihan_jawaban": [
+      "A. must",
+      "B. should",
+      "C. must not",
+      "D. have to"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 28,
+    "teks_pertanyaan": "________ I leave class five minutes early today? I need to catch my bus which departs at exactly 3 o'clock.",
+    "pilihan_jawaban": [
+      "A. Must",
+      "B. Should",
+      "C. Have to",
+      "D. May"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 29,
+    "teks_pertanyaan": "If we leave at 7 AM tomorrow morning, we ________ the train and arrive in Bandung by noon without any problems.",
+    "pilihan_jawaban": [
+      "A. catch",
+      "B. caught",
+      "C. will catch",
+      "D. would catch"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 30,
+    "teks_pertanyaan": "We ________ always be honest with our parents and teachers, even when we have made mistakes that might disappoint them.",
+    "pilihan_jawaban": [
+      "A. might",
+      "B. may",
+      "C. can",
+      "D. should"
+    ],
+    "kunci_jawaban": "D"
+  },
     {
-      "id_soal": 15,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{9} \\times \\frac{5}{3} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{10}{27}\\)",
-        "B. \\(\\frac{7}{12}\\)",
-        "C. \\(\\frac{6}{45}\\)",
-        "D. \\(\\frac{10}{9}\\)"
-      ],
-      "kunci_jawaban": "A"
-    },
+    "id_soal": 31,
+    "teks_pertanyaan": "My brother don't (A) like (B) eating (C) spinach because (D) it tastes bitter to him.",
+    "pilihan_jawaban": [
+      "A. don't",
+      "B. like",
+      "C. eating",
+      "D. because"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 32,
+    "teks_pertanyaan": "The news are (A) very (B) surprising (C) to everyone (D) in our class this morning.",
+    "pilihan_jawaban": [
+      "A. are",
+      "B. very",
+      "C. surprising",
+      "D. to everyone"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 33,
+    "teks_pertanyaan": "She can sings (A) traditional (B) songs very (C) beautifully (D) at every school event.",
+    "pilihan_jawaban": [
+      "A. sings",
+      "B. traditional",
+      "C. very",
+      "D. beautifully"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 34,
+    "teks_pertanyaan": "There are (A) many (B) furniture (C) in the new (D) house that we bought last month.",
+    "pilihan_jawaban": [
+      "A. are",
+      "B. many",
+      "C. furniture",
+      "D. in the new"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 35,
+    "teks_pertanyaan": "Last holiday, my family and I go (A) to (B) Bandung and visited (C) the famous (D) factory outlets there.",
+    "pilihan_jawaban": [
+      "A. go",
+      "B. to",
+      "C. visited",
+      "D. the famous"
+    ],
+    "kunci_jawaban": "A"
+  },
     {
-      "id_soal": 16,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{3}{8} : \\frac{4}{5} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{12}{40}\\)",
-        "B. \\(\\frac{15}{32}\\)",
-        "C. \\(\\frac{32}{15}\\)",
-        "D. \\(\\frac{7}{13}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 36,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What is the main idea of the first paragraph?",
+    "pilihan_jawaban": [
+      "A. Komodo dragons are the largest lizards found only on certain Indonesian islands",
+      "B. Komodo dragons are dangerous animals that eat humans",
+      "C. Komodo dragons can swim very well across the ocean",
+      "D. Komodo dragons are smaller than most other lizards"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 37,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>According to the text, what do Komodo dragons use their tails for?",
+    "pilihan_jawaban": [
+      "A. For climbing trees to find food",
+      "B. For swimming and fighting when necessary",
+      "C. For attracting mates during breeding season",
+      "D. For storing food for times when prey is scarce"
+    ],
+    "kunci_jawaban": "B"
+  },
+  {
+    "id_soal": 38,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>Which of the following is NOT mentioned as a reason for the decreasing Komodo dragon population?",
+    "pilihan_jawaban": [
+      "A. Habitat loss due to human activities",
+      "B. Illegal hunting by poachers",
+      "C. Natural disasters affecting their environment",
+      "D. Lack of sunlight on the islands where they live"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 39,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What does the word \"carnivores\" mean in the second paragraph?",
+    "pilihan_jawaban": [
+      "A. Animals that eat only plants and fruits",
+      "B. Animals that eat both plants and meat",
+      "C. Animals that do not need to eat regularly",
+      "D. Animals that eat meat as their main food"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 40,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>The Komodo dragon is the largest living lizard in the world. These amazing reptiles can be found only on a few islands in Indonesia, including Komodo, Rinca, and Flores. Adult Komodo dragons can grow up to three meters long and weigh about 70 kilograms. They have rough, scaly skin, strong legs, and a long, powerful tail that they use for swimming and fighting.<br><br>Komodo dragons are carnivores, which means they eat meat. They hunt animals such as deer, pigs, and even water buffalo. These lizards have a very strong sense of smell and can detect their prey from several kilometers away. They also have venomous saliva that helps them weaken their victims before attacking.<br><br>Unfortunately, Komodo dragons are endangered animals. Their population has decreased significantly because of habitat loss, illegal hunting, and natural disasters. The Indonesian government has established Komodo National Park to protect these unique creatures and ensure their survival for future generations. However, more efforts are still needed to educate local communities and tourists about the importance of preserving these magnificent animals.<br><br>What has the Indonesian government done to protect Komodo dragons, according to the text?",
+    "pilihan_jawaban": [
+      "A. Established Komodo National Park as a protected area",
+      "B. Banned all tourism to the islands completely",
+      "C. Moved all Komodo dragons to zoos across Indonesia",
+      "D. Done nothing significant to help these animals"
+    ],
+    "kunci_jawaban": "A"
+  },
     {
-      "id_soal": 17,
-      "teks_pertanyaan": "Hasil dari \\(4 : \\frac{3}{5} =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{12}{5}\\)",
-        "B. \\(\\frac{20}{3}\\)",
-        "C. \\(\\frac{3}{20}\\)",
-        "D. \\(\\frac{7}{5}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
+    "id_soal": 41,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>What can we infer about Ahmad's parents from the text?",
+    "pilihan_jawaban": [
+      "A. They did not support Ahmad's dream of becoming a pilot",
+      "B. They wanted Ahmad to become a doctor instead of a pilot",
+      "C. They encouraged Ahmad and believed in his potential",
+      "D. They were also professional pilots who inspired their son"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 42,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>The word \"They\" in the first paragraph (sentence 4) refers to...",
+    "pilihan_jawaban": [
+      "A. Ahmad's parents who supported his dream",
+      "B. the airplanes that Ahmad saw in the sky",
+      "C. Ahmad's friends at school",
+      "D. the books about aviation that Ahmad received"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 43,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>What conclusion can be drawn from the text about achieving dreams?",
+    "pilihan_jawaban": [
+      "A. Becoming a pilot is easy and requires very little effort or study",
+      "B. Only rich people can afford to become pilots or achieve their dreams",
+      "C. Dreams can come true with passion, hard work, and support from loved ones",
+      "D. Aviation is not a good career choice for young people today"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 44,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>The word \"himself\" in the sentence \"dreaming of the day he could fly one himself\" refers to...",
+    "pilihan_jawaban": [
+      "A. Ahmad's father who bought him books",
+      "B. Ahmad's teacher at school",
+      "C. Ahmad who had the dream of flying",
+      "D. a commercial pilot Ahmad admired"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 45,
+    "teks_pertanyaan": "Read the following text carefully, then answer the question.<br><br>Ahmad had always been fascinated by airplanes since he was a small boy. Every time he heard the roar of an engine in the sky, he would run outside and look up, dreaming of the day he could fly one himself. His parents noticed his passion and bought him books about aviation and model airplanes to build. They always told him that if he worked hard and studied well, he could become anything he wanted to be.<br><br>Throughout his school years, Ahmad excelled in mathematics and science, subjects that are important for aspiring pilots. He joined the school's aeromodelling club and won several regional competitions. When he graduated from high school, he applied to the Indonesian Aviation Academy and was accepted with a scholarship.<br><br>Now, as a cadet pilot, Ahmad spends his days studying aviation theory and practicing in flight simulators. Although the training is very demanding and sometimes exhausting, he never complains because he knows that every lesson brings him closer to achieving his childhood dream of becoming a commercial pilot and flying across the beautiful Indonesian archipelago.<br><br>Based on the text, we can conclude that Ahmad is...",
+    "pilihan_jawaban": [
+      "A. lazy and not serious about his studies or training",
+      "B. only interested in playing with model airplanes as a hobby",
+      "C. passionate, hardworking, and determined to become a pilot",
+      "D. likely to give up when facing difficulties in his training"
+    ],
+    "kunci_jawaban": "C"
+  },
     {
-      "id_soal": 18,
-      "teks_pertanyaan": "Hasil dari \\(\\frac{2}{3} : 5 =\\) ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{10}{3}\\)",
-        "B. \\(\\frac{7}{3}\\)",
-        "C. \\(\\frac{2}{15}\\)",
-        "D. \\(\\frac{15}{2}\\)"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 19,
-      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{5}\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 0,75",
-        "B. 1,25",
-        "C. 1,4",
-        "D. 7,5"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 20,
-      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{4}\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 0,34",
-        "B. 0,75",
-        "C. 0,6",
-        "D. 1,33"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 21,
-      "teks_pertanyaan": "Bentuk desimal dari \\(2\\frac{3}{5}\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 2,3",
-        "B. 2,35",
-        "C. 2,6",
-        "D. 3,2"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 22,
-      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{3}{8}\\) (tulis sampai 3 desimal) adalah ...",
-      "pilihan_jawaban": [
-        "A. 0,375",
-        "B. 0,380",
-        "C. 0,333",
-        "D. 0,300"
-      ],
-      "kunci_jawaban": "A"
-    },
-    {
-      "id_soal": 23,
-      "teks_pertanyaan": "Bentuk desimal dari \\(\\frac{7}{6}\\) (tulis sampai 3 desimal) adalah ...",
-      "pilihan_jawaban": [
-        "A. 1,160",
-        "B. 1,167",
-        "C. 1,170",
-        "D. 0,857"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 24,
-      "teks_pertanyaan": "Bentuk desimal dari \\(13,5\\%\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 1,35",
-        "B. 0,135",
-        "C. 13,5",
-        "D. 0,0135"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 25,
-      "teks_pertanyaan": "Bentuk desimal dari \\(213\\%\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 213",
-        "B. 21,3",
-        "C. 2,13",
-        "D. 0,213"
-      ],
-      "kunci_jawaban": "C"
-    },
-    {
-      "id_soal": 26,
-      "teks_pertanyaan": "Bentuk desimal dari \\(22,5\\%\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. 0,225",
-        "B. 2,25",
-        "C. 22,5",
-        "D. 0,0225"
-      ],
-      "kunci_jawaban": "A"
-    },
-    {
-      "id_soal": 27,
-      "teks_pertanyaan": "Hasil dari \\(215 \\times 10^{-4} =\\) ...",
-      "pilihan_jawaban": [
-        "A. 0,00215",
-        "B. 0,0215",
-        "C. 0,215",
-        "D. 2,15"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 28,
-      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,55\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{55}{100}\\)",
-        "B. \\(\\frac{11}{20}\\)",
-        "C. \\(\\frac{5}{10}\\)",
-        "D. \\(\\frac{1}{2}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 29,
-      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(0,725\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{725}{1000}\\)",
-        "B. \\(\\frac{29}{40}\\)",
-        "C. \\(\\frac{7}{10}\\)",
-        "D. \\(\\frac{145}{200}\\)"
-      ],
-      "kunci_jawaban": "B"
-    },
-    {
-      "id_soal": 30,
-      "teks_pertanyaan": "Bentuk pecahan paling sederhana dari \\(37,5\\%\\) adalah ...",
-      "pilihan_jawaban": [
-        "A. \\(\\frac{375}{1000}\\)",
-        "B. \\(\\frac{3}{8}\\)",
-        "C. \\(\\frac{37}{100}\\)",
-        "D. \\(\\frac{75}{200}\\)"
-      ],
-      "kunci_jawaban": "B"
-    }
+    "id_soal": 46,
+    "teks_pertanyaan": "Doni: I think we should start a school garden where we can grow vegetables and herbs. It would be a great learning experience.<br><br>Wati: ________. It would teach us about agriculture and provide fresh produce for the school canteen too.",
+    "pilihan_jawaban": [
+      "A. I strongly disagree with your idea",
+      "B. That's a terrible idea, it will be too much work",
+      "C. That's an excellent idea, I completely agree",
+      "D. I don't think so, students won't be interested"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 47,
+    "teks_pertanyaan": "Rina: I've been feeling very tired and weak lately, and I don't know why. What should I do?<br><br>Sari: ________ go to the doctor for a check-up? It's better to be safe than sorry, especially if it has been happening for a while.",
+    "pilihan_jawaban": [
+      "A. You must not",
+      "B. You should never",
+      "C. Don't even think about",
+      "D. Why don't you"
+    ],
+    "kunci_jawaban": "D"
+  },
+  {
+    "id_soal": 48,
+    "teks_pertanyaan": "Teacher: Our class needs to prepare a performance for the Independence Day celebration. Any suggestions, students?<br><br>Student: ________ we perform a drama about the heroes who fought for our independence? It would be educational and inspiring for everyone.",
+    "pilihan_jawaban": [
+      "A. I demand that",
+      "B. You must",
+      "C. I suggest that",
+      "D. I forbid you to"
+    ],
+    "kunci_jawaban": "C"
+  },
+  {
+    "id_soal": 49,
+    "teks_pertanyaan": "Budi: I believe that smartphones should be allowed in school because they are useful for learning and finding information quickly.<br><br>Ani: ________. but I think smartphones cause more distractions than benefits in the classroom because students might play games instead of studying.",
+    "pilihan_jawaban": [
+      "A. I see your point, ",
+      "B. That's exactly what I think, ",
+      "C. I totally agree with you completely",
+      "D. You are absolutely right about everything"
+    ],
+    "kunci_jawaban": "A"
+  },
+  {
+    "id_soal": 50,
+    "teks_pertanyaan": "Sari: Our school should install more water fountains so students can easily access clean drinking water throughout the day.<br><br>Tono: ________! It's important for students to stay hydrated, especially during hot days and after physical education classes.",
+    "pilihan_jawaban": [
+      "A. I'm afraid I disagree with you",
+      "B. That's not true at all",
+      "C. I don't believe what you say",
+      "D. I couldn't agree more"
+    ],
+    "kunci_jawaban": "D"
+  }
   ]
 }
