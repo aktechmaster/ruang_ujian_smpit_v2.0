@@ -67,6 +67,13 @@ const CONFIG = {
     },
 
     // ===================================================
+    // 📊 SAKELAR TAMPILAN SKOR SISWA
+    // true  = Siswa melihat skor setelah klik submit
+    // false = Skor disembunyikan (hanya tampil notifikasi selesai)
+    // ===================================================
+    SHOW_SCORE_ON_SUBMIT: true,
+
+    // ===================================================
     // 🛠️ HELPER FUNCTIONS (Fungsi Pembantu Dinamis)
     // ===================================================
     getUjianAktif() {
