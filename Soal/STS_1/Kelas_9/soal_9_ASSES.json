@@ -536,10 +536,10 @@
   },
   {
     "id_soal": 49,
-    "teks_pertanyaan": "Budi: I believe that smartphones should be allowed in school because they are useful for learning and finding information quickly.<br><br>Ani: ________. I understand your point, but I think smartphones cause more distractions than benefits in the classroom because students might play games instead of studying.",
+    "teks_pertanyaan": "Budi: I believe that smartphones should be allowed in school because they are useful for learning and finding information quickly.<br><br>Ani: ________. but I think smartphones cause more distractions than benefits in the classroom because students might play games instead of studying.",
     "pilihan_jawaban": [
-      "A. I see your point, but I have a different opinion",
-      "B. That's exactly what I think, you are right",
+      "A. I see your point, ",
+      "B. That's exactly what I think, ",
       "C. I totally agree with you completely",
       "D. You are absolutely right about everything"
     ],
