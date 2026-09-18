@@ -345,6 +345,7 @@ function selesaiUjian() {
     let rekapJawabanMaster = StorageManager.kumpulkanJawaban(masterBankSoal);
     const hasilSkor = Scoring.hitung(masterBankSoal, rekapJawabanMaster);
 
+    // 1. Simpan jawaban ke Google Sheets / Database (Proses ini tetap berjalan di background)
     StorageManager.simpanKeSpreadsheet(
         sessionStorage.getItem('cbt_siswa'),
         sessionStorage.getItem('cbt_kelas'),
@@ -354,6 +355,23 @@ function selesaiUjian() {
         hasilSkor.salah,
         rekapJawabanMaster
     );
+
+    // 2. Logika Sakelar Tampilan Skor
+    const tunjukkanSkor = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT !== undefined) 
+        ? CONFIG.SHOW_SCORE_ON_SUBMIT 
+        : false;
+
+    if (tunjukkanSkor) {
+        // JIKA SAKELAR 'true' (ON): Tampilkan detail skor ke siswa
+        alert(`Ujian telah selesai dan jawaban berhasil dikumpulkan!\n\nHasil Ujian Anda:\n- Skor Akhir: ${hasilSkor.skor}\n- Poin Benar: ${hasilSkor.benar}\n- Poin Salah: ${hasilSkor.salah}`);
+    } else {
+        // JIKA SAKELAR 'false' (OFF): Tampilkan pesan standar tanpa skor
+        alert("Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.");
+    }
+
+    // 3. Bersihkan sesi ujian & arahkan kembali ke halaman login/utama
+    sessionStorage.clear();
+    window.location.href = 'index.html';
 }
 
 window.alert = function(message) {
