@@ -356,18 +356,45 @@ function selesaiUjian() {
         rekapJawabanMaster
     );
 
-    // 2. Format skor agar desimal menggunakan koma (cth: 87,5)
-    const skorFormatted = String(hasilSkor.skor).replace('.', ',');
+    // 2. Pastikan Benar & Salah ANGKA BULAT, Skor boleh koma
+    const jumlahBenar = Math.round(Number(hasilSkor.benar) || 0);
+    const jumlahSalah = Math.round(Number(hasilSkor.salah) || 0);
+
+    const rawSkor = Number(hasilSkor.skor) || 0;
+    const skorFormatted = Number.isInteger(rawSkor) 
+        ? rawSkor.toString() 
+        : rawSkor.toFixed(2).replace('.', ',');
 
     // 3. Cek sakelar config
     const showScore = (typeof CONFIG !== 'undefined' && CONFIG.SHOW_SCORE_ON_SUBMIT === true);
 
-    // 4. Susun pesan popup
-    const pesan = showScore 
-        ? `Ujian Selesai!\n\nHasil Ujian Anda:\n• Skor Akhir: ${skorFormatted}\n• Jumlah Benar: ${hasilSkor.benar}\n• Jumlah Salah: ${hasilSkor.salah}`
-        : "Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.";
+    // 4. Susun tampilan Pop-up Modern (Kartu Visual)
+    let htmlPesan = "";
+    if (showScore) {
+        htmlPesan = `
+            <div style="text-align:center; margin-bottom:12px;">
+                <span style="font-size:0.9rem; color:#64748b; font-weight:600;">Ujian Telah Selesai</span>
+            </div>
+            <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:12px; text-align:center; margin-bottom:10px;">
+                <div style="font-size:0.75rem; color:#64748b; font-weight:bold; letter-spacing:0.5px;">SKOR AKHIR</div>
+                <div style="font-size:2.2rem; font-weight:800; color:#2563eb; margin:2px 0;">${skorFormatted}</div>
+            </div>
+            <div style="display:flex; gap:10px;">
+                <div style="flex:1; background:#ecfdf5; border:1px solid #a7f3d0; border-radius:10px; padding:10px; text-align:center;">
+                    <div style="font-size:0.75rem; color:#047857; font-weight:bold;">BENAR</div>
+                    <div style="font-size:1.3rem; font-weight:bold; color:#059669;">${jumlahBenar}</div>
+                </div>
+                <div style="flex:1; background:#fef2f2; border:1px solid #fecaca; border-radius:10px; padding:10px; text-align:center;">
+                    <div style="font-size:0.75rem; color:#b91c1c; font-weight:bold;">SALAH</div>
+                    <div style="font-size:1.3rem; font-weight:bold; color:#dc2626;">${jumlahSalah}</div>
+                </div>
+            </div>
+        `;
+    } else {
+        htmlPesan = "<div style='text-align:center; padding:10px;'>Terima kasih! Ujian telah selesai dan jawaban Anda telah berhasil dikumpulkan.</div>";
+    }
 
-    // 5. Eksekusi alur modal
+    // 5. Atur tombol OK agar keluar ke login setelah diklik
     const btnOk = document.getElementById('customAlertBtnOk');
     if (btnOk) {
         btnOk.onclick = function() {
@@ -376,9 +403,11 @@ function selesaiUjian() {
         };
     }
 
-    alert(pesan);
+    // 6. Tampilkan popup
+    alert(htmlPesan);
 }
 
+// PERBAIKAN WINDOW.ALERT (Agar mendukung tampilan HTML Kartu)
 window.alert = function(message) {
     const title = document.getElementById('customAlertTitle');
     const msg = document.getElementById('customAlertMessage');
@@ -387,12 +416,11 @@ window.alert = function(message) {
     const modal = document.getElementById('customAlertModal');
 
     if (title && msg && modal) {
-        title.innerText = 'Informasi';
-        msg.innerText = message;
+        title.innerText = 'Informasi Ujian';
+        msg.innerHTML = message; // Diubah ke innerHTML agar kartu muncul
         if (btnCancel) btnCancel.style.display = 'none';
         if (btnOk) {
-            btnOk.innerText = 'OK';
-            btnOk.onclick = function() { tutupCustomAlert(); };
+            btnOk.innerText = 'Selesai & Keluar';
         }
         modal.style.display = 'flex';
     } else {
