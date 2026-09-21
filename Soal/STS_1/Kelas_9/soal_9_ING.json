@@ -119,15 +119,15 @@
     },
     {
       "id_soal": 10,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Read the following statements regarding Sumatran elephants:\n(1) They are the smallest among Asian elephants.\n(2) Female Sumatran elephants have a gestation period of 12 months.\n(3) The most common breeding period occurs during the rainy season.\n(4) Newborn Sumatran elephants weigh approximately 5 tons at birth.\n\nWhich combination of statements is CORRECT?",
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which statements are CORRECT regarding Sumatran elephants based on the text? (Select all that apply)",
       "pilihan_jawaban": [
-        "A. (1) and (2)",
-        "B. (2) and (3)",
-        "C. (2) and (4)",
-        "D. (1) and (3)"
+        "A. Sumatran elephants are the smallest among Asian elephants.",
+        "B. Female Sumatran elephants have a gestation period of 12 months.",
+        "C. The most common breeding period occurs during the rainy season.",
+        "D. Newborn Sumatran elephants weigh approximately 5 tons at birth."
       ],
-      "kunci_jawaban": "D"
+      "kunci_jawaban": ["A", "C"]
     },
     {
       "id_soal": 11,
@@ -182,15 +182,15 @@
     },
     {
       "id_soal": 15,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Read the following statements about orangutans carefully:\n(1) Female orangutans are taller and heavier than male orangutans.\n(2) Orangutans build up fat reserves in the dry season to prepare for the monsoon season.\n(3) Infant orangutans become completely independent by the age of eight.\n(4) Older male orangutans strictly avoid traveling or sleeping on the ground.\n\nWhich combination of statements is CORRECT based on the text?",
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which statements are CORRECT based on the text about orangutans? (Select all that apply)",
       "pilihan_jawaban": [
-        "A. (1) and (2)",
-        "B. (1) and (4)",
-        "C. (3) and (4)",
-        "D. (2) and (3)"
+        "A. Female orangutans are taller and heavier than male orangutans.",
+        "B. Orangutans build up fat reserves in the dry season to prepare for the monsoon season.",
+        "C. Infant orangutans become completely independent by the age of eight.",
+        "D. Older male orangutans strictly avoid traveling or sleeping on the ground."
       ],
-      "kunci_jawaban": "D"
+      "kunci_jawaban": ["B", "C"]
     },
     {
       "id_soal": 16,
@@ -209,42 +209,39 @@
     },
     {
       "id_soal": 17,
-      "tipe_soal": "BS",
-      "teks_pertanyaan": "State whether each of the following statements is True (B) or False (S) based on the text about orangutans!",
-      "pernyataan": [
-        "1. Orangutans build their nests on the tops of trees.",
-        "2. Male and female orangutans stay together for life after mating.",
-        "3. Human activities like illegal logging and forest burning pose a major threat to orangutans."
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following activities represent major threats to the existence of orangutans as mentioned in the text? (Select all that apply)",
+      "pilihan_jawaban": [
+        "A. Illegal logging in their natural habitat",
+        "B. Forest clearing for palm oil plantations",
+        "C. Natural extinction due to lack of food in dry season",
+        "D. Continuous hunting and forest burning"
       ],
-      "kunci_jawaban": {
-        "1": "B",
-        "2": "S",
-        "3": "B"
-      }
+      "kunci_jawaban": ["A", "B", "D"]
     },
     {
       "id_soal": 18,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Read the following four statements carefully:\n(1) Water boils at 100 degrees Celsius at standard atmospheric pressure.\n(2) Math is the most boring and difficult subject taught in schools.\n(3) The Earth completes one full orbit around the Sun in approximately 365 days.\n(4) Dogs are much friendlier and better pets than cats.\n\nWhich of the statements above are FACTS?",
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following statements are FACTS? (Select all that apply)",
       "pilihan_jawaban": [
-        "A. (1) and (2)",
-        "B. (1) and (3)",
-        "C. (2) and (4)",
-        "D. (3) and (4)"
+        "A. Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+        "B. Math is the most boring and difficult subject taught in schools.",
+        "C. The Earth completes one full orbit around the Sun in approximately 365 days.",
+        "D. Dogs are much friendlier and better pets than cats."
       ],
-      "kunci_jawaban": "B"
+      "kunci_jawaban": ["A", "C"]
     },
     {
       "id_soal": 19,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Read the following statements carefully:\n(1) A year has twelve months.\n(2) Swimming at the beach is the most fun activity.\n(3) Tigers are animals that eat meat.\n(4) Action movies are more interesting than romantic movies.\n\nWhich statements are OPINIONS?",
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following statements are OPINIONS? (Select all that apply)",
       "pilihan_jawaban": [
-        "A. (1) and (2)",
-        "B. (1) and (3)",
-        "C. (2) and (4)",
-        "D. (3) and (4)"
+        "A. A year has twelve months.",
+        "B. Swimming at the beach is the most fun activity.",
+        "C. Tigers are animals that eat meat.",
+        "D. Action movies are more interesting than romantic movies."
       ],
-      "kunci_jawaban": "C"
+      "kunci_jawaban": ["B", "D"]
     },
     {
       "id_soal": 20,
@@ -296,15 +293,15 @@
     },
     {
       "id_soal": 24,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Read the following sentences carefully:\n(1) The song was sung by a famous singer yesterday.\n(2) A new shopping mall is built in our city last month.\n(3) The computer is used by my brother every day.\n(4) The boy kicked the ball into the net.\n\nWhich sentences are written in the correct Passive Voice?",
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which sentences are written in the correct Passive Voice? (Select all that apply)",
       "pilihan_jawaban": [
-        "A. (1) and (2)",
-        "B. (1) and (3)",
-        "C. (2) and (4)",
-        "D. (3) and (4)"
+        "A. The song was sung by a famous singer yesterday.",
+        "B. A new shopping mall is built in our city last month.",
+        "C. The computer is used by my brother every day.",
+        "D. The boy kicked the ball into the net."
       ],
-      "kunci_jawaban": "B"
+      "kunci_jawaban": ["A", "C"]
     },
     {
       "id_soal": 25,
