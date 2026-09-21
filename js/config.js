@@ -71,7 +71,7 @@ const CONFIG = {
     // true  = Siswa melihat skor setelah klik submit
     // false = Skor disembunyikan (hanya tampil notifikasi selesai)
     // ===================================================
-    SHOW_SCORE_ON_SUBMIT: false,
+    SHOW_SCORE_ON_SUBMIT: true,
 
     // ===================================================
     // 🛠️ HELPER FUNCTIONS (Fungsi Pembantu Dinamis)
