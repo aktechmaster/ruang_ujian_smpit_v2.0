@@ -4,282 +4,282 @@
     "jenis_ujian": "STS_1",
     "jumlah_soal": 25,
     "durasi_menit": 60
-    },
-  
+  },
   "bank_soal": [
     {
-    "id_soal": 1,
-    "teks_pertanyaan": "Pancasila memiliki kedudukan fundamental sebagai dasar negara yang berfungsi mengatur penyelenggaraan pemerintahan. Pengertian Pancasila yang demikian dikategorikan sebagai pengertian yang bersifat yuridis-ketatanegaraan. Implikasi utama dari pernyataan tersebut dalam praktik bernegara adalah ...",
-    "pilihan_jawaban": [
-      "A. Pancasila hanya berfungsi sebagai dokumen sejarah perumusan kemerdekaan oleh pendiri bangsa",
-      "B. Setiap kebijakan publik dan peraturan hukum wajib mengacu serta tidak boleh bertentangan dengan Pancasila",
-      "C. Pancasila dapat diubah sesuai dengan pergantian pimpinan nasional dan perkembangan dinamika politik",
-      "D. Penyelenggaraan negara disesuaikan sepenuhnya dengan ideologi luar yang dianggap lebih modern"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 2,
-    "teks_pertanyaan": "Berdasarkan TAP MPR RI No. VI/MPR/2001, etika kehidupan berbangsa bersumber dari ajaran agama yang universal dan nilai luhur budaya bangsa. Di tengah maraknya budaya hedonisme dan perundungan (bullying) di kalangan remaja, fungsi etika kehidupan berbangsa adalah …",
-    "pilihan_jawaban": [
-      "A. Menjadi alat hukum penindakan bagi aparat kepolisian untuk memenjarakan pelanggar moral",
-      "B. Menjadi acuan dasar dalam berpikir, bersikap, dan bertingkah laku agar tercipta kehidupan bersama yang tenteram",
-      "C. Membatasi kebebasan berpendapat peserta didik di lingkungan sekolah dan media sosial",
-      "D. Menggantikan seluruh peran hukum tertulis yang berlaku dalam tata hukum nasional"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 3,
-    "teks_pertanyaan": "Ir. Sukarno menegaskan bahwa Pancasila adalah weltanschauung. Kata weltanschauung bermakna pandangan dunia. Maksud dari Pancasila sebagai weltanschauung bangsa Indonesia adalah ...",
-    "pilihan_jawaban": [
-      "A. Pancasila merupakan gabungan dari ideologi-ideologi besar dunia yang disalin secara utuh oleh pendiri bangsa",
-      "B. Nilai-nilai Pancasila menjadi kerangka berpikir dan cara pandang bangsa Indonesia terhadap diri dan dunia luar",
-      "C. Bangsa Indonesia harus mengisolasi diri dari pergaulan internasional demi mempertahankan kemurnian Pancasila",
-      "D. Pancasila hanya berlaku apabila bangsa Indonesia berhadapan dengan bangsa asing dalam forum diplomasi"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 4,
-    "teks_pertanyaan": "Para pendiri negara menggali nilai-nilai falsafah hidup masyarakat Indonesia, merefleksikannya secara mendalam, lalu menyepakatinya dalam musyawarah sebagai \"perjanjian luhur\". Pernyataan yang menggambarkan konsekuensi dari kesepakatan tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Pengamalan Pancasila bersifat opsional dan hanya berlaku bagi instansi pemerintah",
-      "B. Pancasila dapat diganti jika ada kesepakatan baru dari sekelompok ormas tertentu",
-      "C. Nilai-nilai Pancasila yang tadinya implisit dalam budaya kini menjadi eksplisit dan mengikat secara nasional",
-      "D. Pancasila merupakan ideologi tertutup yang tidak boleh dipelajari dan dikaji secara kritis"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 5,
-    "teks_pertanyaan": "Dalam sebuah desa, warga yang memiliki perbedaan keyakinan saling membantu mendirikan sarana ibadah tanpa membedakan agama. Perilaku ini mencerminkan etika berbangsa yang bersumber dari agama dan budaya, karena …",
-    "pilihan_jawaban": [
-      "A. Agama mengajarkan kebaikan universal, dan budaya Indonesia menjunjung tinggi gotong royong",
-      "B. Warga ingin mendapatkan pujian sebagai desa terbaik dalam lomba toleransi",
-      "C. Kegiatan tersebut dilakukan semata-mata untuk menghindari teguran dari pemerintah daerah",
-      "D. Norma hukum memberikan sanksi denda jika warga tidak ikut bergotong royong"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 6,
-    "teks_pertanyaan": "Sebelum dirumuskan oleh para pendiri bangsa, nilai-nilai Pancasila bersifat implisit dalam kehidupan sehari-hari masyarakat. Setelah disahkan oleh PPKI pada 18 Agustus 1945, nilai tersebut menjadi eksplisit. Makna perubahan tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Tradisi lokal masyarakat tidak lagi berlaku dan digantikan sepenuhnya oleh hukum tertulis",
-      "B. Nilai Pancasila yang dahulu tidak penting kini menjadi formalitas administrasi belaka",
-      "C. Pancasila hanya menjadi milik para pejabat negara yang merumuskannya dalam sidang",
-      "D. Nilai-nilai luhur telah dikristalisasi menjadi rumusan tertulis yang sah dan wajib dijadikan pedoman bernegara"
-    ],
-    "kunci_jawaban": "D"
-  },
+      "id_soal": 1,
+      "teks_pertanyaan": "Pancasila memiliki kedudukan fundamental sebagai dasar negara yang berfungsi mengatur penyelenggaraan pemerintahan. Pengertian Pancasila yang demikian dikategorikan sebagai pengertian yang bersifat yuridis-ketatanegaraan. Implikasi utama dari pernyataan tersebut dalam praktik bernegara adalah ...",
+      "pilihan_jawaban": [
+        "A. Pancasila hanya berfungsi sebagai dokumen sejarah perumusan kemerdekaan oleh pendiri bangsa",
+        "B. Setiap kebijakan publik dan peraturan hukum wajib mengacu serta tidak boleh bertentangan dengan Pancasila",
+        "C. Pancasila dapat diubah sesuai dengan pergantian pimpinan nasional dan perkembangan dinamika politik",
+        "D. Penyelenggaraan negara disesuaikan sepenuhnya dengan ideologi luar yang dianggap lebih modern"
+      ],
+      "kunci_jawaban": "B"
+    },
     {
-    "id_soal": 7,
-    "teks_pertanyaan": "Berdasarkan Stufenbau Theory dari Hans Kelsen, tata urutan norma hukum bersifat berjenjang. Dalam konteks tata hukum Indonesia, Pancasila berkedudukan sebagai rechtsidea (cita-cita hukum) yang menduduki posisi sebagai staatsfundamentalnorm. Hal ini berarti …",
-    "pilihan_jawaban": [
-      "A. Pancasila dijadikan sebagai penentu sah atau tidaknya serta landasan pembentukan norma hukum di bawahnya",
-      "B. Pancasila berada di bawah UUD NRI Tahun 1945 karena UUD dirumuskan lebih rinci",
-      "C. Kedudukan Pancasila sejajar dengan Undang-Undang yang dibuat oleh DPR dan Presiden",
-      "D. Pasal-pasal UUD NRI Tahun 1945 dapat mengesampingkan Pancasila jika terjadi keadaan darurat"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 8,
-    "teks_pertanyaan": "Perhatikan cuplikan Pembukaan UUD NRI Tahun 1945 Alinea IV berikut: \"...maka disusunlah Kemerdekaan Kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar Negara Indonesia, yang terbentuk dalam suatu susunan Negara Republik Indonesia... dengan berdasar kepada Ketuhanan Yang Maha Esa...\" Hubungan formal antara Pancasila dan UUD NRI Tahun 1945 berdasarkan cuplikan tersebut menunjukkan bahwa …",
-    "pilihan_jawaban": [
-      "A. Pembukaan UUD NRI Tahun 1945 dapat diubah sewaktu-waktu melalui amandemen DPR",
-      "B. Pancasila menyatu dan tercantum secara sah dalam dokumen konstitusi sebagai dasar penyelenggaraan negara",
-      "C. UUD NRI Tahun 1945 dibentuk terlebih dahulu sebelum Pancasila dirumuskan oleh pendiri negara",
-      "D. Rumusan Pancasila dalam Pembukaan UUD NRI 1945 bersifat terpisah dari pasal-pasal konstitusi"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 9,
-    "teks_pertanyaan": "Pembukaan UUD NRI Tahun 1945 memuat empat pokok pikiran yang merupakan pancaran dari nilai-nilai Pancasila. Pokok pikiran pertama menyatakan bahwa \"Negara melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dengan berdasar atas persatuan\". Penjabaran pokok pikiran tersebut dalam pasal UUD NRI 1945 terlihat pada aturan tentang …",
-    "pilihan_jawaban": [
-      "A. Kebebasan warga negara untuk memilih agama dan kepercayaan masing-masing",
-      "B. Kewajiban pemerintah memberikan bantuan sosial kepada fakir miskin",
-      "C. Hak warga negara untuk mendapatkan pendidikan yang layak dari pemerintah",
-      "D. Sistem pertahanan dan keamanan negara yang melibatkan seluruh warga negara (Sishankamrata)"
-    ],
-    "kunci_jawaban": "D"
-  },
+      "id_soal": 2,
+      "teks_pertanyaan": "Berdasarkan TAP MPR RI No. VI/MPR/2001, etika kehidupan berbangsa bersumber dari ajaran agama yang universal dan nilai luhur budaya bangsa. Di tengah maraknya budaya hedonisme dan perundungan (bullying) di kalangan remaja, fungsi etika kehidupan berbangsa adalah …",
+      "pilihan_jawaban": [
+        "A. Menjadi alat hukum penindakan bagi aparat kepolisian untuk memenjarakan pelanggar moral",
+        "B. Menjadi acuan dasar dalam berpikir, bersikap, dan bertingkah laku agar tercipta kehidupan bersama yang tenteram",
+        "C. Membatasi kebebasan berpendapat peserta didik di lingkungan sekolah dan media sosial",
+        "D. Menggantikan seluruh peran hukum tertulis yang berlaku dalam tata hukum nasional"
+      ],
+      "kunci_jawaban": "B"
+    },
     {
-    "id_soal": 10,
-    "teks_pertanyaan": "Hubungan materiel antara Pancasila dan UUD NRI Tahun 1945 disebut bersifat kausal-organis. Disebut kausal karena Pancasila menjadi penyebab lahirnya pasal-pasal UUD, dan disebut organis karena …",
-    "pilihan_jawaban": [
-      "A. Pancasila dan UUD NRI 1945 merupakan satu kesatuan utuh yang tidak terpisahkan dalam sistem hukum Indonesia",
-      "B. Pancasila dan UUD NRI 1945 dapat dipisahkan dalam kondisi politik tertentu",
-      "C. Pembukaan UUD NRI 1945 dibuat oleh organisasi internasional",
-      "D. Pasal-pasal UUD NRI 1945 memiliki kedudukan hukum yang lebih tinggi dari Pancasila"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 11,
-    "teks_pertanyaan": "Jimly Asshiddiqie menyatakan bahwa UUD NRI Tahun 1945 merupakan perwujudan nilai-nilai Pancasila, sedangkan Pancasila adalah \"roh\" dari setiap ide normatif konstitusi. Jika sebuah pasal dalam undang-undang yang berlaku di Indonesia bertentangan dengan nilai Pancasila, maka langkah konstitusional yang benar adalah …",
-    "pilihan_jawaban": [
-      "A. Mengabaikan undang-undang tersebut tanpa melalui mekanisme hukum",
-      "B. Mengubah rumusan sila Pancasila agar sesuai dengan undang-undang baru",
-      "C. Mengajukan permohonan uji materi (judicial review) ke Mahkamah Konstitusi",
-      "D. Mengadakan unjuk rasa anarkis untuk membatalkan undang-undang tersebut"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 12,
-    "teks_pertanyaan": "Pokok pikiran keempat Pembukaan UUD NRI 1945 menegaskan bahwa negara berdasar atas Ketuhanan Yang Maha Esa menurut dasar kemanusiaan yang adil dan beradab. Implikasi dari pokok pikiran ini terhadap penyusunan undang-undang di Indonesia adalah …",
-    "pilihan_jawaban": [
-      "A. Indonesia merupakan negara agama yang menerapkan hukum satu agama tertentu secara mutlak",
-      "B. Setiap undang-undang yang dibuat DPR harus menjunjung tinggi nilai-nilai keagamaan dan kemanusiaan",
-      "C. Undang-undang boleh memuat norma yang membeda-bedakan hak warga negara berdasarkan agamanya",
-      "D. Hukum di Indonesia tidak perlu memperhatikan nilai moral dan etika agama"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 13,
-    "teks_pertanyaan": "Wilayah Indonesia yang terbentang luas dari Sabang sampai Merauke menciptakan keberagaman suku, budaya, dan agama. Keberagaman ini berpotensi memicu konflik horizontal jika tidak dirawat. Berdasarkan Sila Ketiga Pancasila, upaya strategis untuk mencegah konflik tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Menghapus tradisi lokal agar seluruh masyarakat memiliki budaya yang seragam",
-      "B. Membatasi interaksi antarwarga yang berbeda suku dan agama di media sosial",
-      "C. Mengembangkan sikap toleransi, rasa kekeluargaan, dan mengutamakan kepentingan bangsa di atas golongan",
-      "D. Meminta kelompok minoritas untuk mengalah dalam setiap pengambilan keputusan public"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 14,
-    "teks_pertanyaan": "Ikrar Sumpah Pemuda 1928 \"Satu Nusa, Satu Bangsa, dan Satu Bahasa Indonesia\" merupakan manifestasi awal dari nilai Sila Ketiga Pancasila. Jika dikaitkan dengan kehidupan siswa IX SMP saat ini, contoh pengamalan nilai tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Menggunakan bahasa Indonesia yang baik dan benar saat berkomunikasi dengan teman dari berbagai latar belakang",
-      "B. Hanya berteman dengan siswa yang berasal dari daerah atau suku yang sama",
-      "C. Menolak mempelajari budaya daerah lain karena menganggap budayanya sendiri paling unggul",
-      "D. Membuat kelompok belajar yang anggotanya dibatasi hanya untuk yang seagama"
-    ],
-    "kunci_jawaban": "A"
-  },
+      "id_soal": 3,
+      "teks_pertanyaan": "Ir. Sukarno menegaskan bahwa Pancasila adalah weltanschauung. Kata weltanschauung bermakna pandangan dunia. Maksud dari Pancasila sebagai weltanschauung bangsa Indonesia adalah ...",
+      "pilihan_jawaban": [
+        "A. Pancasila merupakan gabungan dari ideologi-ideologi besar dunia yang disalin secara utuh oleh pendiri bangsa",
+        "B. Nilai-nilai Pancasila menjadi kerangka berpikir dan cara pandang bangsa Indonesia terhadap diri dan dunia luar",
+        "C. Bangsa Indonesia harus mengisolasi diri dari pergaulan internasional demi mempertahankan kemurnian Pancasila",
+        "D. Pancasila hanya berlaku apabila bangsa Indonesia berhadapan dengan bangsa asing dalam forum diplomasi"
+      ],
+      "kunci_jawaban": "B"
+    },
     {
-    "id_soal": 15,
-    "teks_pertanyaan": "Di media sosial, sering terjadi penyebaran berita bohong (hoaks) dan ujaran kebencian berlatar belakang SARA yang bertujuan memecah belah bangsa. Sikap siswa yang mencerminkan semangat Pancasila dan Bhinneka Tunggal Ika dalam menghadapi fenomena tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Menyebarkan kembali informasi tersebut ke grup chat sekolah agar teman-teman waspada",
-      "B. Mengkritik dan membalas pelaku dengan ujaran kebencian yang lebih keras",
-      "C. Mematikan seluruh akun media sosial dan tidak peduli dengan isu-isu kebangsaan",
-      "D. Menyaring informasi secara kritis, tidak mudah terprovokasi, dan membalas dengan konten persatuan"
-    ],
-    "kunci_jawaban": "D"
-  },
-  {
-    "id_soal": 16,
-    "teks_pertanyaan": "Sikap etnosentrisme (menganggap budaya sendiri paling baik dan memandang rendah budaya lain) merupakan ancaman nyata bagi keutuhan NKRI. Ditinjau dari nilai-nilai Pancasila, etnosentrisme bertentangan dengan …",
-    "pilihan_jawaban": [
-      "A. Sila Pertama, karena menolak keberadaan Tuhan Yang Maha Esa",
-      "B. Sila Keempat, karena menolak proses musyawarah mufakat dalam Pemilu",
-      "C. Sila Kedua dan Ketiga, karena mengabaikan kesetaraan derajat manusia dan merusak persatuan bangsa",
-      "D. Sila Kelima, karena menyebabkan ketimpangan ekonomi di daerah-daerah"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 17,
-    "teks_pertanyaan": "Seseorang yang memiliki semangat Pancasila dalam Bhinneka Tunggal Ika akan bersikap rela berkorban demi kepentingan negara. Makna \"rela berkorban\" yang tepat dan kontekstual bagi seorang pelajar adalah …",
-    "pilihan_jawaban": [
-      "A. Menyumbangkan seluruh harta benda pribadi untuk pembangunan sarana sekolah",
-      "B. Mengabaikan waktu belajar demi membela teman satu geng yang sedang berselisih",
-      "C. Menyisihkan waktu dan tenaga untuk mengikuti kegiatan Pramuka dan OSIS demi kemajuan sekolah dan masyarakat",
-      "D. Meninggalkan bangku sekolah untuk menjadi relawan militer di negara tetangga"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 18,
-    "teks_pertanyaan": "Indonesia sering menghadapi ujian berupa potensi disintegrasi bangsa akibat perbedaan pilihan politik dalam Pemilu. Solusi mendasar yang ditawarkan Pancasila untuk mengatasinya adalah …",
-    "pilihan_jawaban": [
-      "A. Mengedepankan musyawarah mufakat serta menyadari bahwa perbedaan adalah kekayaan, bukan permusuhan",
-      "B. Menghentikan pelaksanaan Pemilu dan menerapkan sistem pemerintahan otoriter",
-      "C. Mengizinkan daerah yang kalah dalam Pemilu untuk memisahkan diri dari NKRI",
-      "D. Memaksa seluruh warga negara untuk memilih partai politik yang sama"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 19,
-    "teks_pertanyaan": "Pembukaan UUD NRI Tahun 1945 Alinea IV dengan tegas memuat tujuan negara, bentuk negara (NKRI), serta dasar negara (Pancasila). Hubungan antara Pancasila dan NKRI berdasarkan alinea tersebut adalah …",
-    "pilihan_jawaban": [
-      "A. Pancasila dirumuskan hanya untuk kepentingan wilayah pulau Jawa saja",
-      "B. NKRI dapat berdiri tegak tanpa membutuhkan dasar negara Pancasila",
-      "C. Pancasila merupakan fondasi filosofis dan pedoman utama dalam mengoperasikan pemerintahan NKRI",
-      "D. Bentuk NKRI dapat diubah menjadi negara serikat (federal) kapan saja"
-    ],
-    "kunci_jawaban": "C"
-  },
-  {
-    "id_soal": 20,
-    "teks_pertanyaan": "Pasal 37 Ayat (5) UUD NRI Tahun 1945 menyatakan: \"Khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan\". Implikasi hukum dan politik dari pasal ini terhadap keberadaan NKRI dan Pancasila adalah …",
-    "pilihan_jawaban": [
-      "A. Pasal tersebut dapat dihapus jika mayoritas anggota MPR menyetujuinya dalam sidang paripurna",
-      "B. Bentuk NKRI bersifat permanen/final dan Pancasila akan selamanya menjadi dasar negara yang menjiwainya",
-      "C. Indonesia dapat berganti menjadi sistem monarki apabila terjadi krisis ekonomi",
-      "D. Daerah-daerah diberikan kebebasan penuh untuk membentuk negara merdeka masing-masing"
-    ],
-    "kunci_jawaban": "B"
-  },
+      "id_soal": 4,
+      "teks_pertanyaan": "Para pendiri negara menggali nilai-nilai falsafah hidup masyarakat Indonesia, merefleksikannya secara mendalam, lalu menyepakatinya dalam musyawarah sebagai \"perjanjian luhur\". Pernyataan yang menggambarkan konsekuensi dari kesepakatan tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Pengamalan Pancasila bersifat opsional dan hanya berlaku bagi instansi pemerintah",
+        "B. Pancasila dapat diganti jika ada kesepakatan baru dari sekelompok ormas tertentu",
+        "C. Nilai-nilai Pancasila yang tadinya implisit dalam budaya kini menjadi eksplisit dan mengikat secara nasional",
+        "D. Pancasila merupakan ideologi tertutup yang tidak boleh dipelajari dan dikaji secara kritis"
+      ],
+      "kunci_jawaban": "C"
+    },
     {
-    "id_soal": 21,
-    "teks_pertanyaan": "Pancasila sebagai dasar negara memiliki makna bahwa Pancasila menjadi sumber kaidah hukum konstitusional yang mengikat seluruh unsur negara. Unsur-unsur negara yang dimaksud meliputi …",
-    "pilihan_jawaban": [
-      "A. Presiden, DPR, dan Mahkamah Agung saja",
-      "B. TNI, Polri, dan Pegawai Negeri Sipil",
-      "C. Partai politik, ormas, dan lembaga swadaya masyarakat",
-      "D. Rakyat, wilayah, dan pemerintah yang berdaulat"
-    ],
-    "kunci_jawaban": "D"
-  },
-  {
-    "id_soal": 22,
-    "teks_pertanyaan": "Berdasarkan Ketetapan MPR RI No. XVIII/MPR/1998, ditegaskan kembali bahwa Pancasila adalah dasar negara dari NKRI yang harus dilaksanakan secara konsisten. Akibat hukum dari penegasan ini adalah …",
-    "pilihan_jawaban": [
-      "A. Government berhak membubarkan seluruh organisasi kemasyarakatan tanpa proses peradilan",
-      "B. Seluruh peraturan perundang-undangan di bawah UUD 1945 harus bersumber dan tidak boleh bertentangan dengan Pancasila",
-      "C. UUD NRI Tahun 1945 tidak berlaku lagi dalam tata hukum nasional",
-      "D. Hukum adat dihapuskan dari seluruh wilayah Indonesia"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 23,
-    "teks_pertanyaan": "Di era globalisasi, ideologi-ideologi asing seperti individualisme ekstrim dan radikalisme mudah masuk ke Indonesia melalui jaringan internet. Mengapa Pancasila sangat vital sebagai benteng pertahanan NKRI menghadapi ancaman tersebut?",
-    "pilihan_jawaban": [
-      "A. Karena Pancasila secara otomatis memblokir akses internet yang bermuatan negatif",
-      "B. Karena Pancasila memberikan filter kultural dan moral bagi warga negara dalam menyaring budaya/ideologi luar",
-      "C. Karena Pancasila memuat sanksi pidana penjara bagi pengagum budaya luar",
-      "D. Karena Pancasila mewajibkan seluruh warga negara untuk menolak teknologi modern dari luar negeri"
-    ],
-    "kunci_jawaban": "B"
-  },
-  {
-    "id_soal": 24,
-    "teks_pertanyaan": "Selain hukum dasar tertulis (UUD NRI 1945), dalam penyelenggaraan negara NKRI juga diakui adanya hukum dasar tidak tertulis (konvensi). Keterkaitan antara konvensi dengan Pancasila adalah …",
-    "pilihan_jawaban": [
-      "A. Konvensi timbul dari praktik bernegara yang berulang dan didasari oleh suasana kebatinan serta nilai Pancasila",
-      "B. Konvensi boleh melanggar Pancasila asalkan disetujui oleh Presiden",
-      "C. Konvensi memiliki kedudukan yang lebih tinggi dibandingkan dengan UUD NRI Tahun 1945",
-      "D. Konvensi dibuat khusus untuk menggantikan fungsi Pancasila saat terjadi perang"
-    ],
-    "kunci_jawaban": "A"
-  },
-  {
-    "id_soal": 25,
-    "teks_pertanyaan": "Seorang siswa IX SMP ingin menunjukkan komitmen nyata dalam mempertahankan keutuhan NKRI berdasarkan nilai-nilai Pancasila di lingkungan sekolah. Tindakan paling tepat yang dapat ia lakukan adalah …",
-    "pilihan_jawaban": [
-      "A. Mengikuti latihan militer swadaya bersama kelompok pemuda di luar jam sekolah",
-      "B. Menjauhi teman-teman yang berasal dari luar daerah agar tidak terjadi perselisihan",
-      "C. Belajar dengan tekun, mematuhi tata tertib sekolah, serta menghargai perbedaan teman tanpa membeda-bedakan",
-      "D. Memfokuskan diri pada media sosial agar menjadi influencer terkenal di tingkat internasional"
-    ],
-    "kunci_jawaban": "C"
-  }
-]
+      "id_soal": 5,
+      "teks_pertanyaan": "Dalam sebuah desa, warga yang memiliki perbedaan keyakinan saling membantu mendirikan sarana ibadah tanpa membedakan agama. Perilaku ini mencerminkan etika berbangsa yang bersumber dari agama dan budaya, karena …",
+      "pilihan_jawaban": [
+        "A. Agama mengajarkan kebaikan universal, dan budaya Indonesia menjunjung tinggi gotong royong",
+        "B. Warga ingin mendapatkan pujian sebagai desa terbaik dalam lomba toleransi",
+        "C. Kegiatan tersebut dilakukan semata-mata untuk menghindari teguran dari pemerintah daerah",
+        "D. Norma hukum memberikan sanksi denda jika warga tidak ikut bergotong royong"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Sebelum dirumuskan oleh para pendiri bangsa, nilai-nilai Pancasila bersifat implisit dalam kehidupan sehari-hari masyarakat. Setelah disahkan oleh PPKI pada 18 Agustus 1945, nilai tersebut menjadi eksplisit. Makna perubahan tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Tradisi lokal masyarakat tidak lagi berlaku dan digantikan sepenuhnya oleh hukum tertulis",
+        "B. Nilai Pancasila yang dahulu tidak penting kini menjadi formalitas administrasi belaka",
+        "C. Pancasila hanya menjadi milik para pejabat negara yang merumuskannya dalam sidang",
+        "D. Nilai-nilai luhur telah dikristalisasi menjadi rumusan tertulis yang sah dan wajib dijadikan pedoman bernegara"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Berdasarkan Stufenbau Theory dari Hans Kelsen, tata urutan norma hukum bersifat berjenjang. Dalam konteks tata hukum Indonesia, Pancasila berkedudukan sebagai rechtsidea (cita-cita hukum) yang menduduki posisi sebagai staatsfundamentalnorm. Hal ini berarti …",
+      "pilihan_jawaban": [
+        "A. Pancasila dijadikan sebagai penentu sah atau tidaknya serta landasan pembentukan norma hukum di bawahnya",
+        "B. Pancasila berada di bawah UUD NRI Tahun 1945 karena UUD dirumuskan lebih rinci",
+        "C. Kedudukan Pancasila sejajar dengan Undang-Undang yang dibuat oleh DPR dan Presiden",
+        "D. Pasal-pasal UUD NRI Tahun 1945 dapat mengesampingkan Pancasila jika terjadi keadaan darurat"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Perhatikan cuplikan Pembukaan UUD NRI Tahun 1945 Alinea IV berikut: \"...maka disusunlah Kemerdekaan Kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar Negara Indonesia, yang terbentuk dalam suatu susunan Negara Republik Indonesia... dengan berdasar kepada Ketuhanan Yang Maha Esa...\" Hubungan formal antara Pancasila dan UUD NRI Tahun 1945 berdasarkan cuplikan tersebut menunjukkan bahwa …",
+      "pilihan_jawaban": [
+        "A. Pembukaan UUD NRI Tahun 1945 dapat diubah sewaktu-waktu melalui amandemen DPR",
+        "B. Pancasila menyatu dan tercantum secara sah dalam dokumen konstitusi sebagai dasar penyelenggaraan negara",
+        "C. UUD NRI Tahun 1945 dibentuk terlebih dahulu sebelum Pancasila dirumuskan oleh pendiri negara",
+        "D. Rumusan Pancasila dalam Pembukaan UUD NRI 1945 bersifat terpisah dari pasal-pasal konstitusi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Pembukaan UUD NRI Tahun 1945 memuat empat pokok pikiran yang merupakan pancaran dari nilai-nilai Pancasila. Pokok pikiran pertama menyatakan bahwa \"Negara melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dengan berdasar atas persatuan\". Penjabaran pokok pikiran tersebut dalam pasal UUD NRI 1945 terlihat pada aturan tentang …",
+      "pilihan_jawaban": [
+        "A. Kebebasan warga negara untuk memilih agama dan kepercayaan masing-masing",
+        "B. Kewajiban pemerintah memberikan bantuan sosial kepada fakir miskin",
+        "C. Hak warga negara untuk mendapatkan pendidikan yang layak dari pemerintah",
+        "D. Sistem pertahanan dan keamanan negara yang melibatkan seluruh warga negara (Sishankamrata)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Hubungan materiel antara Pancasila dan UUD NRI Tahun 1945 disebut bersifat kausal-organis. Disebut kausal karena Pancasila menjadi penyebab lahirnya pasal-pasal UUD, dan disebut organis karena …",
+      "pilihan_jawaban": [
+        "A. Pancasila dan UUD NRI 1945 merupakan satu kesatuan utuh yang tidak terpisahkan dalam sistem hukum Indonesia",
+        "B. Pancasila dan UUD NRI 1945 dapat dipisahkan dalam kondisi politik tertentu",
+        "C. Pembukaan UUD NRI 1945 dibuat oleh organisasi internasional",
+        "D. Pasal-pasal UUD NRI 1945 memiliki kedudukan hukum yang lebih tinggi dari Pancasila"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Jimly Asshiddiqie menyatakan bahwa UUD NRI Tahun 1945 merupakan perwujudan nilai-nilai Pancasila, sedangkan Pancasila adalah \"roh\" dari setiap ide normatif konstitusi. Jika sebuah pasal dalam undang-undang yang berlaku di Indonesia bertentangan dengan nilai Pancasila, maka langkah konstitusional yang benar adalah …",
+      "pilihan_jawaban": [
+        "A. Mengabaikan undang-undang tersebut tanpa melalui mekanisme hukum",
+        "B. Mengubah rumusan sila Pancasila agar sesuai dengan undang-undang baru",
+        "C. Mengajukan permohonan uji materi (judicial review) ke Mahkamah Konstitusi",
+        "D. Mengadakan unjuk rasa anarkis untuk membatalkan undang-undang tersebut"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Pokok pikiran keempat Pembukaan UUD NRI 1945 menegaskan bahwa negara berdasar atas Ketuhanan Yang Maha Esa menurut dasar kemanusiaan yang adil dan beradab. Implikasi dari pokok pikiran ini terhadap penyusunan undang-undang di Indonesia adalah …",
+      "pilihan_jawaban": [
+        "A. Indonesia merupakan negara agama yang menerapkan hukum satu agama tertentu secara mutlak",
+        "B. Setiap undang-undang yang dibuat DPR harus menjunjung tinggi nilai-nilai keagamaan dan kemanusiaan",
+        "C. Undang-undang boleh memuat norma yang membeda-bedakan hak warga negara berdasarkan agamanya",
+        "D. Hukum di Indonesia tidak perlu memperhatikan nilai moral dan etika agama"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Wilayah Indonesia yang terbentang luas dari Sabang sampai Merauke menciptakan keberagaman suku, budaya, dan agama. Keberagaman ini berpotensi memicu konflik horizontal jika tidak dirawat. Berdasarkan Sila Ketiga Pancasila, upaya strategis untuk mencegah konflik tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Menghapus tradisi lokal agar seluruh masyarakat memiliki budaya yang seragam",
+        "B. Membatasi interaksi antarwarga yang berbeda suku dan agama di media sosial",
+        "C. Mengembangkan sikap toleransi, rasa kekeluargaan, dan mengutamakan kepentingan bangsa di atas golongan",
+        "D. Meminta kelompok minoritas untuk mengalah dalam setiap pengambilan keputusan public"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Ikrar Sumpah Pemuda 1928 \"Satu Nusa, Satu Bangsa, dan Satu Bahasa Indonesia\" merupakan manifestasi awal dari nilai Sila Ketiga Pancasila. Jika dikaitkan dengan kehidupan siswa IX SMP saat ini, contoh pengamalan nilai tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Menggunakan bahasa Indonesia yang baik dan benar saat berkomunikasi dengan teman dari berbagai latar belakang",
+        "B. Hanya berteman dengan siswa yang berasal dari daerah atau suku yang sama",
+        "C. Menolak mempelajari budaya daerah lain karena menganggap budayanya sendiri paling unggul",
+        "D. Membuat kelompok belajar yang anggotanya dibatasi hanya untuk yang seagama"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Di media sosial, sering terjadi penyebaran berita bohong (hoaks) dan ujaran kebencian berlatar belakang SARA yang bertujuan memecah belah bangsa. Sikap siswa yang mencerminkan semangat Pancasila dan Bhinneka Tunggal Ika dalam menghadapi fenomena tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Menyebarkan kembali informasi tersebut ke grup chat sekolah agar teman-teman waspada",
+        "B. Mengkritik dan membalas pelaku dengan ujaran kebencian yang lebih keras",
+        "C. Mematikan seluruh akun media sosial dan tidak peduli dengan isu-isu kebangsaan",
+        "D. Menyaring informasi secara kritis, tidak mudah terprovokasi, dan membalas dengan konten persatuan"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Sikap etnosentrisme (menganggap budaya sendiri paling baik dan memandang rendah budaya lain) merupakan ancaman nyata bagi keutuhan NKRI. Ditinjau dari nilai-nilai Pancasila, etnosentrisme bertentangan dengan …",
+      "pilihan_jawaban": [
+        "A. Sila Pertama, karena menolak keberadaan Tuhan Yang Maha Esa",
+        "B. Sila Keempat, karena menolak proses musyawarah mufakat dalam Pemilu",
+        "C. Sila Kedua dan Ketiga, karena mengabaikan kesetaraan derajat manusia dan merusak persatuan bangsa",
+        "D. Sila Kelima, karena menyebabkan ketimpangan ekonomi di daerah-daerah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Seseorang yang memiliki semangat Pancasila dalam Bhinneka Tunggal Ika akan bersikap rela berkorban demi kepentingan negara. Makna \"rela berkorban\" yang tepat dan kontekstual bagi seorang pelajar adalah …",
+      "pilihan_jawaban": [
+        "A. Menyumbangkan seluruh harta benda pribadi untuk pembangunan sarana sekolah",
+        "B. Mengabaikan waktu belajar demi membela teman satu geng yang sedang berselisih",
+        "C. Menyisihkan waktu dan tenaga untuk mengikuti kegiatan Pramuka dan OSIS demi kemajuan sekolah dan masyarakat",
+        "D. Meninggalkan bangku sekolah untuk menjadi relawan militer di negara tetangga"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Indonesia sering menghadapi ujian berupa potensi disintegrasi bangsa akibat perbedaan pilihan politik dalam Pemilu. Solusi mendasar yang ditawarkan Pancasila untuk mengatasinya adalah …",
+      "pilihan_jawaban": [
+        "A. Mengedepankan musyawarah mufakat serta menyadari bahwa perbedaan adalah kekayaan, bukan permusuhan",
+        "B. Menghentikan pelaksanaan Pemilu dan menerapkan sistem pemerintahan otoriter",
+        "C. Mengizinkan daerah yang kalah dalam Pemilu untuk memisahkan diri dari NKRI",
+        "D. Memaksa seluruh warga negara untuk memilih partai politik yang sama"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Pembukaan UUD NRI Tahun 1945 Alinea IV dengan tegas memuat tujuan negara, bentuk negara (NKRI), serta dasar negara (Pancasila). Hubungan antara Pancasila dan NKRI berdasarkan alinea tersebut adalah …",
+      "pilihan_jawaban": [
+        "A. Pancasila dirumuskan hanya untuk kepentingan wilayah pulau Jawa saja",
+        "B. NKRI dapat berdiri tegak tanpa membutuhkan dasar negara Pancasila",
+        "C. Pancasila merupakan fondasi filosofis dan pedoman utama dalam mengoperasikan pemerintahan NKRI",
+        "D. Bentuk NKRI dapat diubah menjadi negara serikat (federal) kapan saja"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Pasal 37 Ayat (5) UUD NRI Tahun 1945 menyatakan: \"Khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dapat dilakukan perubahan\". Implikasi hukum dan politik dari pasal ini terhadap keberadaan NKRI dan Pancasila adalah …",
+      "pilihan_jawaban": [
+        "A. Pasal tersebut dapat dihapus jika mayoritas anggota MPR menyetujuinya dalam sidang paripurna",
+        "B. Bentuk NKRI bersifat permanen/final dan Pancasila akan selamanya menjadi dasar negara yang menjiwainya",
+        "C. Indonesia dapat berganti menjadi sistem monarki apabila terjadi krisis ekonomi",
+        "D. Daerah-daerah diberikan kebebasan penuh untuk membentuk negara merdeka masing-masing"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pancasila sebagai dasar negara memiliki makna bahwa Pancasila menjadi sumber kaidah hukum konstitusional yang mengikat seluruh unsur negara. Unsur-unsur negara yang dimaksud meliputi …",
+      "pilihan_jawaban": [
+        "A. Presiden, DPR, dan Mahkamah Agung saja",
+        "B. TNI, Polri, dan Pegawai Negeri Sipil",
+        "C. Partai politik, ormas, dan lembaga swadaya masyarakat",
+        "D. Rakyat, wilayah, dan pemerintah yang berdaulat"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Berdasarkan Ketetapan MPR RI No. XVIII/MPR/1998, ditegaskan kembali bahwa Pancasila adalah dasar negara dari NKRI yang harus dilaksanakan secara konsisten. Akibat hukum dari penegasan ini adalah …",
+      "pilihan_jawaban": [
+        "A. Government berhak membubarkan seluruh organisasi kemasyarakatan tanpa proses peradilan",
+        "B. Seluruh peraturan perundang-undangan di bawah UUD 1945 harus bersumber dan tidak boleh bertentangan dengan Pancasila",
+        "C. UUD NRI Tahun 1945 tidak berlaku lagi dalam tata hukum nasional",
+        "D. Hukum adat dihapuskan dari seluruh wilayah Indonesia"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Di era globalisasi, ideologi-ideologi asing seperti individualisme ekstrim dan radikalisme mudah masuk ke Indonesia melalui jaringan internet. Mengapa Pancasila sangat vital sebagai benteng pertahanan NKRI menghadapi ancaman tersebut?",
+      "pilihan_jawaban": [
+        "A. Karena Pancasila secara otomatis memblokir akses internet yang bermuatan negatif",
+        "B. Karena Pancasila memberikan filter kultural dan moral bagi warga negara dalam menyaring budaya/ideologi luar",
+        "C. Karena Pancasila memuat sanksi pidana penjara bagi pengagum budaya luar",
+        "D. Karena Pancasila mewajibkan seluruh warga negara untuk menolak teknologi modern dari luar negeri"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Selain hukum dasar tertulis (UUD NRI 1945), dalam penyelenggaraan negara NKRI juga diakui adanya hukum dasar tidak tertulis (konvensi). Keterkaitan antara konvensi dengan Pancasila adalah …",
+      "pilihan_jawaban": [
+        "A. Konvensi timbul dari praktik bernegara yang berulang dan didasari oleh suasana kebatinan serta nilai Pancasila",
+        "B. Konvensi boleh melanggar Pancasila asalkan disetujui oleh Presiden",
+        "C. Konvensi memiliki kedudukan yang lebih tinggi dibandingkan dengan UUD NRI Tahun 1945",
+        "D. Konvensi dibuat khusus untuk menggantikan fungsi Pancasila saat terjadi perang"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Seorang siswa IX SMP ingin menunjukkan komitmen nyata dalam mempertahankan keutuhan NKRI berdasarkan nilai-nilai Pancasila di lingkungan sekolah. Tindakan paling tepat yang dapat ia lakukan adalah …",
+      "pilihan_jawaban": [
+        "A. Mengikuti latihan militer swadaya bersama kelompok pemuda di luar jam sekolah",
+        "B. Menjauhi teman-teman yang berasal dari luar daerah agar tidak terjadi perselisihan",
+        "C. Belajar dengan tekun, mematuhi tata tertib sekolah, serta menghargai perbedaan teman tanpa membeda-bedakan",
+        "D. Memfokuskan diri pada media sosial agar menjadi influencer terkenal di tingkat internasional"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
