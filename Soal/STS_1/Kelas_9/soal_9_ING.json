@@ -9,7 +9,7 @@
     {
       "id_soal": 1,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "A cheetah is …… than a lion.",
+      "teks_pertanyaan": "A cheetah is <b>……</b> than a lion.",
       "pilihan_jawaban": [
         "A. more fast",
         "B. fast",
@@ -21,7 +21,7 @@
     {
       "id_soal": 2,
       "tipe_soal": "BS",
-      "teks_pertanyaan": "Determine whether each sentence below is grammatically True (B) or False (S)!",
+      "teks_pertanyaan": "<b>Determine whether each sentence below is grammatically True (B) or False (S)!</b>",
       "pernyataan": [
         "1. A car is faster than a bicycle.",
         "2. This book is more good than that one.",
@@ -36,7 +36,7 @@
     {
       "id_soal": 3,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "Agnes is the …… girl in the class.",
+      "teks_pertanyaan": "Agnes is the <b>……</b> girl in the class.",
       "pilihan_jawaban": [
         "A. more confident",
         "B. most confident",
@@ -48,7 +48,7 @@
     {
       "id_soal": 4,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "Turtles walk …… than koala.",
+      "teks_pertanyaan": "Turtles walk <b>……</b> than koala.",
       "pilihan_jawaban": [
         "A. slowly",
         "B. slower",
@@ -60,7 +60,7 @@
     {
       "id_soal": 5,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "An electric light shines …… than a candle does. But the sun shines ……",
+      "teks_pertanyaan": "An electric light shines <b>……</b> than a candle does. But the sun shines <b>……</b>",
       "pilihan_jawaban": [
         "A. brighter, brightly",
         "B. more brightly, most brightly",
@@ -72,7 +72,7 @@
     {
       "id_soal": 6,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "Tom is a …… driver. He drives ……",
+      "teks_pertanyaan": "Tom is a <b>……</b> driver. He drives <b>……</b>",
       "pilihan_jawaban": [
         "A. careless, carelessly",
         "B. more careless, most careless",
@@ -84,7 +84,7 @@
     {
       "id_soal": 7,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "SUMATRAN ELEPHANTS<br>Sumatran elephants are a type of Asian elephant, and their scientific name is Elephas maximus sumatranus. They come from Sumatra. These elephants are the smallest among Asian elephants. They can be as long as 6 meters, and their height is between 1.5 to 2.7 meters. They are quite heavy, weighing around 5 tons.<br><br>APPEARANCE<br>In terms of their appearance, Sumatran elephants have colorful skin with a few spots that are not colored, and they are almost bald and grey. They are round in shape, with small ears and long trunks. Both male and female Sumatran elephants have tusks. Male tusks are visible but not very long, while female tusks are short and often hidden under their upper lip. Sometimes, female elephants don't have tusks at all. These big animals use their trunks for many things, such as taking up water, grabbing objects, breathing, smelling, showering, and making sounds.<br><br>HABITS<br>Sumatran elephants are social animals. They live in groups of 20 to 35, or sometimes as few as 23 elephants. The biggest and oldest female leads the group. When male elephants become teenagers, they are on their own and only return to the group for mating. Female elephants stay with the group, taking care of the young ones. In the group, there is a strong bond between them.<br><br>BREEDING SYSTEM<br>Regarding their breeding habits, there is not much information, but it is known that they mate throughout the year. The most common time for breeding is during the rainy season. Female Sumatran elephants are pregnant for about 22 months, and they give birth to one baby every four years. When born, these elephants weigh about 100 kg or even less.<br><br>Who leads a herd of Sumatran elephants?",
+      "teks_pertanyaan": "<b><i>Read the following text to answer questions 7 to 11!</i></b><br><br><b>SUMATRAN ELEPHANTS</b><br>Sumatran elephants are a type of Asian elephant, and their scientific name is Elephas maximus sumatranus. They come from Sumatra. These elephants are the smallest among Asian elephants. They can be as long as 6 meters, and their height is between 1.5 to 2.7 meters. They are quite heavy, weighing around 5 tons.<br><br><b><u>APPEARANCE</u></b><br>In terms of their appearance, Sumatran elephants have colorful skin with a few spots that are not colored, and they are almost bald and grey. They are round in shape, with small ears and long trunks. Both male and female Sumatran elephants have tusks. Male tusks are visible but not very long, while female tusks are short and often hidden under their upper lip. Sometimes, female elephants don't have tusks at all. These big animals use their trunks for many things, such as taking up water, grabbing objects, breathing, smelling, showering, and making sounds.<br><br><b><u>HABITS</u></b><br>Sumatran elephants are social animals. They live in groups of 20 to 35, or sometimes as few as 23 elephants. The biggest and oldest female leads the group. When male elephants become teenagers, they are on their own and only return to the group for mating. Female elephants stay with the group, taking care of the young ones. In the group, there is a strong bond between them.<br><br><b><u>BREEDING SYSTEM</u></b><br>Regarding their breeding habits, there is not much information, but it is known that they mate throughout the year. The most common time for breeding is during the rainy season. Female Sumatran elephants are pregnant for about 22 months, and they give birth to one baby every four years. When born, these elephants weigh about 100 kg or even less.<br><br><b>Question:</b><br>Who leads a herd of Sumatran elephants?",
       "pilihan_jawaban": [
         "A. The biggest and oldest female elephant",
         "B. The female that has given birth most recently",
@@ -96,7 +96,7 @@
     {
       "id_soal": 8,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "According to the text above, which function is NOT mentioned as a use of the elephant's trunk?",
+      "teks_pertanyaan": "According to the text above, which function is <b>NOT</b> mentioned as a use of the elephant's trunk?",
       "pilihan_jawaban": [
         "A. Showering and smelling",
         "B. Defending the herd against predators",
@@ -120,7 +120,7 @@
     {
       "id_soal": 10,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which statements are CORRECT regarding Sumatran elephants based on the text? (Select all that apply)",
+      "teks_pertanyaan": "Which statements are <b>CORRECT</b> regarding Sumatran elephants based on the text?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. Sumatran elephants are the smallest among Asian elephants.",
         "B. Female Sumatran elephants have a gestation period of 12 months.",
@@ -132,7 +132,7 @@
     {
       "id_soal": 11,
       "tipe_soal": "BS",
-      "teks_pertanyaan": "Determine whether each of the following statements is True (B) or False (S) based on the text about Sumatran elephants!",
+      "teks_pertanyaan": "<b>Determine whether each of the following statements is True (B) or False (S) based on the text about Sumatran elephants!</b>",
       "pernyataan": [
         "1. Female Sumatran elephants always possess long, clearly visible tusks.",
         "2. Female elephants stay with their group to take care of the young ones.",
@@ -147,7 +147,7 @@
     {
       "id_soal": 12,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "Orangutan<br>In Southeast Asia, there are big apes called orangutan in the Malay language, or the \"jungle man.\" Native to Indonesia and Malaysia, they are only found on Kalimantan Island and the northern parts of Sumatra Island.<br><br>Behavior<br>Orangutans mostly live in trees. They travel from tree to tree through the branches using their long limbs. They seldom roam on the ground. As they find it hard going through treetops, each day they only climb a few hundreds of meter. On the tops of trees, they build a nest. Older males are often found travelling and sleeping on the ground.<br><br>Physical Description<br>Male orangutans can reach a little below 1 m tall and weigh around 77 kg. The females are smaller, only around three-quarter of a meter tall and half the weight of the male. Both male and female orangutans have coarse, long, reddish-brown fur. Appearance-wise, the males are different. Their cheeks are puffy and they have a kind of pouch hanging from their throat, which contains air sacks. These sacks are needed to make loud groans that can be heard from far distance.<br><br>Diet<br>Orangutans eat mostly fruit, young leaves, inner bark, and eggs. In the dry season, they built up fat reserves to anticipate the monsoon season, which lasts from April through October, when food is much less available.<br><br>Mating System and Baby Orangutan<br>Orangutans like to live alone. They travel and find food on their own and gather only for mating. Female orangutans look for adult males when they are ready to mate. Each pair will stay together until the female is pregnant, which takes a few days. Then they will separate. Like humans, orangutans experience about nine months of pregnancy. One baby is born to a female orangutan every four to eight years. Until they stop breastfeeding at about three years old, infant orangutans remain very dependent on their mothers. In the next three to five years, they learn to be more independent and are completely independent by the age of eight. Sometimes orangutan mothers pair up for a few days, during which time their infants become playmates.<br><br>Dangers<br>People hunt orangutans continuously, although there is a policy against killing, owning or exporting them. Their natural habitat is fast disappearing due to illegal logging, forest cleaning for palm oil and forest burning. In the 90s, in Sumatra and Kalimantan, thousands of orangutans were killed, and the habitat of thousands more was destroyed in major forest fires. Those fires and killings were a threat to the existence of orangutans.<br><br>Why do male orangutans have a throat pouch containing air sacks?",
+      "teks_pertanyaan": "<b><i>Read the following text carefully to answer questions 12 to 17!</i></b><br><br><b>ORANGUTAN</b><br>In Southeast Asia, there are big apes called orangutan in the Malay language, or the \"jungle man.\" Native to Indonesia and Malaysia, they are only found on Kalimantan Island and the northern parts of Sumatra Island.<br><br><b><u>Behavior</u></b><br>Orangutans mostly live in trees. They travel from tree to tree through the branches using their long limbs. They seldom roam on the ground. As they find it hard going through treetops, each day they only climb a few hundreds of meter. On the tops of trees, they build a nest. Older males are often found travelling and sleeping on the ground.<br><br><b><u>Physical Description</u></b><br>Male orangutans can reach a little below 1 m tall and weigh around 77 kg. The females are smaller, only around three-quarter of a meter tall and half the weight of the male. Both male and female orangutans have coarse, long, reddish-brown fur. Appearance-wise, the males are different. Their cheeks are puffy and they have a kind of pouch hanging from their throat, which contains air sacks. These sacks are needed to make loud groans that can be heard from far distance.<br><br><b><u>Diet</u></b><br>Orangutans eat mostly fruit, young leaves, inner bark, and eggs. In the dry season, they built up fat reserves to anticipate the monsoon season, which lasts from April through October, when food is much less available.<br><br><b><u>Mating System and Baby Orangutan</u></b><br>Orangutans like to live alone. They travel and find food on their own and gather only for mating. Female orangutans look for adult males when they are ready to mate. Each pair will stay together until the female is pregnant, which takes a few days. Then they will separate. Like humans, orangutans experience about nine months of pregnancy. One baby is born to a female orangutan every four to eight years. Until they stop breastfeeding at about three years old, infant orangutans remain very dependent on their mothers. In the next three to five years, they learn to be more independent and are completely independent by the age of eight. Sometimes orangutan mothers pair up for a few days, during which time their infants become playmates.<br><br><b><u>Dangers</u></b><br>People hunt orangutans continuously, although there is a policy against killing, owning or exporting them. Their natural habitat is fast disappearing due to illegal logging, forest cleaning for palm oil and forest burning. In the 90s, in Sumatra and Kalimantan, thousands of orangutans were killed, and the habitat of thousands more was destroyed in major forest fires. Those fires and killings were a threat to the existence of orangutans.<br><br><b>Question:</b><br>Why do male orangutans have a throat pouch containing air sacks?",
       "pilihan_jawaban": [
         "A. To produce loud groans that can be heard from a long distance.",
         "B. To store excess fat and nutrients for the monsoon season.",
@@ -159,7 +159,7 @@
     {
       "id_soal": 13,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "According to the text, when is food much less available for orangutans?",
+      "teks_pertanyaan": "According to the text, when is food <b>much less available</b> for orangutans?",
       "pilihan_jawaban": [
         "A. During the dry season before April.",
         "B. During the monsoon season from April through October.",
@@ -171,7 +171,7 @@
     {
       "id_soal": 14,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "What can be inferred about female orangutans based on the section about their mating and parenting habits?",
+      "teks_pertanyaan": "What can be inferred about female orangutans based on the section about their <b>mating and parenting habits</b>?",
       "pilihan_jawaban": [
         "A. They rely heavily on male orangutans to help feed and protect their young.",
         "B. They permanently stay in large social groups to raise their offspring together.",
@@ -183,7 +183,7 @@
     {
       "id_soal": 15,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which statements are CORRECT based on the text about orangutans? (Select all that apply)",
+      "teks_pertanyaan": "Which statements are <b>CORRECT</b> based on the text about orangutans?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. Female orangutans are taller and heavier than male orangutans.",
         "B. Orangutans build up fat reserves in the dry season to prepare for the monsoon season.",
@@ -195,7 +195,7 @@
     {
       "id_soal": 16,
       "tipe_soal": "BS",
-      "teks_pertanyaan": "State whether each of the following statements is True (B) or False (S) based on the text about orangutans!",
+      "teks_pertanyaan": "<b>State whether each of the following statements is True (B) or False (S) based on the text about orangutans!</b>",
       "pernyataan": [
         "1. Orangutans build their nests on the tops of trees.",
         "2. Male and female orangutans stay together for life after mating.",
@@ -210,7 +210,7 @@
     {
       "id_soal": 17,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which of the following activities represent major threats to the existence of orangutans as mentioned in the text? (Select all that apply)",
+      "teks_pertanyaan": "Which of the following activities represent <b>major threats</b> to the existence of orangutans as mentioned in the text?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. Illegal logging in their natural habitat",
         "B. Forest clearing for palm oil plantations",
@@ -222,7 +222,7 @@
     {
       "id_soal": 18,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which of the following statements are FACTS? (Select all that apply)",
+      "teks_pertanyaan": "Which of the following statements are <b>FACTS</b>?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. Water boils at 100 degrees Celsius at standard atmospheric pressure.",
         "B. Math is the most boring and difficult subject taught in schools.",
@@ -234,7 +234,7 @@
     {
       "id_soal": 19,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which of the following statements are OPINIONS? (Select all that apply)",
+      "teks_pertanyaan": "Which of the following statements are <b>OPINIONS</b>?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. A year has twelve months.",
         "B. Swimming at the beach is the most fun activity.",
@@ -246,7 +246,7 @@
     {
       "id_soal": 20,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "The classroom ... by the students every morning before the lesson starts.",
+      "teks_pertanyaan": "The classroom <b>……</b> by the students every morning before the lesson starts.",
       "pilihan_jawaban": [
         "A. cleans",
         "B. is cleaned",
@@ -258,7 +258,7 @@
     {
       "id_soal": 21,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "An interesting storybook ... by my sister now.",
+      "teks_pertanyaan": "An interesting storybook <b>……</b> by my sister now.",
       "pilihan_jawaban": [
         "A. reads",
         "B. is read",
@@ -270,7 +270,7 @@
     {
       "id_soal": 22,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "A lot of people …… by the tsunami",
+      "teks_pertanyaan": "A lot of people <b>……</b> by the tsunami.",
       "pilihan_jawaban": [
         "A. Has been killed",
         "B. Has been killing",
@@ -282,7 +282,7 @@
     {
       "id_soal": 23,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "The animals …… by the zookeeper tomorrow",
+      "teks_pertanyaan": "The animals <b>……</b> by the zookeeper tomorrow.",
       "pilihan_jawaban": [
         "A. Will feed",
         "B. Will fed",
@@ -294,7 +294,7 @@
     {
       "id_soal": 24,
       "tipe_soal": "PGK",
-      "teks_pertanyaan": "Which sentences are written in the correct Passive Voice? (Select all that apply)",
+      "teks_pertanyaan": "Which sentences are written in the correct <b>Passive Voice</b>?<br><i>(Note: You may select more than one correct option)</i>",
       "pilihan_jawaban": [
         "A. The song was sung by a famous singer yesterday.",
         "B. A new shopping mall is built in our city last month.",
@@ -306,7 +306,7 @@
     {
       "id_soal": 25,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "What is the correct passive form of the sentence below?<br>\"Miss Eno teaches us English.\"",
+      "teks_pertanyaan": "What is the correct passive form of the sentence below?<br><i>\"Miss Eno teaches us English.\"</i>",
       "pilihan_jawaban": [
         "A. English was taught to us by Miss Eno.",
         "B. We are taught English by Miss Eno.",
