@@ -61,7 +61,7 @@ const CONFIG = {
     // ===================================================
     PROCTOR: {
         ENABLE_ANTI_TAB_SWITCH: true,
-        MAX_TAB_SWITCH_WARNINGS: 3,
+        MAX_TAB_SWITCH_WARNINGS: 5,
         ENABLE_DISABLE_RIGHT_CLICK: true,
         ENABLE_DISABLE_DEVTOOLS_KEYS: true
     },
