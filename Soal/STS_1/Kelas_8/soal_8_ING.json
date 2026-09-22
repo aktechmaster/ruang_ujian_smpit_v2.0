@@ -1,14 +1,14 @@
 {
   "metadata": {
     "mata_pelajaran": "Bahasa Inggris",
-    "jenis_ujian": "STS_1",
+    "jenis_ujian": "Uji Coba CBT",
     "jumlah_soal": 25,
     "durasi_menit": 60
   },
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Read the text carefully then answer the question!\n\nMy parents just moved to a new place called Klaten. It’s a city near Solo, Central Java. So, this year’s Independence Day Celebration was so special for me.\nThere were many kinds of activities in my new school. I was so excited because some of them were new to me. I challenged myself to join a game called ‘The Stilt Walking Race (Balapan Egrang).\nI learned to walk on the stilts for days. At first, I climbed on the chair to help me reach the footrest. Gradually, I didn’t need the chair any longer. My neighbors were so kind and taught me how to use my hands to hold the bamboo with both hands, and then step on the bamboo footing like an ordinary leg. I fell over several times, but that’s OK. I enjoyed it.\nWhen the time to do the game at school came, I felt a bit nervous. My classmates cheered me to give support. I walked step by step on the stilts. I had to be careful. Some Participants fell over. At the end of the game, I was at the third place. I was so proud of myself.\n\nWhat game did the writer participate in during the Independence Day celebration?",
+      "teks_pertanyaan": "Read the text carefully then answer the question!<br><br>My parents just moved to a new place called Klaten. It’s a city near Solo, Central Java. So, this year’s Independence Day Celebration was so special for me.<br>There were many kinds of activities in my new school. I was so excited because some of them were new to me. I challenged myself to join a game called ‘The Stilt Walking Race (Balapan Egrang).<br>I learned to walk on the stilts for days. At first, I climbed on the chair to help me reach the footrest. Gradually, I didn’t need the chair any longer. My neighbors were so kind and taught me how to use my hands to hold the bamboo with both hands, and then step on the bamboo footing like an ordinary leg. I fell over several times, but that’s OK. I enjoyed it.<br>When the time to do the game at school came, I felt a bit nervous. My classmates cheered me to give support. I walked step by step on the stilts. I had to be careful. Some Participants fell over. At the end of the game, I was at the third place. I was so proud of myself.<br><br>What game did the writer participate in during the Independence Day celebration?",
       "pilihan_jawaban": [
         "a. Tug of War",
         "b. Kerupuk Eating Race",
@@ -68,7 +68,7 @@
     },
     {
       "id_soal": 6,
-      "teks_pertanyaan": "Read the text carefully then answer the question!\n\nLast Sunday, my class visited a retirement home in my city. There were twenty five of us, including Mr. Stewart, my teacher. We brought with us a keyboard and a guitar. We also brought some snacks specially made for the elderly, and we had little gifts for them too. We arrived at about seven in the morning. Mrs. Anna, the chief of this Home, led us to the hall.\nWe blew up some balloons to decorate the hall. We also cut out chart papers, wrote quotes, and stuck pictures on the wall. We arranged the seats and the tables. We put the snacks and drinks on the tables. Then we told Mrs. Anisa that we were ready.\nThen in came all the grey haired sweethearts, some alone, some in pairs, some in groups. They sat in the seats. Mrs. Anisa opened the session by giving a short speech introducing us. Then Firman made a speech on our behalf. He told them that we came to have fun with them and to make that day a little more special.\nAfter the speeches were over, Mr. Stewart started to play the keyboard and Lia sang an old song. Some of us sang other old songs after that. Some grannies stood up and sang their favorite songs. Some even danced! Then it was time for the gifts and more fun activities. We came to the grannies and handed them our gifts. After that we talked and did activities that they liked. Some of us played chess with the grandpas. Hendrik, who was good at drawing, tried to draw two grandmas. Others were playing guitars and sang songs. I talked to a grandma. She told me that I resembled her grandchild.\nWe finished our visit at 12 and went home with a sweet memory in our hearts.\n\nWhat time did the class finish their visit to the retirement home?",
+      "teks_pertanyaan": "Read the text carefully then answer the question!<br><br>Last Sunday, my class visited a retirement home in my city. There were twenty five of us, including Mr. Stewart, my teacher. We brought with us a keyboard and a guitar. We also brought some snacks specially made for the elderly, and we had little gifts for them too. We arrived at about seven in the morning. Mrs. Anna, the chief of this Home, led us to the hall.<br>We blew up some balloons to decorate the hall. We also cut out chart papers, wrote quotes, and stuck pictures on the wall. We arranged the seats and the tables. We put the snacks and drinks on the tables. Then we told Mrs. Anisa that we were ready.<br>Then in came all the grey haired sweethearts, some alone, some in pairs, some in groups. They sat in the seats. Mrs. Anisa opened the session by giving a short speech introducing us. Then Firman made a speech on our behalf. He told them that we came to have fun with them and to make that day a little more special.<br>After the speeches were over, Mr. Stewart started to play the keyboard and Lia sang an old song. Some of us sang other old songs after that. Some grannies stood up and sang their favorite songs. Some even danced! Then it was time for the gifts and more fun activities. We came to the grannies and handed them our gifts. After that we talked and did activities that they liked. Some of us played chess with the grandpas. Hendrik, who was good at drawing, tried to draw two grandmas. Others were playing guitars and sang songs. I talked to a grandma. She told me that I resembled her grandchild.<br>We finished our visit at 12 and went home with a sweet memory in our hearts.<br><br>What time did the class finish their visit to the retirement home?",
       "pilihan_jawaban": [
         "a. At 7:00 AM",
         "b. At 10:00 AM",
@@ -232,7 +232,7 @@
     },
     {
       "id_soal": 20,
-      "teks_pertanyaan": "Reorder the scrambled words into a grammatically correct Simple Past Tense sentence:\n\n[ grandmas ] [ Hendrik ] [ two ] [ drew ] [ skillfully ]\n\nThe correct sentence is:",
+      "teks_pertanyaan": "Reorder the scrambled words into a grammatically correct Simple Past Tense sentence:<br><br>[ grandmas ] [ Hendrik ] [ two ] [ drew ] [ skillfully ]<br><br>The correct sentence is:",
       "pilihan_jawaban": [
         "a. Hendrik drew two grandmas skillfully.",
         "b. Two grandmas drew Hendrik skillfully.",
@@ -265,7 +265,7 @@
     },
     {
       "id_soal": 23,
-      "teks_pertanyaan": "This text is for number 23-25!\n\nLast Sunday, our class went to a retirement home. When we arrived, we (23) ________ the hall with colorful balloons. After the opening speech, Mr. Stewart (24) ________ the keyboard gracefully. Some grannies even stood up and (25) ________ to the old songs. Everyone had a great time!\n\nChoose the correct answer for blank (23):",
+      "teks_pertanyaan": "This text is for number 23-25!<br><br>Last Sunday, our class went to a retirement home. When we arrived, we (23) ________ the hall with colorful balloons. After the opening speech, Mr. Stewart (24) ________ the keyboard gracefully. Some grannies even stood up and (25) ________ to the old songs. Everyone had a great time!<br><br>Choose the correct answer for blank (23):",
       "pilihan_jawaban": [
         "a. decorate",
         "b. decorates",
