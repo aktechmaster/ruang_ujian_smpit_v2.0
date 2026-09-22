@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Pendidikan Agama Islam",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Beriman kepada Hari Akhir merupakan rukun iman yang ke-...",
+      "pilihan_jawaban": [
+        "a. 3",
+        "b. 4",
+        "c. 5",
+        "d. 6"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Setelah manusia dibangkitkan dari alam kubur, mereka akan dikumpulkan di suatu tempat yang disebut...",
+      "pilihan_jawaban": [
+        "a. Padang Arafah",
+        "b. Padang Mahsyar",
+        "c. Gua Hira",
+        "d. Baitullah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Hari ketika amal perbuatan manusia diperhitungkan disebut...",
+      "pilihan_jawaban": [
+        "a. Yaumul Ba'ats",
+        "b. Yaumul Mahsyar",
+        "c. Yaumul Hisab",
+        "d. Yaumul Jumu'ah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Jembatan yang harus dilewati manusia setelah proses perhitungan amal disebut...",
+      "pilihan_jawaban": [
+        "a. Mizan",
+        "b. Titian Shirath",
+        "c. Barzakh",
+        "d. Mahsyar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Dalam peristiwa hisab nanti, yang akan bersaksi atas amal-amal yang dilakukan adalah …",
+      "pilihan_jawaban": [
+        "a. malaikat",
+        "b. anggota tubuh",
+        "c. kerabat terdekat",
+        "d. tidak perlu saksi karena Allah mengetahui segalanya"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Beriman kepada hari akhir menuntut mendorong seorang Muslim untuk…",
+      "pilihan_jawaban": [
+        "a. bersedih",
+        "b. bergembira",
+        "c. melakukan evaluasi diri",
+        "d. bertaubat pada akhir usia"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Pada hari akhir, setiap manusia akan menerima balasan sesuai dengan...",
+      "pilihan_jawaban": [
+        "a. Kekayaannya",
+        "b. Kedudukannya",
+        "c. Amal perbuatannya",
+        "d. Keturunannya"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Orang yang beriman kepada hari akhir akan selalu...",
+      "pilihan_jawaban": [
+        "a. Berbuat maksiat",
+        "b. Menghindari perbuatan baik",
+        "c. Berhati-hati dalam bertindak",
+        "d. Mengutamakan kesenangan dunia"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Berikut ini yang termasuk tanda-tanda kiamat besar adalah... (Pilih semua yang benar)",
+      "pilihan_jawaban": [
+        "a. Turunnya nabi Isa a.s",
+        "b. Banyak orang berlomba-lomba membangun gedung tinggi",
+        "c. Matahari terbit dari arah barat",
+        "d. Banyak terjadi perdagangan"
+      ],
+      "kunci_jawaban": ["A", "C"]
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Hari akhir adalah hari ketika...",
+      "pilihan_jawaban": [
+        "a. Manusia dilahirkan kembali ke dunia",
+        "b. Alam semesta dan seluruh kehidupan dunia berakhir",
+        "c. Semua manusia menjadi kaya",
+        "d. Bumi menjadi tempat tinggal yang lebih baik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Pada hari akhir semua amal perbuatan manusia akan …",
+      "pilihan_jawaban": [
+        "a. Dilupakan",
+        "b. Dihapuskan",
+        "c. Dipertanggungjawabkan",
+        "d. Disembunyikan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Salah satu tanda orang yang beriman kepada hari akhir adalah …",
+      "pilihan_jawaban": [
+        "a. Senang berbuat dosa",
+        "b. Rajin melakukan amal kebajikan",
+        "c. Tidak peduli kepada sesame",
+        "d. Selalu mengutamakan kesenangan dunia"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Alat yang digunakan untuk menyembelih hewan sesuai dengan adabnya adalah dilakukan dengan menggunakan alat yang ....",
+      "pilihan_jawaban": [
+        "a. mahal",
+        "b. berkualitas",
+        "c. tajam",
+        "d. tumpul"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "فَصَلِّ لِرَبِّكَ وَانْحَرْ Ayat ini adalah perintah untuk….",
+      "pilihan_jawaban": [
+        "a. berkurban",
+        "b. akikah",
+        "c. membaca bismillah ketika berkurban",
+        "d. menajamkan alat untuk berkurban"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Berikut adalah waktu yang dianjurkan untuk berkurban, kecuali ....",
+      "pilihan_jawaban": [
+        "a. tanggal 11, 12, dan 13 Dzulhijah",
+        "b. setelah terbit matahari pada hari raya kurban",
+        "c. sebelum terbit matahari pada hari raya kurban",
+        "d. usai pelaksanaan shalat dan khutbah idul adha"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Jenis hewan yang boleh dikurbankan adalah…",
+      "pilihan_jawaban": [
+        "a. unta, sapi, dan kambing jantan",
+        "b. unta, sapi, dan kambing betina",
+        "c. sapi yang telah berumur minimal 2 tahun",
+        "d. unta yang telah berumur minimal 2 tahun"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Berdasarkan pandangan mayoritas ulama (jumhur), apa hukum melaksanakan ibadah kurban bagi umat Islam yang mampu…",
+      "pilihan_jawaban": [
+        "a. Fardhu kifayah bagi satu wilayah perkampungan",
+        "b. Sunnah muakkadah (sangat dianjurkan)",
+        "c. Mubah atau mubah mutlak tanpa keutamaan",
+        "d. Fardhu 'ain wajib bagi setiap individu muslim"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Akikah dilakukan sebagai bentuk ….",
+      "pilihan_jawaban": [
+        "a. syukur",
+        "b. kewajiban bagi ayah",
+        "c. hadiah bagi sang anak",
+        "d. sedekah kepada yang lain"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Hukum akikah adalah…",
+      "pilihan_jawaban": [
+        "a. wajib bagi ayah yang mampu",
+        "b. sunnah muakadah bagi ayah yang mampu",
+        "c. sunah muakadah bagi anak jika sudah mampu",
+        "d. wajib bagi orang tua"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Ketentuan maksimal jumlah orang yang dapat berpatungan untuk satu ekor sapi atau kerbau dalam ibadah kurban adalah...",
+      "pilihan_jawaban": [
+        "a. Tidak terbatas",
+        "b. 7 orang",
+        "c. 5 orang",
+        "d. 10 orang"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pengertian akikah secara bahasa (etimologi) adalah...",
+      "pilihan_jawaban": [
+        "a. Sedekah daging kepada fakir miskin",
+        "b. Perayaan hari lahir anak",
+        "c. Memotong atau rambut bayi yang baru lahir",
+        "d. Penyembelihan hewan ternak"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Jumlah kambing atau domba yang disunnahkan untuk akikah kelahiran anak laki-laki adalah...",
+      "pilihan_jawaban": [
+        "a. 1 ekor",
+        "b. 4 ekor",
+        "c. 2 ekor",
+        "d. 3 ekor"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Waktu yang paling utama (afdal) untuk melaksanakan ibadah akikah bagi bayi yang baru lahir adalah pada hari ke...",
+      "pilihan_jawaban": [
+        "a. Saat anak sudah baligh",
+        "b. Hari ke-3",
+        "c. Hari ke-40",
+        "d. Hari ke-7"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Salah satu syarat sah hewan yang digunakan untuk kurban maupun akikah adalah bebas dari cacat. Hewan yang cacatnya dikategorikan tidak sah untuk kurban adalah...",
+      "pilihan_jawaban": [
+        "a. Hewan yang berbulu agak kotor karena lumpur",
+        "b. Hewan yang telinganya sedikit bertakik secara alami",
+        "c. Hewan yang bertanduk patah sebagian kecil",
+        "d. Hewan yang pincang nyata dan jelas"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Ibadah hari kurban dilaksanakan pada waktu…",
+      "pilihan_jawaban": [
+        "a. Bulan ramadhan",
+        "b. Bulan muharam",
+        "c. Hari raya idul adha",
+        "d. Setiap hari jum’at"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
