@@ -253,15 +253,19 @@
       "kunci_jawaban": "A"
     },
     {
-      "id_soal": 22,
-      "teks_pertanyaan": "Where …… you last night? I went to your house but you …… at home.",
-      "pilihan_jawaban": [
-        "a. were/were",
-        "b. was/was",
-        "c. were/weren’t",
-        "d. was/wasn’t"
+      "id_soal": 18,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "Determine whether each sentence correctly uses the Simple Past Tense (B = Benar, S = Salah)!<br>",
+      "pernyataan": [
+        "1. She didn't played football with her friends yesterday.",
+        "2. They bought a new car last week.",
+        "3. He goes to Jakarta two days ago."
       ],
-      "kunci_jawaban": "C"
+      "kunci_jawaban": {
+        "1": "S",
+        "2": "B",
+        "3": "S"
+      }
     },
     {
       "id_soal": 23,
