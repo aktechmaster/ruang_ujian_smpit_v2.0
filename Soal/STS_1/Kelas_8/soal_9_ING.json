@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Inggris",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Read the text carefully then answer the question!\n\nMy parents just moved to a new place called Klaten. It’s a city near Solo, Central Java. So, this year’s Independence Day Celebration was so special for me.\nThere were many kinds of activities in my new school. I was so excited because some of them were new to me. I challenged myself to join a game called ‘The Stilt Walking Race (Balapan Egrang).\nI learned to walk on the stilts for days. At first, I climbed on the chair to help me reach the footrest. Gradually, I didn’t need the chair any longer. My neighbors were so kind and taught me how to use my hands to hold the bamboo with both hands, and then step on the bamboo footing like an ordinary leg. I fell over several times, but that’s OK. I enjoyed it.\nWhen the time to do the game at school came, I felt a bit nervous. My classmates cheered me to give support. I walked step by step on the stilts. I had to be careful. Some Participants fell over. At the end of the game, I was at the third place. I was so proud of myself.\n\nWhat game did the writer participate in during the Independence Day celebration?",
+      "pilihan_jawaban": [
+        "a. Tug of War",
+        "b. Kerupuk Eating Race",
+        "c. The Stilt Walking Race",
+        "d. Marble in Spoon Race"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "How did the writer initially manage to reach the footrest of the stilts?",
+      "pilihan_jawaban": [
+        "a. By using a ladder",
+        "b. By jumping high",
+        "c. By climbing on a chair",
+        "d. By getting help from a teacher"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Why did the writer feel proud at the end of the game?",
+      "pilihan_jawaban": [
+        "a. The writer managed to finish the race in third place despite falling during practice.",
+        "b. The writer's classmates gave up and cheered for him from the start.",
+        "c. The writer won first place without falling down at all.",
+        "d. The writer was the only participant who did not fall during the race."
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following statements are correct based on the text? (Choose more than one answer)",
+      "pilihan_jawaban": [
+        "a. The writer's parents moved to Klaten, a city near Solo.",
+        "b. The writer learned to walk on stilts entirely on their own without any help.",
+        "c. The writer fell several times while learning, but still enjoyed the process.",
+        "d. The writer's classmates cheered to support the writer during the game."
+      ],
+      "kunci_jawaban": ["A", "C", "D"]
+    },
+    {
+      "id_soal": 5,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "State whether each statement is True or False based on the text!",
+      "pernyataan": [
+        "1. The writer needed to use a chair every time they practiced walking on stilts.",
+        "2. The writer had to hold the bamboo with both hands and step on the footing to walk.",
+        "3. All participants completed the race without falling down."
+      ],
+      "kunci_jawaban": {
+        "1": "S",
+        "2": "B",
+        "3": "S"
+      }
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Read the text carefully then answer the question!\n\nLast Sunday, my class visited a retirement home in my city. There were twenty five of us, including Mr. Stewart, my teacher. We brought with us a keyboard and a guitar. We also brought some snacks specially made for the elderly, and we had little gifts for them too. We arrived at about seven in the morning. Mrs. Anna, the chief of this Home, led us to the hall.\nWe blew up some balloons to decorate the hall. We also cut out chart papers, wrote quotes, and stuck pictures on the wall. We arranged the seats and the tables. We put the snacks and drinks on the tables. Then we told Mrs. Anisa that we were ready.\nThen in came all the grey haired sweethearts, some alone, some in pairs, some in groups. They sat in the seats. Mrs. Anisa opened the session by giving a short speech introducing us. Then Firman made a speech on our behalf. He told them that we came to have fun with them and to make that day a little more special.\nAfter the speeches were over, Mr. Stewart started to play the keyboard and Lia sang an old song. Some of us sang other old songs after that. Some grannies stood up and sang their favorite songs. Some even danced! Then it was time for the gifts and more fun activities. We came to the grannies and handed them our gifts. After that we talked and did activities that they liked. Some of us played chess with the grandpas. Hendrik, who was good at drawing, tried to draw two grandmas. Others were playing guitars and sang songs. I talked to a grandma. She told me that I resembled her grandchild.\nWe finished our visit at 12 and went home with a sweet memory in our hearts.\n\nWhat time did the class finish their visit to the retirement home?",
+      "pilihan_jawaban": [
+        "a. At 7:00 AM",
+        "b. At 10:00 AM",
+        "c. At 12:00 PM",
+        "d. At 2:00 PM"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Who played the keyboard during the performance session?",
+      "pilihan_jawaban": [
+        "a. Firman",
+        "b. Mr. Stewart",
+        "c. Lia",
+        "d. Hendrik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Why can the visit be considered a meaningful and engaging experience for both the students and the elderly?",
+      "pilihan_jawaban": [
+        "a. The students only decorated the hall while the elderly performed all the activities by themselves.",
+        "b. The activity involved mutual interaction where students and elderly shared moments through music, games, and personal conversations.",
+        "c. The students forced all the grandpas and grandmas to dance and sing old songs throughout the event.",
+        "d. The elderly were given expensive gifts and left immediately after the speeches ended."
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following activities were done by the students during the visit? (Choose more than one answer)",
+      "pilihan_jawaban": [
+        "a. Playing chess with some of the grandpas.",
+        "b. Drawing portraits of two grandmas.",
+        "c. Selling snacks and drinks to the elderly.",
+        "d. Handing out gifts and talking with the elderly."
+      ],
+      "kunci_jawaban": ["A", "B", "D"]
+    },
+    {
+      "id_soal": 10,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "State whether each statement is True or False based on the text!",
+      "pernyataan": [
+        "1. There were twenty-five people in total, including the teacher Mr. Stewart.",
+        "2. Mrs. Anna (or Mrs. Anisa) gave a speech to introduce the students to the elderly.",
+        "3. None of the elderly participated in singing or dancing during the event."
+      ],
+      "kunci_jawaban": {
+        "1": "B",
+        "2": "B",
+        "3": "S"
+      }
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "The room …… clean now, but it …… very dirty yesterday.",
+      "pilihan_jawaban": [
+        "a. is/is",
+        "b. was/is",
+        "c. was/was",
+        "d. is/was"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "The show …… at 6.00 and …… at 9.00 yesterday.",
+      "pilihan_jawaban": [
+        "a. starts/ends",
+        "b. started/ended",
+        "c. starting/ending",
+        "d. start/end"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "The positive (+) form of this sentence: “I didn’t play football last week”",
+      "pilihan_jawaban": [
+        "a. I played football last week",
+        "b. I play football last week",
+        "c. I playing football last week",
+        "d. I play football last week"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "The negative (-) form of this sentence: “She arrived at a very nice hotel last night”",
+      "pilihan_jawaban": [
+        "a. She doesn’t arrive at a very nice hotel last night",
+        "b. She didn’t arrive at a very nice hotel last night",
+        "c. She isn’t arriving at a very nice hotel last night",
+        "d. She haven’t arrived at a very nice hotel last night"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "The question (?) form of this sentence: “I submitted the project two days ago”",
+      "pilihan_jawaban": [
+        "a. Do you submit the project two days ago?",
+        "b. Did you submit the project two days ago?",
+        "c. Are you submitting the project two days ago?",
+        "d. Will you submit the project two days ago?"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "The little girl …… the candles on her birthday cake.",
+      "pilihan_jawaban": [
+        "a. brought",
+        "b. hung",
+        "c. drew",
+        "d. blew out"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "When we ……, the grannies were having breakfast in the garden.",
+      "pilihan_jawaban": [
+        "a. drew",
+        "b. spoke",
+        "c. talked",
+        "d. arrived"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 18,
+      "tipe_soal": "BS",
+      "teks_pertanyaan": "State whether each statement is True or False based on the text!",
+      "pernyataan": [
+        "1. The students bring a keyboard and a guitar to the retirement home.",
+        "2. The class arrived at the retirement home at about seven in the morning.",
+        "3. Hendrik draws pictures of three grandpas during the visit."
+      ],
+      "kunci_jawaban": {
+        "1": "B",
+        "2": "B",
+        "3": "S"
+      }
+    },
+    {
+      "id_soal": 19,
+      "tipe_soal": "PGK",
+      "teks_pertanyaan": "Which of the following sentences correctly use the Simple Past Tense? (Choose more than one answer)",
+      "pilihan_jawaban": [
+        "a. We visited a retirement home in our city last Sunday.",
+        "b. Mr. Stewart played the keyboard while Lia sings an old song.",
+        "c. Hendrik drawn a picture of two grandmas in the hall.",
+        "d. The students brought gifts and snacks for the elderly."
+      ],
+      "kunci_jawaban": ["A", "D"]
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Reorder the scrambled words into a grammatically correct Simple Past Tense sentence:\n\n[ grandmas ] [ Hendrik ] [ two ] [ drew ] [ skillfully ]\n\nThe correct sentence is:",
+      "pilihan_jawaban": [
+        "a. Hendrik drew two grandmas skillfully.",
+        "b. Two grandmas drew Hendrik skillfully.",
+        "c. Hendrik two grandmas drew skillfully.",
+        "d. Skillfully two grandmas Hendrik drew."
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "When I …… an elementary student, I …… to be a soldier.",
+      "pilihan_jawaban": [
+        "a. was/wanted",
+        "b. am/want",
+        "c. were/wanted",
+        "d. is/wants"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Where …… you last night? I went to your house but you …… at home.",
+      "pilihan_jawaban": [
+        "a. were/were",
+        "b. was/was",
+        "c. were/weren’t",
+        "d. was/wasn’t"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "This text is for number 23-25!\n\nLast Sunday, our class went to a retirement home. When we arrived, we (23) ________ the hall with colorful balloons. After the opening speech, Mr. Stewart (24) ________ the keyboard gracefully. Some grannies even stood up and (25) ________ to the old songs. Everyone had a great time!\n\nChoose the correct answer for blank (23):",
+      "pilihan_jawaban": [
+        "a. decorate",
+        "b. decorates",
+        "c. decorated",
+        "d. decorating"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Choose the correct answer for blank (24):",
+      "pilihan_jawaban": [
+        "a. played",
+        "b. plays",
+        "c. play",
+        "d. playing"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Choose the correct answer for blank (25):",
+      "pilihan_jawaban": [
+        "a. dances",
+        "b. danced",
+        "c. dancing",
+        "d. dance"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
