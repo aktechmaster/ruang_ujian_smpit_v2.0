@@ -131,7 +131,7 @@
     {
       "id_soal": 12,
       "gambar": "Images/STS_1/images_TIK_7/12.png",
-      "teks_pertanyaan": "Penggunaan simbol tanda dolar ($) pada penulisan rumus seperti =$B$2+$C$2 menunjukkan contoh penggunaan acuan… pada Excel.",
+      "teks_pertanyaan": "Gambar tersebut menunjukkan contoh penggunaan acuan…pada excel.",
       "pilihan_jawaban": [
         "a. Acuan mutlak",
         "b. Acuan relatif",
