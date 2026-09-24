@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "IPA (Biologi)",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Hereditas adalah proses ....",
+      "pilihan_jawaban": [
+        "A. perubahan bentuk tubuh akibat lingkungan",
+        "B. pewarisan sifat dari induk kepada keturunannya",
+        "C. pertumbuhan makhluk hidup dari kecil menjadi dewasa",
+        "D. penyesuaian makhluk hidup terhadap lingkungannya"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Sifat yang dapat diamati secara langsung, seperti warna bunga, bentuk biji, atau warna kulit disebut ....",
+      "pilihan_jawaban": [
+        "A. genotipe",
+        "B. alel",
+        "C. fenotipe",
+        "D. kromosom"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Susunan gen atau pasangan alel yang dimiliki oleh suatu individu disebut ....",
+      "pilihan_jawaban": [
+        "A. fenotipe",
+        "B. genotipe",
+        "C. gamet",
+        "D. karakter"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Tanaman kacang ercis memiliki genotipe Tt. Berdasarkan pasangan alelnya, tanaman tersebut disebut ....",
+      "pilihan_jawaban": [
+        "A. homozigot dominan",
+        "B. homozigot resesif",
+        "C. heterozigot",
+        "D. haploid"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Jika suatu individu memiliki genotipe Aa, maka jenis gamet yang dapat dibentuk adalah ....",
+      "pilihan_jawaban": [
+        "A. AA dan aa",
+        "B. Aa saja",
+        "C. A dan a",
+        "D. AA, Aa, dan aa"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Gregor Mendel menggunakan tanaman ....",
+      "pilihan_jawaban": [
+        "A. jagung",
+        "B. kacang tanah",
+        "C. kacang Kapri/ Ercis (Pisum sativum)",
+        "D. kedelai"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Pada persilangan bunga kapri, sifat bunga ungu (P) dominan terhadap bunga putih (p). Jika tanaman PP disilangkan dengan pp, genotipe seluruh keturunannya adalah ....",
+      "pilihan_jawaban": [
+        "A. PP",
+        "B. pp",
+        "C. Pp",
+        "D. PP dan pp"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Berdasarkan persilangan Pp × Pp, perbandingan genotipe keturunannya adalah ....",
+      "pilihan_jawaban": [
+        "A. 1 PP : 2 Pp : 1 pp",
+        "B. 3 PP : 1 pp",
+        "C. 1 PP : 1 Pp",
+        "D. 2 PP : 1 Pp : 1 pp"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Pada persilangan monohibrid Pp × Pp, jika P dominan terhadap p, perbandingan fenotipe keturunannya adalah ....",
+      "pilihan_jawaban": [
+        "A. 1 : 1",
+        "B. 1 : 2 : 1",
+        "C. 3 : 1",
+        "D. 9 : 3 : 3 : 1"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Persilangan dihibrid antara dua individu heterozigot AaBb × AaBb menghasilkan perbandingan fenotipe ....",
+      "pilihan_jawaban": [
+        "A. 1 : 1",
+        "B. 1 : 2 : 1",
+        "C. 3 : 1",
+        "D. 9 : 3 : 3 : 1"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Persilangan dua individu yang bersifat intermediet antara warna merah dan putih akan menghasilkan F2 dengan warna ….",
+      "pilihan_jawaban": [
+        "A. merah, merah muda, dan putih",
+        "B. merah muda dan merah",
+        "C. merah muda dan putih",
+        "D. merah dan putih"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Berikut ini yang merupakan alel homozigot resesif adalah ….",
+      "pilihan_jawaban": [
+        "A. Mm",
+        "B. MM",
+        "C. mm",
+        "D. mM"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Ilmu yang mempelajari pewarisan sifat pada mahkluk hidup disebut . . . . . .",
+      "pilihan_jawaban": [
+        "A. Estetika",
+        "B. Harmonika",
+        "C. pianika",
+        "D. Genetika"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Organ yang berfungsi menghasilkan sel sperma pada pria adalah...",
+      "pilihan_jawaban": [
+        "A. Skrotum",
+        "B. Testis",
+        "C. Vas deferens",
+        "D. Prostat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Pada sistem reproduksi wanita, tempat terjadinya pembuahan (fertilisasi) sel telur oleh sperma adalah...",
+      "pilihan_jawaban": [
+        "A. Ovarium",
+        "B. Rahim (uterus)",
+        "C. Tuba fallopi (oviduk)",
+        "D. Vagina"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Fungsi utama ovarium pada sistem reproduksi wanita adalah...",
+      "pilihan_jawaban": [
+        "A. Tempat berkembangnya janin",
+        "B. Menghasilkan sel telur (ovum) dan hormon reproduksi",
+        "C. Saluran keluarnya darah menstruasi",
+        "D. Tempat terjadinya fertilisasi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Proses peleburan antara sel sperma dan sel ovum yang menghasilkan zigot disebut...",
+      "pilihan_jawaban": [
+        "A. Ovulasi",
+        "B. Menstruasi",
+        "C. Fertilisasi",
+        "D. Implantasi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Berikut ini yang merupakan ciri kelamin sekunder pada remaja laki-laki saat pubertas adalah...",
+      "pilihan_jawaban": [
+        "A. Membesarnya pinggul",
+        "B. Tumbuhnya jakun dan suara menjadi lebih berat",
+        "C. Membesarnya payudara",
+        "D. Mengalami menstruasi pertama"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Ciri kelamin sekunder yang muncul pada remaja perempuan saat memasuki masa pubertas adalah...",
+      "pilihan_jawaban": [
+        "A. Tumbuh kumis dan janggut",
+        "B. Suara menjadi berat",
+        "C. Pinggul melebar dan payudara mulai berkembang",
+        "D. Bahu menjadi bidang"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Andi berusia 13 tahun mengalami perubahan suara menjadi lebih berat, mulai tumbuh rambut halus di wajah, dan pernah mengalami mimpi basah. Berdasarkan ciri-ciri tersebut, dapat disimpulkan bahwa Andi...",
+      "pilihan_jawaban": [
+        "A. Mengalami gangguan hormon",
+        "B. Sedang mengalami masa pubertas",
+        "C. Mengalami pertumbuhan yang tidak normal",
+        "D. Belum memasuki masa pubertas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Salah satu cara yang tepat untuk menjaga kesehatan organ reproduksi adalah...",
+      "pilihan_jawaban": [
+        "A. Menggunakan pakaian dalam yang ketat agar terlihat rapi",
+        "B. Mengganti pakaian dalam secara rutin dan menjaga kebersihan organ kelamin",
+        "C. Membasuh organ kelamin dari arah anus ke arah depan (belakang ke depan)",
+        "D. Menghindari konsumsi air putih agar tidak sering buang air kecil"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Perkembangbiakan vegetatif alami pada tumbuhan pisang umumnya dilakukan dengan cara...",
+      "pilihan_jawaban": [
+        "A. Stek",
+        "B. Cangkok",
+        "C. Tunas",
+        "D. Umbi lapis"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Hewan seperti planaria (cacing pipih) dapat berkembang biak secara aseksual dengan cara...",
+      "pilihan_jawaban": [
+        "A. Bertunas",
+        "B. Fragmentasi",
+        "C. Membelah diri",
+        "D. Menghasilkan spora"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Seorang petani ingin memperoleh tanaman mangga baru yang memiliki sifat persis seperti induknya serta dapat berbuah lebih cepat dibandingkan jika ditanam dari biji. Teknik reproduksi vegetatif buatan yang paling tepat digunakan petani tersebut adalah...",
+      "pilihan_jawaban": [
+        "A. Cangkok",
+        "B. Stek",
+        "C. Menanam biji",
+        "D. Umbi"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Seorang pekebun memotong batang tanaman singkong sepanjang ±20 cm, kemudian menancapkannya langsung ke dalam tanah yang gembur hingga tumbuh akar dan tunas baru. Teknik perkembangbiakan vegetatif buatan yang digunakan pekebun tersebut adalah...",
+      "pilihan_jawaban": [
+        "A. Cangkok",
+        "B. Stek",
+        "C. Okulasi",
+        "D. Merunduk"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
