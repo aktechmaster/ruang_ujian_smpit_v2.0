@@ -85,6 +85,7 @@
     },
     {
       "id_soal": 8,
+      "gambar": "Images/STS_1/images_TIK_7/8.png",
       "teks_pertanyaan": "Tahapan menempatkan pointer di sudut kanan bawah cell lalu menggeser (drag) ke bawah seperti pada gambar merupakan tahapan yang dapat digunakan untuk…",
       "pilihan_jawaban": [
         "a. Menginput data seragam",
