@@ -86,7 +86,7 @@
     {
       "id_soal": 8,
       "gambar": "Images/STS_1/images_TIK_7/8.png",
-      "teks_pertanyaan": "Tahapan menempatkan pointer di sudut kanan bawah cell lalu menggeser (drag) ke bawah seperti pada gambar merupakan tahapan yang dapat digunakan untuk…",
+      "teks_pertanyaan": "Gambar tersebut menunjukkan contoh penggunaan acuan…pada excel.",
       "pilihan_jawaban": [
         "a. Menginput data seragam",
         "b. Menginput data berurutan",
@@ -130,6 +130,7 @@
     },
     {
       "id_soal": 12,
+      "gambar": "Images/STS_1/images_TIK_7/12.png",
       "teks_pertanyaan": "Penggunaan simbol tanda dolar ($) pada penulisan rumus seperti =$B$2+$C$2 menunjukkan contoh penggunaan acuan… pada Excel.",
       "pilihan_jawaban": [
         "a. Acuan mutlak",
@@ -163,7 +164,8 @@
     },
     {
       "id_soal": 15,
-      "teks_pertanyaan": "Penulisan =AVERAGE(A1:A10)+(B2*B3) dan =AVERAGE(A1:A10)*SUM(A1:A10) merupakan contoh dari penggunaan… pada Excel.",
+      "gambar": "Images/STS_1/images_TIK_7/15.png",
+      "teks_pertanyaan": "Gambar tersebut merupakan contoh dari penggunaan… pada Excel.",
       "pilihan_jawaban": [
         "a. Acuan",
         "b. Fungsi",
@@ -251,7 +253,8 @@
     },
     {
       "id_soal": 23,
-      "teks_pertanyaan": "Pada flowchart menghitung luas persegi panjang, simbol yang menunjukkan input dan output ditunjukkan oleh angka…",
+      "gambar": "Images/STS_1/images_TIK_7/23.png",
+      "teks_pertanyaan": "Simbol yang menunjukkan input dan output pada algoritma ditunjukkan oleh angka…",
       "pilihan_jawaban": [
         "a. 1 dan 6",
         "b. 2 dan 4",
@@ -273,7 +276,8 @@
     },
     {
       "id_soal": 25,
-      "teks_pertanyaan": "Pada flowchart menghitung luas persegi panjang, simbol yang menunjukkan proses pada algoritma ditunjukkan oleh angka…",
+      "gambar": "Images/STS_1/images_TIK_7/25.png",
+      "teks_pertanyaan": "Simbol yang menunjukkan proses pada algoritma ditunjukkan oleh angka…",
       "pilihan_jawaban": [
         "a. 1 dan 6",
         "b. 2 dan 4",
