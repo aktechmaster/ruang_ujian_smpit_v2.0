@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Informatika",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Berikut ini yang merupakan ciri-ciri data terstruktur adalah, kecuali …",
+      "pilihan_jawaban": [
+        "a. Data disusun secara rapi dan teratur dalam format tertentu",
+        "b. Data dapat digunakan untuk membantu proses pengambilan keputusan",
+        "c. Data dapat diolah menggunakan operasi aritmetika, statistika, dan pengurutan",
+        "d. Data tidak memiliki struktur, pola, atau format yang teratur sehingga sulit diolah"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Data berikut yang diinput dengan cara yang benar di Excel adalah…",
+      "pilihan_jawaban": [
+        "a. 12 Januari 2019 atau 12/01/2019",
+        "b. Januari 12, 2019 atau 12 Januari 2019",
+        "c. 12-01-2019 atau 12/01/2019",
+        "d. 12/01/2019 atau 12 Januari 2019"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Tombol yang digunakan untuk menambahkan batas cell ke lembar kerja Excel adalah…",
+      "pilihan_jawaban": [
+        "a. Format",
+        "b. Borders",
+        "c. Conditional Formatting",
+        "d. Format as Table"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Kotak dialog yang digunakan untuk mengatur tanda desimal dan ribuan di lembar kerja yang sedang digunakan adalah…",
+      "pilihan_jawaban": [
+        "a. Excel Options",
+        "b. Format Cells",
+        "c. Options",
+        "d. Page Setup"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Hasil dari Auto format berikut dengan cara memberi tanda centang di pilihan \"Automatically insert a decimal point\" dan angka -3 yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. Mengubah 314 menjadi 3.14",
+        "b. Mengubah 314 menjadi 314000",
+        "c. Mengubah 314 menjadi 0.00314",
+        "d. Mengubah 314 menjadi 0.314"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Manakah di bawah ini yang merupakan contoh paling tepat dari data terstruktur?",
+      "pilihan_jawaban": [
+        "a. Rekaman suara wawancara",
+        "b. Tabel daftar nilai siswa yang berisi kolom nama, mata pelajaran, dan nilai",
+        "c. Kumpulan foto liburan di galeri ponsel",
+        "d. Paragraf cerita pendek"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Di antara pilihan berikut, aplikasi atau program komputer mana yang tidak cocok untuk merapikan dan menghitung data dalam bentuk tabel (seperti daftar nilai atau tabel keuangan)?",
+      "pilihan_jawaban": [
+        "a. Microsoft Excel, Google Sheet, MySQL, Tableau",
+        "b. Tableau, Google Sheet, Python, IBM SPSS",
+        "c. Microsoft Word, Google Sheet, Microsoft Excel",
+        "d. MySQL, Microsoft Excel, Google Sheet, Oracle Database"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Tahapan menempatkan pointer di sudut kanan bawah cell lalu menggeser (drag) ke bawah seperti pada gambar merupakan tahapan yang dapat digunakan untuk…",
+      "pilihan_jawaban": [
+        "a. Menginput data seragam",
+        "b. Menginput data berurutan",
+        "c. Menginput data angka",
+        "d. Menginput data teks, tanggal dan waktu"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Pada Microsoft Excel setiap rumus harus dimulai dengan tanda…",
+      "pilihan_jawaban": [
+        "a. + (tambah)",
+        "b. = (sama dengan)",
+        "c. * (perkalian)",
+        "d. / (pembagian)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Logika yang dihasilkan dari operator perbandingan adalah…",
+      "pilihan_jawaban": [
+        "a. Penjumlahan dan pengurangan",
+        "b. Perkalian dan pembagian",
+        "c. TRUE dan FALSE",
+        "d. Angka dan teks"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Acuan pada rumus yang akan berubah secara otomatis apabila cell tempat rumus digunakan berubah disebut…",
+      "pilihan_jawaban": [
+        "a. Acuan mutlak",
+        "b. Acuan relatif",
+        "c. Acuan campuran",
+        "d. Acuan tetap"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Penggunaan simbol tanda dolar ($) pada penulisan rumus seperti =$B$2+$C$2 menunjukkan contoh penggunaan acuan… pada Excel.",
+      "pilihan_jawaban": [
+        "a. Acuan mutlak",
+        "b. Acuan relatif",
+        "c. Acuan campuran",
+        "d. Acuan ganda"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Kombinasi tombol keyboard atau shortcut yang dapat digunakan untuk menyimpan file pada lembar kerja Excel adalah…",
+      "pilihan_jawaban": [
+        "a. Ctrl + S",
+        "b. Ctrl + P",
+        "c. Ctrl + C",
+        "d. Ctrl + V"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Rumus siap pakai atau sudah didefinisikan oleh Microsoft Excel disebut sebagai…",
+      "pilihan_jawaban": [
+        "a. Acuan",
+        "b. Fungsi",
+        "c. Shortcut",
+        "d. Operator"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Penulisan =AVERAGE(A1:A10)+(B2*B3) dan =AVERAGE(A1:A10)*SUM(A1:A10) merupakan contoh dari penggunaan… pada Excel.",
+      "pilihan_jawaban": [
+        "a. Acuan",
+        "b. Fungsi",
+        "c. Shortcut",
+        "d. Operator"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Kita dapat mengurutkan data berdasarkan kolom acuan data dengan nilai terkecil ke terbesar pada lembar kerja Excel dapat menggunakan…",
+      "pilihan_jawaban": [
+        "a. Ascending",
+        "b. Filtering",
+        "c. Descending",
+        "d. Sorting"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Mencari nilai akar dan pangkat dapat dilakukan menggunakan…",
+      "pilihan_jawaban": [
+        "a. SQRT dan POWER",
+        "b. AVERAGE dan SUM",
+        "c. POWER dan SQRT",
+        "d. SUM dan AVERAGE"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Fitur pada Microsoft Excel yang digunakan untuk menampilkan data sesuai dengan kriteria tertentu tanpa menghapus data lainnya disebut ….",
+      "pilihan_jawaban": [
+        "a. Sorting",
+        "b. Filtering",
+        "c. Formatting",
+        "d. Merging"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Fitur pada Microsoft Excel yang digunakan untuk mengurutkan data berdasarkan kriteria tertentu, seperti dari nilai terkecil ke terbesar atau sebaliknya, disebut ….",
+      "pilihan_jawaban": [
+        "a. Filtering",
+        "b. Formatting",
+        "c. Sorting",
+        "d. Searching"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Tipe data yang ditampilkan dalam bentuk \"#######\" jika panjangnya melebihi lebar kolom adalah tipe data…",
+      "pilihan_jawaban": [
+        "a. Teks",
+        "b. Waktu",
+        "c. Tanggal",
+        "d. Angka"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Tujuan dari berpikir komputasional dalam kehidupan adalah…",
+      "pilihan_jawaban": [
+        "a. Membantu menyelesaikan masalah kompleks dengan cara yang efisien, efektif, dan terstruktur",
+        "b. Membantu manusia agar bisa berpikir secepat dan secanggih komputer",
+        "c. Memaksa semua pekerjaan dilakukan menggunakan perangkat komputer",
+        "d. Menggantikan peran otak manusia dengan sistem kecerdasan buatan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut!\n(1) Memecah masalah kompleks menjadi bagian-bagian yang lebih kecil dan lebih sederhana agar mudah diselesaikan\n(2) Memfokuskan perhatian pada informasi penting dan membuang/mengabaikan detail yang tidak relevan\n(3) Menyusun langkah-langkah penyelesaian masalah secara logis, terstruktur, dan sistematis\n(4) Mencari kesamaan atau pola dari masalah-masalah yang pernah dihadapi sebelumnya\n(5) Melatih komputer untuk dapat bekerja seperti komputer\n\nPernyataan yang benar mengenai pendekatan berpikir komputasional adalah…",
+      "pilihan_jawaban": [
+        "a. (1), (2), (3) dan (4)",
+        "b. (1), (2), (4) dan (5)",
+        "c. (2), (3), (4) dan (5)",
+        "d. (1), (3), (4) dan (5)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Pada flowchart menghitung luas persegi panjang, simbol yang menunjukkan input dan output ditunjukkan oleh angka…",
+      "pilihan_jawaban": [
+        "a. 1 dan 6",
+        "b. 2 dan 4",
+        "c. 3 dan 5",
+        "d. 4"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Terdapat dua cara menuliskan algoritma yaitu…",
+      "pilihan_jawaban": [
+        "a. HTML dan Compiler",
+        "b. Pseudocode dan Flowchart",
+        "c. Hardware dan Software",
+        "d. HTML dan CSS"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Pada flowchart menghitung luas persegi panjang, simbol yang menunjukkan proses pada algoritma ditunjukkan oleh angka…",
+      "pilihan_jawaban": [
+        "a. 1 dan 6",
+        "b. 2 dan 4",
+        "c. 3 dan 5",
+        "d. 4"
+      ],
+      "kunci_jawaban": "D"
+    }
+  ]
+}
