@@ -1,1 +1,131 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Matematika",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 90
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "10, 30, 50, 70, ..., ..., ...",
+      "pilihan_jawaban": [
+        "A. 80, 90, 100",
+        "B. 90, 110, 130",
+        "C. 100, 200, 400",
+        "D. 110, 130, 150"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Suku berikutnya dari pola bilangan 2, 5, 8, 11, … adalah",
+      "pilihan_jawaban": [
+        "A. 12",
+        "B. 13",
+        "C. 14",
+        "D. 15"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Diketahui barisan aritmetika 5, 8, 11, 14, … Suku ke-10 = …",
+      "pilihan_jawaban": [
+        "A. 30",
+        "B. 32",
+        "C. 34",
+        "D. 36"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Suku ke-7 dari pola bilangan ganjil = ….",
+      "pilihan_jawaban": [
+        "A. 11",
+        "B. 12",
+        "C. 13",
+        "D. 14"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Pada pola bilangan persegi, tentukan suku ke-12 adalah...",
+      "pilihan_jawaban": [
+        "A. 144",
+        "B. 142",
+        "C. 422",
+        "D. 322"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Suku ke-14 pada pola bilangan persegi panjang adalah..",
+      "pilihan_jawaban": [
+        "A. 220",
+        "B. 210",
+        "C. 200",
+        "D. 180"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Suku ke-12 pada pola bilangan segitiga adalah...",
+      "pilihan_jawaban": [
+        "A. 70",
+        "B. 76",
+        "C. 78",
+        "D. 80"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "6, 12, 24, 48, 96 .... Barisan bilangan di atas termasuk barisan bilangan..",
+      "pilihan_jawaban": [
+        "A. Aritmetika",
+        "B. Geometri",
+        "C. Fibonacci",
+        "D. Bertingkat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "2, 6, 18, 54, ..., ...",
+      "pilihan_jawaban": [
+        "A. 140 dan 145",
+        "B. 74 dan 64",
+        "C. 162 dan 486",
+        "D. 163 dan 484"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Dua suku berikut pada barisan 4, 6, 10, 16, ..., ... adalah",
+      "pilihan_jawaban": [
+        "A. 22, 28",
+        "B. 22, 30",
+        "C. 24, 32",
+        "D. 24, 34"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Diketahui titik-titik dengan koordinat sebagai berikut:\n(i) P(7, -10)\n(ii) Q(-9, -12)\n(iii) R(-11, 24)\n(iv) S(-14, -18)\nDi antara titik-titik di atas, yang terletak di kuadran III yaitu...",
+      "pilihan_jawaban": [
+        "A. (i) dan (ii)",
+        "B. (ii) dan (iii)",
+        "C. (ii) dan (iv)",
+        "D. (iii) dan (iv)"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
