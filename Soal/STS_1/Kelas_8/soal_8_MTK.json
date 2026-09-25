@@ -118,7 +118,7 @@
     },
     {
       "id_soal": 11,
-      "teks_pertanyaan": "Diketahui titik-titik dengan koordinat sebagai berikut:\n(i) P(7, -10)\n(ii) Q(-9, -12)\n(iii) R(-11, 24)\n(iv) S(-14, -18)\nDi antara titik-titik di atas, yang terletak di kuadran III yaitu...",
+      "teks_pertanyaan": "Diketahui titik-titik dengan koordinat sebagai berikut:\u003cbr\u003e(i) P(7, -10)\u003cbr\u003e(ii) Q(-9, -12)\u003cbr\u003e(iii) R(-11, 24)\u003cbr\u003e(iv) S(-14, -18)\u003cbr\u003eDi antara titik-titik di atas, yang terletak di kuadran III yaitu...",
       "pilihan_jawaban": [
         "A. (i) dan (ii)",
         "B. (ii) dan (iii)",
@@ -126,6 +126,174 @@
         "D. (iii) dan (iv)"
       ],
       "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Perhatikan gambar berikut!\u003cbr\u003eKoordinat titik F, yaitu...",
+      "gambar": "Image/STS_1/images_MTK_8/12.png",
+      "pilihan_jawaban": [
+        "A. (-2,1)",
+        "B. (-3,3)",
+        "C. (-2,2)",
+        "D. (0,-3)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Perhatikan gambar berikut!\u003cbr\u003eKoordinat titik G, yaitu...",
+      "gambar": "Image/STS_1/images_MTK_8/13.png",
+      "pilihan_jawaban": [
+        "A. (-3,-3)",
+        "B. (2,2)",
+        "C. (-2,2)",
+        "D. (3,3)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Perhatikan gambar berikut\u003cbr\u003eJarak titik E terhadap sumbu X, yaitu..",
+      "gambar": "Image/STS_1/images_MTK_8/14.png",
+      "pilihan_jawaban": [
+        "A. 1 satuan",
+        "B. 2 satuan",
+        "C. 5 satuan",
+        "D. 6 satuan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Diagram panah pada gambar di atas menunjukkan hubungan atau relasi ....",
+      "gambar": "Image/STS_1/images_MTK_8/15.png",
+      "pilihan_jawaban": [
+        "A. Lebih dari",
+        "B. Kurang dari",
+        "C. Kuadrat dari",
+        "D. Faktor dari"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Himpunan pasangan berurutan sesuai diagram di bawah adalah ...",
+      "gambar": "Image/STS_1/images_MTK_8/16.png",
+      "pilihan_jawaban": [
+        "A. {(2,2), (4,2), (9,3), (15,3), (15,5)}",
+        "B. {(2,2), (4,2), (9,3), (15,3)}",
+        "C. {(2,2), (4,3), (9,3), (15,3), (15,5)}",
+        "D. {(2,2), (4,2), (9,3), (15,5)}"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Diagram panah diatas, yang merupakan pemetaan adalah...",
+      "gambar": "Image/STS_1/images_MTK_8/17.png",
+      "pilihan_jawaban": [
+        "A. (i) dan (ii)",
+        "B. (ii) dan (iii)",
+        "C. (i) dan (iv)",
+        "D. (ii) dan (iv)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "pada pemetaan di bawah yang merupakan daerah hasil (range) adalah....",
+      "gambar": "Image/STS_1/images_MTK_8/18.png",
+      "pilihan_jawaban": [
+        "A. {2, 3}",
+        "B. {1, 2, 4}",
+        "C. {2, 3, 4}",
+        "D. {1, 2, 3, 4}"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Diketahui A = {1, 2, 3} dan himpunan B = {a, b}. Berapakah banyaknya pemetaan yang mungkin dari himpunan A ke himpunan B",
+      "gambar": "",
+      "pilihan_jawaban": [
+        "A. 8",
+        "B. 10",
+        "C. 12",
+        "D. 14"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Pada fungsi f : x \u2192 4x - 5, bayangan dari 2 adalah...",
+      "gambar": "",
+      "pilihan_jawaban": [
+        "A. 2",
+        "B. 3",
+        "C. 8",
+        "D. 7"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pilihlah relasi yang merupakan fungsi dari A = {1, 2, 3} dan B = {a, b, c, d}, jika:",
+      "gambar": "Image/STS_1/images_MTK_8/21.png",
+      "pilihan_jawaban": [
+        "A. a dan d",
+        "B. a dan b",
+        "C. c dan d",
+        "D. c dan b"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Fungsi f ditentukan dengan rumus f(x) = 4x - 10 Jika f(a) = 2, maka nilai a = ....",
+      "gambar": "",
+      "pilihan_jawaban": [
+        "A. -3",
+        "B. -2",
+        "C. 2",
+        "D. 3"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Diketahui himpunan pasangan beurutan sebagai berikut:\u003cbr\u003e(i) {(a,1), (a,2), (a,3), (a,4)}\u003cbr\u003e(ii) {(a,2), (a,2), (a,2), (a,2)}\u003cbr\u003e(iii) {(a,1), (b,2), (c,1), (d,2)}\u003cbr\u003e(iv) {(a,1), (b,2), (c,3), (d,4)}\u003cbr\u003eDi antara himpunan pasangan berurutan di atas, yang merupakan korespondensi satu satu,yaitu..",
+      "gambar": "",
+      "pilihan_jawaban": [
+        "A. (i)",
+        "B. (ii)",
+        "C. (iii)",
+        "D. (iv)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Diketahui himpunan A = {a, b, c, d} dan B = {1, 2, 3, 4}. Tentukan banyaknya korespondensi satu-satu yang mungkin dari himpunan A ke B.",
+      "gambar": "",
+      "pilihan_jawaban": [
+        "A. 22",
+        "B. 23",
+        "C. 24",
+        "D. 25"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Yang merupakan korespondensi satu satu =...",
+      "gambar": "Image/STS_1/images_MTK_8/25.png",
+      "pilihan_jawaban": [
+        "A. (i) dan (ii)",
+        "B. (ii) dan (iv)",
+        "C. (ii) dan (iii)",
+        "D. (i) dan (iii)"
+      ],
+      "kunci_jawaban": "B"
     }
   ]
 }
