@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "PAI",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "durasi_menit": "60"
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Al-Qur'an di sebut Mukjizat karena...",
+      "pilihan_jawaban": [
+        "a. Ditulis dalam bahasa arab",
+        "b. Berisi kisah masa lalu",
+        "c. Tidak ada yang mampu menandinginya",
+        "d. Diturunkan secara berangsur"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Fungsi muhaimin berarti Al-Qur'an...",
+      "pilihan_jawaban": [
+        "a. Membenarkan kitab terdahulu dari Allah",
+        "b. Menghapus hukum kitab terdahulu",
+        "c. Menjadi tolak ukur keaslian kitab terdahulu",
+        "d. Menerjemahkan kitab terdahulu"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Kemukjizatan Al-Qur'an dalam bidang hukum disebut I'jaz Tasyari'i yaitu...",
+      "pilihan_jawaban": [
+        "a. Keindahan bahasa Al-qur'an",
+        "b. Berita tentang masa depan",
+        "c. Kesesuaian dan keistimewaan hukum Al-qur'an untuk kehidupan manusia",
+        "d. Kemampuan manusia menghafal Al-Qur'an"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Kitab injil di turunkan kepada Nabi...",
+      "pilihan_jawaban": [
+        "a. Musa a.s",
+        "b. Daud a.s",
+        "c. Isa a.s",
+        "d. Muhammad Saw"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Puncak interaksi seorang muslim dengan Al-Qur'an adalah.....",
+      "pilihan_jawaban": [
+        "a. Tilawah",
+        "b. Taddabur",
+        "c. Tahfizh",
+        "d. Tatbiq"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Empat tingkatan berinteraksi dengan Al-Qur'an yang benar adalah...",
+      "pilihan_jawaban": [
+        "a. Membaca, menulis, menyimpan, menjual",
+        "b. Membaca, menghafal, memahami, mengamalkan",
+        "c. Menghafal, membeli, membaca, menyimpan",
+        "d. Membaca, mendengar, menyalin, menjual"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Dua salat fardu yang tidak di iringi rawatib ba'diyah adalah...",
+      "pilihan_jawaban": [
+        "a. Subuh dan Zuhur",
+        "b. Subuh dan asar",
+        "c. Zuhur dan asar",
+        "d. Magrib dan isya"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Bacaan yang di sunahkan pada rakaat kedua qabliyah subuh adalah...",
+      "pilihan_jawaban": [
+        "a. Al-Kafirun",
+        "b. Ayat Kursi",
+        "c. Al-Ikhlas",
+        "d. Al-Falaq"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Jumlah rakaat rawatib muakkad menurut hadis ibnu Umar adalah...",
+      "pilihan_jawaban": [
+        "a. Enam",
+        "b. Sepuluh",
+        "c. Delapan",
+        "d. Dua belas"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Kata rawatib dalam bahasa Arab bermakna...",
+      "pilihan_jawaban": [
+        "a. Sewaktu-waktu",
+        "b. Tetap dan berkesinambungan",
+        "c. Tambahan",
+        "d. Penyempurna"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Salat sunah rawatib yang dikerjakan setelah salat wajib di sebut...",
+      "pilihan_jawaban": [
+        "a. Qobliyah",
+        "b. Tahajud",
+        "c. Ba'diyah",
+        "d. Dhuha"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Salat sunah rawatib lebih utama dikerjakan secara ...",
+      "pilihan_jawaban": [
+        "a. Berjamaah di masjid",
+        "b. Munfarid di rumah",
+        "c. Berjamaah di rumah",
+        "d. Munfarid di masjid"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Pahala yang di bangunkan rumah di surga diraih dengan menjaga rawatib sebanyak ...",
+      "pilihan_jawaban": [
+        "a. 6 rakaat",
+        "b. 8 rakaat",
+        "c. 10 rakaat",
+        "d. 12 rakaat"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Salat sunah rawatib yang sangat di tekankan di sebut ...",
+      "pilihan_jawaban": [
+        "a. Qabliyah",
+        "b. Ba'diyah",
+        "c. Muakkad",
+        "d. Ghairu muakkad"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Salat sunah rawatib berfungsi sebagai ...",
+      "pilihan_jawaban": [
+        "a. Pengganti seluruh salat wajib",
+        "b. Penyempurna kekurangan salat wajib",
+        "c. Pengganti puasa Ramadan",
+        "d. Pengganti zakat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Sujud sahwi di kerjakan sebanyak...",
+      "pilihan_jawaban": [
+        "a. Satu kali",
+        "b. Dua kali",
+        "c. Tiga kali",
+        "d. Empat kali"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Hukum sujud tilawah adalah...",
+      "pilihan_jawaban": [
+        "a. Wajib",
+        "b. Sunah Muakkad",
+        "c. Fardu ain",
+        "d. Fardu kifayah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Berikut sebab melakukan sujud syukur kecuali...",
+      "pilihan_jawaban": [
+        "a. Lulus ujian",
+        "b. Selesai makan siang",
+        "c. Mendapat hadiah istimewa",
+        "d. Selamat dari kecelakaan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Penyebab iblis di usir dari surga adalah...",
+      "pilihan_jawaban": [
+        "a. Kurang ilmu",
+        "b. Tidak mengenal Allah",
+        "c. Menolak sujud karena sombong",
+        "d. Lupa beribadah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Bacaan yang di baca dalam sujud adalah...",
+      "pilihan_jawaban": [
+        "a. Subhana Rabbiyal A'la",
+        "b. Subhanallah wal hamdulillah",
+        "c. Allahu akbar kabira",
+        "d. La ilaha illallah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Jumlah ayat sajdah dalam Al-qur'an adalah...",
+      "pilihan_jawaban": [
+        "a. Sepuluh",
+        "b. Lima belas",
+        "c. Dua puluh",
+        "d. Dua puluh lima"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Saat ragu jumlah rakaat (tiga atau empat) yang dilakukan adalah...",
+      "pilihan_jawaban": [
+        "a. Mengambil yang lebih banyak",
+        "b. Mengambil yang yakin lalu sujud sahwi",
+        "c. Membatalkan salat",
+        "d. Mengabaikan keraguan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Yang termasuk sebab sujud sahwi adalah...",
+      "pilihan_jawaban": [
+        "a. Kekurangan, kelebihan, keraguan",
+        "b. kesusahan, kebesaran, kelebihan",
+        "c. keberanian, kekayaan, keutuhan",
+        "d. kerusuhan, kesedihan, kekurangan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Hikmah sujud tilawah adalah...",
+      "pilihan_jawaban": [
+        "a. Menunjukkan keimanan dan kepatuhan kepada Al-Quran",
+        "b. Menunjukkan kasih sayang Allah yang membuka jalan perbaiki kesalahan",
+        "c. Melatih kita saat bahagia",
+        "d. Merespon nikmat dengan penghambaan bukan sekedar ucapan lisan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Sujud yang di lakukan saat membaca ayat sajdah di sebut...",
+      "pilihan_jawaban": [
+        "a. Sujud syukur",
+        "b. Sujud Sahwi",
+        "c. Sujud tilawah",
+        "d. Sujud rukun"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
