@@ -1,1 +1,286 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "PKN",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "tahun_ajaran": "2026/2027"
+    
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Pada sidang pertama BPUPK tanggal 29 Mei 1945, Ketua BPUPK Radjiman Wedyodiningrat melontarkan pertanyaan mendasar: \"Apa dasar Negara Indonesia yang akan kita bentuk ini?\" Dalam merespons hal tersebut, pada 1 Juni 1945 Sukarno mengusulkan istilah philosophische grondslag. Berdasarkan konteks sejarah tersebut, makna utama dari philosophische grondslag adalah ....",
+      "pilihan_jawaban": [
+        "a. dokumen formal untuk memperoleh pengakuan kemerdekaan dari bangsa-bangsa luar",
+        "b. aturan teknis pelaksanaan pemilu dan pembagian kekuasaan dalam pemerintahan",
+        "c. fundamen, filsafat, dan hasrat mendalam yang menjadi tempat didirikannya gedung Indonesia Merdeka",
+        "d. teks proklamasi yang disusun untuk menandai berdirinya sebuah negara baru"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Perhatikan frasa berikut dalam Pembukaan UUD NRI Tahun 1945 alinea IV: \"...maka disusunlah kemerdekaan kebangsaan Indonesia itu dalam suatu Undang-Undang Dasar Negara Republik Indonesia, yang terbentuk dalam suatu susunan Negara Republik Indonesia yang berkedaulatan rakyat dengan berdasar kepada...\"Meskipun kata \"Pancasila\" tidak tercantum secara eksplisit dalam alinea tersebut, keberadaannya memiliki kedudukan hukum yang sah sebagai dasar negara karena ....",
+      "pilihan_jawaban": [
+        "a. kalimat-kalimat berikutnya mencantumkan secara berurutan lima sila Pancasila",
+        "b. UUD NRI 1945 disusun oleh tokoh-tokoh yang sama saat merumuskan dasar negara",
+        "c. pasal-pasal dalam UUD NRI 1945 memuat aturan tentang simbol-simbol negara",
+        "d. isi Pembukaan UUD NRI 1945 telah disetujui oleh pemerintah kolonial Jepang"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Ketetapan MPR RI No. XVIII/MPR/1998 Pasal 1 menegaskan kembali bahwa Pancasila adalah dasar negara yang harus dilaksanakan secara konsisten. Analisis yang tepat mengenai implikasi ketetapan ini terhadap agenda reformasi di Indonesia adalah ....",
+      "pilihan_jawaban": [
+        "a. reformasi dapat mengubah dasar negara apabila disepakati oleh seluruh anggota parlemen",
+        "b. seluruh gerakan reformasi harus bersumber pada nilai Pancasila dan tidak boleh menyimpang darinya",
+        "c. Reformasi hanya fokus pada perbaikan sistem ekonomi tanpa terikat nilai ketuhanan dan kemanusiaan",
+        "d. ketetapan tersebut menggantikan seluruh isi Pembukaan UUD NRI Tahun 1945"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Darji Darmodiharjo menyatakan bahwa Pancasila sebagai dasar negara sering disebut dasar falsafah negara. Kedudukan ini berimplikasi secara yuridis-ketatanegaraan, yaitu Pancasila berfungsi sebagai ...",
+      "pilihan_jawaban": [
+        "a. pedoman moral perorangan dalam memilih pekerjaan di lembaga swasta",
+        "b. sumber dari segala sumber hukum dalam penyelenggaraan tata hukum negara",
+        "c. doktrin politik tertutup yang tidak boleh ditafsirkan ulang oleh Masyarakat",
+        "d. pendorong utama kegiatan perdagangan antardaerah di Indonesia"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Kedudukan Pancasila menurut Kaelan meliputi geistlichen hintergrund dari UUD NRI Tahun 1945. Apabila sebuah lembaga legislatif hendak merancang Undang-Undang baru, penerapan prinsip geistlichen hintergrund tersebut ditunjukkan melalui ....",
+      "pilihan_jawaban": [
+        "a. mengadopsi seluruh hukum asing agar Undang-Undang terlihat modern",
+        "b. memastikan Undang-Undang dijiwai oleh suasana kebatinan dan cita nilai moral luhur Pancasila",
+        "c. mempercepat pengesahan Undang-Undang tanpa perlu mendengar masukan dari Masyarakat",
+        "d. menyusun pasal-pasal yang hanya menguntungkan kelompok politik mayoritas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Pokok pikiran keempat Pembukaan UUD NRI Tahun 1945 menegaskan bahwa \"Negara berdasarkan atas Ketuhanan Yang Maha Esa, menurut dasar kemanusiaan yang adil dan beradab\". Dampak utama dari penerapan nilai ini terhadap para pelaksana pemerintahan adalah ....",
+      "pilihan_jawaban": [
+        "a. pemerintah bebas membuat regulasi tanpa mempertimbangkan etika agama dan kemanusiaan",
+        "b. penyelenggara negara wajib memegang teguh cita moral rakyat yang luhur dalam menjalankan tugasnya",
+        "c. seluruh pejabat negara harus berasal dari latar belakang organisasi keagamaan yang sama",
+        "d. tata kelola pemerintahan sepenuhnya diserahkan kepada keputusan instansi internasional"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Berdasarkan TAP MPR RI No. III Tahun 2000, Pancasila ditetapkan sebagai sumber hukum dasar nasional. Makna dari posisi Pancasila dalam hierarki peraturan perundang-undangan tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. Pancasila berada di bawah pasal-pasal UUD NRI Tahun 1945",
+        "b. seluruh peraturan perundang-undangan di Indonesia tidak boleh bertentangan dengan nilai Pancasila",
+        "c. Pancasila hanya berlaku apabila ada ancaman disintegrasi bangsa",
+        "d. hukum adat daerah memiliki kedudukan lebih tinggi daripada nilai Pancasila"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Pandangan hidup (way of life) berfungsi sebagai kerangka acuan bagi seseorang. Ketika seorang pelajar dihadapkan pada pilihan untuk menyebarkan berita yang belum jelas kebenarannya di media sosial atau memverifikasinya terlebih dahulu, penerapan fungsi pandangan hidup tampak pada keputusan untuk ....",
+      "pilihan_jawaban": [
+        "a. langsung menyebarkannya agar menjadi yang pertama memberi informasi",
+        "b. memverifikasi kebenaran berita karena berpedoman pada nilai kejujuran dan tanggung jawab",
+        "c. mengabaikan berita tersebut tanpa peduli dampaknya bagi orang lain",
+        "d. menyalahkan orang lain yang membuat berita tersebut tanpa mencari bukti"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Padmo Wahyono menjelaskan bahwa pandangan hidup seseorang dibentuk oleh kekuatan iman, cipta, rasa, dan karsa. Keterkaitan antara keempat unsur tersebut dalam membentuk pandangan hidup perorangan adalah ....",
+      "pilihan_jawaban": [
+        "a. iman memberikan dasar keyakinan, sedangkan cipta, rasa, dan karsa mengarahkannya dalam tindakan nyata",
+        "b. rasa dan karsa bekerja secara mandiri tanpa memerlukan pertimbangan cipta dan iman",
+        "c. cipta menjadi satu-satunya unsur penentu tanpa perlu mempertimbangkan nilai iman",
+        "d. keempat unsur tersebut hanya berfungsi saat seseorang berada dalam situasi konflik"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Perhatikan alur pembentukan berikut: Pandangan hidup perorangan $\\rightarrow$ Pandangan hidup kelompok $\\rightarrow$ Pandangan hidup bangsa.Proses transformasi ini dapat terjadi dalam kehidupan bermasyarakat karena",
+      "pilihan_jawaban": [
+        "a. adanya pemaksaan aturan dari kelompok terkuat kepada kelompok lainnya",
+        "b. proses adaptasi dan interaksi sosial yang mengkristalkan nilai-nilai bersama yang diyakini kebenarannya",
+        "c. ketetapan hukum tertulis yang dibuat oleh pemerintah sebelum kemerdekaan",
+        "d. pengaruh kebudayaan asing yang diterima secara utuh tanpa penyaringan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Di era globalisasi, budaya luar dan nilai-nilai baru sangat mudah masuk ke Indonesia melalui media digital. Urgensi Pancasila sebagai pandangan hidup bangsa dalam menghadapi fenomena ini adalah ....",
+      "pilihan_jawaban": [
+        "a. menutup diri secara total dari seluruh perkembangan teknologi dan budaya luar",
+        "b. menjadi filter dan penentu arah agar bangsa Indonesia tidak terombang-ambing dan hilang jati diri",
+        "c. mengganti nilai-nilai lokal dengan nilai-nilai global agar dianggap sebagai bangsa modern",
+        "d. membiarkan seluruh budaya luar masuk tanpa perlu adanya penyaringan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Dalam pidatonya, Sukarno menggunakan istilah weltanschauung yang mengaitkan hubungan antara microcosm dan macrocosm. Penafsiran yang tepat mengenai hubungan tersebut dalam konteks kehidupan berbangsa adalah ....",
+      "pilihan_jawaban": [
+        "a. pengaturan hubungan harmonis antara sesama manusia (microcosm) serta antara manusia dan alam semesta (macrocosm)",
+        "b. penguasaan alam semesta (macrocosm) oleh manusia (microcosm) untuk eksploitasi ekonomi",
+        "c. pemisahan secara mutlak antara kehidupan sosial manusia dan kelestarian alam sekitarnya",
+        "d. pengutamaan kepentingan individu (microcosm) di atas kepentingan alam dan Masyarakat"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Nilai-nilai Pancasila tidak diciptakan secara mendadak saat sidang BPUPK, melainkan hasil rintisan sejarah panjang bangsa Indonesia. Bukti historis yang mendukung pernyataan tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. nilai gotong royong dan toleransi telah tumbuh dalam tradisi masyarakat sejak zaman Kerajaan Sriwijaya dan Majapahit",
+        "b. rumusan Pancasila disalin seluruhnya dari Piagam Perserikatan Bangsa-Bangsa (PBB)",
+        "c. para pendiri bangsa mengambil ideologi asing lalu menerjemahkannya ke dalam bahasa Indonesia",
+        "d. nilai-nilai Pancasila baru muncul setelah Proklamasi Kemerdekaan 17 Agustus 1945"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Nilai pada hakikatnya merupakan keyakinan dalam menentukan pilihan untuk menjadikan hidup lebih baik. Pernyataan yang mencerminkan fungsi nilai sebagai pendorong budi pekerti adalah ....",
+      "pilihan_jawaban": [
+        "a. seseorang bertindak jujur hanya saat diawasi oleh petugas keamanan",
+        "b. seorang siswa membantu temannya yang kesulitan belajar atas dasar kepedulian dan rasa kemanusiaan",
+        "c. seseorang mematuhi aturan lalu lintas semata-mata karena takut terkena denda nominal",
+        "d. seorang warga ikut gotong royong karena khawatir mendapat sanksi sosial dari ketua RT"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Nilai pada hakikatnya merupakan keyakinan dalam menentukan pilihan untuk menjadikan hidup lebih baik. Pernyataan yang mencerminkan fungsi nilai sebagai pendorong budi pekerti adalah ....",
+      "pilihan_jawaban": [
+        "a. seseorang bertindak jujur hanya saat diawasi oleh petugas keamanan",
+        "b. seorang siswa membantu temannya yang kesulitan belajar atas dasar kepedulian dan rasa kemanusiaan",
+        "c. seseorang mematuhi aturan lalu lintas semata-mata karena takut terkena denda nominal",
+        "d. seorang warga ikut gotong royong karena khawatir mendapat sanksi sosial dari ketua RT"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Secara etimologis, ideologi berasal dari kata eidos (idea) dan logos. Seiring perkembangannya, pemikiran ideologi mengalami pergeseran dari \"sains tentang ide\" (Antoine Destutt de Tracy) menjadi ....",
+      "pilihan_jawaban": [
+        "a. rumus matematis murni untuk menghitung pertumbuhan ekonomi negara",
+        "b. suatu sistem paham, doktrin, dan pedoman berpikir yang mengarahkan tindakan sosial-politik",
+        "c. sekumpulan karya seni yang bertujuan menghibur masyarakat luas",
+        "d. kumpulan aturan tata krama yang hanya berlaku dalam lingkungan keluarga"
+      ],
+      "kunci_jawaban": null
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Perhatikan dua pemikiran ahli berikut: (1) M. Sastrapratedja: Ideologi adalah seperangkat gagasan yang berorientasi pada tindakan dan diorganisasi dalam sistem teratur. (2) Mubyarto: Ideologi adalah doktrin, kepercayaan, dan simbol yang menjadi pegangan untuk mencapai tujuan bangsa. Persamaan mendasar dari kedua pendapat tersebut adalah ideologi berfungsi sebagai ....",
+      "pilihan_jawaban": [
+        "a. pegangan dan acuan berorientasi tindakan untuk mencapai tujuan Bersama",
+        "b. alat untuk membatasi kebebasan berfikir seluruh warga negara",
+        "c. kumpulan teori ilmiah yang hanya dipelajari di perguruan tinggi",
+        "d. aturan hukum tertulis yang memiliki sanksi pidana secara langsung"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Menurut Kaelan, salah satu sifat ideologi adalah memiliki sifat futuristik. Contoh gambaran sifat futuristik dari ideologi Pancasila dalam kehidupan bernegara adalah ....",
+      "pilihan_jawaban": [
+        "a. mempertahankan tradisi lama tanpa mau menerima perubahan zaman",
+        "b. memberikan cita-cita dan gambaran tatanan masyarakat adil dan makmur yang ingin diwujudkan di masa depan",
+        "c. berfokus hanya pada penyelesaian masalah jangka pendek tanpa rencana jangka Panjang",
+        "d. mencatat peristiwa sejarah masa lalu untuk diingat tanpa ada tindakan perbaikan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Ketetapan MPR menjelaskan bahwa Pancasila berkedudukan sebagai ideologi nasional yang memuat cita-cita normatif bernegara. Implikasi dari Pancasila sebagai sarana pemersatu masyarakat Indonesia adalah ...",
+      "pilihan_jawaban": [
+        "a. menghilangkan seluruh perbedaan suku, agama, dan budaya menjadi satu identitas tunggal yang sama",
+        "b. mengikat keberagaman masyarakat dalam satu kesepakatan bersama menuju cita-cita berbangsa",
+        "c. mewajibkan seluruh warga negara menggunakan satu bahasa daerah yang sama dalam keseharian",
+        "d. melarang masyarakat untuk mengekspresikan tradisi lokal di ruang public"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Penelitian Pranarka (1985) dan pandangan Mohammad Hatta (1960) mengagaskan bahwa Pancasila merupakan ideologi kebangsaan. Keunggulan utama ideologi Pancasila dibandingkan ideologi dari luar adalah ....",
+      "pilihan_jawaban": [
+        "a. Pancasila dirumuskan oleh pihak asing yang berpengalaman dalam menata negara",
+        "b. Pancasila bersumber dari kristalisasi pandangan hidup dan nilai budaya bangsa Indonesia sendiri",
+        "c. Pancasila memuat aturan operasional yang sangat detail untuk setiap pasal hukum",
+        "d. Pancasila tidak memungkinkan adanya perubahan peraturan perundang-undangan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Franz Magnis-Suseno menyatakan bahwa Pancasila merupakan ideologi terbuka. Pernyataan Sukarno yang menguatkan ciri ideologi terbuka ini adalah saat beliau menyatakan bahwa dirinya ....",
+      "pilihan_jawaban": [
+        "a. menciptakan Pancasila secara mandiri tanpa melihat kondisi Masyarakat",
+        "b. hanya menggali dan merumuskan Pancasila dari bumi ibu pertiwi Indonesia",
+        "c. mengambil ideologi terbuka dari negara-negara maju di Eropa",
+        "d. menyusun Pancasila untuk membatasi kebebasan beragama warga negara"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Nilai-nilai dalam Pancasila bersifat abstrak, mendasar, dan berupa garis besar. Oleh karena itu, agar nilai dasar Pancasila dapat diterapkan dalam kehidupan sehari-hari dan penyelenggaraan negara, maka perlu ....",
+      "pilihan_jawaban": [
+        "a. diubah susunan silanya sesuai dengan perkembangan rezim pemerintahan",
+        "b. dijabarkan lebih lanjut ke dalam nilai instrumental seperti UUD, Undang-Undang, dan regulasi lainnya",
+        "c. dibiarkan tetap abstrak tanpa perlu dibuat aturan perundang-undangan",
+        "d. diganti dengan doktrin baru yang lebih mudah dipahami secara langsung"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Pancasila memenuhi syarat sebagai ideologi terbuka karena memiliki Dimensi Realitas. Contoh konkret penerapan Dimensi Realitas Pancasila dalam kehidupan masyarakat adalah ....",
+      "pilihan_jawaban": [
+        "a. masyarakat Indonesia sejak dulu terbiasa hidup gotong royong dan tolong-menolong dalam kegiatan sosial",
+        "b. pemerintah mengadopsi seluruh sistem ekonomi kapitalis untuk meningkatkan pendapatan negara",
+        "c. warga negara wajib menghafalkan teks Pancasila setiap upacara bendera tanpa perlu mengamalkannya",
+        "d. penyusunan rancangan undang-undang yang mengabaikan kearifan lokal daerah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Dimensi Idealitas dalam ideologi Pancasila memberikan gambaran ideal tentang masyarakat yang ingin dituju. Relevansi Dimensi Idealitas dalam pembangunan nasional ditunjukkan oleh ....",
+      "pilihan_jawaban": [
+        "a. pembangunan infrastruktur yang hanya berpusat di satu pulau besar saja",
+        "b. perumusan target pembangunan nasional untuk mewujudkan keadilan sosial dan kesejahteraan bagi seluruh rakyat",
+        "c. penundaan program pendidikan gratis karena menganggap hal tersebut tidak penting",
+        "d. penetapan kebijakan ekonomi yang hanya menguntungkan pelaku usaha berskala besar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Pancasila memiliki Dimensi Fleksibilitas (keluwesan). Ketika Indonesia menghadapi era transformasi digital dan kecerdasan buatan (AI), penerapan Dimensi Fleksibilitas Pancasila yang paling tepat adalah ....",
+      "pilihan_jawaban": [
+        "a. menolak seluruh kemajuan teknologi digital karena dianggap merusak budaya ketimuran",
+        "b. mengembangkan inovasi teknologi dan regulasi digital baru yang selaras dengan nilai-nilai kemanusiaan dan keadilan Pancasila",
+        "c. menerima segala dampak negatif media sosial demi menjaga kebebasan tanpa batas",
+        "d. menghapus nilai-nilai luhur Pancasila dan menggantinya dengan etika digital internasional"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
