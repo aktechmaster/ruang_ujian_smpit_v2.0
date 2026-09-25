@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "IPA",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "tahun_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Unit terkecil dari makhluk hidup yang mampu melaksanakan semua fungsi kehidupan dinamakan...",
+      "pilihan_jawaban": [
+        "a. Organ",
+        "b. Jaringan",
+        "c. Sel",
+        "d. Sistem organ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Ilmuwan yang pertama kali menemukan dan menamai \"sel\" saat mengamati gabus di bawah mikroskop adalah...",
+      "pilihan_jawaban": [
+        "a. Antonie van Leeuwenhoek",
+        "b. Robert Hooke",
+        "c. Theodor Schwann",
+        "d. Matthias Schleiden"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Perbedaan utama antara sel prokariotik dan sel eukariotik adalah...",
+      "pilihan_jawaban": [
+        "a. Sel prokariotik memiliki membran inti sel, sedangkan eukariotik tidak",
+        "b. Sel prokariotik tidak memiliki membran inti sel, sedangkan eukariotik memiliki",
+        "c. Sel prokariotik memiliki dinding sel, sedangkan eukariotik tidak memiliki",
+        "d. Sel prokariotik tidak memiliki Sitoplasma, sedangkan eukariotik memiliki"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Bagian sel yang mengatur keluar masuknya zat dari dan ke dalam sel serta bersifat semipermeabel adalah...",
+      "pilihan_jawaban": [
+        "a. Membran sel",
+        "b. Dinding sel",
+        "c. Nukleus",
+        "d. Vakuola"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Organel sel yang mengandung enzim pencernaan dan berfungsi untuk mencerna zat sisa, makanan atau zat asing adalah...",
+      "pilihan_jawaban": [
+        "a. Lisosom",
+        "b. Ribosom",
+        "c. Peroksisom",
+        "d. Nukleolus"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Urutan tingkatan organisasi kehidupan dari yang paling sederhana hingga yang paling kompleks adalah...",
+      "pilihan_jawaban": [
+        "a. Organisme → Sistem Organ → Organ → Jaringan → Sel",
+        "b. Sel → Organ → Jaringan → Sistem Organ → Organisme",
+        "c. Jaringan → Sel → Organ → Sistem Organ → Organisme",
+        "d. Sel → Jaringan → Organ → Sistem Organ → Organisme"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Perhatikan organel-organel sel berikut: (1) Kloroplas, (2) Lisosom, (3) Dinding sel, (4) Mitokondria, (5) Sentriol. Organel yang hanya ditemukan pada sel tumbuhan ditunjukkan oleh nomor...",
+      "pilihan_jawaban": [
+        "a. 1 dan 2",
+        "b. 1 dan 3",
+        "c. 2 dan 5",
+        "d. 3 dan 4"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Di bawah ini merupakan pasangan antara nama jaringan dan fungsinya yang tepat, kecuali...",
+      "pilihan_jawaban": [
+        "a. Jaringan otot – Menggerakkan bagian tubuh melalui kontraksi",
+        "b. Jaringan saraf – Menerima dan meneruskan rangsangan (impuls)",
+        "c. Jaringan epitel – Menyokong dan mengikat jaringan lain",
+        "d. Jaringan ikat – Menyokong, melindungi, dan memberi bentuk tubuh"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Jaringan tulang keras adalah jaringan yang tersusun dari sel-sel tulang yang mengandung banyak zat...",
+      "pilihan_jawaban": [
+        "a. kalium",
+        "b. kalsium",
+        "c. natrium",
+        "d. besi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Kumpulan dari beberapa jaringan yang berbeda dan bekerja sama untuk melakukan fungsi tertentu dalam tubuh organisme disebut...",
+      "pilihan_jawaban": [
+        "a. Sel",
+        "b. Organ",
+        "c. Sistem organ",
+        "d. Organisme"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Jaringan pembuluh yang mengangkut air, unsur hara dan garam mineral pada tumbuhan adalah...",
+      "pilihan_jawaban": [
+        "a. Kambium",
+        "b. Floem",
+        "c. Xilem",
+        "d. Nukleus"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Urutan organ saluran pencernaan makanan pada manusia yang benar adalah....",
+      "pilihan_jawaban": [
+        "a. Mulut – kerongkongan – lambung – usus besar – usus halus – anus",
+        "b. Mulut – kerongkongan – lambung – usus halus – usus besar – anus",
+        "c. Mulut – tenggorokan – lambung – usus halus – usus besar – anus",
+        "d. Mulut – tenggorokan – lambung – usus besar – usus halus – anus"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Gangguan penyerapan air oleh alat pencernaan disebabkan diare terjadi pada...",
+      "pilihan_jawaban": [
+        "a. Lambung",
+        "b. Usus halus",
+        "c. Usus buntu",
+        "d. Usus besar"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Berdasarkan asalnya, zat aditif digolongkan menjadi zat aditif alami dan buatan. Berikut ini pemanis alami dan pemanis buatan secara urut adalah ...",
+      "pilihan_jawaban": [
+        "a. madu dan maltosa",
+        "b. aspartam dan gula",
+        "c. sorbitol dan siklamat",
+        "d. siklamat dan gula aren"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Tujuan penggunaan zat aditif pada makanan adalah untuk meningkatkan kualitas makanan, salah satunya adalah sirup yang manis ditambahkan salah satu jenis zat aditif menjadi beraroma buah melon. Zat yang ditambahkan tersebut menurut fungsi zat aditif adalah ...",
+      "pilihan_jawaban": [
+        "a. penyedap",
+        "b. pemanis",
+        "c. perasa",
+        "d. penambah aroma"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Wortel, kunyit, dan daun suji adalah contoh zat aditif alami yang berfungsi sebagai ...",
+      "pilihan_jawaban": [
+        "a. pemanis",
+        "b. pengawet",
+        "c. pewarna",
+        "d. penambah aroma"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Bahan pewarna yang disarankan untuk dipakai dalam produk makanan dan minuman adalah....",
+      "pilihan_jawaban": [
+        "a. pewarna alami karena lebih mudah diperoleh dari pewarna buatan",
+        "b. pewarna buatan karena pewarna buatan lebih mudah dibeli di toko",
+        "c. pewarna alami karena tidak memiliki efek samping dalam penggunaan dengan skala besar",
+        "d. pewarna buatan karena tidak akan menimbulkan penyakit apapun meski dipakai dalam jumlah banyak"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Suatu zat yang ditambahkan kedalam makanan untuk keperluan tertentu disebut zat...",
+      "pilihan_jawaban": [
+        "a. adisi",
+        "b. adiktif",
+        "c. aditif",
+        "d. Sintetis"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Enzim yang terdapat di bagian mulut adalah....",
+      "pilihan_jawaban": [
+        "a. Enzim Amilase",
+        "b. Getah empedu",
+        "c. Asam Klorida (HCL)",
+        "d. Enzim Tripsin"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Kelompok vitamin yang dapat larut dalam air adalah...",
+      "pilihan_jawaban": [
+        "a. A,B,C,D",
+        "b. B,C",
+        "c. A,K",
+        "d. A,D,E,K"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Infeksi pada usus besar sehingga feses menjadi encer yang disebabkan oleh bakteri atau protozoa disebut...",
+      "pilihan_jawaban": [
+        "a. Xerostomia",
+        "b. Sembelit",
+        "c. Tukak lambung",
+        "d. Diare"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Gerak yang dilakukan kerongkongan sehingga makanan masuk kedalam lambung disebut gerak...",
+      "pilihan_jawaban": [
+        "a. brown",
+        "b. melebar dan mengecil",
+        "c. peristaltik",
+        "d. membuka dan menutup"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Darah sukar membeku disebabkan kekurangan vitamin...",
+      "pilihan_jawaban": [
+        "a. K",
+        "b. D",
+        "c. E",
+        "d. C"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Istilah lain dari gigi seri disebut ...",
+      "pilihan_jawaban": [
+        "a. Insicor",
+        "b. Caninus",
+        "c. Molar",
+        "d. Premolar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Didalam usus halus selain terjadi penyerapan zat-zat makanan, juga terjadi pencernaan protein yang enzimnya berasal dari kelenjar pankreas, yaitu enzim...",
+      "pilihan_jawaban": [
+        "a. Pepsin",
+        "b. ptialin",
+        "c. Renin",
+        "d. tripsin"
+      ],
+      "kunci_jawaban": "D"
+    }
+  ]
+}
