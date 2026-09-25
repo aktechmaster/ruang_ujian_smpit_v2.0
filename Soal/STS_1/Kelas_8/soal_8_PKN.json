@@ -1,10 +1,9 @@
 {
   "metadata": {
     "mata_pelajaran": "PKN",
-    "jenis_ujian": "Sumatif Tengah Semester",
+    "jenis_ujian": "STS_1",
     "jumlah_soal": 25,
-    "tahun_ajaran": "2026/2027"
-    
+    "durasi_menit": 60
   },
   "bank_soal": [
     {
