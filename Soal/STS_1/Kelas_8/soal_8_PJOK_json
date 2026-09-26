@@ -4,7 +4,7 @@
     "mata_pelajaran": "PJOK",
     "jenis_ujian": "Sumatif Tengah Semester",
     "jumlah_soal": 25,
-    "tahun_ajaran": "2026/2027"
+    "durasi_waktu": "2026/2027"
   },
   "bank_soal": [
     {
@@ -97,8 +97,9 @@
     },
     {
       "id_soal": 9,
-      "teks_pertanyaan": "Perhatikan gambar berikut! Nama pukulan yang digunakan dalam gambar diatas adalah… (soal ini disertai gambar pada dokumen asli, tidak dapat ditampilkan dalam format JSON)",
-      "pilihan_jawaban": [
+      "teks_pertanyaan": "Perhatikan gambar berikut! Nama pukulan yang digunakan dalam gambar diatas adalah…",
+"gambar":Images/STS_1/images_PJOK_8_/9.png",      
+"pilihan_jawaban": [
         "a. Forhand",
         "b. Backhand",
         "c. Smash",
@@ -130,8 +131,9 @@
     },
     {
       "id_soal": 12,
-      "teks_pertanyaan": "Perhatikan gambar diatas, nama service tersebut adalah… (soal ini disertai gambar pada dokumen asli, tidak dapat ditampilkan dalam format JSON)",
-      "pilihan_jawaban": [
+      "teks_pertanyaan": "Perhatikan gambar diatas, nama service tersebut adalah… ",
+"gambar":Images/STS_1/images_PJOK_8_/12.png",     
+"pilihan_jawaban": [
         "a. Service Long",
         "b. Service biasa",
         "c. Service panjang",
