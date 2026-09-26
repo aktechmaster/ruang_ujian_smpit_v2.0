@@ -1,1 +1,286 @@
 
+{
+  "metadata": {
+    "mata_pelajaran": "Informatika",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "waktu_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Dalam konteks berfikir komputasional, langkah pertama dalam memecahkan masalah adalah...",
+      "pilihan_jawaban": [
+        "a. merancang algoritma",
+        "b. melakukan perhitungan langsung",
+        "c. memahami dan mengidentifikasi masalah",
+        "d. membuat program komputer"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Jika skala peta adalah 1:20.000 maka setiap 1 cm pada peta mewakili jarak sebenarnya sebesar...",
+      "pilihan_jawaban": [
+        "a. 2 km",
+        "b. 0,2 km",
+        "c. 20 km",
+        "d. 200 km"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Dalam kesehatan, MHR adalah singkatan dari...",
+      "pilihan_jawaban": [
+        "a. Minimal Heart Rate",
+        "b. Maximum Heart Rate",
+        "c. Modarate Heart Rate",
+        "d. Main Heart Rate"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Zona latihan yang dihitung berdasarkan 60%-70% dari MHR disebut sebagai zona...",
+      "pilihan_jawaban": [
+        "a. pemulihan",
+        "b. latihan ringan",
+        "c. latihan moderat",
+        "d. latihan intens"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Program yang menghitung MHR menampilkan hasil dalam satuan...",
+      "pilihan_jawaban": [
+        "a. Kg (Kilogram)",
+        "b. Cm (Centimeter)",
+        "c. Bpm (beat per minute)",
+        "d. Km (Kilometer)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Jika usia seseorang adalah 27 tahun, maka nilai MHR yang dihitung dengan rumus MHR = 220 - umur adalah ...",
+      "pilihan_jawaban": [
+        "a. 205 bpm",
+        "b. 193 bpm",
+        "c. 200 bpm",
+        "d. 180 bpm"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Skala peta diperlukan saat menghitung jarak di peta, karena untuk...",
+      "pilihan_jawaban": [
+        "a. Mengetahui bentuk geografis",
+        "b. Menentukan ukuran peta",
+        "c. Mengonversi jarak peta menjadi jarak sebenarnya",
+        "d. Menentukan luas wilayah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Dalam pemrosesan teks, istilah normalisasi mengacu pada...",
+      "pilihan_jawaban": [
+        "a. menggabungkan semua kalimat dalam satu baris",
+        "b. menghapus spasi pada setiap kata",
+        "c. mengubah teks menjadi format seragam",
+        "d. menambahkan tanda baca pada setiap kata"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Tujuan dari algoritma \"Euclidean\" adalah...",
+      "pilihan_jawaban": [
+        "a. menemukan bilangan prima",
+        "b. menghitung kecepatan rata-rata",
+        "c. menyelesaikan persamaan dua variabel",
+        "d. menemukan faktor persekutuan terbesar (FPB)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Dalam algoritma menghitung kecepatan rata-rata, langkah pertama yang harus dilakukan adalah...",
+      "pilihan_jawaban": [
+        "a. Meminta input dari pengguna",
+        "b. Menghitung waktu tempuh",
+        "c. Mengonversi satuan jarak",
+        "d. Menampilkan hasil"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Algoritma \"Euclidean\" akan berhenti jika ....",
+      "pilihan_jawaban": [
+        "a. pembagi sama dengan bilangan terkecil",
+        "b. bilangan pertama lebih kecil dari bilangan kedua",
+        "c. bilangan terbesar dibagi bilangan terkecil",
+        "d. sisa pembagian adalah nol"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Dalam perhitungan umur, program memerlukan tanggal saat ini untuk ....",
+      "pilihan_jawaban": [
+        "a. membandingkan dengan tanggal lahir",
+        "b. mengonversi usia dalam tahun ke jam",
+        "c. menghentikan program secara otomatis",
+        "d. menghitung waktu berjalan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Program menghitung MHR berdasarkan input pengguna yang berupa ....",
+      "pilihan_jawaban": [
+        "a. usia dan jenis kelamin",
+        "b. usia",
+        "c. tinggi badan dan usia",
+        "d. usia dan berat badan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Tujuan utama menghitung frekuensi kata dalam sebuah teks adalah untuk ....",
+      "pilihan_jawaban": [
+        "a. mencari kata yang jarang digunakan",
+        "b. menentukan kata yang sering muncul dalam teks",
+        "c. mengukur panjang kalimat",
+        "d. menghapus kata yang sering digunakan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Algoritma Euclidean bekerja dengan cara ....",
+      "pilihan_jawaban": [
+        "a. mengalikan dua bilangan",
+        "b. membagi secara berulang hingga sisa nol",
+        "c. menjumlahkan bilangan secara berulang",
+        "d. mengurangi bilangan secara bertahap"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Jika algoritma Euclidean menemukan sisa nol, maka ....",
+      "pilihan_jawaban": [
+        "a. proses dihentikan, dan nilai FPB ditemukan",
+        "b. proses berlanjut sampai dua bilangan sama",
+        "c. proses dihentikan, dan nilai terkecil digunakan",
+        "d. proses dilanjutkan dengan mengalikan sisa"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Dalam metode substitusi, setelah menemukan nilai salah satu variabel, langkah selanjutnya adalah ....",
+      "pilihan_jawaban": [
+        "a. mengganti nilai variabel kedua",
+        "b. mensubstitusi nilai variabel yang ditemukan ke dalam persamaan",
+        "c. menambahkan konstanta ke dalam persamaan",
+        "d. menghapus variabel"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Langkah pertama dalam algoritma \"Sieve of Eratosthenes\" adalah ....",
+      "pilihan_jawaban": [
+        "a. membagi bilangan dengan 2",
+        "b. membuat daftar bilangan dari 2 hingga n",
+        "c. menandai bilangan ganjil",
+        "d. menghitung akar kuadrat dari n"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Dalam algoritma menghitung kecepatan, jika waktu yang dimasukkan bernilai 0, program akan ....",
+      "pilihan_jawaban": [
+        "a. melanjutkan proses perhitungan",
+        "b. menghasilkan pesan kesalahan",
+        "c. menghitung kecepatan sebagai...",
+        "d. mengulangi input jarak"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Setelah menjalankan algoritma \"Sieve of Eratosthenes\", bilangan yang tidak ditandai adalah ....",
+      "pilihan_jawaban": [
+        "a. bilangan yang lebih besar dari n",
+        "b. bilangan prima",
+        "c. bilangan genap",
+        "d. bilangan bulat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Hasil akhir dari algoritma substitusi adalah ....",
+      "pilihan_jawaban": [
+        "a. menampilkan nilai x dan y",
+        "b. nilai x",
+        "c. nilai y",
+        "d. mengganti variabel x dengan variabel y"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Dalam algoritma perhitungan kecepatan rata-rata, konversi waktu ke satuan jam bertujuan untuk ....",
+      "pilihan_jawaban": [
+        "a. Membuat input waktu lebih mudah dimasukkan",
+        "b. menjaga konsistensi satuan dengan jarak",
+        "c. mengurangi waktu proses program",
+        "d. memastikan hasil dalam satuan menit"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Tujuan utama menghitung frekuensi kata dalam analisis teks adalah untuk...",
+      "pilihan_jawaban": [
+        "a. mengetahui distribusi kata dalam teks",
+        "b. menghitung jumlah kalimat dalam teks",
+        "c. mengukur panjang teks dalam halaman",
+        "d. menentukan sinonim dari kata tertentu"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Fungsi utama dari program yang menghitung MHR adalah...",
+      "pilihan_jawaban": [
+        "a. menentukan intensitas latihan yang aman berdasarkan usia",
+        "b. memprediksi berat badan ideal seseorang",
+        "c. menghitung kalori yang dibakar saat latihan",
+        "d. memantau tekanan darah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Jika algoritma meminta input umur dari pengguna untuk menghitung MHR, maka langkah selanjutnya adalah...",
+      "pilihan_jawaban": [
+        "a. mengurangi 220 dengan umur untuk mendapatkan MHR",
+        "b. mengalikan umur dengan 10 untuk mendapatkan denyut nadi",
+        "c. menyimpan data umur tanpa proses lebih lanjut",
+        "d. membandingkan umur dengan batas standar"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
