@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "IPS",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Lokasi absolut merupakan lokasi yang disajikan pada peta melalui…",
+      "pilihan_jawaban": [
+        "a. garis batas suatu negara",
+        "b. garis lintang dan garis bujur",
+        "c. gambaran peta sesungguhnya",
+        "d. garis khayal dan garis meridian"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Dilihat dari posisinya sebagai pemenuhan kebutuhan kota, desa berfungsi sebagai…",
+      "pilihan_jawaban": [
+        "a. pusat industri",
+        "b. pusat Pendidikan",
+        "c. sumber bahan pangan",
+        "d. tempat pemusatan penduduk"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Salah satu dampak dari el nino di Indonesia Adalah ....",
+      "pilihan_jawaban": [
+        "a. curah hujan tinggi",
+        "b. musim kemarau Panjang",
+        "c. banjir",
+        "d. gunung meletus"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Wilayah indonesia merupakan pertemuan dari dua deretan pegunungan lipatan muda dunia, yaitu rangkaian pegunungan ...",
+      "pilihan_jawaban": [
+        "a. amerika dan asia",
+        "b. indoaustralia dan pasifik",
+        "c. sirkum mediterian dan sirkum pasifik",
+        "d. sirkum pasifik dan asia"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Indonesia merupakan zona pertemuan tiga lempeng, yaitu ....",
+      "pilihan_jawaban": [
+        "a. eurasia, indo-australia dan pasifik",
+        "b. amerika, asia dan australia",
+        "c. indo-australia, asia dan amerika",
+        "d. pasifik, asia dan eurasia"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Gempa bumi yang terjadi karena adanya pergeseran lempeng bumi disebut dengan gempa…",
+      "pilihan_jawaban": [
+        "a. runtuhan",
+        "b. vulkanik",
+        "c. getaran",
+        "d. tektonik"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Perhatikan poin-poin berikut!\nBudayanya heterogen\nBergantung pada alam\nHukum adat masih kental\nLembaga social komplek\nGotong royong dan akrab\nBerdasarkan poin-poin tersebut, ciri-ciri masyarakat desa ditunjukkan oleh nomor…",
+      "pilihan_jawaban": [
+        "a. 1, 3 dan 4",
+        "b. 1, 4, dan 5",
+        "c. 2, 4 dan 5",
+        "d. 2, 3 dan 5"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Kota depok dengan sumber daya manusia yang terampil berintegrasi dengan kota jakarta yang memiliki banyak lapangan pekerjaan. Terjadinya interaksi antarkota tersebut disebabkan oleh faktor...",
+      "pilihan_jawaban": [
+        "a. adanya kemudahan perpindahan ruang",
+        "b. adanya wilayah-wilayah yang saling melengkapi",
+        "c. adanya keinginana untuk berintegrasi",
+        "d. adanya kemudahan perpindahan ruang"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Berdasarkan letak absolut indonesia, indonesia terletak…",
+      "pilihan_jawaban": [
+        "a. di wilayah yang beriklim tropis",
+        "b. di gugusan pegunungan muda",
+        "c. di paparan sunda paparan sahul",
+        "d. di antara benua asia dan benua australia"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Suhu dipermukaan bumi berbeda-beda. Hal ini dipengaruhi oleh perbedaan …",
+      "pilihan_jawaban": [
+        "a. Letak ketinggian dan lama penyinaran",
+        "b. Letak lintang dan perbedaan ketinggian",
+        "c. Ketinggian dan perbedaan letak garis bujur",
+        "d. Kemiringan dan kelandaian permukaan bumi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Mitigasi adalah …",
+      "pilihan_jawaban": [
+        "a. Tindakan untuk mengurangi dampak bencana",
+        "b. Penyebab bencana",
+        "c. Evakuasi bencana",
+        "d. Bantuan bencana"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Garis lintang Adalah garis khayal yang digunakan untuk menentukan …",
+      "pilihan_jawaban": [
+        "a. Arah angin",
+        "b. Lokasi relatif",
+        "c. Lokasi dibumi pada peta atau globe",
+        "d. Lokasi absolut"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Garis yang digunakan untuk menentukan zona waktu dunia disebut …",
+      "pilihan_jawaban": [
+        "a. garis sejajar",
+        "b. garis khayal",
+        "c. garis lintang",
+        "d. garis bujur"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Dampak positif dari kondisi geologis Indonesia adalah …",
+      "pilihan_jawaban": [
+        "a. posisi Indonesia berada pada pertemuan tiga lempeng",
+        "b. munculnya banyak gunung api ditengah laut",
+        "c. wilayah Indonesia mengandung banyak tambang dan mineral",
+        "d. potensi bencana alam yang besar"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Andre dan teman-temannya mendaki gunung. Ketika mereka sampai dipuncak gunung, suhu menjadi makin dingin. Hal ini karena…",
+      "pilihan_jawaban": [
+        "a. terdapat banyak pepohonan di daerah pegunungan",
+        "b. makin tinggi sebuah tempat, makin tinggi tekanan udaranya",
+        "c. makin tinggi sebuah tempat, makin rendah tekanan udaranya",
+        "d. hanya sedikit pemukiman yang berada di puncak gunung"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Kegiatan ekonomi terdiri atas kegiatan …",
+      "pilihan_jawaban": [
+        "a. konsumsi, perantara dan konsumen",
+        "b. konsumen, produsen dan distribusi",
+        "c. produsen, konsumsi dan ritel",
+        "d. Produksi, distribusi, konsumsi"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Tujuan dari kegiatan produksi adalah …",
+      "pilihan_jawaban": [
+        "a. untuk menciptakan produk terbaru",
+        "b. memenuhi kebutuhan manusia dalam mencapai kemakmuran",
+        "c. kebutuhan manusia yang semakin meningkat",
+        "d. kebutuhan manusia yang beragam"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Berikut yang merupakan contoh kegiatan distribusi adalah…",
+      "pilihan_jawaban": [
+        "a. Rena menjual kaos polos yang di ambil dari koveksi keteman-temannya dikelas",
+        "b. Nita membuat boneka dari kain flannel untuk dijual kepada teman-temannya",
+        "c. Badu memberikan jasa les matematika kepada temannya setiap hari selasa",
+        "d. Raziel meraut semua pensilnya karena sudah tumpul"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Kondisi rata-rata suhu, angin, kelembapan, dan curah hujan selama periode waktu yang relatif singkat dan dapat berubah dalam hitungan jam,hari, atau bakhan minggu sebut...",
+      "pilihan_jawaban": [
+        "a. iklim",
+        "b. cuaca",
+        "c. atmosfer",
+        "d. curah hujan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Perhatikan poin-poin berikut!\nTsunami\nGempa bumi\nPuting beliung\nErupsi gunung api\nKebakaran hutan\nBencana yang disebabkan oleh faktor-faktor geologis indonesia adalah…",
+      "pilihan_jawaban": [
+        "a. 1, 2  dan 3",
+        "b. 1, 2, dan 4",
+        "c. 1, 4, dan 5",
+        "d. 3, 4, dan 5"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Perbedaan zona iklim dibumi dapat ditentukan melalui garis…",
+      "pilihan_jawaban": [
+        "a. bujur",
+        "b. lintang",
+        "c. khatulistiwa",
+        "d. meridian utama"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Kegiatan distribusi dari produsen ke konsumen yang dilakukan melalui pedagang eceran disebut …",
+      "pilihan_jawaban": [
+        "a. distribusi langsung",
+        "b. distribusi tidak langsung",
+        "c. distribusi semi langsung",
+        "d. formal"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Contoh kegiatan konsumsi untuk menghabiskan nilai guna suatu barang adalah…",
+      "pilihan_jawaban": [
+        "a. menggunakan sepeda",
+        "b. mencuci pakaian dengan detergen",
+        "c. menggunakan mesin penjahit",
+        "d. menggunakan penanak nasi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Lembaga-lembaga yang termasuk kedalam perantara khusus dalam pendistribusian barang adalah...",
+      "pilihan_jawaban": [
+        "a. Pedangang besar, agen dan makelar",
+        "b. Agen, eksportir dan importir",
+        "c. Eksportir, pedagang besar dan agen",
+        "d. Importir, makelar dan  agen"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Faktor-faktor nonekonomi yang yang mempengaruhi konsumsi adalah",
+      "pilihan_jawaban": [
+        "a. Tingkat pendidikan dan tempat tinggal",
+        "b. Tingkat pendapatan dan tingkat pendidikan",
+        "c. Tempat tinggal dan tingkat harga barang dan jasa",
+        "d. Tingkat pendidikan dan ketersediaan barang dan jasa"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
