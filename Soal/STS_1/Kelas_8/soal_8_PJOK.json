@@ -3,7 +3,7 @@
     "mata_pelajaran": "PJOK",
     "jenis_ujian": "Sumatif Tengah Semester",
     "jumlah_soal": 25,
-    "durasi_waktu": 60
+    "durasi_menit": 60
   },
   "bank_soal": [
     {
