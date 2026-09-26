@@ -1,1 +1,286 @@
 
+{
+  "metadata": {
+    "mata_pelajaran": "PJOK",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "tahun_ajaran": "2026/2027"
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Permainan badminton termasuk dalam permainan…",
+      "pilihan_jawaban": [
+        "a. Bola besar",
+        "b. Bola kecil",
+        "c. Permainan berkelompok",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Nama lain dari permainan badminton adalah…",
+      "pilihan_jawaban": [
+        "a. Bulutangkis",
+        "b. Raket",
+        "c. Cock",
+        "d. Badmin"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Ada berapa type permainan badminton...",
+      "pilihan_jawaban": [
+        "a. 1 type ganda saja",
+        "b. 3 type ganda, Tunggal dan Trio",
+        "c. 2 type Ganda dan Tunggal",
+        "d. campuran"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Nama bola yang dimainkan dalam permainan badminton adalah…",
+      "pilihan_jawaban": [
+        "a. Takraw",
+        "b. Minotte",
+        "c. Cock",
+        "d. Sambaru"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Yang dimaksud permainan ganda dalam permainan badminton adalah ....",
+      "pilihan_jawaban": [
+        "a. Campuran",
+        "b. 1 vs 1",
+        "c. 4 vs 4",
+        "d. 2 vs 2"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Berapakah game (selesai) dalam sebuah permainan badminton..",
+      "pilihan_jawaban": [
+        "a. 21 point",
+        "b. 22 point",
+        "c. 23 point",
+        "d. 24 point"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Yang bukan termasuk teknik dasar dalam permainan badminton adalah..",
+      "pilihan_jawaban": [
+        "a. Service",
+        "b. Pukulan",
+        "c. Smash",
+        "d. Passing"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Ada berapa pukulan dalam permainan badminton...",
+      "pilihan_jawaban": [
+        "a. 2 pukulan forhand dan backhand",
+        "b. 1 pukulan forhand",
+        "c. 3 pukulan forhand, backhand dan smash",
+        "d. Banyak dan semua boleh"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Perhatikan gambar berikut! Nama pukulan yang digunakan dalam gambar diatas adalah… (soal ini disertai gambar pada dokumen asli, tidak dapat ditampilkan dalam format JSON)",
+      "pilihan_jawaban": [
+        "a. Forhand",
+        "b. Backhand",
+        "c. Smash",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Teknik service pendek menggunakan pukulan…",
+      "pilihan_jawaban": [
+        "a. Lob panjang",
+        "b. Forehand",
+        "c. Backhand",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Teknik service panjang menggunakan pukulan..",
+      "pilihan_jawaban": [
+        "a. Forehand",
+        "b. Lob panjang",
+        "c. Backhand",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Perhatikan gambar diatas, nama service tersebut adalah… (soal ini disertai gambar pada dokumen asli, tidak dapat ditampilkan dalam format JSON)",
+      "pilihan_jawaban": [
+        "a. Service Long",
+        "b. Service biasa",
+        "c. Service panjang",
+        "d. Service pendek"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Permainan bola bakar adalah permainan beregu, berapa satu tim dalam permainan tersebut…",
+      "pilihan_jawaban": [
+        "a. 5 pemain inti dan 5 cadangan",
+        "b. 15 pemain inti dan 2 cadangan",
+        "c. 12 pemain inti dan 3 cadangan",
+        "d. 20 pemain inti dan 3 cadangan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Ada 2 jenis tim dalam permainan bola bakar…",
+      "pilihan_jawaban": [
+        "a. Penyerang dan pembunuh",
+        "b. Penyerang dan bertahan",
+        "c. Pembakar dan bertahan",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Berapa point yang didapatkan ketika berhasil membakar lawan…",
+      "pilihan_jawaban": [
+        "a. 3 point",
+        "b. 5 point",
+        "c. 2 point",
+        "d. 4 point"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Berapa jatah pukulan untuk tim penyerang dalam permainan bola bakar…",
+      "pilihan_jawaban": [
+        "a. 6 pukulan",
+        "b. 3 pukulan",
+        "c. 5 pukulan",
+        "d. 6 pukulan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Apa yang terjadi untuk tim penyerang jika gagal semua dalam memukul bola…",
+      "pilihan_jawaban": [
+        "a. Terjadi pergantian posisi",
+        "b. Tidak terjadi apa-apa",
+        "c. Tim penyerang akan dihukum",
+        "d. Tim penyerang otomatis kalah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Jika pemain berhasil mendapatkan point strike, berapakah point yang diperoleh oleh tim tersebut…",
+      "pilihan_jawaban": [
+        "a. 60 point",
+        "b. 10 point",
+        "c. 30 point",
+        "d. 20 point"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Pemain yang memukul bola sampai out akan diberi sanksi berupa....",
+      "pilihan_jawaban": [
+        "a. Tidak terjadi apa-apa",
+        "b. Jatah pukulannya dikurangi satu",
+        "c. Tidak boleh bermain",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Hukuman yang didapatkan oleh pemain yang terbakar adalah…",
+      "pilihan_jawaban": [
+        "a. Tidak boleh bermain lagi",
+        "b. Tidak boleh bermain satu putaran",
+        "c. Tidak boleh bermain sampai diselamatkan",
+        "d. Boleh bermain lagi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Berapa point yang diperoleh oleh tim jika pemain berhasil selamat dengan cara berhenti-henti..",
+      "pilihan_jawaban": [
+        "a. 20 point",
+        "b. 15 point",
+        "c. 10 point",
+        "d. 5 point"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Berapa post yang digunakan dalam permainan bola bakar..",
+      "pilihan_jawaban": [
+        "a. 3 post",
+        "b. 6 post",
+        "c. 5 post",
+        "d. 4 post"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Dalam satu post, berapakah maksimal orang yang boleh diisi..",
+      "pilihan_jawaban": [
+        "a. 3 orang",
+        "b. 5 orang",
+        "c. 4 orang",
+        "d. 7 orang"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Didalam permainan bola bakar diperlukan…",
+      "pilihan_jawaban": [
+        "a. Kekompakan",
+        "b. Skill individu",
+        "c. Orang-orang hebat saja",
+        "d. Kecurangan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Untuk tim penyerang, skill yang paling diperlukan adalah…",
+      "pilihan_jawaban": [
+        "a. Kelenturan",
+        "b. Kekuatan",
+        "c. Kecepatan",
+        "d. Kelincahan"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
