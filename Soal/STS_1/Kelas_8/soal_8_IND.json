@@ -1,1 +1,287 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Indonesia",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Pengamatan dengan mengungkapkan gambaran umum suatu objek disebut....",
+      "pilihan_jawaban": [
+        "a. Teks Narasi",
+        "b. Teks Deskripsi",
+        "c. Teks Laporan Hasil Observasi",
+        "d. Teks Berita"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Struktur dari teks laporan hasil observasi di bawah ini adalah, kecuali ....",
+      "pilihan_jawaban": [
+        "a. Judul",
+        "b. Deskripsi Umum",
+        "c. Deskripsi Bagian",
+        "d. Penutup"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Bagian yang memaparkan gambaran umum tentang objek yang diamati disebut....",
+      "pilihan_jawaban": [
+        "a. Judul",
+        "b. Deskripsi Umum",
+        "c. Deskripsi Bagian",
+        "d. Penutup"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Bagian yang memaparkan perincian lebih lanjut dari yang digambarkan disebut....",
+      "pilihan_jawaban": [
+        "a. Judul",
+        "b. Deskripsi Umum",
+        "c. Deskripsi Bagian",
+        "d. Penutup"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Contoh dari kalimat definisi sebagai berkut, kecuali ....",
+      "pilihan_jawaban": [
+        "a. Adalah",
+        "b. Merupakan",
+        "c. Yaitu",
+        "d. Sebagai Berikut"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "“Burung manyar adalah salah satu burung pemakan biji-bijian”\nKata yang digaris bawahi pada kalimat diatas merupakan contoh kata...",
+      "pilihan_jawaban": [
+        "a. Kata Defenisi",
+        "b. Kata Penjelas",
+        "c. Istilah Teknis",
+        "d. Kata Benda"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Bacalah kalimat berikut ini!\nTemu lawak (curcuma xanthorrhiza) merupakan tanaman obat. Tanaman ini termasuk dalam suku temu-temuan (zingiberaceae).\n\nDilihat dari unsur kebahasaannya, ciri bahasa yang menonjol dalam kalimat tersebut, yaitu...",
+      "pilihan_jawaban": [
+        "a. Kata Benda",
+        "b. Kata Istilah",
+        "c. Kata Verba",
+        "d. Kalimat Lugas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Bacalah teks berikut ini untuk menjawab soal nomor 8-10!\nHarimau sumatra adalah salah satu harimau yang memiliki ciri khusus. Ada ciri khusus binatang ini yang membedakan dengan harimau lainnya, misalnya harimau malasyia. Perbedaan tersebut bisa dilihat dari warna loreng dan ukuran fisiknya. Harimau sumatra warna lorengnya tampak lebih tegas dan ukuran tubuh memiliki bobot yang lebih besar.\n\nHal yang dilaporkan dalam kutipan tersebut adalah...",
+      "pilihan_jawaban": [
+        "a. Jenis Harimau",
+        "b. Ciri Khusus Harimau Sumatera",
+        "c. Bentuk Fisik Harimau Sumatera",
+        "d. Asal-usul Harimau Sumatera"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Berikut yang tidak berkaitan dengan ciri fisik/khusus harimau sumatra adalah ...",
+      "pilihan_jawaban": [
+        "a. Asalnya dari Sumatera",
+        "b. Warna Lorengnya",
+        "c. Ukuran Tubuh",
+        "d. Corak Warnanya"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Dilihat dari strukturnya, kutipan tersebut termasuk teks laporan hasil observasi bagian ....",
+      "pilihan_jawaban": [
+        "a. Definisi Umum",
+        "b. Definisi Bagian",
+        "c. Definisi Manfaat",
+        "d. Simpulan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 11-13!\nSirsak termasuk salah satu buah yang sangat banyak khasiatnya. Selain mengandung vitamin, sirsak banyak dimanfaatkan untuk menyembuhkan kanker. Tidak heran, kalau ada pihak yang menyebutnya sebagai buah ajaib. Hasil penelitian dari beberapa perguruan tinggi membuktikan bahwa daun dan buah sirsaknya dapat menghalau sel kanker dengan aman dan efektif secara alami, tanpa rasa mual, berat badan turun, rambut rontok, seperti yang terjadi pada kemoterapi. Konom, dan sirsak memiliki daya kerja memperlambat pertumbuhan sel kanker sepuluh ribu kali lebih kuat dibandingkan dengan adriamycin dan kemoterapi yang biasa digunakan.\n\nHal yang disampaikan dalam teks tersebut adalah ...",
+      "pilihan_jawaban": [
+        "a. Sirsak memiliki kasiat untuk mengobati penyakit kanker",
+        "b. Ciri-ciri buah dan daun sirsak yang dapat mengobati kanker",
+        "c. Kandungan gizi yang terdapat dalam buah untuk mengobati kanker",
+        "d. Zat antioksidan yang dapat mencegah kanker"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Jika dilihat dari isinya, kutipan tersebut termasuk teks laporan hasil observasi bagian ...",
+      "pilihan_jawaban": [
+        "a. Deskripsi Umum",
+        "b. Deskripsi Bagian",
+        "c. Deskripsi Manfaat",
+        "d. Simpulan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Kata teknis kemoterapi dalam kutipan tersebut bermakna ...",
+      "pilihan_jawaban": [
+        "a. Pengobatan dengan menggunakan bahan kimia yang sangat kuat untuk pertumbuhan sel kanker dalam tubuh.",
+        "b. Pengobatan dengan cara melakukan operasi atau pengangkatan sel kanker dalam tubuh.",
+        "c. Pengobatan dengan menggunakan penyinaran untuk menghentikan atau menghambat pertumbuhan sel kanker dalam tubuh.",
+        "d. Pengobatan dengan menggunakan pemijatan untuk menghentikan atau menghambat pertumbuhan sel kanker dalam tubuh."
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Kata-kata berikut yang termasuk istilah teknis adalah ...",
+      "pilihan_jawaban": [
+        "a. Biodata",
+        "b. Perairan",
+        "c. Ekosistem",
+        "d. Terumbu Karang"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Informasi yang menghadirkan perpaduan gambar dengan kata-kata, gerak dan ilustrasi serta video disebut ....",
+      "pilihan_jawaban": [
+        "a. Iklan",
+        "b. Slogan",
+        "c. Poster",
+        "d. Gambar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Teks yang hanya berupa kata-kata singkat disebut....",
+      "pilihan_jawaban": [
+        "a. Iklan",
+        "b. Slogan",
+        "c. Poster",
+        "d. Gambar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "gambar": "Images/STS_1/images_BINDO_8/17.png",
+      "teks_pertanyaan": "Gambar berikut tergolong ....",
+      "pilihan_jawaban": [
+        "a. Iklan",
+        "b. Slogan",
+        "c. Poster",
+        "d. Gambar"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "“Kegigihan lebih penting dari bakat.”\nKalimat tersebut tergolong ....",
+      "pilihan_jawaban": [
+        "a. Iklan",
+        "b. Slogan",
+        "c. Poster",
+        "d. Gambar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Perhatikan slogan berikut.\n\"Satu tunas untuk masa depan bumi kita.\"\n\nMakna slogan tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. Mari kita menanam pohon bersama-sama",
+        "b. Bumi ini akan indah jika pohon tidak ditebang",
+        "c. Satu pohon yang kita tanam sangat bermanfaat bagi masa depan bumi dan manusia",
+        "d. Pohon yang kita tanam tidak ada pengaruhnya bagi dunia ini"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "gambar": "Images/STS_1/images_BINDO_8/20.png",
+      "teks_pertanyaan": "Isi iklan di bawah ini adalah ...",
+      "pilihan_jawaban": [
+        "a. Penawaran Jasa",
+        "b. Penawarang Barang",
+        "c. Permintaan Jasa",
+        "d. Permintaan Barang"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "“Tiada hari tanpa prestasi.”\nSlogan tersebut tepat digunakan di bidang ....",
+      "pilihan_jawaban": [
+        "a. Ekonomi",
+        "b. Pendidikan",
+        "c. Sosisal",
+        "d. Hukum"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Langkah-langkah membuat slogan adalah sebagai berikut, kecuali ….",
+      "pilihan_jawaban": [
+        "a. Tentukan tema",
+        "b. Tentukan kata-kata",
+        "c. Tunjukkan produk",
+        "d. Gunakan kata yang menarik"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Kaidah kebahasaan teks iklan, slogan, dan poster adalah, kecuali ...",
+      "pilihan_jawaban": [
+        "a. Bertele-tele",
+        "b. Persuasif (mengajak)",
+        "c. Menarik",
+        "d. Jelas"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Kata-kata yang mencerminkan visi dan memberi motivasi merupakan ciri-ciri ....",
+      "pilihan_jawaban": [
+        "a. Iklan",
+        "b. Slogan",
+        "c. Poster",
+        "d. Gambar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Perbedaan utama slogan dan poster adalah ....",
+      "pilihan_jawaban": [
+        "a. Keberadaan teksnya",
+        "b. Keberadaan gambarnya",
+        "c. Tujuannya",
+        "d. Penulisannya"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
