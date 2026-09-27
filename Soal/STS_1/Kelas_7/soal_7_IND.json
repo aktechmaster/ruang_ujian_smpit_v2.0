@@ -8,7 +8,7 @@
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "Perhatikan ciri-ciri berikut!<br>(1) Menggambarkan atau melukiskan suatu objek.<br>(2) Penjelasan berfokus pada objek fisik atau suasana secara spesifik.<br>(3) Melibatkan panca indra (penglihatan, pendengaran, penciuman, pengecapan, atau perabaan).<br>(4) Bersifat menceritakan alur peristiwa dari awal sampai akhir.<br><br>Yang termasuk ciri-ciri teks deskripsi adalah nomor ....",
+      "teks_pertanyaan": "Perhatikan ciri-ciri berikut!\n(1) Menggambarkan atau melukiskan suatu objek.\n(2) Penjelasan berfokus pada objek fisik atau suasana secara spesifik.\n(3) Melibatkan panca indra (penglihatan, pendengaran, penciuman, pengecapan, atau perabaan).\n(4) Bersifat menceritakan alur peristiwa dari awal sampai akhir.\n\nYang termasuk ciri-ciri teks deskripsi adalah nomor ....",
       "pilihan_jawaban": [
         "A. (1), (2), dan (3)",
         "B. (1), (3), dan (4)",
@@ -30,7 +30,7 @@
     },
     {
       "id_soal": 3,
-      "teks_pertanyaan": "Bacalah kalimat berikut!<br>\"Pantai Senggigi berpasir putih bersih dengan air laut yang jernih kebiruan.\"<br><br>Penginderaan yang dominan dalam kalimat deskripsi tersebut adalah ....",
+      "teks_pertanyaan": "Bacalah kalimat berikut!\n\"Pantai Senggigi berpasir putih bersih dengan air laut yang jernih kebiruan.\"\n\nPenginderaan yang dominan dalam kalimat deskripsi tersebut adalah ....",
       "pilihan_jawaban": [
         "A. Pendengaran dan perabaan",
         "B. Penglihatan dan perabaan",
@@ -41,7 +41,7 @@
     },
     {
       "id_soal": 4,
-      "teks_pertanyaan": "Coronavirus itu merupakan keluarga besar virus yang dapat menyerang manusia dan hewan. Nah, pada manusia, biasanya menyebabkan penyakit infeksi saluran pernafasan, mulai dari flu biasa hingga penyakit serius, seperti MERS dan SARS.<br><br>Penggalan teks tersebut merupakan struktur teks deskripsi bagian ....",
+      "teks_pertanyaan": "Coronavirus itu merupakan keluarga besar virus yang dapat menyerang manusia dan hewan. Nah, pada manusia, biasanya menyebabkan penyakit infeksi saluran pernafasan, mulai dari flu biasa hingga penyakit serius, seperti MERS dan SARS.\n\nPenggalan teks tersebut merupakan struktur teks deskripsi bagian ....",
       "pilihan_jawaban": [
         "A. Identifikasi",
         "B. Deskripsi bagian",
@@ -53,7 +53,7 @@
     {
       "id_soal": 5,
       "gambar": "Images/STS_1/images_IND_7/5.png",
-      "teks_pertanyaan": "5.	Teks deskripsi di atas membahas tentang...",
+      "teks_pertanyaan": "Teks deskripsi di atas membahas tentang...",
       "pilihan_jawaban": [
         "A. Keindahan alam di Nusa Tenggara Timur",
         "B. Spesies kadal terbesar di dunia asal Indonesia",
@@ -97,7 +97,7 @@
     },
     {
       "id_soal": 9,
-      "teks_pertanyaan": "Mendengar berita duka itu, hatinya hancur berkeping-keping hingga air matanya mengalir bagai lautan.<br><br>Majas yang digunakan pada kalimat di atas adalah...",
+      "teks_pertanyaan": "Mendengar berita duka itu, hatinya hancur berkeping-keping hingga air matanya mengalir bagai lautan.\n\nMajas yang digunakan pada kalimat di atas adalah...",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
@@ -108,7 +108,7 @@
     },
     {
       "id_soal": 10,
-      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasi sekujur badan rumah, jenis kayunya sangat berkualitas, tongkonan juga didekorasi dengan sejumlah hiasan tanduk kerbau.<br><br>Berdasarkan rincian kalimat di atas secara struktur termasuk ke dalam ....",
+      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasi sekujur badan rumah, jenis kayunya sangat berkualitas, tongkonan juga didekorasi dengan sejumlah hiasan tanduk kerbau.\n\nBerdasarkan rincian kalimat di atas secara struktur termasuk ke dalam ....",
       "pilihan_jawaban": [
         "A. Identifikasi",
         "B. Deskripsi umum",
@@ -119,7 +119,7 @@
     },
     {
       "id_soal": 11,
-      "teks_pertanyaan": "Perhatikan kalimat berikut: \"Suara aumannya menggelegar membelah lautan.\"<br><br>Kalimat tersebut memuat majas ...",
+      "teks_pertanyaan": "Perhatikan kalimat berikut: \"Suara aumannya menggelegar membelah lautan.\"\n\nKalimat tersebut memuat majas ...",
       "pilihan_jawaban": [
         "A. Personifikasi",
         "B. Metafora",
@@ -130,7 +130,7 @@
     },
     {
       "id_soal": 12,
-      "teks_pertanyaan": "Perhatikan kalimat berikut!<br>\"Nyiur melambai-lambai di tepi pantai seolah menyambut kedatangan para wisatawan.\"<br><br>Kalimat tersebut menggunakan majas ....",
+      "teks_pertanyaan": "Perhatikan kalimat berikut!\n\"Nyiur melambai-lambai di tepi pantai seolah menyambut kedatangan para wisatawan.\"\n\nKalimat tersebut menggunakan majas ....",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
@@ -174,7 +174,7 @@
     },
     {
       "id_soal": 16,
-      "teks_pertanyaan": "Bacalah penggalan cerita fantasi berikut!<br>\"Aku masih takut dengan monster itu, tetapi aku harus menyelamatkan Jerry. Aku terbang dengan sayapku. Tiba-tiba muncul sebuah busur panah di tanganku.\"<br><br>Berdasarkan ciri isinya, bagian tersebut menunjukkan struktur ....",
+      "teks_pertanyaan": "Bacalah penggalan cerita fantasi berikut!\n\"Aku masih takut dengan monster itu, tetapi aku harus menyelamatkan Jerry. Aku terbang dengan sayapku. Tiba-tiba muncul sebuah busur panah di tanganku.\"\n\nBerdasarkan ciri isinya, bagian tersebut menunjukkan struktur ....",
       "pilihan_jawaban": [
         "A. Orientasi",
         "B. Komplikasi (mulai muncul masalah/konflik)",
@@ -241,7 +241,7 @@
     },
     {
       "id_soal": 22,
-      "teks_pertanyaan": "Perhatikan penggalan cerita berikut!<br>\"Pepohonan di dalam Hutan Larangan itu saling berbisik seolah-olah memperingatkan Alif agar segera kembali ke desanya.\"<br><br>Majas yang digunakan pada kalimat di atas adalah ....",
+      "teks_pertanyaan": "Perhatikan penggalan cerita berikut!\n\"Pepohonan di dalam Hutan Larangan itu saling berbisik seolah-olah memperingatkan Alif agar segera kembali ke desanya.\"\n\nMajas yang digunakan pada kalimat di atas adalah ....",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
