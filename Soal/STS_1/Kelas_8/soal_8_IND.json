@@ -63,7 +63,7 @@
     },
     {
       "id_soal": 6,
-      "teks_pertanyaan": "“Burung manyar adalah salah satu burung pemakan biji-bijian”\nKata yang digaris bawahi pada kalimat diatas merupakan contoh kata...",
+      "teks_pertanyaan": "“Burung manyar <u>adalah</u> salah satu burung pemakan biji-bijian”\nKata yang digaris bawahi pada kalimat diatas merupakan contoh kata...",
       "pilihan_jawaban": [
         "a. Kata Defenisi",
         "b. Kata Penjelas",
