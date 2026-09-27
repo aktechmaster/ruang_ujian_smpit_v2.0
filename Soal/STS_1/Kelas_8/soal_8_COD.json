@@ -63,7 +63,7 @@
     },
     {
       "id_soal": 6,
-      "teks_pertanyaan": "Langkah berpikir komputasional yang berarti mencari kesamaan atau pengulangan dari masalah yang kita temui disebut…",
+      "teks_pertanyaan": "langkah berpikir komputasional yang berarti mencari kesamaan atau pengulangan dari masalah yang kita temui disebut…",
       "pilihan_jawaban": [
         "a. Abstraksi",
         "b. Dekomposisi",
@@ -85,7 +85,7 @@
     },
     {
       "id_soal": 8,
-      "gambar": "Images/STS_1/images_COD_8/8.png",
+      "gambar": "Images/STS_1/images_CODING_8/8.png",
       "teks_pertanyaan": "Ilustrasi tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Abstraksi",
@@ -97,10 +97,10 @@
     },
     {
       "id_soal": 9,
-      "teks_pertanyaan": "Struktur kontrol (control structure) mengatur algoritma atau bagaimana suatu program berjalan, berikut yang bukan merupakan struktur kontrol dalam algoritma adalah…",
+      "teks_pertanyaan": "Struktur kontrol (control structure) mengatur algoitma atau bagaimana suatu program berjalan, berikut yang bukan merupakan struktur kontrol dalam algoritma adalah…",
       "pilihan_jawaban": [
         "a. Urutan (Sequence)",
-        "b. Percabangan (Selection)",
+        "b. Percanbangan (Selection)",
         "c. Variable/Deklarasi",
         "d. Pengulangan (Loop)"
       ],
@@ -152,7 +152,7 @@
     },
     {
       "id_soal": 14,
-      "teks_pertanyaan": "Perhatikan pseudocode berikut!\nMulai\nMemasukkan waktu sekarang\nJika waktu sekarang lebih dari atau sama dengan jam 19.00 maka\n    Tampilkan “Saatnya belajar”\nJika tidak maka\n    Tampilkan “Belum waktunya belajar”\nSelesai\n\nJika sekarang waktu menunjukkan pukul 21.00, maka output yang akan ditampilkan adalah ....",
+      "teks_pertanyaan": "Perhatika pseudocode berikut!\nMulai\nMemasukkan waktu sekarang\nJika waktu sekarang lebih dari atau sama dengan jam 19.00 maka\n    Tampilkan “Saatnya belajar”\nJika tidak maka\n    Tampilkan “Belum waktunya belajar”\nSelesai\n\nJika sekarang waktu menunjukkan pukul 21.00, maka output yang akan ditampilkan adalah ....",
       "pilihan_jawaban": [
         "a. Belum waktunya belajar",
         "b. Waktu istirahat",
@@ -218,7 +218,7 @@
     },
     {
       "id_soal": 20,
-      "teks_pertanyaan": "“Saat kamu ingin mencari nilai tertinggi siswa dikelasmu, kamu tidak perlu memperhatikan kolom alamat siswa atau tanggal lahir cukup fokus perhatikan kolom yang penting saja, misal kolom nilai.” Pernyataan tersebut merupakan contoh dari penerapan…dalam berpikir komputasional…",
+      "teks_pertanyaan": "“Saat kamu ingin mencari nilai tertinggi siswa dikelasmu, kamu tidak perlu memperhatikan kolom alamat siswa daa atau tanggal lahir cukup fokus perhatikan kolom yang penting saja, misal kolom nilai. pernyataan tersebut merupakan contoh dari penerapan…dalam berpikir komputasional…",
       "pilihan_jawaban": [
         "a. Abstraksi",
         "b. Algoritma",
@@ -229,12 +229,13 @@
     },
     {
       "id_soal": 21,
-      "teks_pertanyaan": "Sebanyak 40 siswa kelas 7A memilih kegiatan ekstrakurikuler. Data pilihan siswa disajikan dalam bentuk persentase pada diagram lingkaran berikut: Pramuka: 40%, Futsal: 25%, Basket: 20%, Seni Musik: 15%.\n\nJenis diagram yang paling cocok digunakan adalah…",
+      "gambar": "Images/STS_1/images_CODING_8/21.png",
+      "teks_pertanyaan": "Sebanyak 40 siswa kelas 7A memilih kegiatan ekstrakurikuler. Data pilihan siswa disajikan dalam bentuk persentase pada diagram lingkaran berikut: Pramuka: 40%, Futsal: 25%, Basket: 20%, Seni Musik: 15%.\nJenis diagram yang paling cocok digunakan adalah…",
       "pilihan_jawaban": [
-        "gambar": "Images/STS_1/images_COD_8/21a.png",
-        "gambar": "Images/STS_1/images_COD_8/21b.png",
-        "gambar": "Images/STS_1/images_COD_8/21c.png",
-        "gambar": "Images/STS_1/images_COD_8/21d.png",
+        "a. Diagram Lingkaran",
+        "b. Diagram Garis",
+        "c. Diagram Kolom",
+        "d. Diagram Batang"
       ],
       "kunci_jawaban": "A"
     },
@@ -251,7 +252,7 @@
     },
     {
       "id_soal": 23,
-      "gambar": "Images/STS_1/images_COD_8/23.png",
+      "gambar": "Images/STS_1/images_CODING_8/23.png",
       "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Flowchart",
@@ -267,14 +268,14 @@
       "pilihan_jawaban": [
         "a. Pseudocode dan Flowchart",
         "b. Fungsi dan Diagram",
-        "c. Data dan Column",
-        "d. Koding dan Pseudocode"
+        "c. Data dan Coulomn",
+        "d. Koding daan Pseudocode"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 25,
-      "gambar": "Images/STS_1/images_COD_8/25.png",
+      "gambar": "Images/STS_1/images_CODING_8/25.png",
       "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Flowchart",
