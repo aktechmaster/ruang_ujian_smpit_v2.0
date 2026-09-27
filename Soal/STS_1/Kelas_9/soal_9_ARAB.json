@@ -9,60 +9,60 @@
     {
       "id_soal": 1,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أنا تلميذة في المدرسة الثَّانَوِيَّةِ الإِسْلَامِيهِ الْحُكْمِيَّةِ إِسْمِي سيتي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي في شارع مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤنس و أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأطفال. لأبي ثلَاثَةُ أَوْلَادٍ اثْنَانِ رَجُلَانِ هُمَا أَخَوَيْ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتُ وَ هِيَ أَنَا\n\nأين تسكن عائشة مع عائلتها؟",
+      "teks_pertanyaan": "\u003cdiv class=\"bacaan teks-arab\"\u003eأَنَا تِلْمِيْذَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلَامِيَّةِ الْحُكْمِيَّةِ إِسْمِي سِيْتِي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي فِي شَارِعِ مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤْنُس وَ أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأَطْفَالِ. لأَبِي ثلَاثَةُ أَوْلَادٍ اِثْنَانِ رَجُلَانِ هُمَا أَخَوَيَّ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتٌ وَ هِيَ أَنَا\u003c/div\u003e\u003cdiv class=\"teks-arab\"\u003eأَيْنَ تَسْكُنُ عَائِشَةُ مَعَ عَائِلَتِهَا؟\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. في جاكرتا",
-        "B. في سورابايا",
-        "C. في سوراكارتا",
-        "D. في سولو"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eفِي جَاكَرْتَا\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eفِي سُوْرَابَايَا\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eفِي سُوْرَاكَرْتَا\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eفِي سُوْلُوْ\u003c/span\u003e"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 2,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أنا تلميذة في المدرسة الثَّانَوِيَّةِ الإِسْلَامِيهِ الْحُكْمِيَّةِ إِسْمِي سيتي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي في شارع مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤنس و أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأطفال. لأبي ثلَاثَةُ أَوْلَادٍ اثْنَانِ رَجُلَانِ هُمَا أَخَوَيْ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتُ وَ هِيَ أَنَا\n\nكم أولاد تتكون عائلة عائشة؟",
+      "teks_pertanyaan": "\u003cdiv class=\"bacaan teks-arab\"\u003eأَنَا تِلْمِيْذَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلَامِيَّةِ الْحُكْمِيَّةِ إِسْمِي سِيْتِي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي فِي شَارِعِ مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤْنُس وَ أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأَطْفَالِ. لأَبِي ثلَاثَةُ أَوْلَادٍ اِثْنَانِ رَجُلَانِ هُمَا أَخَوَيَّ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتٌ وَ هِيَ أَنَا\u003c/div\u003e\u003cdiv class=\"teks-arab\"\u003eكَمْ أَوْلَادٍ تَتَكَوَّنُ عَائِلَةُ عَائِشَةَ؟\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. ثلاثة أولاد",
-        "B. أربعة أولاد",
-        "C. تسعة أولاد",
-        "D. خمسة أولاد"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eثَلَاثَةُ أَوْلَادٍ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eأَرْبَعَةُ أَوْلَادٍ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eتِسْعَةُ أَوْلَادٍ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eخَمْسَةُ أَوْلَادٍ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 3,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أنا تلميذة في المدرسة الثَّانَوِيَّةِ الإِسْلَامِيهِ الْحُكْمِيَّةِ إِسْمِي سيتي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي في شارع مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤنس و أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأطفال. لأبي ثلَاثَةُ أَوْلَادٍ اثْنَانِ رَجُلَانِ هُمَا أَخَوَيْ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتُ وَ هِيَ أَنَا\n\nما اسم أب عائشة؟",
+      "teks_pertanyaan": "\u003cdiv class=\"bacaan teks-arab\"\u003eأَنَا تِلْمِيْذَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلَامِيَّةِ الْحُكْمِيَّةِ إِسْمِي سِيْتِي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي فِي شَارِعِ مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤْنُس وَ أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأَطْفَالِ. لأَبِي ثلَاثَةُ أَوْلَادٍ اِثْنَانِ رَجُلَانِ هُمَا أَخَوَيَّ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتٌ وَ هِيَ أَنَا\u003c/div\u003e\u003cdiv class=\"teks-arab\"\u003eمَا اسْمُ أَبِ عَائِشَةَ؟\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. أحمد يونس",
-        "B. حنيف مرحبا",
-        "C. عائشة",
-        "D. إلهام"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eأَحْمَدُ يُوْنُس\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eحَنِيْفُ مَرْحَبًا\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eعَائِشَةُ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eإِلْهَامُ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 4,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أنا تلميذة في المدرسة الثَّانَوِيَّةِ الإِسْلَامِيهِ الْحُكْمِيَّةِ إِسْمِي سيتي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي في شارع مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤنس و أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأطفال. لأبي ثلَاثَةُ أَوْلَادٍ اثْنَانِ رَجُلَانِ هُمَا أَخَوَيْ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتُ وَ هِيَ أَنَا\n\nأين تدرس أم عائشة؟",
+      "teks_pertanyaan": "\u003cdiv class=\"bacaan teks-arab\"\u003eأَنَا تِلْمِيْذَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلَامِيَّةِ الْحُكْمِيَّةِ إِسْمِي سِيْتِي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي فِي شَارِعِ مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤْنُس وَ أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأَطْفَالِ. لأَبِي ثلَاثَةُ أَوْلَادٍ اِثْنَانِ رَجُلَانِ هُمَا أَخَوَيَّ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتٌ وَ هِيَ أَنَا\u003c/div\u003e\u003cdiv class=\"teks-arab\"\u003eأَيْنَ تُدَرِّسُ أُمُّ عَائِشَةَ؟\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. في المدرسة الثانوية",
-        "B. في المدرسة العالية",
-        "C. في المدرسة المتوسطة",
-        "D. في روضة الأطفال"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الثَّانَوِيَّةِ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الْعَالِيَةِ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eفِي رَوْضَةِ الْأَطْفَالِ\u003c/span\u003e"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 5,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أنا تلميذة في المدرسة الثَّانَوِيَّةِ الإِسْلَامِيهِ الْحُكْمِيَّةِ إِسْمِي سيتي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي في شارع مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤنس و أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأطفال. لأبي ثلَاثَةُ أَوْلَادٍ اثْنَانِ رَجُلَانِ هُمَا أَخَوَيْ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتُ وَ هِيَ أَنَا\n\nأين يدرس أب عائشة؟",
+      "teks_pertanyaan": "\u003cdiv class=\"bacaan teks-arab\"\u003eأَنَا تِلْمِيْذَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلَامِيَّةِ الْحُكْمِيَّةِ إِسْمِي سِيْتِي عَائِشَةٌ. سَكَنْتُ فِي مَدِينَةِ سُورَاكَرْتَا مَعَ أَسْرَتِي الْكَبِيرَةِ الْمَحْبُوْبَةِ. وَقَعَ بَيْتِي فِي شَارِعِ مَأْسٍ مَنْصُورُ رَقْمِ ۲۱. أَبِي إِسْمُهُ أَحْمَدُ يُؤْنُس وَ أُمِّي إِسْمُهَا نُورُ الْعَيْنِي, كَلَاهُمَا مُدَرِّسَانِ فِي الْمَدْرَسَةِ. يُدَرِّسُ أَبِي فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ وَ تُدَرِّسُ أُمِّي فِي رَوْضَةِ الأَطْفَالِ. لأَبِي ثلَاثَةُ أَوْلَادٍ اِثْنَانِ رَجُلَانِ هُمَا أَخَوَيَّ الْكَبِيْرَانِ وَ وَاحِدَةٌ بِنْتٌ وَ هِيَ أَنَا\u003c/div\u003e\u003cdiv class=\"teks-arab\"\u003eأَيْنَ يُدَرِّسُ أَبُ عَائِشَةَ؟\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. في المدرسة الثانوية",
-        "B. في روضة الأطفال",
-        "C. في المدرسة العالية",
-        "D. في المدرسة المتوسطة"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الثَّانَوِيَّةِ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eفِي رَوْضَةِ الْأَطْفَالِ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الْعَالِيَةِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eفِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
@@ -71,10 +71,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "Yang termasuk contoh isim mufrod ialah...",
       "pilihan_jawaban": [
-        "A. ولد",
-        "B. مدرسون",
-        "C. أقلام",
-        "D. كِتَابَانِ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eوَلَدٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eمُدَرِّسُوْنَ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eأَقْلَامٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eكِتَابَانِ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
@@ -83,10 +83,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "Yang termasuk contoh isim musanna ialah...",
       "pilihan_jawaban": [
-        "A. قلم",
-        "B. أولاد",
-        "C. كِتَابَانِ",
-        "D. مدرسون"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eقَلَمٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eأَوْلَادٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eكِتَابَانِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eمُدَرِّسُوْنَ\u003c/span\u003e"
       ],
       "kunci_jawaban": "C"
     },
@@ -95,10 +95,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "Yang termasuk contoh isim jamak adalah...",
       "pilihan_jawaban": [
-        "A. قلم",
-        "B. أولاد",
-        "C. كتابان",
-        "D. كُرْسِيّ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eقَلَمٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eأَوْلَادٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eكِتَابَانِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eكُرْسِيٌّ\u003c/span\u003e"
       ],
       "kunci_jawaban": "B"
     },
@@ -108,10 +108,10 @@
       "gambar": "Images/STS_1/images_ARAB_9/9.png",
       "teks_pertanyaan": "Angka nomer 1 menunjukkan arah...",
       "pilihan_jawaban": [
-        "A. جَنُوبٌ",
-        "B. غَرْبٌ",
-        "C. شَرْقٌ",
-        "D. شَمَالٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eجَنُوْبٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eغَرْبٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَرْقٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eشَمَالٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "D"
     },
@@ -121,17 +121,17 @@
       "gambar": "Images/STS_1/images_ARAB_9/10.png",
       "teks_pertanyaan": "Angka nomer 3 menunjukkan arah...",
       "pilihan_jawaban": [
-        "A. جَنُوبٌ",
-        "B. غَرْبٌ",
-        "C. شَرْقٌ",
-        "D. شَمَالٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eجَنُوْبٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eغَرْبٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَرْقٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eشَمَالٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 11,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "ذَهَبْنَا إِلَى جَاكَرْنَا بِالطَّائِرَةِ",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eذَهَبْنَا إِلَى جَاكَرْتَا بِالطَّائِرَةِ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Saya pergi ke Jakarta menggunakan pesawat",
         "B. Kita pergi ke Jakarta menggunakan kereta",
@@ -143,7 +143,7 @@
     {
       "id_soal": 12,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "بَعْدَ أَرْبَعَةِ أَيَّامٍ رَجَعْنَا بِالْقِطَارِ",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eبَعْدَ أَرْبَعَةِ أَيَّامٍ رَجَعْنَا بِالْقِطَارِ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Setelah empat hari kita pulang menggunakan kereta",
         "B. Setelah empat hari kita pulang menggunakan pesawat",
@@ -156,12 +156,12 @@
       "id_soal": 13,
       "tipe_soal": "PG",
       "gambar": "Images/STS_1/images_ARAB_9/13.png",
-      "teks_pertanyaan": "المطار ............. المدرسة",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eالْمَطَارُ ............. الْمَدْرَسَةُ\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. جَنُوبٌ",
-        "B. شَرْقٌ",
-        "C. شَمَالٌ",
-        "D. غَرْبٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eجَنُوْبٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eشَرْقٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَمَالٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eغَرْبٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
@@ -169,12 +169,12 @@
       "id_soal": 14,
       "tipe_soal": "PG",
       "gambar": "Images/STS_1/images_ARAB_9/14.png",
-      "teks_pertanyaan": "المدرسة ............. المسجد",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eالْمَدْرَسَةُ ............. الْمَسْجِدُ\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. جَنُوبٌ",
-        "B. شَرْقٌ",
-        "C. شَمَالٌ",
-        "D. غَرْبٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eجَنُوْبٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eشَرْقٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَمَالٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eغَرْبٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "B"
     },
@@ -182,12 +182,12 @@
       "id_soal": 15,
       "tipe_soal": "PG",
       "gambar": "Images/STS_1/images_ARAB_9/15.png",
-      "teks_pertanyaan": "المسجد ............. المدرسة",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eالْمَسْجِدُ ............. الْمَدْرَسَةُ\u003c/div\u003e",
       "pilihan_jawaban": [
-        "A. جَنُوبٌ",
-        "B. شَرْقٌ",
-        "C. شَمَالٌ",
-        "D. غَرْبٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eجَنُوْبٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eشَرْقٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَمَالٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eغَرْبٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "D"
     },
@@ -196,10 +196,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "5 meja",
       "pilihan_jawaban": [
-        "A. مَكْتَبٌ خَمْسَةٌ",
-        "B. خَمْسَةٌ مَكْتَبٌ",
-        "C. خَمْسَةٌ مَكَاتِبَ",
-        "D. مَكَاتِبٍ خَمْسَةٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eمَكْتَبٌ خَمْسَةٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eخَمْسَةٌ مَكْتَبٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eخَمْسَةُ مَكَاتِبَ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eمَكَاتِبٍ خَمْسَةٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "C"
     },
@@ -208,10 +208,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "2 bulan",
       "pilihan_jawaban": [
-        "A. شَهْرٌ اثْنَانِ",
-        "B. شَهْرَانِ اثْنَانِ",
-        "C. شَهْرَانِ اثْنَتَانِ",
-        "D. اثْنَانِ شَهْرَانِ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eشَهْرٌ اِثْنَانِ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eشَهْرَانِ اِثْنَانِ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eشَهْرَانِ اِثْنَتَانِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eاِثْنَانِ شَهْرَانِ\u003c/span\u003e"
       ],
       "kunci_jawaban": "B"
     },
@@ -220,10 +220,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "4 mobil",
       "pilihan_jawaban": [
-        "A. أَرْبَعُ سَيَّارَاتِ",
-        "B. أَرْبَعَةُ سَيَّارَاتٍ",
-        "C. سَيَّارَاتٍ أَرْبَعُ",
-        "D. سَيَّارَاتِ أَرْبَعَةُ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eأَرْبَعُ سَيَّارَاتٍ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eأَرْبَعَةُ سَيَّارَاتٍ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eسَيَّارَاتٍ أَرْبَعُ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eسَيَّارَاتِ أَرْبَعَةُ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
@@ -232,10 +232,10 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "2 buku",
       "pilihan_jawaban": [
-        "A. كِتَبَانِ اثْنَانِ",
-        "B. اثْنَانِ كِتَبَانِ",
-        "C. كِتَبٌ اثْتَانِ",
-        "D. إِثْنَانِ كِتَابٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eكِتَابَانِ اِثْنَانِ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eاِثْنَانِ كِتَابَانِ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eكِتَابٌ اِثْنَانِ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eاِثْنَانِ كِتَابٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "A"
     },
@@ -244,17 +244,17 @@
       "tipe_soal": "PG",
       "teks_pertanyaan": "1 Hari",
       "pilihan_jawaban": [
-        "A. وَاحِدٌ يَوْمٌ",
-        "B. وَاحِدَةٌ يَوْمٌ",
-        "C. يَوْمٌ وَاحِدَةٌ",
-        "D. يَوْمَ وَاحِدٌ"
+        "A. \u003cspan class=\"font-khusus-arab\"\u003eوَاحِدٌ يَوْمٌ\u003c/span\u003e",
+        "B. \u003cspan class=\"font-khusus-arab\"\u003eوَاحِدَةٌ يَوْمٌ\u003c/span\u003e",
+        "C. \u003cspan class=\"font-khusus-arab\"\u003eيَوْمٌ وَاحِدَةٌ\u003c/span\u003e",
+        "D. \u003cspan class=\"font-khusus-arab\"\u003eيَوْمٌ وَاحِدٌ\u003c/span\u003e"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 21,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "مَطَارٌ",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eمَطَارٌ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Sekolah",
         "B. Pasar",
@@ -266,7 +266,7 @@
     {
       "id_soal": 22,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "زُرْنَا كَثِيرًا مِنَ لأَمَاكِنِ السَّيَاحِيَةِ",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eزُرْنَا كَثِيْرًا مِنَ الْأَمَاكِنِ السِّيَاحِيَّةِ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Aku mengunjungi banyak tempat-tempat wisata",
         "B. Kami mengunjungi banyak tempat-tempat wisata",
@@ -278,7 +278,7 @@
     {
       "id_soal": 23,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "أَقَمْنَا فِي فُنْدُوقٍ ثَلَاثَةَ أَيَّامٍ",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eأَقَمْنَا فِي فُنْدُقٍ ثَلَاثَةَ أَيَّامٍ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Aku tinggal di penginapan selama tiga hari",
         "B. Kami tinggal di penginapan selama tiga hari",
@@ -290,7 +290,7 @@
     {
       "id_soal": 24,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "تذكرة",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eتَذْكِرَةٌ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Memesan",
         "B. Membeli",
@@ -302,7 +302,7 @@
     {
       "id_soal": 25,
       "tipe_soal": "PG",
-      "teks_pertanyaan": "قطار",
+      "teks_pertanyaan": "\u003cdiv class=\"teks-arab\"\u003eقِطَارٌ\u003c/div\u003e",
       "pilihan_jawaban": [
         "A. Pesawat",
         "B. Kereta",
