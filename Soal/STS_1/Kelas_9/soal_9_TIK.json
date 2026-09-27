@@ -1,1 +1,274 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Informatika",
+    "jenis_ujian": "STS",
+    "jumlah_soal": 24,
+    "durasi_waktu": 60 
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Tujuan manajemen/pengelolaan anggaran dengan menerapkan Berpikir Komputasional bertujuan...",
+      "pilihan_jawaban": [
+        "a. Menghabiskan semua uang agar tidak tersisa",
+        "b. Menyusun anggaran berdasarkan tebakan dan perkiraan kasar",
+        "c. Mengelompokkan kebutuhan, menyusun rencana belanja, dan memprioritaskan pengeluaran dengan logis dan efisien",
+        "d. Menghindari mencatat pengeluaran agar tidak repot"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Apakah prinsip Berpikir Komputasional dapat diterapkan dalam berbagai bidang kehidupan? Mengapa?",
+      "pilihan_jawaban": [
+        "a. Tidak bisa, karena berpikir komputasional hanya digunakan dalam bidang teknologi dan informatika",
+        "b. Tidak bisa, karena setiap bidang memiliki cara berpikirnya sendiri yang tidak bisa disamakan",
+        "c. Bisa, karena berpikir komputasional hanya digunakan untuk menyusun kode program komputer",
+        "d. Bisa, karena berpikir komputasional membantu menyelesaikan masalah secara logis, terstruktur, dan efisien di berbagai bidang"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Berikut ini yang merupakan contoh penerapan Computational Thinking dalam kehidupan sehari-hari adalah...",
+      "pilihan_jawaban": [
+        "a. Menyelesaikan soal matematika tanpa mengikuti langkah-langkah tertentu",
+        "b. Menghafal jawaban dari soal tanpa memahami prosesnya",
+        "c. Membuat daftar belanja dengan mengelompokkan bahan makanan sesuai kategori",
+        "d. Mencontek pekerjaan teman agar lebih cepat selesai"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Karin ingin membuat kue bolu untuk ulang tahun adiknya. Ia mulai dengan membaca resep, menyiapkan bahan, mengikuti langkah pembuatan, dan memastikan oven sudah panas sebelum memasukkan adonan. Proses yang dilakukan Karin mencerminkan salah satu aspek dari Computational Thinking, yaitu...",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Algoritma",
+        "c. Pengenalan Pola",
+        "d. Dekomposisi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Algoritma yang dapat digunakan untuk menyelesaikan permasalahan dengan syarat langkah yang dilakukan memberikan hasil terbaik (maka hasil keseluruhan terbaik), dan tidak ada pengulangan (iterasi) adalah...",
+      "pilihan_jawaban": [
+        "a. Greedy",
+        "b. Dinamis",
+        "c. Greedy dan Dinamis",
+        "d. Dekomposisi"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Algoritma yang digunakan untuk menemukan solusi terbaik dari suatu masalah, dengan mempertimbangkan solusi minimum dan maksimum untuk mendapatkan solusi yang optimal kemudian memilih yang terbaik disebut...",
+      "pilihan_jawaban": [
+        "a. Greedy",
+        "b. Dinamis",
+        "c. Greedy dan Dinamis",
+        "d. Dekomposisi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Tujuan dari membuat laporan presentasi adalah...",
+      "pilihan_jawaban": [
+        "a. Agar terlihat keren dan modern saat berbicara di depan umum",
+        "b. Sebagai pelengkap tugas saja tanpa memperhatikan isinya",
+        "c. Menyampaikan informasi atau data secara terstruktur, jelas, dan mudah dipahami oleh audiens",
+        "d. Menunjukkan siapa yang paling pintar dalam kelompok"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Ketika akan membuat laporan presentasi, hal yang pertama dilakukan adalah...",
+      "pilihan_jawaban": [
+        "a. Membuat deskripsi proyek",
+        "b. Membuat kesimpulan",
+        "c. Mengatur jenis huruf",
+        "d. Mengatur ukuran kertas"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Aplikasi yang tepat digunakan untuk membuat hasil laporan adalah...",
+      "pilihan_jawaban": [
+        "a. Google Docs",
+        "b. Microsoft Word",
+        "c. Microsoft Excel",
+        "d. Microsoft PowerPoint"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Tab yang dipilih ketika akan mengatur ukuran kertas pada aplikasi pengolah kata adalah...",
+      "pilihan_jawaban": [
+        "a. Layout",
+        "b. Insert",
+        "c. Review",
+        "d. Mailings"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Kita dapat mengatur jenis dan ukuran huruf menggunakan perintah pada...",
+      "pilihan_jawaban": [
+        "a. Font",
+        "b. Paragraph",
+        "c. Layout",
+        "d. Insert"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Untuk mengubah paragraf menjadi rata kiri kanan disebut...",
+      "pilihan_jawaban": [
+        "a. Justify",
+        "b. Right",
+        "c. Left",
+        "d. Center"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Tab menu yang digunakan untuk menambahkan rumus adalah...",
+      "pilihan_jawaban": [
+        "a. Review",
+        "b. Mailings",
+        "c. Help",
+        "d. Insert"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Perintah untuk memasukkan rumus adalah...",
+      "pilihan_jawaban": [
+        "a. Equation",
+        "b. Symbols",
+        "c. Number",
+        "d. Header & Footer"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Kita dapat mengatur jarak tepi kiri-kanan dan atas-bawah tulisan dengan memilih ikon...",
+      "pilihan_jawaban": [
+        "a. Text Direction",
+        "b. Margin",
+        "c. Size",
+        "d. Orientation"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Kita dapat menginput gambar dengan perintah...",
+      "pilihan_jawaban": [
+        "a. Pilih Tab Insert -> Pictures",
+        "b. Pilih Tab View -> Pictures",
+        "c. Pilih Tab File -> Pictures",
+        "d. Pilih Tab Design -> Pictures"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Dalam hal pengaturan Font, manakah hal yang tidak tepat...",
+      "pilihan_jawaban": [
+        "a. Ketika menggunakan pengaturan Bold, huruf akan terlihat tebal",
+        "b. Pengaturan Italic membuat huruf miring",
+        "c. Pengaturan Font dapat dilakukan pada kotak dialog Font",
+        "d. Pilihan Font akan mempengaruhi jarak antarbaris dalam paragraf"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Pengaturan menggunakan perintah margin akan menentukan hal-hal berikut: (1) Ukuran kertas, (2) Jarak ruang kosong antar paragraf, (3) Ruang kosong di bagian atas kertas, (4) Ruang kosong di bagian bawah kertas, (5) Jarak antarbaris di halaman dokumen. Jawaban yang paling tepat adalah...",
+      "pilihan_jawaban": [
+        "a. (1)",
+        "b. (2) dan (5)",
+        "c. (3) dan (4)",
+        "d. (1), (2), dan (4)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Dalam permainan menara Hanoi. Jika terdapat 5 cakram, berapa jumlah minimum langkah yang diperlukan untuk memindahkan seluruh cakram ke tiang tujuan?",
+      "pilihan_jawaban": [
+        "a. 10",
+        "b. 15",
+        "c. 25",
+        "d. 31"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Ketika membuat slide presentasi, pemilihan template akan mempengaruhi pengaturan berikutnya. Namun, ada beberapa pengaturan yang tidak terpengaruh, di antaranya adalah...",
+      "pilihan_jawaban": [
+        "a. Jenis Huruf",
+        "b. Ukuran huruf",
+        "c. Warna huruf",
+        "d. Jumlah slide"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pada Microsoft PowerPoint, fitur yang digunakan untuk menambahkan efek animasi pada slide adalah...",
+      "pilihan_jawaban": [
+        "a. Desain Slide",
+        "b. Media dan Objek",
+        "c. Transisi Slide",
+        "d. Pemformatan Teks dan Grafis"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Pada Microsoft Excel, fitur yang digunakan untuk memvisualisasikan data dalam bentuk grafik adalah...",
+      "pilihan_jawaban": [
+        "a. Tabel Pivot",
+        "b. Filter dan Sortir Data",
+        "c. Grafik Dinamis",
+        "d. Rumus dan Fungsi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Pada Ms Word, yang merupakan fitur untuk mengubah format teks menjadi cetakan tebal adalah...",
+      "pilihan_jawaban": [
+        "a. Font",
+        "b. Paragraf",
+        "c. Clipboard",
+        "d. Replace"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Dalam permainan menara Hanoi, banyak tiang yang digunakan adalah...",
+      "pilihan_jawaban": [
+        "a. 3 tiang",
+        "b. 4 tiang",
+        "c. 5 tiang",
+        "d. 1 tiang"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
