@@ -85,7 +85,7 @@
     },
     {
       "id_soal": 8,
-      "gambar": "Images/STS_1/images_CODING_8/8.png",
+      "gambar": "Images/STS_1/images_COD_8/8.png",
       "teks_pertanyaan": "Ilustrasi tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Abstraksi",
@@ -229,7 +229,6 @@
     },
     {
       "id_soal": 21,
-      "gambar": "Images/STS_1/images_CODING_8/21.png",
       "teks_pertanyaan": "Sebanyak 40 siswa kelas 7A memilih kegiatan ekstrakurikuler. Data pilihan siswa disajikan dalam bentuk persentase pada diagram lingkaran berikut: Pramuka: 40%, Futsal: 25%, Basket: 20%, Seni Musik: 15%.\nJenis diagram yang paling cocok digunakan adalah…",
       "pilihan_jawaban": [
         "a. Diagram Lingkaran",
@@ -252,7 +251,7 @@
     },
     {
       "id_soal": 23,
-      "gambar": "Images/STS_1/images_CODING_8/23.png",
+      "gambar": "Images/STS_1/images_COD_8/23.png",
       "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Flowchart",
@@ -275,7 +274,7 @@
     },
     {
       "id_soal": 25,
-      "gambar": "Images/STS_1/images_CODING_8/25.png",
+      "gambar": "Images/STS_1/images_COD_8/25.png",
       "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
       "pilihan_jawaban": [
         "a. Flowchart",
