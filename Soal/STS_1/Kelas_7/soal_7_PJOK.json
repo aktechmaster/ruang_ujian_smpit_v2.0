@@ -1,1 +1,297 @@
-
+{
+"metadata": {
+"mata_pelajaran": "PJOK",
+"jenis_ujian": "STS_1",
+"jumlah_soal": 26,
+"durasi_menit": 60
+},
+"bank_soal": [
+{
+"id_soal": 1,
+"teks_pertanyaan": "Apa itu Atletik…",
+"pilihan_jawaban": [
+"a. Olahraga yang banyak penomorannya",
+"b. Olahraga yang melibatkan kekuatan tangan",
+"c. Olahraga yang menggunakan net",
+"d. Semua benar"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 2,
+"teks_pertanyaan": "Dibawah ini yang bukan termasuk olahraga atletik adalah…",
+"pilihan_jawaban": [
+"a. Lompat jauh",
+"b. Lompat indah",
+"c. Lompat tinggi",
+"d. Lempar cakram"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 3,
+"teks_pertanyaan": "Lari jarak pendek 100m termasuk olahraga…",
+"pilihan_jawaban": [
+"a. Bola besar",
+"b. Bola kecil",
+"c. Permainan net",
+"d. Atletik"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 4,
+"teks_pertanyaan": "Start yang digunakan dalam melaksanakan lari jarak pendek 100m adalah..",
+"pilihan_jawaban": [
+"a. Start Berdiri",
+"b. Start Melayang",
+"c. Start Jongkok",
+"d. Semua benar"
+],
+"kunci_jawaban": "C"
+},
+{
+"id_soal": 5,
+"teks_pertanyaan": "Pilihlah aba-aba yang benar dibawah ini saat melakukan lari jarak 100m….",
+"pilihan_jawaban": [
+"a. Bersiap-bersedia-mulai",
+"b. Bersedia-siap-mulai",
+"c. Mulai-bersedia-ya",
+"d. Bersiap-siap-mulai"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 6,
+"teks_pertanyaan": "Lari jarak jauh merupakan salah satu cabang olahraga yang membutuhkan kemampuan utama berupa …",
+"pilihan_jawaban": [
+"a. Daya tahan",
+"b. Lompatan",
+"c. Kekuatan",
+"d. Kecepatan"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 7,
+"teks_pertanyaan": "Sikap badan saat melakukan lari jarak jauh sebaiknya ....",
+"pilihan_jawaban": [
+"a. Tegak kaku",
+"b. Sedikit condong kedepan",
+"c. Membukuk berlebihan",
+"d. Condong kebelakang"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 8,
+"teks_pertanyaan": "Berikut ini yang termasuk perlengkapan yang tepat untuk lari adalah…",
+"pilihan_jawaban": [
+"a. Sepatu hak tinggi",
+"b. Sepatu pantofel",
+"c. Sepatu Olahraga",
+"d. Tidak menggunakan alas kaki"
+],
+"kunci_jawaban": "C"
+},
+{
+"id_soal": 9,
+"gambar": "Images/STS_1/images_PJOK_7/9.png",
+"teks_pertanyaan": "Aba-aba yang pas untuk start jongkok pada gambar tersebut adalah…",
+"pilihan_jawaban": [
+"a. Ya",
+"b. Mulai",
+"c. Siap",
+"d. Bersedia"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 10,
+"teks_pertanyaan": "Tujuan melakukan pemanasan sebelum lari adalah ....",
+"pilihan_jawaban": [
+"a. Membuat tubuh cepat lelah",
+"b. Mengurangi resiko cidera",
+"c. Memperlambat gerakan",
+"d. Mengurangi daya tahan tubuh"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 11,
+"teks_pertanyaan": "Dalam lari jarak jauh, seorang pelari sebaiknya mengatur ....",
+"pilihan_jawaban": [
+"a. Warna sepatu",
+"b. Siapa lawannya",
+"c. Panjang lintasannya",
+"d. Irama dan kecepatan lari"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 12,
+"teks_pertanyaan": "Dibawah ini yang bukan termasuk bola besar adalah..",
+"pilihan_jawaban": [
+"a. Bola takraw",
+"b. Bola basket",
+"c. Bola kaki",
+"d. Bola volley"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 13,
+"teks_pertanyaan": "Siapakah nama pencipta permainan bola volley…",
+"pilihan_jawaban": [
+"a. Dr. James Naismith",
+"b. William G. Morgan",
+"c. Blackbeard",
+"d. The Jack Sparrow"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 14,
+"teks_pertanyaan": "Pada tahun berapakah bola volley diciptakan..",
+"pilihan_jawaban": [
+"a. 1896",
+"b. 1892",
+"c. 1891",
+"d. 1895"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 15,
+"teks_pertanyaan": "Apa referensi (ide) penemu saat menciptakan permainan bola volley…",
+"pilihan_jawaban": [
+"a. Permainan takraw",
+"b. Permainan basket",
+"c. Permainan sepak bola",
+"d. Permainan badminton"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 16,
+"teks_pertanyaan": "Apa nama awal permainan volley…",
+"pilihan_jawaban": [
+"a. Poli",
+"b. Mintonette",
+"c. Rugby",
+"d. Senciaco"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 17,
+"teks_pertanyaan": "Pada tahun berapakah permainan volley berkembang…",
+"pilihan_jawaban": [
+"a. 1896",
+"b. 1895",
+"c. 1897",
+"d. 1899"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 18,
+"teks_pertanyaan": "Apa nama organisasi dunia permainan bola volley…",
+"pilihan_jawaban": [
+"a. FIST",
+"b. FIBA",
+"c. FIFA",
+"d. FIVB"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 19,
+"teks_pertanyaan": "Berapakah jumlah pemain 1 tim dalam permainan bola volley..",
+"pilihan_jawaban": [
+"a. 5 pemain",
+"b. 3 pemain",
+"c. 6 pemain",
+"d. 10 pemain"
+],
+"kunci_jawaban": "C"
+},
+{
+"id_soal": 20,
+"teks_pertanyaan": "Berapakah panjang dan lebar lapangan bola volley…",
+"pilihan_jawaban": [
+"a. P. 20 cm X L. 10 cm",
+"b. P. 19 cm X L. 9 cm",
+"c. P. 10 cm X L. 15 cm",
+"d. P. 30 cm X L. 36 cm"
+],
+"kunci_jawaban": "B"
+},
+{
+"id_soal": 21,
+"teks_pertanyaan": "Berapa game (tamat) permainan bola volley…",
+"pilihan_jawaban": [
+"a. 21 point",
+"b. 22 point",
+"c. 23 point",
+"d. 25 point"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 22,
+"teks_pertanyaan": "Nama posisi pemain volley yang 3 didepan adalah…",
+"pilihan_jawaban": [
+"a. Right spike - Tosser - Left spike",
+"b. Defender - Libero - Service",
+"c. Libero - Right spike - Left spike",
+"d. Defender - Tosser - Service"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 23,
+"teks_pertanyaan": "Tugas utama dari Tosser adalah…",
+"pilihan_jawaban": [
+"a. Smash sebelah kanan",
+"b. Smash sebelah kiri",
+"c. Memulaikan pertandingan",
+"d. Mengumpan"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 24,
+"teks_pertanyaan": "Didalam permainan bola volley pemain yang tidak dapat rotasi adalah…",
+"pilihan_jawaban": [
+"a. Libero dan Service",
+"b. Tosser dan Libero",
+"c. Right spike dan Left spike",
+"d. Defender dan Tosser"
+],
+"kunci_jawaban": "A"
+},
+{
+"id_soal": 25,
+"teks_pertanyaan": "Teknik yang paling penting dalam permainan bola volley adalah…",
+"pilihan_jawaban": [
+"a. Service",
+"b. Smash",
+"c. Block",
+"d. Passing"
+],
+"kunci_jawaban": "D"
+},
+{
+"id_soal": 26,
+"teks_pertanyaan": "Tugas dari Libero dalam permainan bola volley adalah…",
+"pilihan_jawaban": [
+"a. Menyerang sebelah kanan",
+"b. Bertahan sebelah kiri",
+"c. Mempertahankan area serang",
+"d. Semua benar"
+],
+"kunci_jawaban": "C"
+}
+]
+}
