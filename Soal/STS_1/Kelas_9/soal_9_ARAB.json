@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Arab",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "أين تسكن عائشة مع عائلتها؟",
+      "pilihan_jawaban": [
+        "A. في جاكرتا",
+        "B. في سورابايا",
+        "C. في سوراكارتا",
+        "D. في سولو"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "كم أولاد تتكون عائلة عائشة؟",
+      "pilihan_jawaban": [
+        "A. ثلاثة أولاد",
+        "B. أربعة أولاد",
+        "C. تسعة أولاد",
+        "D. خمسة أولاد"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 3,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "ما اسم أب عائشة؟",
+      "pilihan_jawaban": [
+        "A. أحمد يونس",
+        "B. حنيف مرحبا",
+        "C. عائشة",
+        "D. إلهام"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "أين تدرس أمي عائشة؟",
+      "pilihan_jawaban": [
+        "A. في المدرسة الثانوية",
+        "B. في المدرسة العالية",
+        "C. في المدرسة المتوسطة",
+        "D. في روضة الأطفال"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 5,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "أين يدرس أخو عائشة؟",
+      "pilihan_jawaban": [
+        "A. في المدرسة الثانوية",
+        "B. في روضة الأطفال",
+        "C. في المدرسة العالية",
+        "D. في المدرسة المتوسطة"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Yang termasuk contoh isim mufrod ialah...",
+      "pilihan_jawaban": [
+        "A. والد",
+        "B. مدرسون",
+        "C. أقلام",
+        "D. كِتَابَانِ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Yang termasuk contoh isim musanna ialah...",
+      "pilihan_jawaban": [
+        "A. قلم",
+        "B. ولد",
+        "C. كتابان",
+        "D. مدرسون"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Yang termasuk contoh isim jamak adalah...",
+      "pilihan_jawaban": [
+        "A. قلم",
+        "B. أولاد",
+        "C. كتابان",
+        "D. كُرْسِيّ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_ARAB_9/9.png",
+      "teks_pertanyaan": "Angka nomor 1 menunjukkan arah ...",
+      "pilihan_jawaban": [
+        "A. جنوب",
+        "B. غرب",
+        "C. شرق",
+        "D. شمال"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 10,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_ARAB_9/10.png",
+      "teks_pertanyaan": "Angka nomor 3 menunjukkan arah ...",
+      "pilihan_jawaban": [
+        "A. جنوب",
+        "B. غرب",
+        "C. شرق",
+        "D. شمال"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "ذهبنا إلى جاكرتا ...",
+      "pilihan_jawaban": [
+        "A. Saya pergi ke Jakarta menggunakan pesawat",
+        "B. Kita pergi ke Jakarta menggunakan kereta",
+        "C. Saya pergi ke Jakarta menggunakan kereta",
+        "D. Kita pergi ke Jakarta menggunakan pesawat"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 12,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "بعد أربعة أيام رجعنا إلى ...",
+      "pilihan_jawaban": [
+        "A. Setelah empat hari kita pulang menggunakan kereta",
+        "B. Setelah empat hari kita pulang menggunakan pesawat",
+        "C. Setelah empat belas hari saya pulang menggunakan kereta",
+        "D. Setelah empat hari saya pulang menggunakan kereta"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_ARAB_9/13.png",
+      "teks_pertanyaan": "المطار ............. المدرسة",
+      "pilihan_jawaban": [
+        "A. جنوب",
+        "B. شرق",
+        "C. شمال",
+        "D. غرب"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_ARAB_9/14.png",
+      "teks_pertanyaan": "المدرسة ............. المسجد",
+      "pilihan_jawaban": [
+        "A. جنوب",
+        "B. شرق",
+        "C. شمال",
+        "D. غرب"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_ARAB_9/15.png",
+      "teks_pertanyaan": "المسجد ............. المدرسة",
+      "pilihan_jawaban": [
+        "A. جنوب",
+        "B. شرق",
+        "C. شمال",
+        "D. غرب"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 16,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "5 meja",
+      "pilihan_jawaban": [
+        "A. مَكْتَبٌ خَمْسَةٌ",
+        "B. خَمْسَةٌ مَكْتَبٌ",
+        "C. خَمْسَةُ مَكَاتِبَ",
+        "D. مَكْتَبٌ خَمْسَةُ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "2 bulan",
+      "pilihan_jawaban": [
+        "A. شهرٌ اثنان",
+        "B. شهران اثنان",
+        "C. شهران اثنتان",
+        "D. اثنان شهران"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "4 mobil",
+      "pilihan_jawaban": [
+        "A. أربعة سيارات",
+        "B. أربعة سيارة",
+        "C. سيارات أربعة",
+        "D. سيارات أربع"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "2 buku",
+      "pilihan_jawaban": [
+        "A. كتابان اثنان",
+        "B. اثنان كتابان",
+        "C. كتابان",
+        "D. اثنان كِتَاب"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "1 hari",
+      "pilihan_jawaban": [
+        "A. يوم واحد",
+        "B. واحد يوم",
+        "C. يوم واحدة",
+        "D. واحد يومٍ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Terjemahkan nomor 21-25",
+      "pilihan_jawaban": [
+        "A. Sekolah",
+        "B. Pasar",
+        "C. Bandara",
+        "D. Rumah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Terjemahkan nomor 22",
+      "pilihan_jawaban": [
+        "A. Aku mengunjungi banyak tempat-tempat wisata",
+        "B. Kami mengunjungi banyak tempat-tempat wisata",
+        "C. Aku tinggal di penginapan selama tiga hari",
+        "D. Kami tinggal di penginapan selama tiga hari"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Terjemahkan nomor 23",
+      "pilihan_jawaban": [
+        "A. Aku tinggal di penginapan selama tiga hari",
+        "B. Kami tinggal di penginapan selama tiga hari",
+        "C. Aku tinggal di penginapan jauh dari bandara selama tiga hari",
+        "D. Kami tinggal di penginapan dekat dari bandara selama tiga hari"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Terjemahkan nomor 24",
+      "pilihan_jawaban": [
+        "A. Memesan",
+        "B. Membeli",
+        "C. Tiket",
+        "D. Paspor"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 25,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Terjemahkan nomor 25",
+      "pilihan_jawaban": [
+        "A. Pesawat",
+        "B. Kereta",
+        "C. Bandara",
+        "D. Penginapan"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
