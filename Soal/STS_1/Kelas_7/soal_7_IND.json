@@ -8,8 +8,7 @@
   "bank_soal": [
     {
       "id_soal": 1,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Perhatikan ciri-ciri berikut!\n(1) Menggambarkan atau melukiskan suatu objek.\n(2) Penjelasan berfokus pada objek fisik atau suasana secara spesifik.\n(3) Melibatkan panca indera.\n(4) Menggunakan bahasa yang objektif dan detail.\n\nCiri-ciri di atas merupakan ciri-ciri dari teks ...",
+      "teks_pertanyaan": "Perhatikan ciri-ciri berikut!<br>(1) Menggambarkan atau melukiskan suatu objek.<br>(2) Penjelasan berfokus pada objek fisik atau suasana secara spesifik.<br>(3) Melibatkan panca indera.<br>(4) Menggunakan bahasa yang objektif dan detail.<br><br>Ciri-ciri di atas merupakan ciri-ciri dari teks ...",
       "pilihan_jawaban": [
         "A. (1), (2), dan (3)",
         "B. (1), (3), dan (4)",
@@ -20,7 +19,6 @@
     },
     {
       "id_soal": 2,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Bagian awal dalam struktur teks deskripsi yang berisi pengenalan nama objek, sejarah singkat, lokasi, atau gambaran umum objek disebut ....",
       "pilihan_jawaban": [
         "A. Deskripsi bagian",
@@ -32,8 +30,7 @@
     },
     {
       "id_soal": 3,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah kalimat berikut!\n\"Pantai Senggigi berpasir putih bersih dengan air laut yang jernih kebiruan.\"\n\nPenginderaan yang dominan dalam kalimat deskripsi tersebut adalah...",
+      "teks_pertanyaan": "Bacalah kalimat berikut!<br><br>\"Pantai Senggigi berpasir putih bersih dengan air laut yang jernih kebiruan.\"<br><br>Penginderaan yang dominan dalam kalimat deskripsi tersebut adalah...",
       "pilihan_jawaban": [
         "A. Pendengaran dan perabaan",
         "B. Penglihatan dan perabaan",
@@ -44,8 +41,7 @@
     },
     {
       "id_soal": 4,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Coronavirus itu merupakan keluarga besar virus yang dapat menyerang manusia dan hewan. Nah, pada manusia, biasanya menyebabkan penyakit infeksi saluran pernafasan, mulai dari flu biasa hingga penyakit yang lebih parah seperti SARS dan MERS.\n\nParagraf di atas termasuk dalam struktur teks deskripsi bagian ....",
+      "teks_pertanyaan": "Coronavirus itu merupakan keluarga besar virus yang dapat menyerang manusia dan hewan. Nah, pada manusia, biasanya menyebabkan penyakit infeksi saluran pernafasan, mulai dari flu biasa hingga penyakit yang lebih parah seperti SARS dan MERS.<br><br>Paragraf di atas termasuk dalam struktur teks deskripsi bagian ....",
       "pilihan_jawaban": [
         "A. Identifikasi",
         "B. Deskripsi bagian",
@@ -56,8 +52,7 @@
     },
     {
       "id_soal": 5,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!\n\nKomodo, Sang Naga dari Indonesia\n\nKomodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh. Komodo adalah pemangsanya yang tangguh dengan gigi yang tajam dan kuat.\n\nPokok utama teks deskripsi di atas adalah ....",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!<br><br>Komodo, Sang Naga dari Indonesia<br><br>Komodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh.<br><br>Pokok utama teks deskripsi di atas adalah ....",
       "pilihan_jawaban": [
         "A. Keindahan alam di Nusa Tenggara Timur",
         "B. Spesies kadal terbesar di dunia asal Indonesia",
@@ -68,8 +63,7 @@
     },
     {
       "id_soal": 6,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!\n\nKomodo, Sang Naga dari Indonesia\n\nKomodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh. Komodo adalah pemangsanya yang tangguh dengan gigi yang tajam dan kuat.\n\nFungsi dari kulit tebal dan berwarna abu-abu kecokelatan pada komodo adalah...",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!<br><br>Komodo, Sang Naga dari Indonesia<br><br>Komodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh.<br><br>Fungsi dari kulit tebal dan berwarna abu-abu kecokelatan pada komodo adalah...",
       "pilihan_jawaban": [
         "A. Mengatur suhu tubuh saat musim hujan",
         "B. Menarik perhatian lawan jenis di habitatnya",
@@ -80,8 +74,7 @@
     },
     {
       "id_soal": 7,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!\n\nKomodo, Sang Naga dari Indonesia\n\nKomodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh. Komodo adalah pemangsanya yang tangguh dengan gigi yang tajam dan kuat.\n\nParagraf pertama pada teks di atas tergolong ke dalam struktur teks deskripsi bagian...",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!<br><br>Komodo, Sang Naga dari Indonesia<br><br>Komodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik Nusa Tenggara Timur, Indonesia. Hewan ini hidup di Pulau Komodo, Rinca, Flores, dan Gili Motang. Komodo adalah simbol identitas nasional Indonesia yang dilindungi oleh Pemerintah Republik Indonesia. Tubuhnya yang panjang dapat mencapai 2,5 hingga 3 meter. Kulit komodo tebal, bersisik keras, dan berwarna abu-abu kecokelatan. Lidahnya yang panjang dan bercabang sering dijulurkan untuk mencium bau mangsa dari jarak jauh.<br><br>Paragraf pertama pada teks di atas tergolong ke dalam struktur teks deskripsi bagian...",
       "pilihan_jawaban": [
         "A. Identifikasi / Deskripsi Umum",
         "B. Deskripsi Bagian",
@@ -92,7 +85,6 @@
     },
     {
       "id_soal": 8,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Kalimat berikut yang memuat pancaindra penglihatan adalah...",
       "pilihan_jawaban": [
         "A. Lidah komodo sering dijulurkan untuk mencium bau mangsa.",
@@ -104,8 +96,7 @@
     },
     {
       "id_soal": 9,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "\"Mendengar berita duka itu, hatinya hancur berkeping-keping hingga air matanya mengalir bagai lautan.\"\n\nMajas yang digunakan pada kalimat di atas adalah...",
+      "teks_pertanyaan": "Mendengar berita duka itu, hatinya hancur berkeping-keping hingga air matanya mengalir bagai lautan.<br><br>Majas yang digunakan pada kalimat di atas adalah...",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
@@ -116,8 +107,7 @@
     },
     {
       "id_soal": 10,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasi sekujur badan rumah, jenis kayunya sangat berkualitas, tongkonan juga didekorasi dengan sejumlah hiasan tanduk kerubau yang bersejarah tinggi. Struktur bangunan berbentuk perahu yang mengarah ke langit, mencerminkan nilai spiritual masyarakat pemiliknya.\n\nBagian teks di atas termasuk ke dalam struktur teks deskripsi bagian ....",
+      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasi sekujur badan rumah, jenis kayunya sangat berkualitas, tongkonan juga didekorasi dengan sejumlah hiasan tanduk kerubau yang bersejarah tinggi. Struktur bangunan berbentuk perahu yang mengarah ke langit, mencerminkan nilai spiritual masyarakat pemiliknya.<br><br>Bagian teks di atas termasuk ke dalam struktur teks deskripsi bagian ....",
       "pilihan_jawaban": [
         "A. Identifikasi",
         "B. Deskripsi umum",
@@ -128,8 +118,7 @@
     },
     {
       "id_soal": 11,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Perhatikan kalimat berikut: \"Suara aumannya menggelegar membelah lautan.\"\n\nKalimat tersebut memuat majas ...",
+      "teks_pertanyaan": "Perhatikan kalimat berikut: Suara aumannya menggelegar membelah lautan.<br><br>Kalimat tersebut memuat majas ...",
       "pilihan_jawaban": [
         "A. Personifikasi",
         "B. Metafora",
@@ -140,8 +129,7 @@
     },
     {
       "id_soal": 12,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Perhatikan kalimat berikut!\n\"Nyiur melambai-lambai di tepi pantai seolah menyambut kedatangan para wisatawan.\"\n\nKalimat tersebut menggunakan majas ....",
+      "teks_pertanyaan": "Perhatikan kalimat berikut!<br><br>Nyiur melambai-lambai di tepi pantai seolah menyambut kedatangan para wisatawan.<br><br>Kalimat tersebut menggunakan majas ....",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
@@ -152,7 +140,6 @@
     },
     {
       "id_soal": 13,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Struktur teks cerita fantasi yang berisi pengenalan tokoh, latar tempat, latar waktu, dan pengenalan konflik awal adalah...",
       "pilihan_jawaban": [
         "A. Orientasi",
@@ -164,7 +151,6 @@
     },
     {
       "id_soal": 14,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Bagian struktur cerita fantasi yang menunjukkan puncak masalah atau ditemukannya keajaiban/konflik utama adalah...",
       "pilihan_jawaban": [
         "A. Orientasi",
@@ -176,7 +162,6 @@
     },
     {
       "id_soal": 15,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Bagian struktur cerita fantasi yang berisi pengenalan tokoh, latar, dan watak tokoh disebut ....",
       "pilihan_jawaban": [
         "A. Orientasi",
@@ -188,11 +173,10 @@
     },
     {
       "id_soal": 16,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah penggalan cerita fantasi berikut!\n\"Aku masih takut dengan monster itu, tetapi aku harus menyelamatkan Jerry. Aku terbang dengan sayapku. Tiba-tiba muncul sebuah busur panah yang berpendar merah cerah. Panah-panah sakti itu meluncur ke arahku dengan sangat cepat. Aku berusaha menghindarinya sambil terus mencari Jerry.\"\n\nPenggalan cerita di atas termasuk dalam struktur cerita fantasi bagian ....",
+      "teks_pertanyaan": "Bacalah penggalan cerita fantasi berikut!<br><br>Aku masih takut dengan monster itu, tetapi aku harus menyelamatkan Jerry. Aku terbang dengan sayapku. Tiba-tiba muncul sebuah busur panah yang berpendar merah cerah. Panah-panah sakti itu meluncur ke arahku dengan sangat cepat. Aku berusaha menghindarinya sambil terus mencari Jerry.<br><br>Penggalan cerita di atas termasuk dalam struktur cerita fantasi bagian ....",
       "pilihan_jawaban": [
         "A. Orientasi",
-        "B. Komplikasi (mulai muncul masalah/konflik)",
+        "B. Komplikasi",
         "C. Resolusi",
         "D. Koda"
       ],
@@ -200,8 +184,7 @@
     },
     {
       "id_soal": 17,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!\n\nPersahabatan di Balik Kabut Kaca\n\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. \"Kau bisa melihatku?\" tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.\n\nSiapa tokoh utama dalam cerita di atas?",
+      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!<br><br>Persahabatan di Balik Kabut Kaca<br><br>Pagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. Kau bisa melihatku? tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.<br><br>Siapa tokoh utama dalam cerita di atas?",
       "pilihan_jawaban": [
         "A. Doni",
         "B. Rian",
@@ -212,8 +195,7 @@
     },
     {
       "id_soal": 18,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!\n\nPersahabatan di Balik Kabut Kaca\n\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. \"Kau bisa melihatku?\" tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.\n\nDi mana latar terjadinya peristiwa dalam cerita tersebut adalah di ....",
+      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!<br><br>Persahabatan di Balik Kabut Kaca<br><br>Pagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. Kau bisa melihatku? tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.<br><br>Di mana latar terjadinya peristiwa dalam cerita tersebut?",
       "pilihan_jawaban": [
         "A. Kota Melodia masa depan",
         "B. Kelas yang ramai",
@@ -224,8 +206,7 @@
     },
     {
       "id_soal": 19,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!\n\nPersahabatan di Balik Kabut Kaca\n\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. \"Kau bisa melihatku?\" tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.\n\nApakah tema utama dari cerita \"Persahabatan di Balik Kabut Kaca\" di atas?",
+      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!<br><br>Persahabatan di Balik Kabut Kaca<br><br>Pagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. Kau bisa melihatku? tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.<br><br>Apakah tema utama dari cerita Persahabatan di Balik Kabut Kaca di atas?",
       "pilihan_jawaban": [
         "A. Keindahan perpustakaan sekolah",
         "B. Persahabatan dan rasa saling percaya",
@@ -236,8 +217,7 @@
     },
     {
       "id_soal": 20,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!\n\nPersahabatan di Balik Kabut Kaca\n\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. \"Kau bisa melihatku?\" tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.\n\nAmanat atau pesan moral yang ingin disampaikan penulis melalui cerita tersebut adalah ....",
+      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17-20!<br><br>Persahabatan di Balik Kabut Kaca<br><br>Pagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jari Rian di meja. Rian, ketua OSIS, sedang menggambar sesuatu yang aneh di sebuah kertas. Tiba-tiba ada sosok muncul dari kabut yang membungkus perpustakaan—seekor naga kecil yang bersinar. Kau bisa melihatku? tanya naga itu dengan terkejut. Rian pun mengangguk dan tersenyum. Mereka mulai berbicara, dan Rian menyadari bahwa naga itu kesepian karena tertindas kabut kaca yang menghalanginya dari dunia nyata. Rian bercerita tentang perjuangannya, dan naga itu tiba-tiba melesat keluar dari kabut, menghangatkan persahabatan mereka.<br><br>Amanat atau pesan moral yang ingin disampaikan penulis melalui cerita tersebut adalah ....",
       "pilihan_jawaban": [
         "A. Jangan pernah pergi ke perpustakaan saat sepi.",
         "B. Menjadi ketua kelas harus selalu berani di depan umum.",
@@ -248,7 +228,6 @@
     },
     {
       "id_soal": 21,
-      "tipe_soal": "PG",
       "teks_pertanyaan": "Kalimat berikut menggunakan majas simile kecuali ....",
       "pilihan_jawaban": [
         "A. Kecepatan terbang burung phoenix itu laksana kilat di malam hari.",
@@ -260,8 +239,7 @@
     },
     {
       "id_soal": 22,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Perhatikan penggalan cerita berikut!\n\"Pepohonan di dalam Hutan Larangan itu saling berbisik seolah-olah memperingatkan Alif agar segera kembali ke desanya.\"\n\nMajas yang digunakan dalam kalimat tersebut adalah ....",
+      "teks_pertanyaan": "Perhatikan penggalan cerita berikut!<br><br>Pepohonan di dalam Hutan Larangan itu saling berbisik seolah-olah memperingatkan Alif agar segera kembali ke desanya.<br><br>Majas yang digunakan dalam kalimat tersebut adalah ....",
       "pilihan_jawaban": [
         "A. Hiperbola",
         "B. Personifikasi",
@@ -272,8 +250,7 @@
     },
     {
       "id_soal": 23,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!\n\nSemut dan Belalang\n\nDi sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. \"Mengapa kamu tidak bergabung dan bermain denganku?\" tanya Belalang kepada Semut. \"Tidak,\" jawab Semut, \"kami harus mempersiapkan makanan untuk musim dingin yang akan datang.\" Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.\n\nBagian manakah di bawah ini yang termasuk dalam komplikasi atau puncak masalah dalam cerita fabel tersebut?",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!<br><br>Semut dan Belalang<br><br>Di sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. Mengapa kamu tidak bergabung dan bermain denganku? tanya Belalang kepada Semut. Tidak, jawab Semut, kami harus mempersiapkan makanan untuk musim dingin yang akan datang. Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.<br><br>Bagian manakah di bawah ini yang termasuk dalam komplikasi atau puncak masalah dalam cerita fabel tersebut?",
       "pilihan_jawaban": [
         "A. Orientasi (Pengenalan)",
         "B. Komplikasi (Puncak Masalah)",
@@ -284,8 +261,7 @@
     },
     {
       "id_soal": 24,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!\n\nSemut dan Belalang\n\nDi sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. \"Mengapa kamu tidak bergabung dan bermain denganku?\" tanya Belalang kepada Semut. \"Tidak,\" jawab Semut, \"kami harus mempersiapkan makanan untuk musim dingin yang akan datang.\" Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.\n\nApa tema yang paling tepat untuk cerita fabel di atas?",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!<br><br>Semut dan Belalang<br><br>Di sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. Mengapa kamu tidak bergabung dan bermain denganku? tanya Belalang kepada Semut. Tidak, jawab Semut, kami harus mempersiapkan makanan untuk musim dingin yang akan datang. Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.<br><br>Apa tema yang paling tepat untuk cerita fabel di atas?",
       "pilihan_jawaban": [
         "A. Pentingnya bermain musik untuk menghibur diri",
         "B. Kerja keras dan mempersiapkan masa depan",
@@ -296,8 +272,7 @@
     },
     {
       "id_soal": 25,
-      "tipe_soal": "PG",
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!\n\nSemut dan Belalang\n\nDi sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. \"Mengapa kamu tidak bergabung dan bermain denganku?\" tanya Belalang kepada Semut. \"Tidak,\" jawab Semut, \"kami harus mempersiapkan makanan untuk musim dingin yang akan datang.\" Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.\n\nAmanat atau pesan moral tersirat yang ingin disampaikan cerita tersebut kepada pembaca adalah ....",
+      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!<br><br>Semut dan Belalang<br><br>Di sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan bermain sambil menikmati panas matahari. Sementara itu, sekawanan Semut bekerja keras mengumpulkan dan menyimpan makanan untuk musim dingin. Mengapa kamu tidak bergabung dan bermain denganku? tanya Belalang kepada Semut. Tidak, jawab Semut, kami harus mempersiapkan makanan untuk musim dingin yang akan datang. Belalang hanya tertawa. Namun, ketika musim dingin tiba, Belalang tidak memiliki makanan dan kedinginan, sedangkan Semut memiliki cukup persediaan. Belalang akhirnya mengerti kesalahannya.<br><br>Amanat atau pesan moral tersirat yang ingin disampaikan cerita tersebut kepada pembaca adalah ....",
       "pilihan_jawaban": [
         "A. Jangan pernah menolak ajakan teman untuk bersenang-senang.",
         "B. Bekerjalah hanya saat musim dingin tiba agar makanan tidak membusuk.",
