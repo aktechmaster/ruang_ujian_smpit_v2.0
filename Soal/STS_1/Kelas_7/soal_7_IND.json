@@ -52,7 +52,7 @@
     },
     {
       "id_soal": 5,
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 5-8!\n\nKomodo, Sang Naga dari Indonesia\nKomodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik asli Indonesia. Satwa purba ini dapat ditemukan di Nusa Tenggara Timur, khususnya di Pulau Komodo, Rinca, Padar, dan Flores. Karena keberadaannya yang langka dan keunikannya, komodo ditetapkan sebagai salah satu hewan yang dilindungi oleh pemerintah Indonesia dan diakui sebagai warisan dunia oleh UNESCO.\nKomodo memiliki tubuh yang sangat besar dan kokoh dengan panjang rata-rata mencapai 2 hingga 3 meter serta berat berkisar antara 70 hingga 90 kilogram. Kulitnya tebal, bersisik keras, dan berwarna abu-abu kecokelatan yang berfungsi sebagai pembaur sempurna di habitat sabana yang kering. Hewan ini memiliki empat kaki yang kuat dengan cakar-cakar tajam untuk mencengkeram mangsa dan memanjat pohon saat masih muda.\nKepala komodo berbentuk agak pipih dengan mata kecil dan moncong yang lebar. Salah satu ciri khas utamanya adalah lidahnya yang panjang, bercabang dua, dan berwarna kuning kemerahan. Lidah ini sering dijulurkan untuk mencium bau mangsa dari jarak beberapa kilometer. Di dalam mulutnya, terdapat puluhan gigi tajam bergerigi serta kelenjar bisa yang mematikan untuk melumpuhkan buruannya.\nKomodo merupakan salah satu kekayaan alam Indonesia yang sangat menakjubkan dan berharga. Keberadaan hewan purba yang masih bertahan hingga saat ini menjadi daya tarik utama bagi wisatawan dari seluruh dunia. Kita sebagai warga negara Indonesia harus terus mendukung upaya pelestarian agar komodo terhindar dari ancaman kepunahan.\n\nTeks deskripsi di atas membahas tentang...",
+      "teks_pertanyaan": "Bacalah teks deskripsi berikut untuk menjawab soal nomor 5-8!\n\nKomodo, Sang Naga dari Indonesia\n\nKomodo (Varanus komodoensis) adalah spesies kadal terbesar di dunia yang merupakan hewan endemik asli Indonesia. Satwa purba ini dapat ditemukan di Nusa Tenggara Timur, khususnya di Pulau Komodo, Rinca, Padar, dan Flores. Karena keberadaannya yang langka dan keunikannya, komodo ditetapkan sebagai salah satu hewan yang dilindungi oleh pemerintah Indonesia dan diakui sebagai warisan dunia oleh UNESCO.\n\nKomodo memiliki tubuh yang sangat besar dan kokoh dengan panjang rata-rata mencapai 2 hingga 3 meter serta berat berkisar antara 70 hingga 90 kilogram. Kulitnya tebal, bersisik keras, dan berwarna abu-abu kecokelatan yang berfungsi sebagai pembaur sempurna di habitat sabana yang kering. Hewan ini memiliki empat kaki yang kuat dengan cakar-cakar tajam untuk mencengkeram mangsa dan memanjat pohon saat masih muda.\n\nKepala komodo berbentuk agak pipih dengan mata kecil dan moncong yang lebar. Salah satu ciri khas utamanya adalah lidahnya yang panjang, bercabang dua, dan berwarna kuning kemerahan. Lidah ini sering dijulurkan untuk mencium bau mangsa dari jarak beberapa kilometer. Di dalam mulutnya, terdapat puluhan gigi tajam bergerigi serta kelenjar bisa yang mematikan untuk melumpuhkan buruannya.\n\nKomodo merupakan salah satu kekayaan alam Indonesia yang sangat menakjubkan dan berharga. Keberadaan hewan purba yang masih bertahan hingga saat ini menjadi daya tarik utama bagi wisatawan dari seluruh dunia. Kita sebagai warga negara Indonesia harus terus mendukung upaya pelestarian agar komodo terhindar dari ancaman kepunahan.\n\nBerdasarkan teks di atas, topik utama yang dibahas adalah...",
       "pilihan_jawaban": [
         "a. Keindahan alam di Nusa Tenggara Timur",
         "b. Spesies kadal terbesar di dunia asal Indonesia",
@@ -107,7 +107,7 @@
     },
     {
       "id_soal": 10,
-      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasai sekujur badan rumah, jenis kayunya sangat berkualitas, tongkonan juga di dekorasi dengan sejumlah hiasan tanduk kerbau.\n\nBerdasarkan rincian kalimat di atas secara struktur termasuk ke dalam...",
+      "teks_pertanyaan": "Rumah adat itu terbuat dari bahan kayu kuat. Ukirannya menghiasi sekujur badan rumah, jenis kayunya sangat berkualitas, Tongkonan juga didekorasi dengan sejumlah hiasan tanduk kerbau.\n\nBerdasarkan rincian kalimat di atas, secara struktur termasuk ke dalam bagian...",
       "pilihan_jawaban": [
         "a. Identifikasi",
         "b. Deskripsi umum",
@@ -118,7 +118,7 @@
     },
     {
       "id_soal": 11,
-      "teks_pertanyaan": "Perhatikan kalimat berikut:\n\"Suara aumannya menggelegar membelah lautan.\"\n\nKalimat tersebut memuat majas ...",
+      "teks_pertanyaan": "Perhatikan kalimat berikut!\n\"Suara aumannya menggelegar membelah lautan.\"\n\nKalimat tersebut memuat majas ...",
       "pilihan_jawaban": [
         "a. Personifikasi",
         "b. Metafora",
@@ -176,7 +176,7 @@
       "teks_pertanyaan": "Bacalah penggalan cerita fantasi berikut!\n“Aku masih takut dengan monster itu, tetapi aku harus menyelamatkan Jerry. Aku terbang dengan sayapku. Tiba-tiba muncul sebuah busur panah di tanganku.”\n\nBerdasarkan ciri isinya, bagian tersebut menunjukkan struktur ....",
       "pilihan_jawaban": [
         "a. Orientasi",
-        "b. Komplikasi (mulai muncul masalah/konflik)",
+        "b. Komplikasi",
         "c. Resolusi",
         "d. Koda"
       ],
@@ -184,7 +184,7 @@
     },
     {
       "id_soal": 17,
-      "teks_pertanyaan": "Bacalah teks cerita berikut untuk menjawab soal nomor 17–20!\n\nPersahabatan di Balik Kabut Kaca\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jemari Rian pada meja kayu. Rian, seorang anak yang pendiam dan selalu membawa buku sketsa ke mana pun ia pergi, sedang asyik menggambar. Di sudut lain, duduklah Doni, sang ketua kelas yang terkenal tegas namun ramah. Doni sedang sibuk menyusun laporan kegiatan OSIS yang menumpuk.\nTiba-tiba, lampu perpustakaan berkedip tiga kali lalu padam total. Suasana menjadi gelap gulita karena jendela perpustakaan tertutup tirai tebal. Terdengar suara krieek... dari arah lemari referensi kuno di pojok ruangan. Sebuah cahaya biru keperakan menembus celah lemari tersebut.\n\"Rian, kamu lihat itu?\" bisik Doni sambil berdiri perlahan. Jantungnya berdegup kencang, namun rasa tanggung jawabnya sebagai ketua kelas membuatnya merasa harus melindungi Rian.\nRian hanya mengangguk pelan. Alih-alih takut, matanya justru berbinar penasaran. Ia melangkah mendekati lemari itu tanpa ragu. Ketika mereka berdua menggeser lemari tersebut, mereka menemukan sebuah cermin besar berkabut. Di atas cermin itu tertulis kalimat kuno: “Hanya dua jiwa yang saling percaya yang dapat membuka gerbang ini.”\nDoni ragu, namun Rian meyakinkannya dengan memegang pundak Doni. \"Kita bisa hadapi ini sama-sama, Don.\"\nSaat mereka berpegangan tangan dan menyentuh permukaan kaca, kabut itu lenyap. Cermin itu berubah menjadi gerbang transparan yang memperlihatkan keindahan Kota Melodia dari masa depan. Pengalaman ajaib itu tidak hanya memberi mereka petualangan baru, tetapi juga merekatkan perbedaan sifat di antara keduanya. Mereka sadar bahwa keberanian sejati lahir dari rasa saling percaya. Siapakah tokoh utama yang memiliki watak pemberani dan penasaran dalam cerita di atas? ....",
+      "teks_pertanyaan": "Bacalah teks cerita fantasi berikut untuk menjawab soal nomor 17–20!\n\nPersahabatan di Balik Kabut Kaca\n\nPagi itu, perpustakaan sekolah sangat sepi. Hanya ada deru kipas angin tua dan ketukan jemari Rian pada meja kayu. Rian, seorang anak yang pendiam dan selalu membawa buku sketsa ke mana pun ia pergi, sedang asyik menggambar. Di sudut lain, duduklah Doni, sang ketua kelas yang terkenal tegas namun ramah. Doni sedang sibuk menyusun laporan kegiatan OSIS yang menumpuk.\n\nTiba-tiba, lampu perpustakaan berkedip tiga kali lalu padam total. Suasana menjadi gelap gulita karena jendela perpustakaan tertutup tirai tebal. Terdengar suara krieek... dari arah lemari referensi kuno di pojok ruangan. Sebuah cahaya biru keperakan menembus celah lemari tersebut.\n\n\"Rian, kamu lihat itu?\" bisik Doni sambil berdiri perlahan. Jantungnya berdegup kencang, namun rasa tanggung jawabnya sebagai ketua kelas membuatnya merasa harus melindungi Rian.\n\nRian hanya mengangguk pelan. Alih-alih takut, matanya justru berbinar penasaran. Ia melangkah mendekati lemari itu tanpa ragu. Ketika mereka berdua menggeser lemari tersebut, mereka menemukan sebuah cermin besar berkabut. Di atas cermin itu tertulis kalimat kuno: “Hanya dua jiwa yang saling percaya yang dapat membuka gerbang ini.”\n\nDoni ragu, namun Rian meyakinkannya dengan memegang pundak Doni. \"Kita bisa hadapi ini sama-sama, Don.\"\n\nSaat mereka berpegangan tangan dan menyentuh permukaan kaca, kabut itu lenyap. Cermin itu berubah menjadi gerbang transparan yang memperlihatkan keindahan Kota Melodia dari masa depan. Pengalaman ajaib itu tidak hanya memberi mereka petualangan baru, tetapi juga merekatkan perbedaan sifat di antara keduanya. Mereka sadar bahwa keberanian sejati lahir dari rasa saling percaya.\n\nTokoh utama yang memiliki sifat pemberani dan rasa penasaran yang tinggi dalam cerita tersebut adalah...",
       "pilihan_jawaban": [
         "a. Doni",
         "b. Rian",
@@ -195,7 +195,7 @@
     },
     {
       "id_soal": 18,
-      "teks_pertanyaan": "Di mana latar terjadinya peristiwa dalam cerita tersebut adalah di ....",
+      "teks_pertanyaan": "Latar tempat terjadinya peristiwa utama dalam cerita tersebut adalah di ....",
       "pilihan_jawaban": [
         "a. Kota Melodia masa depan",
         "b. Kelas yang ramai",
@@ -228,7 +228,7 @@
     },
     {
       "id_soal": 21,
-      "teks_pertanyaan": "Kalimat berikut menggunakan majas simile kecuali ....",
+      "teks_pertanyaan": "Kalimat berikut menggunakan majas simile, kecuali ....",
       "pilihan_jawaban": [
         "a. Kecepatan terbang burung phoenix itu laksana kilat di malam hari.",
         "b. Kulit peri salju itu putih bersih seperti kapas.",
@@ -250,7 +250,7 @@
     },
     {
       "id_soal": 23,
-      "teks_pertanyaan": "Bacalah teks berikut untuk menjawab soal nomor 23-25!\n\nSemut dan Belalang\nDi sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan memainkan biolanya dengan riang gembira. Di saat yang sama, rombongan Semut lewat di depannya. Mereka berjalan beriringan dengan susah payah, membawa butiran jagung dan biji-bijian yang berat menuju sarang mereka.\n\"Hai Semut! Mengapa kamu bekerja keras begitu di hari seindah ini? Ayo kemari, bersenang-senang dan menyanyi bersamaku!\" seru Belalang sambil tertawa.\nPemimpin Semut berhenti sejenak dan menjawab, \"Kami sedang mengumpulkan dan menyimpan makanan untuk persediaan musim dingin yang akan datang. Aku menyarankanmu untuk melakukan hal yang sama, Belalang.\"\nBelalang mencibir dan mengibaskan tangannya. \"Ah, mengapa harus repot-repot memikirkan musim dingin sekarang? Kita punya banyak makanan saat ini. Hari ini sangat indah untuk dinikmati!\" Semut tidak memedulikan perkataan Belalang. Mereka tetap melanjutkan kerja keras mereka sepanjang musim panas.\nBulan berganti bulan, musim dingin pun tiba dengan hembusan angin yang sangat membekukan dan salju yang tebal. Ladang yang tadinya hijau kini tertutup es. Belalang yang tidak memiliki persiapan apa pun mulai kelaparan dan kedinginan. Ia mencari makanan ke sana kemari, namun nihil. Badannya lemas tak berdaya.\nDengan sisa tenaganya, Belalang berjalan tertatih-tatih menuju sarang Semut. Dari balik jendela, ia melihat keluarga Semut sedang menikmati persediaan makanan yang melimpah di dalam ruangan yang hangat. Belalang mengetuk pintu dan memohon bantuan dengan wajah memelas. Melihat kondisi Belalang yang memprihatinkan, Semut merasa iba. Mereka membukakan pintu, memberikan makanan hangat, dan menyelamatkan nyawa Belalang. Belalang pun menyesali kemalasannya.\n\nPenggalan kalimat \"Belalang yang tidak memiliki persiapan apa pun mulai kelaparan dan kedinginan. Ia mencari makanan ke sana kemari, namun nihil.\" merupakan bagian alur ....",
+      "teks_pertanyaan": "Bacalah teks fabel berikut untuk menjawab soal nomor 23-25!\n\nSemut dan Belalang\n\nDi sebuah ladang yang luas pada musim panas, seekor Belalang sedang melompat-lompat dengan santai. Ia bernyanyi dan memainkan biolanya dengan riang gembira. Di saat yang sama, rombongan Semut lewat di depannya. Mereka berjalan beriringan dengan susah payah, membawa butiran jagung dan biji-bijian yang berat menuju sarang mereka.\n\n\"Hai Semut! Mengapa kamu bekerja keras begitu di hari seindah ini? Ayo kemari, bersenang-senang dan menyanyi bersamaku!\" seru Belalang sambil tertawa.\n\nPemimpin Semut berhenti sejenak dan menjawab, \"Kami sedang mengumpulkan dan menyimpan makanan untuk persediaan musim dingin yang akan datang. Aku menyarankanmu untuk melakukan hal yang sama, Belalang.\"\n\nBelalang mencibir dan mengibaskan tangannya. \"Ah, mengapa harus repot-repot memikirkan musim dingin sekarang? Kita punya banyak makanan saat ini. Hari ini sangat indah untuk dinikmati!\" Semut tidak memedulikan perkataan Belalang. Mereka tetap melanjutkan kerja keras mereka sepanjang musim panas.\n\nBulan berganti bulan, musim dingin pun tiba dengan hembusan angin yang sangat membekukan dan salju yang tebal. Ladang yang tadinya hijau kini tertutup es. Belalang yang tidak memiliki persiapan apa pun mulai kelaparan dan kedinginan. Ia mencari makanan ke sana kemari, namun nihil. Badannya lemas tak berdaya.\n\nDengan sisa tenaganya, Belalang berjalan tertatih-tatih menuju sarang Semut. Dari balik jendela, ia melihat keluarga Semut sedang menikmati persediaan makanan yang melimpah di dalam ruangan yang hangat. Belalang mengetuk pintu dan memohon bantuan dengan wajah memelas. Melihat kondisi Belalang yang memprihatinkan, Semut merasa iba. Mereka membukakan pintu, memberikan makanan hangat, dan menyelamatkan nyawa Belalang. Belalang pun menyesali kemalasannya.\n\nPenggalan kalimat \"Belalang yang tidak memiliki persiapan apa pun mulai kelaparan dan kedinginan. Ia mencari makanan ke sana kemari, namun nihil.\" merupakan bagian alur ....",
       "pilihan_jawaban": [
         "a. Orientasi (Pengenalan)",
         "b. Komplikasi (Puncak Masalah)",
