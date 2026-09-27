@@ -1,9 +1,9 @@
 {
 "metadata": {
-"mata_pelajaran": "Informatika",
+"mata_pelajaran": "Koding",
 "jenis_ujian": "STS_1",
 "jumlah_soal": 20,
-"durasi_menit": 60
+"durasi_menit": 50
 },
 "bank_soal": [
 {
