@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Indonesia",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Teks deskripsi adalah teks yang bertujuan untuk …",
+      "pilihan_jawaban": [
+        "a. Menceritakan kejadian secara runtut",
+        "b. Menjelaskan suatu proses secara urut",
+        "c. Menggambarkan suatu objek dengan jelas dan rinci",
+        "d. Menyampaikan pendapat terhadap suatu isu"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Bagian struktur teks deskripsi yang berisi gambaran detail mengenai objek adalah …",
+      "pilihan_jawaban": [
+        "a. Identifikasi",
+        "b. Deskripsi bagian",
+        "c. Kesimpulan",
+        "d. Orientasi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Bacalah teks berikut ini!\nDina sedang membaca sebuah teks yang menggambarkan suasana di sebuah taman kota. Dalam teks tersebut, dijelaskan bahwa taman itu penuh dengan bunga warna-warni, udara terasa sejuk, burung-burung berkicau riang, dan anak-anak bermain di sekitar air mancur.\n\nBerdasarkan cerita tersebut, jenis teks yang sedang dibaca Dina adalah...",
+      "pilihan_jawaban": [
+        "a. Teks narasi",
+        "b. Teks eksposisi",
+        "c. Teks deskripsi",
+        "d. Teks prosedur"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Perhatikan kutipan berikut!\nPerpustakaan sekolahku cukup luas. Rak-rak buku tertata rapi di sepanjang dinding. Di tengah ruangan, terdapat meja dan kursi untuk membaca. Udara sejuk dari pendingin ruangan membuat suasana membaca jadi nyaman.\n\nTujuan penulisan kutipan tersebut adalah untuk......",
+      "pilihan_jawaban": [
+        "a. Menjelaskan fungsi perpustakaan",
+        "b. Mengajak pembaca membaca buku",
+        "c. Menggambarkan keadaan perpustakaan",
+        "d. Memberikan petunjuk membuat perpustakaan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Kalimat berikut yang merupakan kalimat deskripsi adalah...",
+      "pilihan_jawaban": [
+        "a. Kemarin aku pergi ke taman bersama ibu.",
+        "b. Bunga mawar itu berwarna merah dengan kelopak yang indah dan harum.",
+        "c. Aku suka membaca buku cerita.",
+        "d. Jika kamu ingin pintar, rajinlah belajar."
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Ciri kebahasaan teks deskripsi adalah penggunaan …",
+      "pilihan_jawaban": [
+        "a. Kalimat ajakan",
+        "b. Istilah teknis",
+        "c. Kata sifat untuk mendiskripsikan objek",
+        "d. Kalimat perintah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Fungsi teks deskripsi adalah …",
+      "pilihan_jawaban": [
+        "a. Menghibur pembaca dengan cerita lucu",
+        "b. Memberikan informasi langkah-langkah",
+        "c. Menggambarkan objek agar pembaca seolah-olah melihat langsung",
+        "d. Menyampaikan argumen dan ajakan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Kata-kata berikut yang termasuk kosa kata khas deskripsi adalah ….",
+      "pilihan_jawaban": [
+        "a. Indah, luas, harum",
+        "b. Pertama, kemudian, akhirnya",
+        "c. Namun, walaupun, sebaliknya",
+        "d. Karena, sehingga, akibatnya"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Perhatikan kalimat berikut!\n“Gunung itu menjulang tinggi dengan puncaknya yang diselimuti kabut putih.”\n\nKalimat tersebut termasuk teks deskripsi karena …",
+      "pilihan_jawaban": [
+        "a. Mengandung langkah kerja",
+        "b. Menggambarkan objek dengan detail",
+        "c. Menjelaskan sebab akibat",
+        "d. Mengandung perintah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Kesimpulan yang tepat tentang teks deskripsi adalah ….",
+      "pilihan_jawaban": [
+        "a. Teks yang berisi langkah-langkah dalam melakukan sesuatu",
+        "b. Teks yang menyampaikan pendapat penulis terhadap suatu isu",
+        "c. Teks yang berisi cerita berdasarkan urutan waktu",
+        "d. Teks yang menggambarkan suatu objek secara jelas, rinci, dan seolah nyata"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Teks prosedur adalah teks yang berisi …",
+      "pilihan_jawaban": [
+        "a. Gambaran tentang suatu objek secara rinci",
+        "b. Urutan langkah-langkah melakukan sesuatu",
+        "c. Cerita pengalaman pribadi",
+        "d. Pendapat penulis mengenai suatu isu"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Struktur teks prosedur terdiri atas …",
+      "pilihan_jawaban": [
+        "a. Orientasi, konflik, resolusi",
+        "b. Identifikasi, deskripsi bagian, kesimpulan",
+        "c. Tujuan, material, langkah-langkah",
+        "d. Pernyataan umum, deretan penjelas"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Perhatikan teks berikut!\nRina sedang membaca sebuah teks yang berjudul “Cara Membuat Jus Mangga”. Di dalam teks itu, dijelaskan bahan-bahan yang diperlukan, lalu langkah-langkah membuat jus mangga secara berurutan. Jenis teks yang dibaca Rina adalah...",
+      "pilihan_jawaban": [
+        "a. Teks narasi",
+        "b. Teks eksposisi",
+        "c. Teks prosedur",
+        "d. Teks deskripsi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Bacalah penggalan teks berikut!\n\"Pertama, siapkan dua lembar roti tawar, selai cokelat, dan pisau kecil. Oleskan selai cokelat pada salah satu sisi roti. Tutup dengan roti lain, lalu potong menjadi dua bagian. Roti isi selai cokelat siap dinikmati.\"\n\nTujuan dari teks di atas adalah untuk...",
+      "pilihan_jawaban": [
+        "a. Menjelaskan kandungan gizi roti",
+        "b. Menceritakan pengalaman membuat roti",
+        "c. Menggambarkan bentuk roti",
+        "d. Memberi petunjuk membuat roti isi selai"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Kalimat berikut ini yang biasa digunakan dalam teks prosedur adalah...",
+      "pilihan_jawaban": [
+        "a. Aku sangat senang membuat kue.",
+        "b. Kamu sebaiknya membaca dulu petunjuk ini.",
+        "c. Ambil dua butir telur, lalu kocok hingga berbusa.",
+        "d. Pagi itu, aku pergi ke pasar membeli bahan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Ciri kebahasaan teks prosedur adalah penggunaan …",
+      "pilihan_jawaban": [
+        "a. Kata sifat dan frasa deskriptif",
+        "b. Konjungsi urutan waktu dan kata kerja imperatif",
+        "c. Kata hubung sebab-akibat",
+        "d. Kalimat naratif"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Contoh teks yang termasuk kategori teks prosedur adalah …",
+      "pilihan_jawaban": [
+        "a. Cerita tentang liburan ke pantai",
+        "b. Cara membuat jus jeruk segar",
+        "c. Deskripsi suasana pasar tradisional",
+        "d. Artikel tentang pentingnya Kesehatan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Perhatikan kalimat berikut!\n“Tuang adonan ke dalam loyang yang sudah diolesi margarin agar tidak lengket.” Kalimat tersebut termasuk …",
+      "pilihan_jawaban": [
+        "a. Kalimat perintah",
+        "b. Kalimat larangan",
+        "c. Kalimat tanya",
+        "d. Kalimat perasaan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Struktur yang berisi alat dan bahan merupakan bagian ....",
+      "pilihan_jawaban": [
+        "a. Judul",
+        "b. Tujuan",
+        "c. Material",
+        "d. Penegasan Ulang"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Struktur yang bersifat opsional merupakan struktur bagian ...",
+      "pilihan_jawaban": [
+        "a. Judul",
+        "b. Tujuan",
+        "c. Material",
+        "d. Penegasan Ulang"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Salah satu karya sastra fiksi berupa prosa yang menceritakan kisah kehidupan secara singkat dan pendek disebut ...",
+      "pilihan_jawaban": [
+        "a. Cerpen",
+        "b. Novel",
+        "c. Komik",
+        "d. Webtoon"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Bacalah kutipan cerpen berikut ini untuk menjawab soal no 22-24!\n“Sahabat di Balik Hujan”\nAlya duduk termenung di dekat jendela kelas saat hujan turun deras. Ia merasa sedih karena tidak ada yang mau berteman dengannya sejak pindah sekolah dua bulan lalu. Namun hari itu berbeda. Seorang anak perempuan bernama Aza menghampirinya dan meminjamkan payung saat pulang sekolah. Sejak saat itu, Aza dan Alya menjadi sahabat dekat. Aza selalu membantu Alya beradaptasi di sekolah barunya. Mereka sering belajar bersama dan saling mendukung. Alya pun akhirnya merasa nyaman dan tidak kesepian lagi. Ia menyadari bahwa sahabat sejati bisa datang di saat yang tidak terduga, bahkan saat hujan turun.\n\nSiapakah tokoh utama dalam cerpen “Sahabat di Balik Hujan”?",
+      "pilihan_jawaban": [
+        "a. Aza",
+        "b. Alya",
+        "c. Guru",
+        "d. Teman sekelas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Apa tema cerpen tersebut...",
+      "pilihan_jawaban": [
+        "a. Persaingan dalam belajar",
+        "b. Persahabatan yang tumbuh dalam kesulitan",
+        "c. Pentingnya meminjamkan payung",
+        "d. Hujan yang membasahi sekolah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Amanat apa yang bisa kita ambil dari cerita tersebut...",
+      "pilihan_jawaban": [
+        "a. Jangan pernah membawa payung kesekolah",
+        "b. Jangan mudah berteman dengan orang baru",
+        "c. Sahabat sejati bisa datang kapan saja dan di mana saja",
+        "d. Jangan pindah sekolah agar tidak kesepian"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Struktur yang menjelaskan tahap pengenalan tokoh, latar dan suasana terletak pada bagian ….",
+      "pilihan_jawaban": [
+        "a. Orientasi",
+        "b. Komplikasi",
+        "c. Evaluasi",
+        "d. Resolusi"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
