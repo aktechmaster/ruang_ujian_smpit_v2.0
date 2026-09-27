@@ -1,1 +1,288 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Coding",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Prinsip berpikir komputasional sangat diperlukan saat pengolahan data. Berikut yang termasuk prinsip berpikir komputasional adalah…",
+      "pilihan_jawaban": [
+        "a. Menyalin file dari komputer",
+        "b. Menyusun langkah-langkah sistematis",
+        "c. Mengetik dokumen",
+        "d. Menonton video pembelajaran"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Dalam pengolahan data fungsi AVERAGE digunakan untuk…",
+      "pilihan_jawaban": [
+        "a. Mencari nilai terkecil",
+        "b. Menjumlahkan seluruh data",
+        "c. Mencari nilai rata-rata",
+        "d. Menghapus data duplikat"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Tempat penyimpanan data dalam algoritma atau program disebut…",
+      "pilihan_jawaban": [
+        "a. Variabel",
+        "b. Struktur",
+        "c. Pseudocode",
+        "d. Flowchart"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Aplikasi yang digunakan untuk mengolah data dengan prinsip berpikir komputasional, seperti menyaring data, menghitung nilai maksimum, mencari nilai rata-rata, dan membuat keputusan berdasarkan data adalah....",
+      "pilihan_jawaban": [
+        "a. Spreadsheet",
+        "b. Powerpoint",
+        "c. Coreldraw",
+        "d. Word"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Langkah berpikir komputasional yang bertujuan untuk memecah masalah besar menjadi bagian kecil agar mudah diselesaikan disebut…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Dekomposisi",
+        "c. Pengenalan pola",
+        "d. Algoritma"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Langkah berpikir komputasional yang berarti mencari kesamaan atau pengulangan dari masalah yang kita temui disebut…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Dekomposisi",
+        "c. Pengenalan pola",
+        "d. Algoritma"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Jika kamu ingin membuat peta jalan dari rumahmu ke sekolah, kamu tidak perlu menggambar setiap pohon atau batu yang kamu lewati. Pernyataan tersebut merupakan langkah penyelesaian masalah dengan langkah…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Dekomposisi",
+        "c. Pengenalan pola",
+        "d. Algoritma"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 8,
+      "gambar": "Images/STS_1/images_COD_8/8.png",
+      "teks_pertanyaan": "Ilustrasi tersebut merupakan contoh dari…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Dekomposisi",
+        "c. Pengenalan pola",
+        "d. Algoritma"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Struktur kontrol (control structure) mengatur algoritma atau bagaimana suatu program berjalan, berikut yang bukan merupakan struktur kontrol dalam algoritma adalah…",
+      "pilihan_jawaban": [
+        "a. Urutan (Sequence)",
+        "b. Percabangan (Selection)",
+        "c. Variable/Deklarasi",
+        "d. Pengulangan (Loop)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Cara menuliskan algoritma dalam bentuk tulisan yang mudah dipahami manusia dan tidak menggunakan bahasa pemrograman tertentu yaitu…",
+      "pilihan_jawaban": [
+        "a. Flowchart",
+        "b. Pseudocode",
+        "c. Coding",
+        "d. Notasi alami"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Data belum memiliki arti dan konteks tertentu jika belum diubah menjadi informasi. Data dapat berubah menjadi informasi dengan cara ....",
+      "pilihan_jawaban": [
+        "a. Disimpan dalam komputer",
+        "b. Diolah dan dipahami",
+        "c. Dibagikan ke teman",
+        "d. Diubah jadi angka"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Pengenalan pola merupakan salah satu langkah dalam berpikir komputasional. Cara yang dapat dilakukan untuk mengenali pola adalah ....",
+      "pilihan_jawaban": [
+        "a. Mencatat suara",
+        "b. Menyusun algoritma",
+        "c. Mengabaikan informasi",
+        "d. Mengamati pengulangan"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Perhatikan langkah-langkah berikut!\n(1) Tambahkan irisan keju di atas roti yang sudah diolesi selai\n(2) Potong sandwich menjadi dua bagian\n(3) Oleskan selai pada salah satu roti\n(4) Tutup dengan roti yang satu lagi\n(5) Ambil dua lembar roti tawar\n\nUrutkan langkah-langkah cara membuat sandwich yang benar adalah ....",
+      "pilihan_jawaban": [
+        "a. (1) – (3) – (2) – (4) – (5)",
+        "b. (2) – (3) – (5) – (1) – (4)",
+        "c. (3) – (5) – (4) – (1) – (2)",
+        "d. (5) – (3) – (1) – (4) – (2)"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Perhatikan pseudocode berikut!\nMulai\nMemasukkan waktu sekarang\nJika waktu sekarang lebih dari atau sama dengan jam 19.00 maka\n    Tampilkan “Saatnya belajar”\nJika tidak maka\n    Tampilkan “Belum waktunya belajar”\nSelesai\n\nJika sekarang waktu menunjukkan pukul 21.00, maka output yang akan ditampilkan adalah ....",
+      "pilihan_jawaban": [
+        "a. Belum waktunya belajar",
+        "b. Waktu istirahat",
+        "c. Saatnya belajar",
+        "d. Waktu tidur"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Berpikir komputasional sangat dibutuhkan dalam hidup kita. Manfaat berpikir komputasional dalam kehidupan sehari-hari adalah…",
+      "pilihan_jawaban": [
+        "a. Meningkatkan kemampuan kita dalam menggunakan perangkat lunak dan aplikasi komputer",
+        "b. Memudahkan kita dalam menghafal berbagai macam informasi dan data yang kompleks",
+        "c. Mempercepat kemampuan kita dalam mengetik dengan menggunakan media sosial",
+        "d. Membantu kita memecahkan masalah sehari-hari secara sistematis dan efisien"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Mengapa pseudocode perlu dibuat sebelum menulis kode program yang sebenarnya…",
+      "pilihan_jawaban": [
+        "a. Mempercepat performa komputer",
+        "b. Menghias tampilan aplikasi",
+        "c. Mempermudah perancangan logika alur",
+        "d. Mengganti fungsi bahasa pemrograman"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Ketika menggambar flowchart, kita perlu mengenal beberapa simbol standar. Dalam flowchart simbol persegi panjang menunjukkan…",
+      "pilihan_jawaban": [
+        "a. Input/output",
+        "b. Proses",
+        "c. Keputusan/kondisi",
+        "d. Penghubung"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Serangkaian langkah-langkah logis dan berurutan untuk menyelesaikan masalah secara sistematis disebut…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Algoritma",
+        "c. Dekomposisi",
+        "d. Pengenalan pola"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Apa yang dimaksud dengan fungsi pada spreadsheet…",
+      "pilihan_jawaban": [
+        "a. Rumus bawaan yang digunakan untuk melakukan perhitungan dan analisis data secara otomatis",
+        "b. Fitur untuk membuat visualisasi grafik dari kumpulan data angka",
+        "c. Perpotongan antara baris dan kolom yang digunakan untuk menyimpan data",
+        "d. Perintah untuk mengatur format tampilan teks dan halaman cetak"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "“Saat kamu ingin mencari nilai tertinggi siswa dikelasmu, kamu tidak perlu memperhatikan kolom alamat siswa atau tanggal lahir cukup fokus perhatikan kolom yang penting saja, misal kolom nilai.” Pernyataan tersebut merupakan contoh dari penerapan…dalam berpikir komputasional…",
+      "pilihan_jawaban": [
+        "a. Abstraksi",
+        "b. Algoritma",
+        "c. Dekomposisi",
+        "d. Pengenalan pola"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Sebanyak 40 siswa kelas 7A memilih kegiatan ekstrakurikuler. Data pilihan siswa disajikan dalam bentuk persentase pada diagram lingkaran berikut: Pramuka: 40%, Futsal: 25%, Basket: 20%, Seni Musik: 15%.\n\nJenis diagram yang paling cocok digunakan adalah…",
+      "pilihan_jawaban": [
+        "gambar": "Images/STS_1/images_COD_8/21a.png",
+        "gambar": "Images/STS_1/images_COD_8/21b.png",
+        "gambar": "Images/STS_1/images_COD_8/21c.png",
+        "gambar": "Images/STS_1/images_COD_8/21d.png",
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Data perubahan suhu badan seorang pasien yang dicatat dari pukul 07.00 hingga 11.00 WIB paling tepat dapat menggunakan diagram…",
+      "pilihan_jawaban": [
+        "a. Lingkaran",
+        "b. Batang",
+        "c. Garis",
+        "d. Kolom"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "gambar": "Images/STS_1/images_COD_8/23.png",
+      "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
+      "pilihan_jawaban": [
+        "a. Flowchart",
+        "b. Pseudocode",
+        "c. Koding",
+        "d. Fungsi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Algoritma dapat ditulis dalam dua cara yaitu dengan…dan…",
+      "pilihan_jawaban": [
+        "a. Pseudocode dan Flowchart",
+        "b. Fungsi dan Diagram",
+        "c. Data dan Column",
+        "d. Koding dan Pseudocode"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "gambar": "Images/STS_1/images_COD_8/25.png",
+      "teks_pertanyaan": "Perhatikan gambar berikut!\nGambar tersebut merupakan contoh dari…",
+      "pilihan_jawaban": [
+        "a. Flowchart",
+        "b. Pseudocode",
+        "c. Koding",
+        "d. Fungsi"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
