@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "mata_pelajaran": "Tarjim",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Arti dari عَمَّ يَتَسَاءَلُونَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Tentang apakah mereka saling bertanya?",
+        "B. Mereka saling membantu",
+        "C. Mereka saling memaafkan",
+        "D. Mereka saling berkunjung"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "عَنِ النَّبَإِ الْعَظِيمِ berarti ....",
+      "pilihan_jawaban": [
+        "A. Tentang hari yang besar",
+        "B. Tentang berita yang besar",
+        "C. Tentang malam yang panjang",
+        "D. Tentang bumi yang luas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Arti الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Yang mereka sepakati",
+        "B. Yang mereka kerjakan",
+        "C. Yang mereka perselisihkan tentang hal itu",
+        "D. Yang mereka lupakan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "كَلَّا سَيَعْلَمُونَ memiliki arti ....",
+      "pilihan_jawaban": [
+        "A. Mereka telah mengetahui",
+        "B. Tidak, kelak mereka akan mengetahui",
+        "C. Mereka tidak akan bertanya",
+        "D. Mereka sedang mencari tahu"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Arti ثُمَّ كَلَّا سَيَعْلَمُونَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Kemudian sekali-kali tidak, kelak mereka akan mengetahui",
+        "B. Kemudian mereka akan melupakan",
+        "C. Kemudian mereka akan pergi",
+        "D. Kemudian mereka akan bertanya"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Arti أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Bukankah Kami menjadikan langit sebagai atap?",
+        "B. Bukankah Kami menjadikan bumi sebagai hamparan?",
+        "C. Bukankah Kami menjadikan gunung sebagai pasak?",
+        "D. Bukankah Kami menjadikan malam sebagai pakaian?"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "وَالْجِبَالَ أَوْتَادًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Dan gunung-gunung sebagai pasak",
+        "B. Dan bumi sebagai hamparan",
+        "C. Dan langit sebagai atap",
+        "D. Dan malam sebagai pakaian"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Arti وَخَلَقْنَاكُمْ أَزْوَاجًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menciptakan kamu berkelompok",
+        "B. Dan Kami menciptakan kamu berpasang-pasangan",
+        "C. Dan Kami menjadikan kamu kuat",
+        "D. Dan Kami memberikan kamu rezeki"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menjadikan tidurmu untuk istirahat",
+        "B. Dan Kami menjadikan siang untuk bekerja",
+        "C. Dan Kami menjadikan malam sebagai pakaian",
+        "D. Dan Kami menciptakan manusia berpasangan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Arti وَجَعَلْنَا اللَّيْلَ لِبَاسًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menjadikan siang untuk bekerja",
+        "B. Dan Kami menjadikan malam sebagai pakaian",
+        "C. Dan Kami menjadikan bumi sebagai hamparan",
+        "D. Dan Kami menjadikan gunung sebagai pasak"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "وَجَعَلْنَا النَّهَارَ مَعَاشًا memiliki arti ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menjadikan malam sebagai pakaian",
+        "B. Dan Kami menjadikan tidur sebagai istirahat",
+        "C. Dan Kami menjadikan siang untuk mencari penghidupan",
+        "D. Dan Kami menjadikan bumi sebagai hamparan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Arti وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami membangun di atas kamu tujuh langit yang kokoh",
+        "B. Dan Kami menciptakan tujuh gunung",
+        "C. Dan Kami menjadikan tujuh malam",
+        "D. Dan Kami menurunkan tujuh macam hujan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menciptakan bulan yang indah",
+        "B. Dan Kami menjadikan pelita yang terang-benderang",
+        "C. Dan Kami menjadikan bumi yang luas",
+        "D. Dan Kami menciptakan manusia berpasangan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Arti وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan Kami menurunkan dari awan air yang tercurah",
+        "B. Dan Kami menurunkan dari langit batu",
+        "C. Dan Kami menciptakan awan yang gelap",
+        "D. Dan Kami menjadikan malam sebagai pakaian"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "لِنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Agar Kami mengeluarkan dengan air itu biji-bijian dan tumbuh-tumbuhan",
+        "B. Agar Kami menciptakan gunung dan lembah",
+        "C. Agar Kami menjadikan malam dan siang",
+        "D. Agar Kami menurunkan hujan yang deras"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Arti وَجَنَّاتٍ أَلْفَافًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan gunung-gunung yang tinggi",
+        "B. Dan kebun-kebun yang rindang",
+        "C. Dan langit yang kokoh",
+        "D. Dan bumi yang luas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Sesungguhnya hari keputusan adalah suatu waktu yang telah ditetapkan",
+        "B. Sesungguhnya malam adalah waktu untuk beristirahat",
+        "C. Sesungguhnya siang adalah waktu untuk bekerja",
+        "D. Sesungguhnya hujan adalah rahmat Allah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Arti يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Pada hari ketika sangkakala ditiup, lalu kamu datang berkelompok-kelompok",
+        "B. Pada hari ketika hujan turun dengan deras",
+        "C. Pada hari ketika manusia tidur",
+        "D. Pada hari ketika gunung-gunung menjadi pasak"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا berarti ....",
+      "pilihan_jawaban": [
+        "A. Dan bumi menjadi luas",
+        "B. Dan langit dibukakan, maka terdapat pintu-pintu",
+        "C. Dan gunung-gunung menjadi pasak",
+        "D. Dan malam menjadi pakaian"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Arti وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا adalah ....",
+      "pilihan_jawaban": [
+        "A. Dan gunung-gunung dijadikan pasak",
+        "B. Dan gunung-gunung digerakkan, lalu menjadi seperti fatamorgana",
+        "C. Dan gunung-gunung menjadi tempat tinggal",
+        "D. Dan gunung-gunung diturunkan hujan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Arti kata الْأَرْضَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Langit",
+        "B. Bumi",
+        "C. Gunung",
+        "D. Laut"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Arti kata الْجِبَالَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Gunung-gunung",
+        "B. Bumi",
+        "C. Langit",
+        "D. Awan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Arti kata اللَّيْلَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Siang",
+        "B. Pagi",
+        "C. Malam",
+        "D. Sore"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Arti kata النَّهَارَ adalah ....",
+      "pilihan_jawaban": [
+        "A. Malam",
+        "B. Siang",
+        "C. Pagi",
+        "D. Senja"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Arti kata مَاءً adalah ....",
+      "pilihan_jawaban": [
+        "A. Api",
+        "B. Angin",
+        "C. Air",
+        "D. Tanah"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
