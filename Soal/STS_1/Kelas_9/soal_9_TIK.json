@@ -3,7 +3,7 @@
     "mata_pelajaran": "Informatika",
     "jenis_ujian": "STS",
     "jumlah_soal": 24,
-    "durasi_waktu": 60 
+    "durasi_menit": 60 
   },
   "bank_soal": [
     {
