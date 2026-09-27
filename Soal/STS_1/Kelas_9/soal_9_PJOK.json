@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "mata_pelajaran": "PJOK",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Permainan bola basket termasuk dalam permainan bola ...",
+      "pilihan_jawaban": [
+        "A. Bola besar",
+        "B. Bola kecil",
+        "C. Permainan berkelompok",
+        "D. Semua benar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 2,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Siapa nama pencipta permainan bola basket?",
+      "pilihan_jawaban": [
+        "A. Bulutangkis",
+        "B. Dr. James Naismith",
+        "C. William G Morgan",
+        "D. Crocodile sandman"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Ada berapa tipe permainan bola basket?",
+      "pilihan_jawaban": [
+        "A. 1 type 5 vs 5",
+        "B. 3 type",
+        "C. 2 type Ganda dan Tunggal",
+        "D. Campuran"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Berapakah jumlah waktu 1 quarter dalam permainan bola basket?",
+      "pilihan_jawaban": [
+        "A. 5/7 menit",
+        "B. 5/20 menit",
+        "C. 10/15 menit",
+        "D. 30/40 menit"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini yang termasuk teknik dasar bola basket adalah ....",
+      "pilihan_jawaban": [
+        "A. Passing, service, smash dan block",
+        "B. Dribbling, shooting, heading",
+        "C. Service, dribble, dan lay-up",
+        "D. Dribble, passing, dan lay-up"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 6,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Berapakah ukuran lapangan bola basket?",
+      "pilihan_jawaban": [
+        "A. P 28 x L 15",
+        "B. P 30 x L 17",
+        "C. P 48 x L 10",
+        "D. P 25 x L 30"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Passing yang searah dada di dalam permainan bola basket dinamakan ....",
+      "pilihan_jawaban": [
+        "A. Bounce pass",
+        "B. Overhead pass",
+        "C. Pass break",
+        "D. Chest pass"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Pada tahun berapakah bola basket diciptakan?",
+      "pilihan_jawaban": [
+        "A. Pada tahun 1891",
+        "B. Pada tahun 1895",
+        "C. Pada tahun 1896",
+        "D. Pada tahun 1892"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "tipe_soal": "PG",
+      "gambar": "Images/STS_1/images_PJOK_9/9.png",
+      "teks_pertanyaan": "Perhatikan gambar berikut! Nama teknik yang digunakan dalam gambar di atas adalah ....",
+      "pilihan_jawaban": [
+        "A. Shooting",
+        "B. Lay-up",
+        "C. Dribbling",
+        "D. Passing"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Berapa jumlah pemain 1 tim dalam permainan bola basket?",
+      "pilihan_jawaban": [
+        "A. 10 pemain",
+        "B. 2 pemain",
+        "C. 5 pemain",
+        "D. 3 pemain"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Berapa point yang dihasilkan ketika bola ditembakan di luar garis free throw di dalam permainan bola basket?",
+      "pilihan_jawaban": [
+        "A. 3 point",
+        "B. 2 point",
+        "C. 4 point",
+        "D. Semua benar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini yang termasuk fouls bola basket adalah ...",
+      "pilihan_jawaban": [
+        "A. Kick, sleding tackle dan handball",
+        "B. Dobble, carrying dan traffling",
+        "C. Spear dan basic attack",
+        "D. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini organisasi yang mengurus permainan bola basket dunia adalah ...",
+      "pilihan_jawaban": [
+        "A. FCKA",
+        "B. FIBA",
+        "C. FIVB",
+        "D. FIFA"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Gerakan sehari-hari yang melakukan aktivitas fisik tanpa mengalami kelelahan yang berarti merupakan pengertian dari ...",
+      "pilihan_jawaban": [
+        "A. Gerakan Berirama",
+        "B. Kebugaran Jasmani",
+        "C. Atletik",
+        "D. Semua benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Secara umum ada berapakah indikator di dalam kebugaran jasmani?",
+      "pilihan_jawaban": [
+        "A. 2 indikator",
+        "B. 5 indikator",
+        "C. 4 indikator",
+        "D. 3 indikator"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini yang bukan termasuk indikator kebugaran jasmani adalah ...",
+      "pilihan_jawaban": [
+        "A. Kekuatan",
+        "B. Kelincahan",
+        "C. Keteguhan",
+        "D. Kelenturan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Pola latihan untuk meningkatkan indikator daya tahan adalah ...",
+      "pilihan_jawaban": [
+        "A. Jogging dan Bersepeda",
+        "B. Berenang dan Push-up",
+        "C. Plank dan Pull-up",
+        "D. Bersepeda dan Gelantungan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 18,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Pola latihan untuk meningkatkan indikator kecepatan adalah ...",
+      "pilihan_jawaban": [
+        "A. Push-up",
+        "B. Lompat tali",
+        "C. Jogging",
+        "D. Sprint pendek"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 19,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Apa kepanjangan dari IMT?",
+      "pilihan_jawaban": [
+        "A. Indikator Melihat Tubuh",
+        "B. Indeks Massa Tubuh",
+        "C. Intansi Mrt Tubuh",
+        "D. Semua Benar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Carilah IMT dengan TB 176 dan BB 67.",
+      "pilihan_jawaban": [
+        "A. 17 IMT (sangat kurus)",
+        "B. 18 (Kurus)",
+        "C. 21 (Normal)",
+        "D. 25 (Normal)"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 21,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini manakah rumus yang benar untuk menghitung berat badan ideal untuk laki-laki?",
+      "pilihan_jawaban": [
+        "A. 20 point",
+        "B. 15 point",
+        "C. TB dikurangi 110",
+        "D. TB dikurangi 105"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 22,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini manakah rumus yang benar untuk menghitung berat badan ideal untuk perempuan?",
+      "pilihan_jawaban": [
+        "A. TB - 200 x 0,80",
+        "B. TB - 110 x 0,85",
+        "C. TB - 100 x 0,85",
+        "D. TB - 105 x 0,80"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Klasifikasi nilai IMT yang menyatakan seseorang itu kurus berada di angka ...",
+      "pilihan_jawaban": [
+        "A. 17 <",
+        "B. 17,5 - 18",
+        "C. 27 >",
+        "D. 19 - 25"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Selain pola latihan, untuk meningkatkan kebugaran jasmani hal lain apa yang kita perlu perhatikan?",
+      "pilihan_jawaban": [
+        "A. Gaya hidup dan pola makan",
+        "B. Cukup latihan terus",
+        "C. Minum vitamin C",
+        "D. Semua benar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "tipe_soal": "PG",
+      "teks_pertanyaan": "Dibawah ini yang perlu kita perhatikan untuk meningkatkan kebugaran jasmani kecuali ...",
+      "pilihan_jawaban": [
+        "A. Program latihan",
+        "B. Kualitas tidur",
+        "C. Latihan terus menerus",
+        "D. Pola makan"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
