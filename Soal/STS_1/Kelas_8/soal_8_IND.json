@@ -184,7 +184,7 @@
     },
     {
       "id_soal": 17,
-      "gambar": "Images/STS_1/images_BINDO_8/17.png",
+      "gambar": "Images/STS_1/images_IND_8/17.png",
       "teks_pertanyaan": "Gambar berikut tergolong ....",
       "pilihan_jawaban": [
         "a. Iklan",
@@ -218,7 +218,7 @@
     },
     {
       "id_soal": 20,
-      "gambar": "Images/STS_1/images_BINDO_8/20.png",
+      "gambar": "Images/STS_1/images_IND_8/20.png",
       "teks_pertanyaan": "Isi iklan di bawah ini adalah ...",
       "pilihan_jawaban": [
         "a. Penawaran Jasa",
