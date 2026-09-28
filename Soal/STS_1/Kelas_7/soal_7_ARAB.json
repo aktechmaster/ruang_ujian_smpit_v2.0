@@ -1,1 +1,286 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Arab",
+    "kelas": 7,
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "حَسَنٌ : مَا اسْمُكَ ؟\nعُمَرُ : ... عُمَرُ.",
+      "pilihan_jawaban": [
+        "a. اسْمُكَ",
+        "b. إِسْمِي",
+        "c. اسْمُهُ",
+        "d. إِسْمُهَا"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "لَيْلَى : مَا اسْمُكِ؟\nعَائِشَةُ : ... عَائِشَةُ.",
+      "pilihan_jawaban": [
+        "a. اسْمُكِ",
+        "b. إِسْمِي",
+        "c. إِسْمُهَا",
+        "d. اسْمُهُ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "لَيْلَى : مِنْ أَيْنَ أَنْتَ؟\nعِيسَى : ... مِنْ جَاكَرْتَا.",
+      "pilihan_jawaban": [
+        "a. أَنَا",
+        "b. أَنْتَ",
+        "c. أَنْتِ",
+        "d. هُوَ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "حَسَنٌ : مِنْ أَيْنَ ...؟\nمَرْيَمُ : أَنَا مِنْ مَكَاسَر.",
+      "pilihan_jawaban": [
+        "a. أَنَا",
+        "b. أَنْتَ",
+        "c. أَنْتِ",
+        "d. هِيَ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "عَائِشَةُ : أَهْلًا وَسَهْلًا\nعُمَرُ : أَهْلًا ....",
+      "pilihan_jawaban": [
+        "a. بِكِ",
+        "b. بِكَ",
+        "c. بِهِ",
+        "d. بِهَا"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "فَاطِمَةُ : كَيْفَ ...؟\nعَائِشَةُ : أَنَا بِخَيْرٍ.",
+      "pilihan_jawaban": [
+        "a. حَالُكِ",
+        "b. حَالُكَ",
+        "c. حَالُهُ",
+        "d. حَالُهَا"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Isilah titik-titik dengan Isim Isyarah yang tepat!\n... كِتَابٌ",
+      "pilihan_jawaban": [
+        "a. هَذَا",
+        "b. هَذِهِ",
+        "c. هِيَ",
+        "d. تِلْكَ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Lengkapilah kalimat berikut dengan kata yang sesuai!\nتِلْكَ ...",
+      "pilihan_jawaban": [
+        "a. تِلْمِيذٌ",
+        "b. سَبُّورَةٌ",
+        "c. مُحَمَّدٌ",
+        "d. بَيْتٌ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "مُحَمَّدٌ : هَلْ فَصْلُكَ ضَيِّقٌ ؟\nعُمَرُ : لَا ، فَصْلِي ...",
+      "pilihan_jawaban": [
+        "a. صَغِيْرٌ",
+        "b. وَاسِعٌ",
+        "c. كَبِيْرٌ",
+        "d. ضَيِّقٌ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "عَلِيٌّ : صَبَاحُ الْخَيْرِ\nعُثْمَانُ : ...",
+      "pilihan_jawaban": [
+        "a. صَبَاحُ النُّوْرِ",
+        "b. مَسَاءُ الْخَيْرِ",
+        "c. أَهْلًا",
+        "d. الْحَمْدُ لِلَّهِ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "مَا هَذِهِ؟",
+      "pilihan_jawaban": [
+        "a. هَذِهِ مَحْفَظَةٌ",
+        "b. هَذَا كِتَابٌ",
+        "c. هَذِهِ مِمْسَحَةٌ",
+        "d. هَذَا قَلَمٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "مَا تِلْكَ ؟",
+      "pilihan_jawaban": [
+        "a. تِلْكَ سَبُّورَةٌ",
+        "b. تِلْكَ مِمْسَحَةٌ",
+        "c. تِلْكَ مِقْلَمَةٌ",
+        "d. ذَلِكَ مَكْتَبٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "مَا تِلْكَ ؟ ...",
+      "pilihan_jawaban": [
+        "a. تِلْكَ نَافِذَةٌ",
+        "b. تِلْكَ سَيَّارَةٌ",
+        "c. ذَلِكَ بَابٌ",
+        "d. تِلْكَ سَاعَةٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "مَا تِلْكَ؟",
+      "pilihan_jawaban": [
+        "a. تِلْكَ سَيَّارَةٌ",
+        "b. ذَلِكَ مِصْبَاحٌ",
+        "c. تِلْكَ مَدْرَسَةٌ",
+        "d. ذَلِكَ بُسْتَانٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "مَا هَذِهِ؟",
+      "pilihan_jawaban": [
+        "a. هَذِهِ سَاعَةٌ",
+        "b. هَذَا مِصْبَاحٌ",
+        "c. هَذِهِ نَافِذَةٌ",
+        "d. هَذِهِ مِمْسَحَةٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "مَا هَذِهِ؟",
+      "pilihan_jawaban": [
+        "a. هَذِهِ مِسْطَرَةٌ",
+        "b. هَذَا قَلَمٌ",
+        "c. هَذِهِ مَحْفَظَةٌ",
+        "d. هَذَا كِتَابٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "مَا هَذَا ....",
+      "pilihan_jawaban": [
+        "a. هَذِهِ مَدْرَسَةٌ",
+        "b. هَذَا بَيْتٌ",
+        "c. ذَلِكَ دِيْوَانٌ",
+        "d. ذَلِكَ مِرْحَاضٌ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "مَا هَذَا؟",
+      "pilihan_jawaban": [
+        "a. هَذَا كِتَابٌ",
+        "b. هَذِهِ كُرَّاسَةٌ",
+        "c. هَذَا قَلَمٌ",
+        "d. هَذَا مِرْحَاضٌ"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "مَا هَذَا؟",
+      "pilihan_jawaban": [
+        "a. هَذَا مَكْتَبٌ",
+        "b. هَذَا كُرْسِيٌّ",
+        "c. هَذِهِ سَبُّوْرَةٌ",
+        "d. هَذَا بَابٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "مَا هَذَا؟",
+      "pilihan_jawaban": [
+        "a. هَذَا قَلَمٌ",
+        "b. هَذِهِ مِسْطَرَةٌ",
+        "c. هَذَا كِتَابٌ",
+        "d. هَذَا مِصْبَاحٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "مَا ذَلِكَ ؟",
+      "pilihan_jawaban": [
+        "a. ذَلِكَ مِصْبَاحٌ",
+        "b. تِلْكَ سَاعَةٌ",
+        "c. ذَلِكَ بَابٌ",
+        "d. ذَلِكَ مَقْعَدٌ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "مَا ذَلِكَ ؟",
+      "pilihan_jawaban": [
+        "a. ذَلِكَ دِيْوَانٌ",
+        "b. هَذَا مَكْتَبٌ",
+        "c. ذَلِكَ بَابٌ",
+        "d. ذَلِكَ مَقْعَدٌ"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "مَا ذَلِكَ ؟",
+      "pilihan_jawaban": [
+        "a. ذَلِكَ مِرْحَاضٌ",
+        "b. ذَلِكَ بُسْتَانٌ",
+        "c. ذَلِكَ مِصْبَاحٌ",
+        "d. تِلْكَ مَدْرَسَةٌ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "مَا هَذِهِ؟ ...",
+      "pilihan_jawaban": [
+        "a. ذَلِكَ بُسْتَانٌ",
+        "b. ذَلِكَ مِرْحَاضٌ",
+        "c. تِلْكَ مِمْسَحَةٌ",
+        "d. ذَلِكَ دِيْوَانٌ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "مَنْ هَذِهِ؟",
+      "pilihan_jawaban": [
+        "a. هَذِهِ لَيْلَى",
+        "b. هَذَا مُحَمَّدٌ",
+        "c. هَذَا إِلْيَاسٌ",
+        "d. هَذَا خَالِدٌ"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
