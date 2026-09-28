@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "PAI",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Percaya kepada ramalan zodiak di internet atau aplikasi dan memakai gelang atau cincin pelindung merupakan contoh perbuatan…",
+      "pilihan_jawaban": [
+        "a. Iman",
+        "b. Islam",
+        "c. Syirik",
+        "d. Musyrik"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Manfaat beriman kepada Allah SWT diantaranya, kecuali….",
+      "pilihan_jawaban": [
+        "a. Hati menjadi senang",
+        "b. Tidak punya pegangan hidup",
+        "c. Tidak mudah terpengaruh",
+        "d. Punya tujuan hidup"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Mengucapkan syahadat, berdoa, dan berdzikir merupakan beriman dengan…",
+      "pilihan_jawaban": [
+        "a. Lisan",
+        "b. Hati",
+        "c. Perbuatan",
+        "d. Insan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Keyakinan bahwa Allah Swt. adalah satu-satunya pencipta, pemilik, dan pengatur seluruh alam semesta disebut tauhid ....",
+      "pilihan_jawaban": [
+        "a. Uluhiyah",
+        "b. Rububiyah",
+        "c. Asma wa sifat",
+        "d. Ubudiyah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Perhatikan beberapa contoh keyakinan berikut!\n(1) Meyakini Allah Swt. sebagai satu-satunya pencipta alam semesta.\n(2) Meyakini hanya Allah Swt. yang berhak disembah.\n(3) Meyakini Allah Swt. memiliki nama dan sifat yang sempurna.\n(4) Mempersembahkan ibadah kepada selain Allah Swt.\n\nContoh yang menunjukkan tauhid uluhiyah adalah ....",
+      "pilihan_jawaban": [
+        "a. 1)",
+        "b. 2)",
+        "c. 3)",
+        "d. 4)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Rafi melaksanakan salat dengan sungguh-sungguh ketika berada di hadapan teman-temannya. Namun, ketika tidak ada orang yang melihat, ia sengaja meninggalkan salat. Sikap Rafi merupakan contoh ....",
+      "pilihan_jawaban": [
+        "a. Ikhlas",
+        "b. Tawakal",
+        "c. Syirik kecil berupa riya",
+        "d. Syirik besar"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut!\n“Allah Swt. memiliki nama-nama yang indah dan sifat-sifat yang sempurna. Seorang muslim wajib meyakininya sesuai dengan Al-Qur'an dan sunah.”\n\nPernyataan tersebut berkaitan dengan tauhid ....",
+      "pilihan_jawaban": [
+        "a. Rububiyah",
+        "b. Uluhiyah",
+        "c. Asma wa sifat",
+        "d. Ubudiyah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Contoh najis mukhaffafah adalah…",
+      "pilihan_jawaban": [
+        "a. Kencing bayi laki-laki yang hanya minum asi",
+        "b. Air liur anjing",
+        "c. Darah",
+        "d. Nanah"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Air bekas pakai bersuci (musta’mal) bila sedikit, atau air yang berubah karena larut benda suci seperti teh dan kopi merupakan jenis air yang…",
+      "pilihan_jawaban": [
+        "a. Suci dan mensucikan",
+        "b. Suci tetapi tidak mensucikan",
+        "c. Air Najis",
+        "d. Air haram"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Bersuci setelah buang air dengan menggunakan batu atau daun disebut…",
+      "pilihan_jawaban": [
+        "a. Istinja",
+        "b. Istijmar",
+        "c. Tayamum",
+        "d. Taharah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Membasuh wajah dalam wudhu termasuk…",
+      "pilihan_jawaban": [
+        "a. Syarat wudhu",
+        "b. Sunnah wudhu",
+        "c. Rukun wudhu",
+        "d. Mubah"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut!\n(1) Hadas berkaitan dengan keadaan tidak suci pada diri seseorang.\n(2) Najis merupakan benda yang harus dihilangkan karena dianggap tidak suci.\n(3) Hadas dapat dihilangkan dengan membersihkan benda yang terkena najis.\n(4) Najis dapat dihilangkan dengan cara bersuci sesuai dengan jenisnya.\n\nPernyataan yang tepat ditunjukkan oleh nomor ....",
+      "pilihan_jawaban": [
+        "a. 1), 2), dan 3)",
+        "b. 1), 2), dan 4)",
+        "c. 1), 3), dan 4)",
+        "d. 2), 3), dan 4)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Abdul bangun tidur setelah mengalami mimpi basah. Ia hendak melaksanakan salat Subuh. Cara bersuci yang tepat bagi Abdul adalah ....",
+      "pilihan_jawaban": [
+        "a. Berwudu karena mengalami hadas kecil",
+        "b. Mandi wajib karena mengalami hadas besar",
+        "c. Mencuci pakaian kemudian berwudu",
+        "d. Melakukan istinja kemudian berwudu"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Perhatikan keadaan berikut!\n(1) Siti sedang dalam perjalanan.\n(2) Ia telah berusaha mencari air, tetapi tidak menemukannya.\n(3) Waktu salat hampir habis.\n\nDalam keadaan tersebut, Siti diperbolehkan melakukan ....",
+      "pilihan_jawaban": [
+        "a. Istinja",
+        "b. Istijmar",
+        "c. Tayamum",
+        "d. Mandi wajib"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Berikut ini merupakan salah satu alasan diperbolehkannya tayamum adalah ....",
+      "pilihan_jawaban": [
+        "a. Seseorang merasa malas menggunakan air",
+        "b. Air tersedia, tetapi seseorang tidak ingin mencarinya",
+        "c. Tidak menemukan air setelah berusaha mencari",
+        "d. Seseorang ingin menghemat waktu sebelum salat"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Suatu wadah dijilat oleh anjing. Berdasarkan ketentuan bersuci dalam Islam, cara menyucikan wadah tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. Mencucinya sebanyak tiga kali",
+        "b. Mencucinya sebanyak lima kali",
+        "c. Mencucinya sebanyak tujuh kali, salah satunya dengan tanah",
+        "d. Membilasnya dengan air sampai tidak berbau"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Tujuan utama seseorang melakukan taharah adalah ....",
+      "pilihan_jawaban": [
+        "a. Memperindah penampilan",
+        "b. Menjaga kebersihan dan kesucian diri",
+        "c. Mendapatkan pujian dari orang lain",
+        "d. Menghindari kegiatan sehari-hari"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Perbedaan antara hadas dan najis yang tepat adalah ....",
+      "pilihan_jawaban": [
+        "a. Hadas merupakan kotoran yang terlihat, sedangkan najis tidak terlihat",
+        "b. Hadas berkaitan dengan keadaan seseorang, sedangkan najis merupakan benda yang dianggap tidak suci",
+        "c. Hadas dan najis memiliki pengertian yang sama",
+        "d. Hadas hanya terdapat pada pakaian, sedangkan najis terdapat pada tubuh"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Hadits tentang “Perempuan berpakaian tetapi telanjang” diriwayatkan oleh…",
+      "pilihan_jawaban": [
+        "a. Bukhari",
+        "b. Abu Dawud",
+        "c. Muslim",
+        "d. Tirmizi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Salah satu hikmah diwajibkannya menutup aurat bagi seorang muslim adalah ....",
+      "pilihan_jawaban": [
+        "a. Agar terlihat lebih menarik di hadapan orang lain",
+        "b. Untuk menjaga kehormatan, kesopanan, dan martabat diri",
+        "c. Agar dapat mengikuti perkembangan mode",
+        "d. Untuk mendapatkan pujian dari lingkungan sekitar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Seorang muslimah hendak keluar rumah untuk menghadiri kegiatan sekolah. Ia memilih pakaian yang longgar, tidak transparan, dan menutup aurat. Sikap tersebut menunjukkan bahwa ia ....",
+      "pilihan_jawaban": [
+        "a. Memahami ketentuan berpakaian sesuai syariat",
+        "b. Mengutamakan penampilan daripada ibadah",
+        "c. Melakukan tabarruj dalam berpakaian",
+        "d. Hanya mengikuti kebiasaan masyarakat"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Menurut ketentuan yang dipelajari, batas aurat perempuan ketika berada di hadapan laki-laki yang bukan mahram adalah ....",
+      "pilihan_jawaban": [
+        "a. Seluruh tubuh kecuali rambut dan leher",
+        "b. Seluruh tubuh kecuali wajah dan telapak tangan",
+        "c. Seluruh tubuh kecuali kepala dan kaki",
+        "d. Wajah, rambut, dan telapak tangan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Perhatikan beberapa laki-laki berikut!\n(1) Ayah kandung\n(2) Saudara laki-laki kandung\n(3) Paman\n(4) Sepupu laki-laki\n\nLaki-laki yang termasuk mahram bagi seorang perempuan ditunjukkan oleh nomor ....",
+      "pilihan_jawaban": [
+        "a. 1), 2), dan 3)",
+        "b. 1), 2), dan 4)",
+        "c. 1), 3), dan 4)",
+        "d. 2), 3), dan 4)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Seorang perempuan mengenakan pakaian yang tipis dan memperlihatkan lekuk tubuh dengan tujuan menarik perhatian orang lain. Perilaku tersebut bertentangan dengan ketentuan menutup aurat dan termasuk ....",
+      "pilihan_jawaban": [
+        "a. Tawadu’",
+        "b. Tabarruj",
+        "c. Ta'awun",
+        "d. Tasamuh"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Perintah untuk menjulurkan kain kerudung hingga menutupi dada terdapat dalam ....",
+      "pilihan_jawaban": [
+        "a. QS Al-A'raf [7]: 26",
+        "b. QS An-Nur [24]: 31",
+        "c. QS Al-Ahzab [33]: 33",
+        "d. QS Al-Ma'idah [5]: 6"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
