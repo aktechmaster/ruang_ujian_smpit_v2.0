@@ -1,1 +1,276 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "IPA",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 24,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Materi adalah segala sesuatu yang …",
+      "pilihan_jawaban": [
+        "a. Dapat dibakar",
+        "b. Memiliki massa dan menempati ruang",
+        "c. Dapat berubah wujud",
+        "d. Berbentuk padat, cair, atau gas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Zat adalah …",
+      "pilihan_jawaban": [
+        "a. Segala sesuatu yang dapat dilihat",
+        "b. Bagian dari materi yang memiliki sifat dan komposisi tertentu",
+        "c. Semua benda di sekitar kita",
+        "d. Sesuatu yang selalu berwujud padat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Wujud zat yang mempunyai bentuk dan volume tetap adalah …",
+      "pilihan_jawaban": [
+        "a. Padat",
+        "b. Cair",
+        "c. Gas",
+        "d. Plasma"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Suhu air di dalam gelas diketahui 65°C, berapakah dalam suhu Kelvin?",
+      "pilihan_jawaban": [
+        "a. 330°K",
+        "b. 250°K",
+        "c. 315°K",
+        "d. 338°K"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Contoh perubahan wujud dari padat ke cair disebut …",
+      "pilihan_jawaban": [
+        "a. Membeku",
+        "b. Mencair",
+        "c. Menguap",
+        "d. Mengembun"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Besi yang dibiarkan di udara lembap lama-kelamaan berkarat. Perubahan ini termasuk …",
+      "pilihan_jawaban": [
+        "a. Perubahan fisika",
+        "b. Perubahan kimia",
+        "c. Perubahan wujud",
+        "d. Perubahan sementara"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Lilin yang dibakar akan meleleh dan menghasilkan asap. Bagian lilin yang meleleh merupakan perubahan …",
+      "pilihan_jawaban": [
+        "a. Kimia",
+        "b. Fisika",
+        "c. Biologi",
+        "d. Energi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Gula dilarutkan dalam air termasuk perubahan …",
+      "pilihan_jawaban": [
+        "a. Kimia, karena sifatnya berubah",
+        "b. Fisika, karena tidak terbentuk zat baru",
+        "c. Biologi, karena dipengaruhi makhluk hidup",
+        "d. Energi, karena menghasilkan panas"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Jika sebuah benda bermassa 200 gram dan volumenya 50 cm³, maka massa jenisnya adalah …",
+      "pilihan_jawaban": [
+        "a. 2 g/cm³",
+        "b. 2,5 g/cm³",
+        "c. 4 g/cm³",
+        "d. 5 g/cm³"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Gaya tarik-menarik antara molekul sejenis (misalnya air dengan air) disebut …",
+      "pilihan_jawaban": [
+        "a. Adhesi",
+        "b. Kohesi",
+        "c. Kapilaritas",
+        "d. Tegangan permukaan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Peristiwa menempelnya butiran air pada daun setelah hujan disebabkan oleh gaya …",
+      "pilihan_jawaban": [
+        "a. Adhesi",
+        "b. Kohesi",
+        "c. Kapilaritas",
+        "d. Tegangan permukaan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Sebuah balok kayu massanya 600 gram dan volumenya 200 cm³. Berapakah massa jenis balok tersebut?",
+      "pilihan_jawaban": [
+        "a. 0,5 g/cm³",
+        "b. 0,75 g/cm³",
+        "c. 3 g/cm³",
+        "d. 1,3 g/cm³"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Jika sebuah benda memiliki massa jenis 8 g/cm³ dan volumenya 10 cm³, maka massanya adalah…",
+      "pilihan_jawaban": [
+        "a. 40 g",
+        "b. 60 g",
+        "c. 80 g",
+        "d. 100 g"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Yang termasuk besaran pokok adalah…",
+      "pilihan_jawaban": [
+        "a. Luas, volume, kecepatan",
+        "b. Massa, waktu, panjang",
+        "c. Gaya, energi, tekanan",
+        "d. Suhu, kecepatan, usaha"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "gambar": "Images/STS_1/images_IPA_7/15.png",
+      "teks_pertanyaan": "Pasangan yang sesuai antara besaran pokok dengan satuannya dalam SI adalah ....",
+      "pilihan_jawaban": [
+        "a. Panjang - centimeter",
+        "b. Massa - gram",
+        "c. Kuat arus - Ampere",
+        "d. Suhu - Celcius"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Satuan SI dari besaran pokok panjang adalah…",
+      "pilihan_jawaban": [
+        "a. CM",
+        "b. KM",
+        "c. M",
+        "d. MM"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Luas termasuk besaran…",
+      "pilihan_jawaban": [
+        "a. Pokok",
+        "b. Turunan",
+        "c. Vektor",
+        "d. Pokok dan turunan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "gambar": "Images/STS_1/images_IPA_7/18.png",
+      "teks_pertanyaan": "Tebal benda yang diukur dengan jangka sorong seperti gambar di samping adalah … cm.",
+      "pilihan_jawaban": [
+        "a. 3,10",
+        "b. 3,14",
+        "c. 3,19",
+        "d. 3,40"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Diameter sekrup kecil diukur dengan mikrometer. Skala utama = 9,5 mm, skala putar = 22. Hasil pengukuran adalah…",
+      "pilihan_jawaban": [
+        "a. 9,72 mm",
+        "b. 9,22 mm",
+        "c. 9,05 mm",
+        "d. 9,50 mm"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Satuan SI untuk intensitas cahaya adalah…",
+      "pilihan_jawaban": [
+        "a. Candela (cd)",
+        "b. Kelvin (K)",
+        "c. Mol (mol)",
+        "d. Watt (W)"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Besaran yang termasuk turunan adalah…",
+      "pilihan_jawaban": [
+        "a. Panjang, massa, suhu",
+        "b. Luas, volume, kecepatan",
+        "c. Waktu, arus listrik, jumlah zat",
+        "d. Suhu, intensitas cahaya, panjang"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Yang dimaksud dengan besaran adalah…",
+      "pilihan_jawaban": [
+        "a. Sesuatu yang hanya memiliki arah",
+        "b. Sesuatu yang hanya memiliki besar",
+        "c. Sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan",
+        "d. Satuan dasar dari pengukuran"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Contoh besaran dalam kehidupan sehari-hari adalah…",
+      "pilihan_jawaban": [
+        "a. Warna baju merah",
+        "b. Panjang pensil 15 cm",
+        "c. Rasa buah mangga manis",
+        "d. Suara terdengar keras"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Pernyataan yang benar tentang perubahan kimia adalah…",
+      "pilihan_jawaban": [
+        "a. Tidak menghasilkan zat baru",
+        "b. Dapat balik dengan mudah",
+        "c. Menghasilkan zat baru dengan sifat berbeda",
+        "d. Tidak terjadi reaksi"
+      ],
+      "kunci_jawaban": "C"
+    }
+  ]
+}
