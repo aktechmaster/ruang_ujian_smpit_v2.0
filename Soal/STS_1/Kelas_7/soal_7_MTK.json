@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Matematika",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Pada pukul 20.00 WIB (malam), suhu udara di kota Kerinci adalah -7°C. Setelah beberapa jam, suhu naik menjadi 4°C. Berapa perubahan suhu yang terjadi di kota Kerinci?",
+      "pilihan_jawaban": [
+        "a. 10",
+        "b. 11",
+        "c. 13",
+        "d. 15"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut!\n(1) -8 > -11\n(2) 35 > -74\n(3) -10 < -19\n(4) 0 > -20\n\nPernyataan di atas yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. (1), (2), dan (4)",
+        "b. (2) dan (4)",
+        "c. (1) dan (3)",
+        "d. Semua benar"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Semua anggota x yang memenuhi syarat -3 < x < 4 adalah…",
+      "pilihan_jawaban": [
+        "a. -3, -2, -1, 0, 1, 2, 3, 4",
+        "b. -3, -2, -1, 0, 1, 2, 3",
+        "c. -2, -1, 0, 1, 2, 3, 4",
+        "d. -2, -1, 0, 1, 2, 3"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Urutan bilangan 84, -73, -98, 92, 89, -76 dari terkecil sampai terbesar yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. -73, -76, 84, 89, -92, -98",
+        "b. -98, -92, 89, 84, -76, 73",
+        "c. -98, -92, -76, -73, 84, 89",
+        "d. -73, -76, -92, -98, 84, 89"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Hasil penjumlahan dari 496 + (-237) adalah…",
+      "pilihan_jawaban": [
+        "a. 231",
+        "b. 251",
+        "c. 259",
+        "d. 295"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Hasil penjumlahan dari -77 + 90 adalah…",
+      "pilihan_jawaban": [
+        "a. 13",
+        "b. 167",
+        "c. -167",
+        "d. -13"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Nilai n yang tepat untuk n + 53 = 79 sehingga menjadi operasi bilangan yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. -26",
+        "b. 132",
+        "c. 82",
+        "d. 26"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Hasil pengurangan dari 745 – (–329) adalah…",
+      "pilihan_jawaban": [
+        "a. 1.047",
+        "b. 1.074",
+        "c. 461",
+        "d. 416"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Hasil perkalian dari -36 x (-67) adalah…",
+      "pilihan_jawaban": [
+        "a. 222",
+        "b. 252",
+        "c. -222",
+        "d. -252"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Bentuk perkalian [ ... ] x 11 x (-7) = 154. Bilangan yang tepat untuk mengisi angka pada kotak sehingga menjadi operasi perkalian yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. -2",
+        "b. -3",
+        "c. 2",
+        "d. 3"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Hasil pembagian dari 657 : -3 adalah…",
+      "pilihan_jawaban": [
+        "a. 219",
+        "b. 229",
+        "c. -219",
+        "d. -329"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Bentuk pembagian 75 : [ ... ] = -5. Bilangan yang tepat untuk mengisi angka pada kotak sehingga menjadi operasi pembagian yang benar adalah…",
+      "pilihan_jawaban": [
+        "a. 12",
+        "b. 15",
+        "c. -12",
+        "d. -15"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Hasil dari 42 : (8 - 14) + 5 x (-4) adalah…",
+      "pilihan_jawaban": [
+        "a. -27",
+        "b. -17",
+        "c. 17",
+        "d. 27"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Kelipatan persekutuan terkecil (KPK) dari 30 dan 40 adalah…",
+      "pilihan_jawaban": [
+        "a. 68",
+        "b. 82",
+        "c. 96",
+        "d. 120"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Faktor Persekutuan Terbesar (FPB) dari 56 dan 84 adalah…",
+      "pilihan_jawaban": [
+        "a. 16",
+        "b. 28",
+        "c. 32",
+        "d. 42"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Bentuk paling sederhana dari bentuk pecahan 48/72 adalah…",
+      "pilihan_jawaban": [
+        "a. 11/12",
+        "b. 8/9",
+        "c. 7/8",
+        "d. 5/6"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Tanda perbandingan yang tepat untuk mengisi titik-titik pada 3/8 .... 5/12 adalah…",
+      "pilihan_jawaban": [
+        "a. ≥",
+        "b. <",
+        "c. >",
+        "d. ="
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Pecahan di bawah ini yang senilai dengan 2/5 adalah…",
+      "pilihan_jawaban": [
+        "a. 1/5",
+        "b. 6/10",
+        "c. 8/20",
+        "d. 4/15"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Pecahan 3/7 = …….. / 42. Bilangan yang tepat untuk mengisi pada titik-titik tersebut adalah…",
+      "pilihan_jawaban": [
+        "a. 15",
+        "b. 16",
+        "c. 17",
+        "d. 18"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Urutan pecahan dari yang terkecil untuk 5/6, 1/2, 2/3 adalah…",
+      "pilihan_jawaban": [
+        "a. 1/2, 2/3, 5/6",
+        "b. 2/3, 5/6, 1/2",
+        "c. 5/6, 1/2, 2/3",
+        "d. 1/2, 5/6, 2/3"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pecahan biasa 23/4 dapat diubah ke dalam pecahan campuran menjadi…",
+      "pilihan_jawaban": [
+        "a. 3 2/4",
+        "b. 5 3/4",
+        "c. 6 1/4",
+        "d. 7 2/3"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Hasil dari penjumlahan pecahan 3/5 + 4/8 adalah…",
+      "pilihan_jawaban": [
+        "a. 1 1/5",
+        "b. 1 3/10",
+        "c. 1 1/10",
+        "d. 1 2/5"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Dalam sebuah wadah terdapat 5/6 liter madu lebah. Madu tersebut digunakan untuk bahan campuran olahan minuman sebanyak 1/3 liter. Sisa madu lebah dalam wadah tersebut adalah…",
+      "pilihan_jawaban": [
+        "a. 1/2",
+        "b. 1/3",
+        "c. 1/4",
+        "d. 1/5"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Hasil dari perkalian pecahan campuran 2 2/5 x 1 1/6 adalah…",
+      "pilihan_jawaban": [
+        "a. 2 1/5",
+        "b. 2 2/5",
+        "c. 2 3/5",
+        "d. 2 4/5"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Ibu memiliki 4 4/5 liter susu kental manis. Susu tersebut akan dituangkan ke dalam beberapa gelas kecil. Setiap gelas kecil dapat menampung 2/5 liter susu. Berapa banyak gelas kecil yang dibutuhkan Ibu?",
+      "pilihan_jawaban": [
+        "a. 12 gelas",
+        "b. 15 gelas",
+        "c. 18 gelas",
+        "d. 20 gelas"
+      ],
+      "kunci_jawaban": "A"
+    }
+  ]
+}
