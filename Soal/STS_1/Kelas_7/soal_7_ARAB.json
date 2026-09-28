@@ -119,6 +119,7 @@
     },
     {
       "id_soal": 11,
+      "gambar": "Images/STS_1/images_ARAB_7/11.png",
       "teks_pertanyaan": "مَا هَذِهِ؟",
       "pilihan_jawaban": [
         "a. هَذِهِ مَحْفَظَةٌ",
@@ -130,6 +131,7 @@
     },
     {
       "id_soal": 12,
+      "gambar": "Images/STS_1/images_ARAB_7/12.png",
       "teks_pertanyaan": "مَا تِلْكَ ؟",
       "pilihan_jawaban": [
         "a. تِلْكَ سَبُّورَةٌ",
@@ -141,6 +143,7 @@
     },
     {
       "id_soal": 13,
+      "gambar": "Images/STS_1/images_ARAB_7/13.png",
       "teks_pertanyaan": "مَا تِلْكَ ؟ ...",
       "pilihan_jawaban": [
         "a. تِلْكَ نَافِذَةٌ",
@@ -152,6 +155,7 @@
     },
     {
       "id_soal": 14,
+      "gambar": "Images/STS_1/images_ARAB_7/14.png",
       "teks_pertanyaan": "مَا تِلْكَ؟",
       "pilihan_jawaban": [
         "a. تِلْكَ سَيَّارَةٌ",
@@ -163,6 +167,7 @@
     },
     {
       "id_soal": 15,
+      "gambar": "Images/STS_1/images_ARAB_7/15.png",
       "teks_pertanyaan": "مَا هَذِهِ؟",
       "pilihan_jawaban": [
         "a. هَذِهِ سَاعَةٌ",
@@ -174,6 +179,7 @@
     },
     {
       "id_soal": 16,
+      "gambar": "Images/STS_1/images_ARAB_7/16.png",
       "teks_pertanyaan": "مَا هَذِهِ؟",
       "pilihan_jawaban": [
         "a. هَذِهِ مِسْطَرَةٌ",
@@ -185,6 +191,7 @@
     },
     {
       "id_soal": 17,
+      "gambar": "Images/STS_1/images_ARAB_7/17.png",
       "teks_pertanyaan": "مَا هَذَا ....",
       "pilihan_jawaban": [
         "a. هَذِهِ مَدْرَسَةٌ",
@@ -196,6 +203,7 @@
     },
     {
       "id_soal": 18,
+      "gambar": "Images/STS_1/images_ARAB_7/18.png",
       "teks_pertanyaan": "مَا هَذَا؟",
       "pilihan_jawaban": [
         "a. هَذَا كِتَابٌ",
@@ -207,6 +215,7 @@
     },
     {
       "id_soal": 19,
+      "gambar": "Images/STS_1/images_ARAB_7/19.png",
       "teks_pertanyaan": "مَا هَذَا؟",
       "pilihan_jawaban": [
         "a. هَذَا مَكْتَبٌ",
@@ -218,6 +227,7 @@
     },
     {
       "id_soal": 20,
+      "gambar": "Images/STS_1/images_ARAB_7/20.png",
       "teks_pertanyaan": "مَا هَذَا؟",
       "pilihan_jawaban": [
         "a. هَذَا قَلَمٌ",
@@ -229,6 +239,7 @@
     },
     {
       "id_soal": 21,
+      "gambar": "Images/STS_1/images_ARAB_7/21.png",
       "teks_pertanyaan": "مَا ذَلِكَ ؟",
       "pilihan_jawaban": [
         "a. ذَلِكَ مِصْبَاحٌ",
@@ -240,6 +251,7 @@
     },
     {
       "id_soal": 22,
+      "gambar": "Images/STS_1/images_ARAB_7/22.png",
       "teks_pertanyaan": "مَا ذَلِكَ ؟",
       "pilihan_jawaban": [
         "a. ذَلِكَ دِيْوَانٌ",
@@ -251,6 +263,7 @@
     },
     {
       "id_soal": 23,
+      "gambar": "Images/STS_1/images_ARAB_7/23.png",
       "teks_pertanyaan": "مَا ذَلِكَ ؟",
       "pilihan_jawaban": [
         "a. ذَلِكَ مِرْحَاضٌ",
@@ -262,6 +275,7 @@
     },
     {
       "id_soal": 24,
+      "gambar": "Images/STS_1/images_ARAB_7/24.png",
       "teks_pertanyaan": "مَا هَذِهِ؟ ...",
       "pilihan_jawaban": [
         "a. ذَلِكَ بُسْتَانٌ",
@@ -273,6 +287,7 @@
     },
     {
       "id_soal": 25,
+      "gambar": "Images/STS_1/images_ARAB_7/25.png",
       "teks_pertanyaan": "مَنْ هَذِهِ؟",
       "pilihan_jawaban": [
         "a. هَذِهِ لَيْلَى",
