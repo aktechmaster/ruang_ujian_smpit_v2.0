@@ -49,7 +49,7 @@
             <div class="input-group">
                 <label for="pilihSiswa">Nama Siswa</label>
                 <!-- Regex diperbarui agar mendukung nama dengan petik (') atau titik (.) -->
-                <input type="text" id="pilihSiswa" list="listSiswa" placeholder="Ketik nama lengkap siswa..." autocomplete="off" oninput="this.value = this.value.replace(/[^a-zA-Z\s'.,]/g, '')" required>
+                <input type="text" id="pilihSiswa" list="listSiswa" placeholder="Ketik nama lengkap siswa..." autocomplete="off" required>
                 <datalist id="listSiswa"></datalist>
                 <div id="loadingSiswa" class="loader">Memuat data siswa dari server...</div>
             </div>
