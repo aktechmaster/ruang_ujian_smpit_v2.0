@@ -1,1 +1,286 @@
 
+{
+  "metadata": {
+    "mata_pelajaran": "PKN",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Nilai-nilai yang terkandung dalam Pancasila sebenarnya telah berkembang dalam kehidupan masyarakat Indonesia sejak dahulu. Berdasarkan hal tersebut, penting bagi generasi muda mempelajari Pancasila karena ....",
+      "pilihan_jawaban": [
+        "a. Pancasila hanya diperlukan dalam kegiatan pemerintahan",
+        "b. Nilai Pancasila merupakan bagian dari jati diri dan kehidupan bangsa Indonesia",
+        "c. Nilai Pancasila berasal dari kebudayaan bangsa lain",
+        "d. Pancasila hanya digunakan untuk kepentingan politik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Belanda menyerah tanpa syarat kepada Jepang di Kalijati, Subang, Jawa Barat. Peristiwa tersebut terjadi pada ....",
+      "pilihan_jawaban": [
+        "a. 8 Desember 1941",
+        "b. 11 Januari 1942",
+        "c. 8 Maret 1942",
+        "d. 29 April 1942"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Jepang datang dan menduduki Indonesia bukan semata-mata untuk membantu bangsa Indonesia memperoleh kemerdekaan. Salah satu tujuan utama Jepang menguasai Indonesia adalah ....",
+      "pilihan_jawaban": [
+        "a. Mengembangkan pendidikan masyarakat Indonesia",
+        "b. Menguasai sumber daya alam, terutama minyak bumi",
+        "c. Memberikan kebebasan kepada rakyat Indonesia",
+        "d. Membangun pemerintahan Indonesia yang demokratis"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Sidang BPUPK yang membahas dasar negara berlangsung pada tanggal ....",
+      "pilihan_jawaban": [
+        "a. 28 Mei–1 Juni 1945",
+        "b. 1–5 Juni 1945",
+        "c. 17–22 Agustus 1945",
+        "d. 10–15 Juli 1945"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Pada pembukaan Sidang BPUPK, Radjiman Wedyodiningrat mengajukan pertanyaan penting yang kemudian mendorong para tokoh menyampaikan gagasannya. Pertanyaan tersebut adalah mengenai ....",
+      "pilihan_jawaban": [
+        "a. Siapa yang akan menjadi presiden Indonesia",
+        "b. Bagaimana sistem pendidikan Indonesia",
+        "c. Apa dasar negara Indonesia yang akan dibentuk",
+        "d. Bagaimana cara mengatur perdagangan Indonesia"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Pada 1 Juni 1945, Sukarno menyampaikan gagasan mengenai dasar negara. Salah satu gagasan yang disampaikan adalah ....",
+      "pilihan_jawaban": [
+        "a. monarki atau kerajaan",
+        "b. nasionalisme atau kebangsaan Indonesia",
+        "c. liberalisme atau kebebasan mutlak",
+        "d. kolonialisme atau penjajahan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Salah satu gagasan Sukarno pada 1 Juni 1945 adalah mufakat atau demokrasi. Dalam kehidupan peserta didik di sekolah, nilai tersebut paling tepat diwujudkan melalui ....",
+      "pilihan_jawaban": [
+        "a. memaksakan pendapat kepada anggota kelompok",
+        "b. mengambil keputusan sendiri tanpa berdiskusi",
+        "c. menyelesaikan masalah melalui musyawarah",
+        "d. mengikuti pendapat teman yang paling banyak berbicara"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Dalam kegiatan kerja kelompok, terdapat perbedaan pendapat mengenai pembagian tugas. Beberapa siswa ingin menentukan tugas sendiri tanpa mempertimbangkan pendapat anggota lainnya. Sikap yang paling sesuai dengan nilai Pancasila adalah ....",
+      "pilihan_jawaban": [
+        "a. membiarkan satu orang menentukan seluruh tugas",
+        "b. memilih pendapat siswa yang paling populer",
+        "c. melakukan musyawarah untuk mencapai kesepakatan",
+        "d. membatalkan kegiatan agar tidak terjadi perbedaan pendapat"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Pancasila memiliki hubungan erat dengan sejarah bangsa Indonesia. Nilai ketuhanan, kemanusiaan, persatuan, demokrasi permusyawaratan, serta keadilan dan kesejahteraan sosial telah dikenal dalam kehidupan masyarakat Indonesia. Berdasarkan pernyataan tersebut, kesimpulan yang paling tepat adalah ....",
+      "pilihan_jawaban": [
+        "a. Pancasila muncul tanpa memiliki hubungan dengan kehidupan masyarakat Indonesia",
+        "b. Pancasila hanya merupakan hasil pemikiran satu tokoh",
+        "c. nilai Pancasila memiliki akar dalam kehidupan dan pengalaman bangsa Indonesia",
+        "d. nilai Pancasila hanya berlaku pada masa sebelum Indonesia Merdeka"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Raka mengetahui bahwa mempelajari sejarah kelahiran Pancasila bukan hanya untuk menghafal nama tokoh dan tanggal peristiwa. Ia kemudian berusaha menerapkan nilai persatuan, musyawarah, dan keadilan ketika bekerja dalam kelompok. Tindakan Raka menunjukkan bahwa mempelajari sejarah Pancasila dapat ....",
+      "pilihan_jawaban": [
+        "a. membuat siswa hanya mengingat peristiwa masa lalu",
+        "b. membantu siswa memahami dan menerapkan nilai Pancasila dalam kehidupan",
+        "c. mengurangi pentingnya kerja sama antarsiswa",
+        "d. membuat siswa lebih mementingkan kepentingan pribadi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Sebelum memasuki masa reses setelah Sidang BPUPK pertama, dibentuk Panitia Kecil di bawah pimpinan Sukarno. Tugas utama Panitia Kecil tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. memilih presiden dan wakil presiden",
+        "b. menampung saran, usul, dan konsepsi dari anggota BPUPK",
+        "c. menyusun kabinet pemerintahan Indonesia",
+        "d. mempersiapkan pelaksanaan Proklamasi Kemerdekaan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Panitia Sembilan dibentuk dalam rangka menampung dan menyusun rumusan dasar negara. Panitia tersebut dibentuk pada ....",
+      "pilihan_jawaban": [
+        "a. 1 Juni 1945",
+        "b. 22 Juni 1945",
+        "c. 10 Juli 1945",
+        "d. 7 Agustus 1945"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Berikut ini yang merupakan anggota Panitia Sembilan adalah ....",
+      "pilihan_jawaban": [
+        "a. Ki Hadjar Dewantara",
+        "b. Soekiman Wirjosandjodjo",
+        "c. Mohammad Hatta",
+        "d. Marsekal Hisaichi Terauchi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Panitia Sembilan terdiri atas tokoh dari golongan kebangsaan dan golongan keagamaan. Pembentukan panitia yang terdiri atas berbagai golongan tersebut bertujuan untuk ....",
+      "pilihan_jawaban": [
+        "a. mengutamakan kepentingan satu golongan",
+        "b. menampung berbagai pandangan mengenai dasar negara",
+        "c. menggantikan tugas seluruh anggota BPUPK",
+        "d. membentuk pemerintahan baru sebelum kemerdekaan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Pada pertemuan Panitia Sembilan tanggal 22 Juni 1945, disepakati sebuah rancangan pembukaan hukum dasar. Rancangan tersebut kemudian dikenal sebagai ....",
+      "pilihan_jawaban": [
+        "a. Dekret Presiden",
+        "b. Piagam Jakarta",
+        "c. UUD Sementara",
+        "d. Proklamasi Kemerdekaan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Rancangan pembukaan hukum dasar yang disepakati Panitia Sembilan pada 22 Juni 1945 memiliki beberapa sebutan. Muhammad Yamin menyebutnya dengan istilah ....",
+      "pilihan_jawaban": [
+        "a. Mukadimah",
+        "b. Piagam Jakarta",
+        "c. Gentlemen's Agreement",
+        "d. Undang-Undang Dasar"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "PPKI dibentuk setelah BPUPK menyelesaikan tugasnya. Pembentukan PPKI diumumkan pada ....",
+      "pilihan_jawaban": [
+        "a. 1 Juni 1945",
+        "b. 22 Juni 1945",
+        "c. 7 Agustus 1945",
+        "d. 18 Agustus 1945"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "PPKI dibentuk untuk melanjutkan tugas BPUPK dalam mempersiapkan kemerdekaan Indonesia. Salah satu tugas PPKI adalah ....",
+      "pilihan_jawaban": [
+        "a. mempertahankan pemerintahan kolonial Jepang",
+        "b. mempersiapkan berbagai hal yang diperlukan bagi berdirinya negara Indonesia",
+        "c. membentuk Gerakan Tiga A",
+        "d. mengatur pemerintahan Belanda di Indonesia"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Setelah Jepang menyerah kepada Sekutu, para pemuda mendesak tokoh-tokoh bangsa agar segera memproklamasikan kemerdekaan. Peristiwa tersebut menunjukkan bahwa ....",
+      "pilihan_jawaban": [
+        "a. bangsa Indonesia memanfaatkan keadaan untuk segera menyatakan kemerdekaan",
+        "b. bangsa Indonesia ingin kembali berada di bawah kekuasaan Jepang",
+        "c. kemerdekaan Indonesia diberikan langsung oleh Jepang",
+        "d. PPKI membatalkan rencana kemerdekaan Indonesia"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Sebelum sidang pleno PPKI tanggal 18 Agustus 1945, dilakukan perubahan terhadap rumusan sila pertama dalam Piagam Jakarta. Rumusan yang kemudian disepakati adalah ....",
+      "pilihan_jawaban": [
+        "a. Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya",
+        "b. Ketuhanan Yang Maha Esa",
+        "c. Ketuhanan yang berkebudayaan",
+        "d. Ketuhanan dan kemanusiaan yang adil dan beradab"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Perubahan rumusan sila pertama dalam Piagam Jakarta dilakukan dengan mempertimbangkan keberatan dari beberapa tokoh, khususnya yang mewakili Indonesia Timur. Hal tersebut menunjukkan bahwa para pemimpin bangsa ....",
+      "pilihan_jawaban": [
+        "a. mengutamakan kepentingan kelompok tertentu",
+        "b. mengutamakan persatuan dan kesatuan bangsa",
+        "c. menghindari perbedaan pendapat",
+        "d. menolak keberagaman masyarakat Indonesia"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Dalam sebuah diskusi kelas, terdapat dua kelompok yang memiliki pendapat berbeda. Agar kegiatan tetap berjalan dengan baik, sikap yang paling sesuai dengan semangat para pendiri bangsa adalah ....",
+      "pilihan_jawaban": [
+        "a. memaksakan pendapat kelompok sendiri",
+        "b. mengabaikan pendapat kelompok lain",
+        "c. bermusyawarah dan mencari kesepakatan bersama",
+        "d. membubarkan kelompok yang berbeda pendapat"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Perubahan rumusan sila pertama dari Piagam Jakarta menjadi “Ketuhanan Yang Maha Esa” dilakukan agar rancangan Undang-Undang Dasar dapat diterima oleh seluruh wilayah Indonesia. Nilai utama yang dapat dianalisis dari peristiwa tersebut adalah ...",
+      "pilihan_jawaban": [
+        "a. kepentingan pribadi harus didahulukan",
+        "b. perbedaan harus dihilangkan dengan paksaan",
+        "c. persatuan bangsa perlu diutamakan di atas kepentingan golongan",
+        "d. keputusan hanya boleh dibuat oleh satu golongan"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Pada 18 Agustus 1945, PPKI mengesahkan UUD 1945. Dalam Pembukaan UUD 1945 terdapat rumusan Pancasila yang menjadi dasar negara Indonesia. Hubungan yang tepat antara Pancasila dan UUD 1945 berdasarkan peristiwa tersebut adalah ....",
+      "pilihan_jawaban": [
+        "a. Pancasila merupakan dasar negara yang tercantum dalam Pembukaan UUD 1945",
+        "b. Pancasila hanya berlaku sebelum UUD 1945 disahkan",
+        "c. UUD 1945 menjadi dasar pembentukan Pancasila",
+        "d. Pancasila dan UUD 1945 merupakan dua hal yang tidak berkaitan"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Perumusan dan penetapan Pancasila melibatkan berbagai tokoh dengan latar belakang dan pandangan yang berbeda. Mereka bersedia berdiskusi, bermusyawarah, dan melakukan penyesuaian demi kepentingan bangsa. Keteladanan yang paling tepat diterapkan peserta didik dalam kehidupan sekolah adalah ....",
+      "pilihan_jawaban": [
+        "a. mempertahankan pendapat sendiri meskipun merugikan kelompok",
+        "b. mengutamakan kepentingan bersama dan menghargai perbedaan pendapat",
+        "c. memilih berteman hanya dengan orang yang memiliki pendapat sama",
+        "d. menghindari musyawarah agar tidak terjadi perbedaan"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
