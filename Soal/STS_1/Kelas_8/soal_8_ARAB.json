@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "Bahasa Arab",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nحَسَنٌ : يَا عُمَرُ! ......... الْكُرَةَ إِلَيَّ!\nعُمَرُ : نَعَمْ، هَهِيَ.",
+      "pilihan_jawaban": [
+        "a. اِرْمِ",
+        "b. اِرْمِي",
+        "c. اِرْمِيَا",
+        "d. اِرْمُوا"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nلَيْلَى : يَا عَائِشَةُ! ... الصَّفْحَةَ السَّابِعَةَ!\nعَائِشَةُ : نَعَمْ، فَتَحْتُهَا.",
+      "pilihan_jawaban": [
+        "a. اِفْتَحْ",
+        "b. اِفْتَحِي",
+        "c. اِفْتَحَا",
+        "d. اِفْتَحْنَ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا حَسَنُ وَيَا أَحْمَدُ! ... الْفَصْلَ !",
+      "pilihan_jawaban": [
+        "a. اُدْخُلْ",
+        "b. اُدْخُلِي",
+        "c. اُدْخُلَا",
+        "d. اُدْخُلُوا"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا مَرْيَمُ! ... الْبَابَ قَبْلَ الدُّخُولِ",
+      "pilihan_jawaban": [
+        "a. أَغْلِقْ",
+        "b. أَغْلِقِي",
+        "c. أَغْلِقَا",
+        "d. أَغْلِقُوا"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا أُسْتَاذُ! ... لَنَا هٰذَا الدَّرْسَ الصَّعْبَ",
+      "pilihan_jawaban": [
+        "a. اِشْرَحْ",
+        "b. اِشْرَحِي",
+        "c. اِشْرَحُوا",
+        "d. اِشْرَحْنَ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا خَدِيجَةُ! ... الْحَقِيبَةَ عَلَى الْمَكْتَبِ",
+      "pilihan_jawaban": [
+        "a. ضَعْ",
+        "b. ضَعِي",
+        "c. ضَعَا",
+        "d. ضَعْنَ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا أَوْلَادُ! ........... إِلَى الصَّلَاةِ",
+      "pilihan_jawaban": [
+        "a. قُمْ",
+        "b. قُومِي",
+        "c. قُومَا",
+        "d. قُومُوا"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Amr yang tepat sesuai dhomir (kata ganti) pada kalimat berikut:\nيَا عَائِشَةُ وَيَا مَرْيَمُ! ... الْقَلَمَ مِنَ الطَّاوِلَةِ",
+      "pilihan_jawaban": [
+        "a. خُذْ",
+        "b. خُذِي",
+        "c. خُذَا",
+        "d. خُذْنَ"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nمُحَمَّدٌ ........... إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا.",
+      "pilihan_jawaban": [
+        "a. ذَهَبَ",
+        "b. ذَهَبَتْ",
+        "c. ذَهَبْتَ",
+        "d. ذَهَبْتُ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nأَنَا ... الْكِتَابَ فِي الْفَصْلِ أَمْسِ.",
+      "pilihan_jawaban": [
+        "a. قَرَأَ",
+        "b. قَرَأَتْ",
+        "c. قَرَأْتُ",
+        "d. قَرَأْنَا"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nنَحْنُ ... مِنَ الْمَدْرَسَةِ بَعْدَ الظُّهْرِ.",
+      "pilihan_jawaban": [
+        "a. خَرَجَ",
+        "b. خَرَجْتُ",
+        "c. خَرَجْنَا",
+        "d. خَرَجُوا"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nالطُّلَّابُ ... فِي الْفَصْلِ الْجَدِيدِ",
+      "pilihan_jawaban": [
+        "a. دَخَلَ",
+        "b. دَخَلَتْ",
+        "c. دَخَلَا",
+        "d. دَخَلُوا"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nالطَّالِبَاتُ ... الْقَلَمَ مِنَ الْمَكْتَبِ",
+      "pilihan_jawaban": [
+        "a. أَخَذَ",
+        "b. أَخَذْنَ",
+        "c. أَخَذُوا",
+        "d. أَخَذْتَ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nهَلْ ... الدَّرْسَ يَا عُمَرُ؟ .",
+      "pilihan_jawaban": [
+        "a. كَتَبْتَ",
+        "b. كَتَبْتِ",
+        "c. كَتَبْتُ",
+        "d. كَتَبْنَا"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nهَلْ ... الرِّسَالَةَ يَا زَيْنَبُ؟",
+      "pilihan_jawaban": [
+        "a. كَتَبْتَ",
+        "b. كَتَبْتِ",
+        "c. كَتَبْتُ",
+        "d. كَتَبْنَا"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nأَنْتُمَا ... الْحَقِيبَةَ إِلَى الْمَدْرَسَةِ أَمْسِ.",
+      "pilihan_jawaban": [
+        "a. حَمَلْتَ",
+        "b. حَمَلْتُمَا",
+        "c. حَمَلْتُمْ",
+        "d. حَمَلْتُنَّ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Pilihlah bentuk Fi'il Maḍhi yang sesuai dengan dhomir (pelaku) dalam kalimat:\nأَنْتُنَّ ....... الْحَافِلَةَ أَمَامَ الْمَدْرَسَةِ.",
+      "pilihan_jawaban": [
+        "a. اِنْتَظَرْتَ",
+        "b. اِنْتَظَرْتُمْ",
+        "c. اِنْتَظَرْتُنَّ",
+        "d. اِنْتَظَرْنَا"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nمُحَمَّدٌ ........... الْكِتَابَ كُلَّ يَوْمٍ فِي الْمَكْتَبَةِ.",
+      "pilihan_jawaban": [
+        "a. يَقْرَأُ",
+        "b. تَقْرَأُ",
+        "c. أَقْرَأُ",
+        "d. نَقْرَأُ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nأَنَا ... دَرْسَ اللُّغَةِ الْعَرَبِيَّةِ بِاجْتِهَادٍ.",
+      "pilihan_jawaban": [
+        "a. أَفْهَمُ",
+        "b. يَفْهَمُ",
+        "c. تَفْهَمُ",
+        "d. نَفْهَمُ"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nنَحْنُ ... أَمَامَ الْمُدَرِّسِ لِلِاسْتِمَاعِ.",
+      "pilihan_jawaban": [
+        "a. يَقُومُ",
+        "b. تَقُومُ",
+        "c. أَقُومُ",
+        "d. نَقُومُ"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nأَحْمَدُ يَأْخُذُ ... ثُمَّ يَقْرَأُهُ.",
+      "pilihan_jawaban": [
+        "a. الْكِتَابُ",
+        "b. الْكِتَابَ",
+        "c. الْكِتَابِ",
+        "d. كِتَابٌ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nوَصَلَ مُحَمَّدٌ فِي الْمَدْرَسَةِ فِي السَّاعَةِ الثَّامِنَةِ، وَالْمُدَرِّسُ يَشْرَحُ الدَّرْسَ. هُوَ .............",
+      "pilihan_jawaban": [
+        "a. نَشِيطٌ",
+        "b. مُتَأَخِّرٌ",
+        "c. مَاهِرٌ",
+        "d. مُؤَدَّبٌ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\n........... كَلَامَ الْمُدَرِّسِ !",
+      "pilihan_jawaban": [
+        "a. اِقْرَأْ",
+        "b. اِحْمِلْ",
+        "c. اِفْتَحْ",
+        "d. اِسْتَمِعْ إِلَى"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nنَتَعَلَّمُ فِي الْمَدْرَسَةِ مِنْ يَوْمِ الْإِثْنَيْنِ إِلَى يَوْمِ ..........",
+      "pilihan_jawaban": [
+        "a. الْخَمِيسِ",
+        "b. الْجُمُعَةِ",
+        "c. الثُّلَاثَاءِ",
+        "d. الْأَحَدِ"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Pilihlah jawaban yang paling tepat untuk melengkapi kalimat berikut:\nلَا نَدْخُلُ الْمَدْرَسَةَ فِي يَوْمِ ...............",
+      "pilihan_jawaban": [
+        "a. الثُّلَاثَاءِ",
+        "b. الْجُمُعَةِ",
+        "c. الْخَمِيسِ",
+        "d. الْأَحَدِ"
+      ],
+      "kunci_jawaban": "D"
+    }
+  ]
+}
