@@ -1,1 +1,285 @@
-
+{
+  "metadata": {
+    "mata_pelajaran": "IPS",
+    "jenis_ujian": "Sumatif Tengah Semester",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Secara geografis, Indonesia terletak di antara dua benua dan dua samudera, yaitu...",
+      "pilihan_jawaban": [
+        "a. Benua Asia dan Afrika, serta Samudera Atlantik dan Pasifik",
+        "b. Benua Asia dan Australia, serta Samudera Hindia dan Pasifik",
+        "c. Benua Australia dan Amerika, serta Samudera Hindia dan Atlantik",
+        "d. Benua Asia dan Eropa, serta Samudera Pasifik dan Atlantik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Secara astronomis, Indonesia terletak pada garis...",
+      "pilihan_jawaban": [
+        "a. 6° LU - 11° LS dan 95° BT - 141° BT",
+        "b. 6° LS - 11° LU dan 95° BT - 141° BT",
+        "c. 95° LU - 141° LS dan 6° BT - 11° BT",
+        "d. 0° - 180° LU dan 0° - 90° BT"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Pengaruh letak astronomis membuat wilayah Indonesia beriklim...",
+      "pilihan_jawaban": [
+        "a. Subtropis",
+        "b. Sedang",
+        "c. Tropis",
+        "d. Dingin"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Angin muson yang bertiup dari Benua Asia ke Benua Australia dan menyebabkan terjadinya musim kemarau di Indonesia adalah...",
+      "pilihan_jawaban": [
+        "a. Angin muson barat",
+        "b. Angin muson timur",
+        "c. Angin passat",
+        "d. Angin anti passat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut:\n(1) Wilayah sangat strategis\n(2) Memiliki dua musim (penghujan dan kemarau)\n(3) Rawan terjadi bencana alam geologis\n(4) Keberagaman flora dan fauna\n\nYang termasuk pengaruh dari letak geografis Indonesia ditunjukkan pada nomor...",
+      "pilihan_jawaban": [
+        "a. 1 dan 2",
+        "b. 2 dan 3",
+        "c. 3 dan 4",
+        "d. 1 dan 4"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Dibawah ini pernyataan yang menyebabkan Indonesia menjadi negara dengan banyak gunung api aktif adalah...",
+      "pilihan_jawaban": [
+        "a. Terletak di dua jalur pegunungan dunia yaitu sirkum pasifik dan mediterania",
+        "b. Terletak di dua benua, yaitu benua asia dan benua australia",
+        "c. Terletak di dua samudra, yaitu samudra hindia dan pasifik",
+        "d. Terletak di garis lintasan khatulistiwa"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Berikut ini pernyataan yang benar tentang sumber daya alam adalah...",
+      "pilihan_jawaban": [
+        "a. Sumber daya alam yang digunakan untuk memenuhi semua keinginan manusia",
+        "b. Sumber daya alam merupakan sumber daya alam di darat",
+        "c. Sumber daya alam dimanfaatkan untuk memenuhi kebutuhan manusia",
+        "d. Sumber daya alam di khususkan untuk sumber daya ada di laut"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Pengelolaan hasil hutan secara ekonomis harus dilakukan secara lestari dan bijaksana agar...",
+      "pilihan_jawaban": [
+        "a. Kayu cepat habis dalam waktu singkat",
+        "b. Sumber daya alam tetap tersedia dan tidak merusak lingkungan",
+        "c. Hutan berubah menjadi padang pasir",
+        "d. Pemerintah mendapat sanksi internasional"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Hutan sering dijuluki sebagai paru-paru dunia karena memiliki fungsi utama untuk...",
+      "pilihan_jawaban": [
+        "a. Menyimpan cadangan air tanah",
+        "b. Menyerap karbon dioksida dan menghasilkan oksigen",
+        "c. Menghasilkan bahan baku kayu bangunan",
+        "d. Tempat hidup hewan langka"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Apa fungsi utama hutan hidrologis...",
+      "pilihan_jawaban": [
+        "a. Menguapkan air laut secara langsung ke atmosfer",
+        "b. Untuk menjaga kestabilan air tanah dan persediaan air tanah melalui akar tumbuhan",
+        "c. Menyerap air hujan ke dalam tanah dan menjadi cadangan air",
+        "d. Menghambat proses turunnya hujan di wilayah sekitar"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Kualitas sumber daya manusia dapat diukur melalui...",
+      "pilihan_jawaban": [
+        "a. Indeks pembangunan manusia",
+        "b. Tingkat kepadatan penduduk",
+        "c. Jumlah kelahiran/wanita produktif",
+        "d. Jumlah tenaga kerja produktif"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Warga Desa Sukamaju mengadakan kerja bakti membersihkan saluran irigasi agar aliran air menuju sawah warga lancar. Bentuk interaksi sosial yang terjadi pada kegiatan tersebut adalah...",
+      "pilihan_jawaban": [
+        "a. Kompetisi",
+        "b. Asosiatif (Kerjasama / Cooperation)",
+        "c. Konflik",
+        "d. Kontravensi"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Pemanfaatan hutan secara liar oleh sekelompok orang untuk kepentingan pribadi memicu protest keras dan perpecahan dengan masyarakat adat yang menjaga kelestarian hutan tersebut. Berdasarkan sifatnya, interaksi sosial antara kelompok perusak hutan dan masyarakat adat ini tergolong...",
+      "pilihan_jawaban": [
+        "a. Asosiatif",
+        "b. Akomodasi",
+        "c. Disosiatif (Konflik)",
+        "d. Asimilasi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Perhatikan pernyataan berikut!\n(1) Gotong royong membangun lumbung pangan desa.\n(2) Persaingan antarwarga mendapatkan air bersih saat musim kemarau.\n(3) Diskusi kelompok tani dalam menentukan jadwal tanam padi.\n(4) Sengketa lahan perkebunan antara warga dan perusahaan swasta.\n\nManakah yang menunjukkan contoh interaksi sosial asosiatif dalam pemanfaatan sumber daya alam?",
+      "pilihan_jawaban": [
+        "a. 1) dan 2)",
+        "b. 1) dan 3)",
+        "c. 2) dan 4)",
+        "d. 3) dan 4)"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Suatu proses sosial antara dua orang atau lebih di mana salah satu pihak berusaha menyingkirkan pihak lain dengan jalan kekerasan atau ancaman disebut...",
+      "pilihan_jawaban": [
+        "a. Kerjasama",
+        "b. Kompetisi",
+        "c. Konflik",
+        "d. Asimilasi"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Konflik yang terjadi antara individu atau lebih karena masalah-masalah pribadi disebut...",
+      "pilihan_jawaban": [
+        "a. Konflik rasial",
+        "b. Konflik pribadi",
+        "c. Konflik antar kelas sosial",
+        "d. Konflik politik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Suatu tempat di permukaan bumi, baik secara keseluruhan maupun hanya sebagian yang digunakan oleh makhluk hidup untuk tinggal dan beraktivitas disebut...",
+      "pilihan_jawaban": [
+        "a. Wilayah",
+        "b. Ruang",
+        "c. Lokasi",
+        "d. Daerah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Perbedaan potensi sumber daya alam antardaerah sering kali menjadi pemicu utama terjadinya...",
+      "pilihan_jawaban": [
+        "a. Isolasi wilayah",
+        "b. Kerusakan lingkungan",
+        "c. Konektivitas atau interaksi antarruang",
+        "d. Penurunan jumlah penduduk"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Faktor utama yang menyebabkan terjadinya interaksi atau konektivitas antarruang adalah...",
+      "pilihan_jawaban": [
+        "a. Kesamaan jenis tanah di setiap daerah",
+        "b. Perbedaan potensi sumber daya alam dan kebutuhan tiap wilayah",
+        "c. Keinginan untuk membatasi hubungan antarnegara",
+        "d. Jumlah penduduk yang selalu sama di setiap tempat"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Manakah faktor utama yang paling memengaruhi kemudahan konektivitas antarruang...",
+      "pilihan_jawaban": [
+        "a. Cuaca harian dan arah angin",
+        "b. Perkembangan sarana transportasi dan komunikasi",
+        "c. Jumlah penduduk yang tetap",
+        "d. Ketinggian suatu wilayah dari permukaan laut"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Kemudahan mobilitas dan transportasi akibat tingginya konektivitas antarruang sering kali memicu permasalahan baru di kota-kota besar. Contoh dampak negatif yang sering dirasakan masyarakat perkotaan adalah...",
+      "pilihan_jawaban": [
+        "a. Kemacetan lalu lintas dan meningkatnya polusi udara",
+        "b. Penurunan harga bahan pokok secara drastis",
+        "c. Kelangkaan sarana dan prasarana transportasi umum",
+        "d. Isolasi wilayah pinggiran kota"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Hukum permintaan menyatakan bahwa jika harga suatu barang naik, maka jumlah barang yang diminta akan...",
+      "pilihan_jawaban": [
+        "a. Bertambah",
+        "b. Berkurang",
+        "c. Tetap",
+        "d. Tidak terpengaruh"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Bunyi hukum penawaran adalah jika harga barang naik, maka jumlah barang yang ditawarkan akan...",
+      "pilihan_jawaban": [
+        "a. Turun",
+        "b. Berkurang",
+        "c. Bertambah",
+        "d. Hilang"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Ketika harga buah mangga di pasar turun dari Rp20.000 menjadi Rp15.000 per kilogram, yang dilakukan oleh pembeli biasanya adalah...",
+      "pilihan_jawaban": [
+        "a. Mengurangi pembelian mangga",
+        "b. Menambah jumlah pembelian mangga",
+        "c. Menjual kembali mangga tersebut",
+        "d. Tidak membeli sama sekali"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Hukum penawaran menunjukkan hubungan yang searah atau positif antara...",
+      "pilihan_jawaban": [
+        "a. Harga dan jumlah barang yang diminta",
+        "b. Harga dan jumlah barang yang ditawarkan",
+        "c. Pendapatan dan jumlah permintaan",
+        "d. Biaya produksi dan jumlah permintaan"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
