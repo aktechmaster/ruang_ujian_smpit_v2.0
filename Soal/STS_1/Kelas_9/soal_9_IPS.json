@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "mata_pelajaran": "IPS",
+    "jenis_ujian": "STS_1",
+    "jumlah_soal": 25,
+    "durasi_menit": 60
+  },
+  "bank_soal": [
+    {
+      "id_soal": 1,
+      "teks_pertanyaan": "Nenek moyang bangsa Indonesia yang kemungkinan berasal dari Pulau Ceylon (Sri Lanka) adalah ...",
+      "pilihan_jawaban": [
+        "A. Proto Melayu",
+        "B. Melanesoid",
+        "C. Negrito",
+        "D. Weddid"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 2,
+      "teks_pertanyaan": "Kebudayaan batu halus (Neolitikum) seperti kapak persegi dan kapak lonjong dibawa ke Indonesia oleh kelompok migrasi...",
+      "pilihan_jawaban": [
+        "A. Deutro Melayu",
+        "B. Proto Melayu",
+        "C. Melanesoid",
+        "D. Negrito"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 3,
+      "teks_pertanyaan": "Menurut teori Out of Taiwan, sekitar 4.000 tahun yang silam, para penutur Austronesia masuk ke...",
+      "pilihan_jawaban": [
+        "A. Sulawesi",
+        "B. Taiwan",
+        "C. Pasifik",
+        "D. Filiphina"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 4,
+      "teks_pertanyaan": "Seorang antropolog menemukan tengkorak dengan ciri-ciri: tubuh pendek, kepala bundar, bagian belakang kepala datar, wajah bulat, rambut lurus, kulit sawo matang. Berdasarkan data ini kemungkinan besar individu tersebut berasal dari ras...",
+      "pilihan_jawaban": [
+        "A. Malanesoid",
+        "B. Deutro melayu",
+        "C. Mongoloid",
+        "D. Weddid"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 5,
+      "teks_pertanyaan": "Teori Out of Taiwan menyebutkan bahwa bangsa yang ada di Nusantara berasal dari kepulauan Formosa (Taiwan) dan bermigrasi menggunakan rumpun bahasa...",
+      "pilihan_jawaban": [
+        "A. Melayu-Polinesia",
+        "B. Austronesia",
+        "C. Austroasiatik",
+        "D. Melanesoid"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 6,
+      "teks_pertanyaan": "Teori Out of Africa menunjukkan bahwa Afrika menjadi titik awal persebaran nenek moyang Indonesia yang dikenal sebagai...",
+      "pilihan_jawaban": [
+        "A. Homo neanderthalensis",
+        "B. Manusia modern awal",
+        "C. Austronesia",
+        "D. Proto melayu"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 7,
+      "teks_pertanyaan": "Faktor-faktor penyebab migrasi para penutur austronesia ke Indonesia dapat dikelompokkan atas faktor alamiah dan faktor antropogenik. Salah satu faktor pendorong migrasi para penutur austronesia ke Indonesia berdasarkan faktor alamiah adalah...",
+      "pilihan_jawaban": [
+        "A. Tersedianya tanah yang subur sebagai lahan pertanian",
+        "B. Berkembangnya ilmu pengetahuan",
+        "C. Hasrat menemukan daerah baru",
+        "D. Berkembangnya teknologi pelayaran"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 8,
+      "teks_pertanyaan": "Kebudayaan batu halus (Neolitikum) seperti kapak persegi dan kapak lonjong dibawa ke Indonesia oleh kelompok migrasi...",
+      "pilihan_jawaban": [
+        "A. Deutro Melayu",
+        "B. Proto Melayu",
+        "C. Melanesoid",
+        "D. Negrito"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 9,
+      "teks_pertanyaan": "Alasan antropogenik dalam migrasi berkaitan dengan...",
+      "pilihan_jawaban": [
+        "A. Kondisi alam",
+        "B. Aktivitas dan tindakan manusia",
+        "C. Perubahan manusia",
+        "D. Bencana alam"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 10,
+      "teks_pertanyaan": "Upaya untuk mencegah konflik akibat kemajemukan salah satunya adalah...",
+      "pilihan_jawaban": [
+        "A. Menumbuhkan nilai-nilai multikulturalisme melalui pendidikan",
+        "B. Meningkatkan separatisme budaya",
+        "C. Menegakkan supremasi kelompok mayoritas",
+        "D. Menerapkan suatu budaya nasional dan menolak budaya lokal"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 11,
+      "teks_pertanyaan": "Perbedaan fisik seperti bentuk rambut dan warna kulit menjadi dasar pembentukan kelompok...",
+      "pilihan_jawaban": [
+        "A. Budaya",
+        "B. Sosial",
+        "C. Etnik",
+        "D. Ras"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 12,
+      "teks_pertanyaan": "Indonesia terletak di antara dua samudra, yaitu ...",
+      "pilihan_jawaban": [
+        "A. Samudra Pasifik dan Samudra Atlantik",
+        "B. Samudra Hindia dan Samudra Pasifik",
+        "C. Samudra Pasifik dan Laut Merah",
+        "D. Samudra Hindia dan Laut Cina Selatan"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 13,
+      "teks_pertanyaan": "Keberagaman kondisi geografis Indonesia menyebabkan Indonesia memiliki banyak ...",
+      "pilihan_jawaban": [
+        "A. Keanekaragaman budaya",
+        "B. Macam cuaca",
+        "C. Pegunungan dan dataran tinggi",
+        "D. Sungai dan danau"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 14,
+      "teks_pertanyaan": "Indonesia memiliki jenis iklim karena terletak di wilayah ...",
+      "pilihan_jawaban": [
+        "A. Subtropis",
+        "B. Tropis",
+        "C. Ekstrem",
+        "D. Artik"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 15,
+      "teks_pertanyaan": "Kemajemukan masyarakat Indonesia terdiri atas beragam suku bangsa, agama, ras, dan budaya. Dampak positif dari kemajemukan ini bagi pembangunan nasional adalah...",
+      "pilihan_jawaban": [
+        "A. Menimbulkan konflik antardaerah",
+        "B. Menjadi kekayaan dan potensi budaya bangsa",
+        "C. Membatasi pergaulan antarwarga",
+        "D. Memperlambat proses integrasi nasional"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 16,
+      "teks_pertanyaan": "Sikap fanatisme sempit yang menganggap suku atau kelompok sendiri lebih baik daripada kelompok lain disebut...",
+      "pilihan_jawaban": [
+        "A. Etnosentrisme",
+        "B. Chauvinisme",
+        "C. Primodialisme",
+        "D. Stereotip"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 17,
+      "teks_pertanyaan": "Integrasi nasional dalam masyarakat yang majemuk dapat terwujud jika dilandasi oleh...",
+      "pilihan_jawaban": [
+        "A. Dominasi kelompok mayoritas terhadap minoritas",
+        "B. Sikap saling menghargai dan toleransi",
+        "C. Penghilangan seluruh budaya lokal",
+        "D. Penyeragaman adat istiadat daerah"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 18,
+      "teks_pertanyaan": "Proses penyatuan kelompok-kelompok sosial dan budaya dalam kesatuan wilayah nasional untuk pembentukan suatu identitas nasional disebut...",
+      "pilihan_jawaban": [
+        "A. Kohesi sosial",
+        "B. Interaksi sosial",
+        "C. Integrasi nasional",
+        "D. Solidaritas nasional"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 19,
+      "teks_pertanyaan": "Arti dari semboyan Bhinneka Tunggal Ika adalah...",
+      "pilihan_jawaban": [
+        "A. Bersatu kita teguh, bercerai kita runtuh",
+        "B. Berbeda-beda tetapi tetap satu jua",
+        "C. Bersama kita membangun bangsa yang kuat",
+        "D. Berbeda suku bangsa, berbeda pula tujuannya"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 20,
+      "teks_pertanyaan": "Sebagai upaya mewujudkan Bhinneka Tunggal Ika, perlu adanya pendidikan Multikultural. Tujuan pendidikan multikultural adalah...",
+      "pilihan_jawaban": [
+        "A. Menghapus budaya asing",
+        "B. Menyeragamkan semua budaya lokal",
+        "C. Mewujudkan hubungan yang harmonis",
+        "D. Menolak bentuk interaksi antar kelompok"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 21,
+      "teks_pertanyaan": "Tiga nilai inti Bhinneka Tunggal Ika menurut Lemhannas adalah...",
+      "pilihan_jawaban": [
+        "A. Nasionalisme, rasionalitas, dan modernisasi",
+        "B. Teknologi, sains, dan pluralitas",
+        "C. Ekonomi, budaya, dan politik",
+        "D. Toleransi, keadilan, dan gotong royong"
+      ],
+      "kunci_jawaban": "D"
+    },
+    {
+      "id_soal": 22,
+      "teks_pertanyaan": "Mengapa semboyan Bhinneka Tunggal Ika sangat penting sebagai identitas nasional bangsa Indonesia...",
+      "pilihan_jawaban": [
+        "A. Karena menyatukan keberagaman budaya, suku dan agama dalam suatu ikatan",
+        "B. Karena menunjukkan kekayaan suku bangsa tunggal",
+        "C. Karena menghapuskan seluruh perbedaan budaya daerah",
+        "D. Karena menjadi aturan wajib bahasa sehari-hari"
+      ],
+      "kunci_jawaban": "A"
+    },
+    {
+      "id_soal": 23,
+      "teks_pertanyaan": "Sikap yang mencerminkan pengalaman nilai Bhinneka Tunggal Ika dilingkungan sekolah adalah...",
+      "pilihan_jawaban": [
+        "A. Hanya bergaul dari teman dari suku yang sama",
+        "B. Mengejek teman yang memiliki adat-istiadat berbeda",
+        "C. Menghormati teman yang sedang beribadah meskipun berbeda keyakinan",
+        "D. Memaksakan pendapat kepada kelompok lain"
+      ],
+      "kunci_jawaban": "C"
+    },
+    {
+      "id_soal": 24,
+      "teks_pertanyaan": "Kemampuan untuk memastikan bahwa perempuan dan laki-laki memiliki kesempatan yang setara untuk menentukan keputusan dalam diskusi kelompok disebut...",
+      "pilihan_jawaban": [
+        "A. Ketimpangan gender",
+        "B. Sensitivitas gender",
+        "C. Diskriminasi gender",
+        "D. Perbedaan gender"
+      ],
+      "kunci_jawaban": "B"
+    },
+    {
+      "id_soal": 25,
+      "teks_pertanyaan": "Berikut merupakan contoh dari diskriminasi gender yaitu...",
+      "pilihan_jawaban": [
+        "A. Apresiasi prestasi baik laki-laki maupun perempuan",
+        "B. Menerima teman sekelompok hanya perempuan saja",
+        "C. Gotong royong",
+        "D. Musyawarah"
+      ],
+      "kunci_jawaban": "B"
+    }
+  ]
+}
