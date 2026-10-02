@@ -3,7 +3,7 @@
     "mata_pelajaran": "Matematika",
     "jenis_ujian": "STS_1",
     "jumlah_soal": 25,
-    "durasi_menit": 90
+    "durasi_menit": 60
   },
   "bank_soal": [
     {
@@ -173,18 +173,18 @@
     },
     {
       "id_soal": 16,
-      "teks_pertanyaan": "Bentuk paling sederhana dari bentuk pecahan \\(\\frac{48}{72}\\) adalah…",
+      "teks_pertanyaan": "Bentuk paling sederhana dari bentuk pecahan 48/72 adalah…",
       "pilihan_jawaban": [
-        "a. \\(\\frac{11}{12}\\)",
-        "b. \\(\\frac{8}{9}\\)",
-        "c. \\(\\frac{7}{8}\\)",
-        "d. \\(\\frac{5}{6}\\)"
+        "a. 11/12",
+        "b. 8/9",
+        "c. 7/8",
+        "d. 5/6"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 17,
-      "teks_pertanyaan": "Tanda perbandingan yang tepat untuk mengisi titik-titik pada \\(\\frac{3}{8}\\) .... \\(\\frac{5}{12}\\) adalah…",
+      "teks_pertanyaan": "Tanda perbandingan yang tepat untuk mengisi titik-titik pada 3/8 .... 5/12 adalah…",
       "pilihan_jawaban": [
         "a. ≥",
         "b. <",
@@ -195,18 +195,18 @@
     },
     {
       "id_soal": 18,
-      "teks_pertanyaan": "Pecahan di bawah ini yang senilai dengan \\(\\frac{2}{5}\\) adalah…",
+      "teks_pertanyaan": "Pecahan di bawah ini yang senilai dengan 2/5 adalah…",
       "pilihan_jawaban": [
-        "a. \\(\\frac{1}{5}\\)",
-        "b. \\(\\frac{6}{10}\\)",
-        "c. \\(\\frac{8}{20}\\)",
-        "d. \\(\\frac{4}{15}\\)"
+        "a. 1/5",
+        "b. 6/10",
+        "c. 8/20",
+        "d. 4/15"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 19,
-      "teks_pertanyaan": "Pecahan \\(\\frac{3}{7}\\) = …….. / 42. Bilangan yang tepat untuk mengisi pada titik-titik tersebut adalah…",
+      "teks_pertanyaan": "Pecahan 3/7 = …….. / 42. Bilangan yang tepat untuk mengisi pada titik-titik tersebut adalah…",
       "pilihan_jawaban": [
         "a. 15",
         "b. 16",
@@ -217,62 +217,62 @@
     },
     {
       "id_soal": 20,
-      "teks_pertanyaan": "Urutan pecahan dari yang terkecil untuk \\(\\frac{5}{6}\\), \\(\\frac{1}{2}\\), \\(\\frac{2}{3}\\) adalah…",
+      "teks_pertanyaan": "Urutan pecahan dari yang terkecil untuk 5/6, 1/2, 2/3 adalah…",
       "pilihan_jawaban": [
-        "a. \\(\\frac{1}{2}\\), \\(\\frac{2}{3}\\), \\(\\frac{5}{6}\\)",
-        "b. \\(\\frac{2}{3}\\), \\(\\frac{5}{6}\\), \\(\\frac{1}{2}\\)",
-        "c. \\(\\frac{5}{6}\\), \\(\\frac{1}{2}\\), \\(\\frac{2}{3}\\)",
-        "d. \\(\\frac{1}{2}\\), \\(\\frac{5}{6}\\), \\(\\frac{2}{3}\\)"
+        "a. 1/2, 2/3, 5/6",
+        "b. 2/3, 5/6, 1/2",
+        "c. 5/6, 1/2, 2/3",
+        "d. 1/2, 5/6, 2/3"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 21,
-      "teks_pertanyaan": "Pecahan biasa \\(\\frac{23}{4}\\) dapat diubah ke dalam pecahan campuran menjadi…",
+      "teks_pertanyaan": "Pecahan biasa 23/4 dapat diubah ke dalam pecahan campuran menjadi…",
       "pilihan_jawaban": [
-        "a. 3 \\(\\frac{2}{4}\\)",
-        "b. 5 \\(\\frac{3}{4}\\)",
-        "c. 6 \\(\\frac{1}{4}\\)",
-        "d. 7 \\(\\frac{2}{3}\\)"
+        "a. 3 2/4",
+        "b. 5 3/4",
+        "c. 6 1/4",
+        "d. 7 2/3"
       ],
       "kunci_jawaban": "B"
     },
     {
       "id_soal": 22,
-      "teks_pertanyaan": "Hasil dari penjumlahan pecahan \\(\\frac{3}{5}\\) + \\(\\frac{4}{8}\\) adalah…",
+      "teks_pertanyaan": "Hasil dari penjumlahan pecahan 3/5 + 4/8 adalah…",
       "pilihan_jawaban": [
-        "a. 1 \\(\\frac{1}{5}\\)",
-        "b. 1 \\(\\frac{3}{10}\\)",
-        "c. 1 \\(\\frac{1}{10}\\)",
-        "d. 1 \\(\\frac{2}{5}\\)"
+        "a. 1 1/5",
+        "b. 1 3/10",
+        "c. 1 1/10",
+        "d. 1 2/5"
       ],
       "kunci_jawaban": "C"
     },
     {
       "id_soal": 23,
-      "teks_pertanyaan": "Dalam sebuah wadah terdapat \\(\\frac{5}{6}\\) liter madu lebah. Madu tersebut digunakan untuk bahan campuran olahan minuman sebanyak \\(\\frac{1}{3}\\) liter. Sisa madu lebah dalam wadah tersebut adalah…",
+      "teks_pertanyaan": "Dalam sebuah wadah terdapat 5/6 liter madu lebah. Madu tersebut digunakan untuk bahan campuran olahan minuman sebanyak 1/3 liter. Sisa madu lebah dalam wadah tersebut adalah…",
       "pilihan_jawaban": [
-        "a. \\(\\frac{1}{2}\\)",
-        "b. \\(\\frac{1}{3}\\)",
-        "c. \\(\\frac{1}{4}\\)",
-        "d. \\(\\frac{1}{5}\\)"
+        "a. 1/2",
+        "b. 1/3",
+        "c. 1/4",
+        "d. 1/5"
       ],
       "kunci_jawaban": "A"
     },
     {
       "id_soal": 24,
-      "teks_pertanyaan": "Hasil dari perkalian pecahan campuran 2 \\(\\frac{2}{5}\\) x 1 \\(\\frac{1}{6}\\) adalah…",
+      "teks_pertanyaan": "Hasil dari perkalian pecahan campuran 2 2/5 x 1 1/6 adalah…",
       "pilihan_jawaban": [
-        "a. 2 \\(\\frac{1}{5}\\)",
-        "b. 2 \\(\\frac{2}{5}\\)",
-        "c. 2 \\(\\frac{3}{5}\\)",
-        "d. 2 \\(\\frac{4}{5}\\)"
+        "a. 2 1/5",
+        "b. 2 2/5",
+        "c. 2 3/5",
+        "d. 2 4/5"
       ],
       "kunci_jawaban": "D"
     },
     {
       "id_soal": 25,
-      "teks_pertanyaan": "Ibu memiliki 4 \\(\\frac{4}{5}\\) liter susu kental manis. Susu tersebut akan dituangkan ke dalam beberapa gelas kecil. Setiap gelas kecil dapat menampung \\(\\frac{2}{5}\\) liter susu. Berapa banyak gelas kecil yang dibutuhkan Ibu?",
+      "teks_pertanyaan": "Ibu memiliki 4 4/5 liter susu kental manis. Susu tersebut akan dituangkan ke dalam beberapa gelas kecil. Setiap gelas kecil dapat menampung 2/5 liter susu. Berapa banyak gelas kecil yang dibutuhkan Ibu?",
       "pilihan_jawaban": [
         "a. 12 gelas",
         "b. 15 gelas",
