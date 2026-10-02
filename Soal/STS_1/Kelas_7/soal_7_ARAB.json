@@ -9,7 +9,7 @@
   "bank_soal": [
     {
       "id_soal": 1,
-      "teks_pertanyaan": "حَسَنٌ : مَا اسْمُكَ ؟\nعُمَرُ : ... عُمَرُ.",
+      "teks_pertanyaan": "حَسَنٌ : مَا اسْمُكَ ؟<br></br>عُمَرُ : ... عُمَرُ.",
       "pilihan_jawaban": [
         "a. اسْمُكَ",
         "b. إِسْمِي",
