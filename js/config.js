@@ -24,7 +24,7 @@ const CONFIG = {
         "SAS_1": {
             nama: "Sumatif Akhir Semester 1",
             folder: "SAS_1",
-            submit_url: "https://script.google.com/macros/s/GANTI_DENGAN_URL_GAS_SAS_1/exec"
+            submit_url: "https://script.google.com/macros/s/AKfycbzh793hYHvdN97CaPnYwn0QPupKKrnLG-SXEF67z_Oje_RmNEkaD1abtA-NRR3WeGdTIg/exec"
         },
         "STS_2": {
             nama: "Sumatif Tengah Semester 2",
