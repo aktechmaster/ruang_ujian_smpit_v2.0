@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Count & Monitor Ujian Real-Time</title>
+    <script src="js/config.js"></script>
+    <style>
+        :root {
+            --primary: #1e40af;
+            --primary-light: #dbeafe;
+            --success: #15803d;
+            --success-bg: #dcfce7;
+            --warning: #b45309;
+            --warning-bg: #fef3c7;
+            --danger: #b91c1c;
+            --danger-bg: #fee2e2;
+            --bg: #f1f5f9;
+            --card: #ffffff;
+            --text: #0f172a;
+            --muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+        body { background: var(--bg); color: var(--text); padding-bottom: 40px; }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: white;
+            padding: 20px 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .header-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+        .header h1 { font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
+        .live-badge {
+            background: #ef4444;
+            color: white;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 999px;
+            letter-spacing: 0.5px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.55; }
+        }
+        .header-meta { font-size: 0.85rem; opacity: 0.9; margin-top: 4px; }
+
+        .container { max-width: 1280px; margin: 20px auto; padding: 0 16px; }
+
+        /* Panel Konfigurasi Sumber Data */
+        .config-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .config-grid {
+            display: grid;
+            grid-template-columns: 220px 1fr auto;
+            gap: 12px;
+            align-items: end;
+        }
+        @media (max-width: 768px) {
+            .config-grid { grid-template-columns: 1fr; }
+        }
+        .form-group label {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--muted);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        select, input[type="text"] {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background: #fff;
+            color: var(--text);
+        }
+        select:focus, input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-light); }
+        .btn {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: #1d4ed8; }
+        .btn-outline { background: white; border: 1px solid #cbd5e1; color: var(--text); }
+        .btn-outline:hover { background: #f8fafc; }
+
+        /* Statistik Utama (Quick Count Nasional/Sekolah) */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 18px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .stat-label { font-size: 0.82rem; color: var(--muted); font-weight: 600; }
+        .stat-value { font-size: 2rem; font-weight: 800; margin: 6px 0; }
+        .stat-sub { font-size: 0.8rem; color: var(--muted); }
+        .progress-track {
+            width: 100%;
+            height: 10px;
+            background: #e2e8f0;
+            border-radius: 999px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #16a34a, #22c55e);
+            transition: width 0.5s ease;
+        }
+
+        /* Quick Count Per Kelas */
+        .section-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .kelas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .kelas-card {
+            background: var(--card);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            padding: 14px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .kelas-card:hover { border-color: #93c5fd; transform: translateY(-2px); }
+        .kelas-card.active { border-color: var(--primary); background: #eff6ff; }
+        .kelas-top { display: flex; justify-content: space-between; align-items: center; font-weight: 700; margin-bottom: 6px; }
+        .kelas-pct { font-size: 0.85rem; color: var(--success); }
+        .kelas-count { font-size: 0.8rem; color: var(--muted); margin-bottom: 6px; }
+
+        /* Filter & Tabel Siswa */
+        .table-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .filter-bar {
+            padding: 16px 20px;
+            background: #f8fafc;
+            border-bottom: 1px solid var(--border);
+            display: grid;
+            grid-template-columns: 200px 180px 180px 1fr;
+            gap: 12px;
+        }
+        @media (max-width: 900px) {
+            .filter-bar { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 540px) {
+            .filter-bar { grid-template-columns: 1fr; }
+        }
+        .table-wrap { overflow-x: auto; max-height: 600px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        th {
+            background: #f1f5f9;
+            padding: 12px 16px;
+            font-weight: 700;
+            color: #334155;
+            border-bottom: 2px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td { padding: 11px 16px; border-bottom: 1px solid var(--border); }
+        tr:hover td { background: #f8fafc; }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+        .badge-selesai { background: var(--success-bg); color: var(--success); border: 1px solid #86efac; }
+        .badge-belum { background: var(--danger-bg); color: var(--danger); border: 1px solid #fca5a5; }
+        .id-pill {
+            font-family: monospace;
+            background: #f1f5f9;
+            padding: 2px 7px;
+            border-radius: 5px;
+            font-size: 0.82rem;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-inner">
+        <div>
+            <h1>📊 Quick Count Ujian CBT <span class="live-badge">● LIVE</span></h1>
+            <div class="header-meta" id="subtitleUjian">Memuat konfigurasi ujian...</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <span id="countdownText" style="font-size: 0.82rem; opacity: 0.9;">Auto-refresh: 15d</span>
+            <button class="btn btn-outline" onclick="refreshDataManual()" style="padding: 8px 14px; font-size: 0.82rem;">🔄 Refresh</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Pengaturan Sumber Spreadsheet (/exec) -->
+    <div class="config-card">
+        <div class="config-grid">
+            <div class="form-group">
+                <label>Pilih Paket Ujian (Config)</label>
+                <select id="selectPaketUjian" onchange="gantiPaketUjian()">
+                    <option value="CUSTOM">-- Input URL Manual --</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>URL Web App Spreadsheet (/exec)</label>
+                <input type="text" id="inputExecUrl" placeholder="https://script.google.com/macros/s/.../exec">
+            </div>
+            <div>
+                <button class="btn btn-primary" onclick="terapkanExecUrl()">🔗 Hubungkan & Pantau</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistik Ringkasan Quick Count -->
+    <div class="summary-grid">
+        <div class="stat-card">
+            <div class="stat-label">PROGRES KESELURUHAN</div>
+            <div class="stat-value" id="statPersen" style="color: var(--primary);">0%</div>
+            <div class="progress-track"><div class="progress-fill" id="statBar" style="width: 0%;"></div></div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">SUDAH SELESAI</div>
+            <div class="stat-value" id="statSelesai" style="color: var(--success);">0</div>
+            <div class="stat-sub">Siswa telah mengumpulkan</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">BELUM SELESAI</div>
+            <div class="stat-value" id="statBelum" style="color: var(--danger);">0</div>
+            <div class="stat-sub">Siswa belum masuk data</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">TOTAL PESERTA TERDAFTAR</div>
+            <div class="stat-value" id="statTotal">0</div>
+            <div class="stat-sub" id="statMapelInfo">Semua Mata Pelajaran</div>
+        </div>
+    </div>
+
+    <!-- Quick Count Per Kelas -->
+    <div class="section-title">
+        <span>🏫 Quick Count Per Kelas <small style="font-weight: normal; color: var(--muted);">(Klik kelas untuk memfilter tabel)</small></span>
+        <button class="btn btn-outline" onclick="pilihKelas('ALL')" style="padding: 5px 12px; font-size: 0.8rem;">Tampilkan Semua Kelas</button>
+    </div>
+    <div class="kelas-grid" id="kelasGrid"></div>
+
+    <!-- Tabel Status Siswa -->
+    <div class="table-card">
+        <div class="filter-bar">
+            <div class="form-group">
+                <label>Mata Pelajaran</label>
+                <select id="filterMapel" onchange="renderDashboard()">
+                    <option value="ALL">Semua Mapel</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Filter Kelas</label>
+                <select id="filterKelas" onchange="renderDashboard()">
+                    <option value="ALL">Semua Kelas</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Filter Status</label>
+                <select id="filterStatus" onchange="renderDashboard()">
+                    <option value="ALL">Semua Status</option>
+                    <option value="SELESAI">✅ Selesai</option>
+                    <option value="BELUM">⏳ Belum Selesai</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Cari Nama / ID Siswa</label>
+                <input type="text" id="filterSearch" placeholder="Ketik nama siswa atau sis-767..." oninput="renderDashboard()">
+            </div>
+        </div>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 55px;">No</th>
+                        <th style="width: 110px;">ID Siswa</th>
+                        <th>Nama Siswa</th>
+                        <th style="width: 130px;">Kelas</th>
+                        <th style="width: 110px;">Mapel</th>
+                        <th style="width: 150px;">Status Ujian</th>
+                        <th style="width: 120px;">Jam Kumpul</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelBody">
+                    <tr><td colspan="7" style="text-align:center; padding: 30px; color: var(--muted);">Memuat data siswa...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    let masterSiswa = [];
+    let daftarMapel = [];
+    let dataSubmit = [];
+    let countdown = 15;
+    let timerId = null;
+
+    // Parser CSV sederhana untuk DataSiswa & TokenMapel
+    function parseCSV(csvText) {
+        const lines = csvText.split(/\r?\n/).filter(l => l.trim() !== '');
+        if (lines.length < 2) return [];
+        const parseLine = (row) => {
+            const vals = [];
+            let cur = '', inQ = false;
+            for (let i = 0; i < row.length; i++) {
+                const c = row[i];
+                if (c === '"') inQ = !inQ;
+                else if (c === ',' && !inQ) { vals.push(cur.trim().replace(/^"|"$/g, '')); cur = ''; }
+                else cur += c;
+            }
+            vals.push(cur.trim().replace(/^"|"$/g, ''));
+            return vals;
+        };
+        const headers = parseLine(lines[0]).map(h => h.toLowerCase());
+        return lines.slice(1).map(line => {
+            const vals = parseLine(line);
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = vals[i] !== undefined ? vals[i] : "");
+            return obj;
+        });
+    }
+
+    // Inisialisasi awal
+    document.addEventListener("DOMContentLoaded", async () => {
+        isiDropdownUjian();
+        await muatDatabaseMaster();
+        await ambilDataSubmit();
+        mulaiAutoRefresh();
+    });
+
+    function isiDropdownUjian() {
+        const sel = document.getElementById("selectPaketUjian");
+        const inputUrl = document.getElementById("inputExecUrl");
+
+        if (typeof CONFIG !== "undefined" && CONFIG.LIST_UJIAN) {
+            Object.keys(CONFIG.LIST_UJIAN).forEach(key => {
+                const item = CONFIG.LIST_UJIAN[key];
+                const opt = document.createElement("option");
+                opt.value = key;
+                opt.textContent = `${key} - ${item.nama}`;
+                sel.appendChild(opt);
+            });
+
+            // Cek apakah ada URL custom yang pernah disimpan di browser
+            const savedCustomUrl = localStorage.getItem("monitor_custom_exec_url");
+            const savedPaket = localStorage.getItem("monitor_selected_paket");
+
+            if (savedPaket && CONFIG.LIST_UJIAN[savedPaket]) {
+                sel.value = savedPaket;
+                inputUrl.value = CONFIG.LIST_UJIAN[savedPaket].submit_url || "";
+            } else if (savedCustomUrl) {
+                sel.value = "CUSTOM";
+                inputUrl.value = savedCustomUrl;
+            } else if (CONFIG.UJIAN_AKTIF && CONFIG.LIST_UJIAN[CONFIG.UJIAN_AKTIF]) {
+                sel.value = CONFIG.UJIAN_AKTIF;
+                inputUrl.value = CONFIG.LIST_UJIAN[CONFIG.UJIAN_AKTIF].submit_url || "";
+            }
+        }
+        updateSubtitle();
+    }
+
+    function gantiPaketUjian() {
+        const key = document.getElementById("selectPaketUjian").value;
+        const inputUrl = document.getElementById("inputExecUrl");
+        if (key !== "CUSTOM" && typeof CONFIG !== "undefined" && CONFIG.LIST_UJIAN[key]) {
+            inputUrl.value = CONFIG.LIST_UJIAN[key].submit_url || "";
+            localStorage.setItem("monitor_selected_paket", key);
+            localStorage.removeItem("monitor_custom_exec_url");
+            updateSubtitle();
+            ambilDataSubmit();
+        }
+    }
+
+    function terapkanExecUrl() {
+        const url = document.getElementById("inputExecUrl").value.trim();
+        if (!url) {
+            alert("Silakan masukkan URL /exec Spreadsheet terlebih dahulu.");
+            return;
+        }
+        document.getElementById("selectPaketUjian").value = "CUSTOM";
+        localStorage.setItem("monitor_custom_exec_url", url);
+        localStorage.removeItem("monitor_selected_paket");
+        updateSubtitle();
+        ambilDataSubmit();
+    }
+
+    function updateSubtitle() {
+        const sel = document.getElementById("selectPaketUjian");
+        const label = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : "Ujian Aktif";
+        document.getElementById("subtitleUjian").textContent = `Paket Ujian: ${label}`;
+    }
+
+    async function muatDatabaseMaster() {
+        if (typeof CONFIG === "undefined" || !CONFIG.URL_DATA_SISWA) return;
+        try {
+            const [resSiswa, resToken] = await Promise.all([
+                fetch(CONFIG.URL_DATA_SISWA),
+                CONFIG.URL_TOKEN_MAPEL ? fetch(CONFIG.URL_TOKEN_MAPEL) : Promise.resolve(null)
+            ]);
+
+            const textSiswa = await resSiswa.text();
+            masterSiswa = parseCSV(textSiswa).filter(s => s.nama && s.kelas);
+
+            // Isi dropdown kelas
+            const kelasUnik = [...new Set(masterSiswa.map(s => s.kelas))];
+            const selKelas = document.getElementById("filterKelas");
+            kelasUnik.forEach(k => {
+                const opt = document.createElement("option");
+                opt.value = k;
+                opt.textContent = k;
+                selKelas.appendChild(opt);
+            });
+
+            // Isi dropdown mapel dari TokenMapel
+            if (resToken) {
+                const textToken = await resToken.text();
+                const parsedToken = parseCSV(textToken);
+                daftarMapel = [...new Set(parsedToken.map(t => t.mapel).filter(Boolean))];
+                const selMapel = document.getElementById("filterMapel");
+                daftarMapel.forEach(m => {
+                    const opt = document.createElement("option");
+                    opt.value = m;
+                    opt.textContent = m;
+                    selMapel.appendChild(opt);
+                });
+                if (daftarMapel.length > 0) {
+                    selMapel.value = daftarMapel[0]; // Default pilih mapel pertama agar akurat
+                }
+            }
+        } catch (err) {
+            console.error("Gagal memuat master siswa:", err);
+        }
+    }
+
+    async function ambilDataSubmit() {
+        const execUrl = document.getElementById("inputExecUrl").value.trim();
+        if (!execUrl || execUrl.includes("GANTI_DENGAN_URL")) {
+            dataSubmit = [];
+            renderDashboard();
+            return;
+        }
+
+        try {
+            const res = await fetch(execUrl);
+            const json = await res.json();
+            if (json && json.status === "success") {
+                dataSubmit = json.data || [];
+
+                // Tambahkan mapel baru jika ada di hasil submit tapi belum ada di dropdown
+                const selMapel = document.getElementById("filterMapel");
+                const existingOpts = Array.from(selMapel.options).map(o => o.value.toUpperCase());
+                dataSubmit.forEach(d => {
+                    if (d.mapel && !existingOpts.includes(d.mapel.toUpperCase())) {
+                        const opt = document.createElement("option");
+                        opt.value = d.mapel;
+                        opt.textContent = d.mapel;
+                        selMapel.appendChild(opt);
+                        existingOpts.push(d.mapel.toUpperCase());
+                    }
+                });
+            }
+        } catch (err) {
+            console.warn("Menunggu respons GAS (pastikan doGet sudah di-deploy):", err);
+        }
+        renderDashboard();
+    }
+
+    function pilihKelas(kelas) {
+        document.getElementById("filterKelas").value = kelas;
+        renderDashboard();
+    }
+
+    function renderDashboard() {
+        const mapelDipilih = document.getElementById("filterMapel").value;
+        const kelasDipilih = document.getElementById("filterKelas").value;
+        const statusDipilih = document.getElementById("filterStatus").value;
+        const keyword = document.getElementById("filterSearch").value.trim().toLowerCase();
+
+        // Filter kiriman sesuai Mapel yang dipilih
+        const submitFilteredMapel = mapelDipilih === "ALL"
+            ? dataSubmit
+            : dataSubmit.filter(d => d.mapel.toLowerCase() === mapelDipilih.toLowerCase());
+
+        // Cocokkan tiap siswa master dengan data yang sudah masuk
+        const hasilGabungan = masterSiswa.map(siswa => {
+            const idMaster = (siswa.id || siswa.id_siswa || "").trim().toLowerCase();
+            const namaMaster = siswa.nama.trim().toLowerCase();
+            const kelasMaster = siswa.kelas.trim().toLowerCase();
+
+            // Prioritas 1: Cocokkan ID Siswa (sis-767), Prioritas 2: Nama + Kelas
+            const rekaman = submitFilteredMapel.find(sub => {
+                const idSub = (sub.id_siswa || "").trim().toLowerCase();
+                if (idMaster && idSub && idSub !== "-") {
+                    return idMaster === idSub;
+                }
+                return sub.nama.trim().toLowerCase() === namaMaster && sub.kelas.trim().toLowerCase() === kelasMaster;
+            });
+
+            return {
+                id: siswa.id || siswa.id_siswa || "-",
+                nama: siswa.nama,
+                kelas: siswa.kelas,
+                mapel: rekaman ? rekaman.mapel : (mapelDipilih === "ALL" ? "-" : mapelDipilih),
+                selesai: Boolean(rekaman),
+                jam_kumpul: rekaman ? rekaman.jam_kumpul : "-"
+            };
+        });
+
+        // Hitung Statistik Keseluruhan (sesuai filter kelas jika dipilih, atau seluruh sekolah)
+        const basisStat = kelasDipilih === "ALL"
+            ? hasilGabungan
+            : hasilGabungan.filter(s => s.kelas === kelasDipilih);
+
+        const total = basisStat.length;
+        const selesaiCount = basisStat.filter(s => s.selesai).length;
+        const belumCount = total - selesaiCount;
+        const persen = total > 0 ? ((selesaiCount / total) * 100).toFixed(1) : 0;
+
+        document.getElementById("statPersen").textContent = `${persen}%`;
+        document.getElementById("statBar").style.width = `${persen}%`;
+        document.getElementById("statSelesai").textContent = selesaiCount;
+        document.getElementById("statBelum").textContent = belumCount;
+        document.getElementById("statTotal").textContent = total;
+        document.getElementById("statMapelInfo").textContent = mapelDipilih === "ALL" ? "Semua Mata Pelajaran" : `Mapel: ${mapelDipilih}`;
+
+        // Render Kartu Quick Count Per Kelas
+        const kelasUnik = [...new Set(masterSiswa.map(s => s.kelas))];
+        const kelasGrid = document.getElementById("kelasGrid");
+        kelasGrid.innerHTML = kelasUnik.map(kls => {
+            const siswaKls = hasilGabungan.filter(s => s.kelas === kls);
+            const totKls = siswaKls.length;
+            const selKls = siswaKls.filter(s => s.selesai).length;
+            const pctKls = totKls > 0 ? Math.round((selKls / totKls) * 100) : 0;
+            const isActive = kelasDipilih === kls ? "active" : "";
+
+            return `
+                <div class="kelas-card ${isActive}" onclick="pilihKelas('${kls}')">
+                    <div class="kelas-top">
+                        <span>${kls}</span>
+                        <span class="kelas-pct">${pctKls}%</span>
+                    </div>
+                    <div class="kelas-count">${selKls} / ${totKls} Selesai</div>
+                    <div class="progress-track" style="height: 6px;">
+                        <div class="progress-fill" style="width: ${pctKls}%;"></div>
+                    </div>
+                </div>
+            `;
+        }).join("");
+
+        // Filter untuk Tabel Detail Siswa
+        let dataTabel = basisStat;
+        if (statusDipilih === "SELESAI") dataTabel = dataTabel.filter(s => s.selesai);
+        if (statusDipilih === "BELUM") dataTabel = dataTabel.filter(s => !s.selesai);
+        if (keyword) {
+            dataTabel = dataTabel.filter(s =>
+                s.nama.toLowerCase().includes(keyword) || s.id.toLowerCase().includes(keyword)
+            );
+        }
+
+        const tbody = document.getElementById("tabelBody");
+        if (dataTabel.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 25px; color: var(--muted);">Tidak ada data siswa yang sesuai filter.</td></tr>`;
+            return;
+        }
+
+        tbody.innerHTML = dataTabel.map((s, idx) => `
+            <tr>
+                <td>${idx + 1}</td>
+                <td><span class="id-pill">${s.id}</span></td>
+                <td style="font-weight: 600;">${s.nama}</td>
+                <td>${s.kelas}</td>
+                <td>${s.mapel}</td>
+                <td>
+                    ${s.selesai
+                        ? `<span class="badge badge-selesai">✅ SELESAI</span>`
+                        : `<span class="badge badge-belum">⏳ BELUM</span>`}
+                </td>
+                <td style="color: var(--muted); font-size: 0.85rem;">${s.jam_kumpul}</td>
+            </tr>
+        `).join("");
+    }
+
+    function mulaiAutoRefresh() {
+        if (timerId) clearInterval(timerId);
+        timerId = setInterval(() => {
+            countdown--;
+            if (countdown <= 0) {
+                countdown = 15;
+                ambilDataSubmit();
+            }
+            document.getElementById("countdownText").textContent = `Auto-refresh: ${countdown}d`;
+        }, 1000);
+    }
+
+    function refreshDataManual() {
+        countdown = 15;
+        document.getElementById("countdownText").textContent = `Memperbarui...`;
+        ambilDataSubmit();
+    }
+</script>
+
+</body>
+</html>
