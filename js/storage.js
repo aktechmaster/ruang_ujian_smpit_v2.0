@@ -111,12 +111,14 @@ const StorageManager = {
             btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
         }
 
+        let idSiswa = sessionStorage.getItem('cbt_id_siswa') || "-"; // <--- Ambil ID Siswa dari sesi login
         let email = sessionStorage.getItem('cbt_email') || "-"; 
         let startTime = parseInt(sessionStorage.getItem('exam_start_time')) || Date.now();
         let durasiMenit = Math.round((Date.now() - startTime) / 60000);
         let durasiFinal = durasiMenit <= 0 ? 1 : durasiMenit;
 
         let dataSiswa = {
+            id_siswa: idSiswa, // <--- Kirim ID Siswa ke Apps Script (masuk ke kolom BH)
             nama: nama,
             kelas: kelas,
             mapel: mapel,
