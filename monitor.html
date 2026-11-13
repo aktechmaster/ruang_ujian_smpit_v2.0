@@ -2,7 +2,8 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Memaksa browser HP merender tampilan desktop selebar 1280px secara default -->
+    <meta name="viewport" content="width=1280">
     <title>Quick Count & Monitor Ujian Real-Time</title>
     <script src="js/config.js"></script>
     <style>
@@ -22,7 +23,14 @@
             --border: #e2e8f0;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
-        body { background: var(--bg); color: var(--text); padding-bottom: 40px; }
+        
+        /* Mengunci lebar minimum halaman agar layout desktop tidak pernah menyempit */
+        html, body {
+            min-width: 1280px;
+            background: var(--bg);
+            color: var(--text);
+            padding-bottom: 40px;
+        }
 
         /* Header */
         .header {
@@ -32,15 +40,14 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
         .header-inner {
-            max-width: 1280px;
+            width: 1240px;
             margin: 0 auto;
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             gap: 15px;
         }
-        .header h1 { font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
+        .header h1 { font-size: 1.45rem; display: flex; align-items: center; gap: 10px; }
         .live-badge {
             background: #ef4444;
             color: white;
@@ -55,9 +62,9 @@
             0%, 100% { opacity: 1; }
             50% { opacity: 0.55; }
         }
-        .header-meta { font-size: 0.85rem; opacity: 0.9; margin-top: 4px; }
+        .header-meta { font-size: 0.88rem; opacity: 0.9; margin-top: 4px; }
 
-        .container { max-width: 1280px; margin: 20px auto; padding: 0 16px; }
+        .container { width: 1240px; margin: 20px auto; padding: 0; }
 
         /* Panel Konfigurasi Sumber Data */
         .config-card {
@@ -70,12 +77,9 @@
         }
         .config-grid {
             display: grid;
-            grid-template-columns: 220px 1fr auto;
-            gap: 12px;
+            grid-template-columns: 260px 1fr auto;
+            gap: 14px;
             align-items: end;
-        }
-        @media (max-width: 768px) {
-            .config-grid { grid-template-columns: 1fr; }
         }
         .form-group label {
             display: block;
@@ -106,16 +110,17 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
+            white-space: nowrap;
         }
         .btn-primary { background: var(--primary); color: white; }
         .btn-primary:hover { background: #1d4ed8; }
         .btn-outline { background: white; border: 1px solid #cbd5e1; color: var(--text); }
         .btn-outline:hover { background: #f8fafc; }
 
-        /* Statistik Utama (Quick Count Nasional/Sekolah) */
+        /* Statistik Utama (4 Kolom Sejajar Desktop) */
         .summary-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 16px;
             margin-bottom: 24px;
         }
@@ -143,7 +148,7 @@
             transition: width 0.5s ease;
         }
 
-        /* Quick Count Per Kelas */
+        /* Quick Count Per Kelas (5 Kolom Sejajar Desktop) */
         .section-title {
             font-size: 1.05rem;
             font-weight: 700;
@@ -154,7 +159,7 @@
         }
         .kelas-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(5, 1fr);
             gap: 12px;
             margin-bottom: 24px;
         }
@@ -188,14 +193,8 @@
             grid-template-columns: 200px 180px 180px 1fr;
             gap: 12px;
         }
-        @media (max-width: 900px) {
-            .filter-bar { grid-template-columns: 1fr 1fr; }
-        }
-        @media (max-width: 540px) {
-            .filter-bar { grid-template-columns: 1fr; }
-        }
-        .table-wrap { overflow-x: auto; max-height: 600px; }
-        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+        .table-wrap { max-height: 620px; overflow-y: auto; }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.92rem; }
         th {
             background: #f1f5f9;
             padding: 12px 16px;
@@ -238,9 +237,9 @@
             <h1>📊 Quick Count Ujian CBT <span class="live-badge">● LIVE</span></h1>
             <div class="header-meta" id="subtitleUjian">Memuat konfigurasi ujian...</div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <span id="countdownText" style="font-size: 0.82rem; opacity: 0.9;">Auto-refresh: 15d</span>
-            <button class="btn btn-outline" onclick="refreshDataManual()" style="padding: 8px 14px; font-size: 0.82rem;">🔄 Refresh</button>
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <span id="countdownText" style="font-size: 0.85rem; opacity: 0.9;">Auto-refresh: 15d</span>
+            <button class="btn btn-outline" onclick="refreshDataManual()" style="padding: 8px 14px; font-size: 0.85rem;">🔄 Refresh</button>
         </div>
     </div>
 </div>
@@ -291,8 +290,8 @@
 
     <!-- Quick Count Per Kelas -->
     <div class="section-title">
-        <span>🏫 Quick Count Per Kelas <small style="font-weight: normal; color: var(--muted);">(Klik kelas untuk memfilter tabel)</small></span>
-        <button class="btn btn-outline" onclick="pilihKelas('ALL')" style="padding: 5px 12px; font-size: 0.8rem;">Tampilkan Semua Kelas</button>
+        <span>🏫 Quick Count Per Kelas <small style="font-weight: normal; color: var(--muted);">(Klik kartu kelas untuk memfilter tabel)</small></span>
+        <button class="btn btn-outline" onclick="pilihKelas('ALL')" style="padding: 6px 14px; font-size: 0.82rem;">Tampilkan Semua Kelas</button>
     </div>
     <div class="kelas-grid" id="kelasGrid"></div>
 
@@ -353,7 +352,6 @@
     let countdown = 15;
     let timerId = null;
 
-    // Parser CSV sederhana untuk DataSiswa & TokenMapel
     function parseCSV(csvText) {
         const lines = csvText.split(/\r?\n/).filter(l => l.trim() !== '');
         if (lines.length < 2) return [];
@@ -378,7 +376,6 @@
         });
     }
 
-    // Inisialisasi awal
     document.addEventListener("DOMContentLoaded", async () => {
         isiDropdownUjian();
         await muatDatabaseMaster();
@@ -399,7 +396,6 @@
                 sel.appendChild(opt);
             });
 
-            // Cek apakah ada URL custom yang pernah disimpan di browser
             const savedCustomUrl = localStorage.getItem("monitor_custom_exec_url");
             const savedPaket = localStorage.getItem("monitor_selected_paket");
 
@@ -459,7 +455,6 @@
             const textSiswa = await resSiswa.text();
             masterSiswa = parseCSV(textSiswa).filter(s => s.nama && s.kelas);
 
-            // Isi dropdown kelas
             const kelasUnik = [...new Set(masterSiswa.map(s => s.kelas))];
             const selKelas = document.getElementById("filterKelas");
             kelasUnik.forEach(k => {
@@ -469,7 +464,6 @@
                 selKelas.appendChild(opt);
             });
 
-            // Isi dropdown mapel dari TokenMapel
             if (resToken) {
                 const textToken = await resToken.text();
                 const parsedToken = parseCSV(textToken);
@@ -482,7 +476,7 @@
                     selMapel.appendChild(opt);
                 });
                 if (daftarMapel.length > 0) {
-                    selMapel.value = daftarMapel[0]; // Default pilih mapel pertama agar akurat
+                    selMapel.value = daftarMapel[0];
                 }
             }
         } catch (err) {
@@ -504,7 +498,6 @@
             if (json && json.status === "success") {
                 dataSubmit = json.data || [];
 
-                // Tambahkan mapel baru jika ada di hasil submit tapi belum ada di dropdown
                 const selMapel = document.getElementById("filterMapel");
                 const existingOpts = Array.from(selMapel.options).map(o => o.value.toUpperCase());
                 dataSubmit.forEach(d => {
@@ -534,18 +527,15 @@
         const statusDipilih = document.getElementById("filterStatus").value;
         const keyword = document.getElementById("filterSearch").value.trim().toLowerCase();
 
-        // Filter kiriman sesuai Mapel yang dipilih
         const submitFilteredMapel = mapelDipilih === "ALL"
             ? dataSubmit
             : dataSubmit.filter(d => d.mapel.toLowerCase() === mapelDipilih.toLowerCase());
 
-        // Cocokkan tiap siswa master dengan data yang sudah masuk
         const hasilGabungan = masterSiswa.map(siswa => {
             const idMaster = (siswa.id || siswa.id_siswa || "").trim().toLowerCase();
             const namaMaster = siswa.nama.trim().toLowerCase();
             const kelasMaster = siswa.kelas.trim().toLowerCase();
 
-            // Prioritas 1: Cocokkan ID Siswa (sis-767), Prioritas 2: Nama + Kelas
             const rekaman = submitFilteredMapel.find(sub => {
                 const idSub = (sub.id_siswa || "").trim().toLowerCase();
                 if (idMaster && idSub && idSub !== "-") {
@@ -564,7 +554,6 @@
             };
         });
 
-        // Hitung Statistik Keseluruhan (sesuai filter kelas jika dipilih, atau seluruh sekolah)
         const basisStat = kelasDipilih === "ALL"
             ? hasilGabungan
             : hasilGabungan.filter(s => s.kelas === kelasDipilih);
@@ -581,7 +570,6 @@
         document.getElementById("statTotal").textContent = total;
         document.getElementById("statMapelInfo").textContent = mapelDipilih === "ALL" ? "Semua Mata Pelajaran" : `Mapel: ${mapelDipilih}`;
 
-        // Render Kartu Quick Count Per Kelas
         const kelasUnik = [...new Set(masterSiswa.map(s => s.kelas))];
         const kelasGrid = document.getElementById("kelasGrid");
         kelasGrid.innerHTML = kelasUnik.map(kls => {
@@ -605,7 +593,6 @@
             `;
         }).join("");
 
-        // Filter untuk Tabel Detail Siswa
         let dataTabel = basisStat;
         if (statusDipilih === "SELESAI") dataTabel = dataTabel.filter(s => s.selesai);
         if (statusDipilih === "BELUM") dataTabel = dataTabel.filter(s => !s.selesai);
