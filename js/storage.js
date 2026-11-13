@@ -41,15 +41,12 @@ const StorageManager = {
     kumpulkanJawaban: function(daftarSoal) {
         let jawaban = [];
         
-        // URUTKAN KEMBALI daftarSoal berdasarkan id_soal (Urutan Master 1, 2, 3...)
-        // Ini kunci utama agar susunan jawaban di Spreadsheet TIDAK ACAK
         const daftarMaster = [...daftarSoal].sort((a, b) => {
             let idA = Number(a.id_soal) || 0;
             let idB = Number(b.id_soal) || 0;
             return idA - idB;
         });
 
-        // Ekstraksi jawaban berdasarkan urutan master yang sudah rapi
         daftarMaster.forEach((soal, index) => {
             const idSoal = soal.id_soal || (index + 1);
             const tipe = soal.tipe_soal || "PG";
@@ -111,14 +108,31 @@ const StorageManager = {
             btnSubmit.innerText = "⏳ Sedang Mengirim Jawaban... Mohon Tunggu";
         }
 
-        let idSiswa = sessionStorage.getItem('cbt_id_siswa') || "-"; // <--- Ambil ID Siswa dari sesi login
+        let idSiswa = sessionStorage.getItem('cbt_id_siswa') || "-";
+
+        // PENGAMAN LAPIS KEDUA: Jika ID belum ada di sesi, ambil otomatis dari DataSiswa saat submit
+        if (!idSiswa || idSiswa === "-") {
+            try {
+                const daftarSiswa = await API.getSiswaByKelas(kelas);
+                const cocok = daftarSiswa.find(s => 
+                    s.nama && s.nama.trim().toLowerCase() === String(nama).trim().toLowerCase()
+                );
+                if (cocok) {
+                    idSiswa = cocok.id || cocok.id_siswa || "-";
+                    sessionStorage.setItem('cbt_id_siswa', idSiswa);
+                }
+            } catch (e) {
+                console.warn("Gagal mengambil cadangan ID siswa saat submit:", e);
+            }
+        }
+
         let email = sessionStorage.getItem('cbt_email') || "-"; 
         let startTime = parseInt(sessionStorage.getItem('exam_start_time')) || Date.now();
         let durasiMenit = Math.round((Date.now() - startTime) / 60000);
         let durasiFinal = durasiMenit <= 0 ? 1 : durasiMenit;
 
         let dataSiswa = {
-            id_siswa: idSiswa, // <--- Kirim ID Siswa ke Apps Script (masuk ke kolom BH)
+            id_siswa: idSiswa,
             nama: nama,
             kelas: kelas,
             mapel: mapel,
