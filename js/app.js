@@ -1,3 +1,5 @@
+let daftarSiswaKelasIni = []; // Menyimpan data lengkap siswa (termasuk kolom id) dari kelas yang dipilih
+
 document.addEventListener("DOMContentLoaded", async function() {
     // 1. NONAKTIFKAN Proctor di Login (Proctor hanya untuk ujian.html)
     // Proctor.init() dihapus dari sini agar tidak menghadang navigasi halaman.
@@ -58,6 +60,7 @@ async function handleSelectKelas(selectedKelas) {
         UI.setLoadingSiswa(true, `Memuat data siswa kelas ${selectedKelas}...`);
         
         const siswaList = await API.getSiswaByKelas(selectedKelas);
+        daftarSiswaKelasIni = siswaList || []; // Simpan daftar siswa beserta ID-nya
         
         UI.updateSiswaDatalist(siswaList);
         UI.setLoadingSiswa(false);
@@ -130,7 +133,25 @@ async function handleFormSubmit(e) {
         if (tokenResmi !== "" && userToken.toLowerCase() === tokenResmi.toLowerCase()) {
             UI.setSubmitButtonState(true, "Membuka Halaman Ujian...");
 
+            // Cari ID Siswa berdasarkan Nama yang dipilih
+            let siswaTerpilih = daftarSiswaKelasIni.find(s => 
+                s.nama && s.nama.trim().toLowerCase() === siswa.trim().toLowerCase()
+            );
+
+            // Cadangan jika data kelas belum tersimpan di memori
+            if (!siswaTerpilih) {
+                try {
+                    const listCadangan = await API.getSiswaByKelas(kelas);
+                    siswaTerpilih = listCadangan.find(s => 
+                        s.nama && s.nama.trim().toLowerCase() === siswa.trim().toLowerCase()
+                    );
+                } catch (err) {}
+            }
+
+            const idSiswa = siswaTerpilih ? (siswaTerpilih.id || siswaTerpilih.id_siswa || "-") : "-";
+
             // Simpan ke Session Storage
+            sessionStorage.setItem('cbt_id_siswa', idSiswa);
             sessionStorage.setItem('cbt_kelas', kelas);
             sessionStorage.setItem('cbt_siswa', siswa.trim());
             sessionStorage.setItem('cbt_mapel', mapel);
