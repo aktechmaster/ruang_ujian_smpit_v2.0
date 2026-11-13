@@ -81,7 +81,8 @@ document.addEventListener("DOMContentLoaded", async function() {
     const elemKelas = document.getElementById('infoKelas');
     if (elemKelas) elemKelas.innerText = kelasSiswa;
 
-    const tingkatKelas = kelasSiswa.charAt(0);
+    const matchTingkat = String(kelasSiswa).match(/\d+/);
+    const tingkatKelas = matchTingkat ? matchTingkat[0] : "";
 
     try {
         const data = await API.fetchSoal(tingkatKelas, mapelUjian);
